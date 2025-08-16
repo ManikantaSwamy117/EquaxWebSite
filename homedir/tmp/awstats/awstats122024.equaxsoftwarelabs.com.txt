@@ -1,0 +1,1564 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202412 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2700                
+POS_VISITOR 35005               
+POS_DAY 49477               
+POS_DOMAIN 3563                
+POS_LOGIN 4177                
+POS_ROBOT 4332                
+POS_WORMS 5214                
+POS_EMAILSENDER 5345                
+POS_EMAILRECEIVER 5488                
+POS_SESSION 50330               
+POS_SIDER 50531               
+POS_FILETYPES 5623                
+POS_DOWNLOADS 5846                
+POS_OS 5894                
+POS_BROWSER 6183                
+POS_SCREENSIZE 7981                
+POS_UNKNOWNREFERER 8055                
+POS_UNKNOWNREFERERBROWSER 8688                
+POS_ORIGIN 9090                
+POS_SEREFERRALS 9232                
+POS_PAGEREFS 9438                
+POS_SEARCHWORDS 9646                
+POS_KEYWORDS 9798                
+POS_MISC 2364                
+POS_ERRORS 9857                
+POS_CLUSTER 4033                
+POS_SIDER_404 9950                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250101041013 59 16634 8669095603491
+FirstTime 20241201020955
+LastTime 20241231231346
+LastUpdate 20250101053615 59 0 58 0 0
+TotalVisits 504                 
+TotalUnique 357                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 379                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 100 3764654 251 268 529543
+1 50 154 5589860 50 78 316390
+2 66 129 3700323 64 81 143029
+3 42 119 3724202 46 82 359269
+4 33 142 5724324 98 113 267180
+5 38 122 5043893 33 69 315774
+6 27 94 2721318 43 64 137398
+7 42 77 1991018 57 134 958947
+8 33 33 259445 42 74 126373
+9 28 44 441060 38 46 43044
+10 24 62 2055315 90 112 289600
+11 49 77 1152003 121 209 2417164
+12 23 62 1883867 72 82 206746
+13 25 28 188735 220 282 887083
+14 18 42 639588 242 319 1436658
+15 50 112 2514854 93 133 582772
+16 35 45 362879 54 83 349400
+17 43 49 375870 226 243 500296
+18 30 34 280511 69 96 336506
+19 60 128 3949175 70 89 1081203
+20 33 35 179412 53 102 608157
+21 44 259 8978744 294 328 1345104
+22 81 252 7694166 226 259 619025
+23 79 140 2921074 90 133 676350
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+us 536 992 22184381
+jp 113 114 568724
+cn 103 141 2477125
+in 75 775 34549811
+ru 53 150 3103487
+ca 21 23 253318
+de 13 13 122961
+au 9 9 69099
+se 8 14 140803
+fr 7 17 293925
+cl 6 6 144486
+gb 6 7 64640
+it 5 5 88550
+cz 5 5 60862
+eu 4 4 96324
+nl 4 33 1336428
+ua 2 3 30451
+sc 2 2 6068
+ch 2 2 7867
+gr 1 2 9172
+rs 1 1 5287
+vg 1 1 3034
+ir 1 1 3395
+md 1 1 3034
+eg 1 11 157994
+be 1 2 16609
+tr 1 1 5287
+hn 1 4 333168
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+Googlebot/ 291 2850717 20241231135647 0
+zoominfobot 145 634542 20241224050809 0
+bingbot/ 113 1811379 20241228011415 0
+AhrefsBot/ 100 2008461 20241231065655 0
+bot[\s_+:,\.\;\/\\-] 69 520913 20241230210607 0
+aiHitBot/ 40 314240 20241202200525 0
+Applebot/ 31 2014157 20241231104941 0
+crawl 26 124286 20241227033732 0
+DotBot/ 21 481808 20241228213033 0
+BLEXBot/ 20 92564 20241215220243 0
+Googlebot\-Image/ 18 169003 20241225231318 0
+MJ12bot/ 14 66195 20241219004158 0
+spider 12 157994 20241203232428 0
+no_user_agent 9 274560 20241227190120 0
+YandexBot/ 5 25079 20241216095735 0
+Go\-http\-client/ 5 26435 20241231122836 0
+curl 2 4833 20241231235011 0
+yandex 2 15207 20241206062915 0
+YandexImages/ 1 13278 20241217151251 0
+survey 1 34320 20241202151846 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+jpg 240 37210041 0 0
+html 922 6620579 0 0
+js 445 6702237 0 0
+woff2 31 2192568 0 0
+png 288 9945616 0 0
+woff 30 370080 0 0
+css 350 2452254 0 0
+gif 33 642915 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+android10 295 27
+win7 37 35
+macosx11 128 80
+win10 1055 344
+macosx15 136 34
+linux 229 160
+macosx9 2 2
+win8.1 8 8
+unix 1 1
+Unknown 158 65
+winnt 4 4
+ios_iphone 227 200
+winxp 1 1
+macosx 19 6
+android 1 1
+macosx13 1 1
+win8 37 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 82
+chrome85.0.4183.121 3 3
+chrome107.0.0.0 77 35
+chrome110.0.0.0 1 1
+chrome100.0.4896.79 1 1
+chrome120.0.0.0 1 0
+chrome127.0.6533.73 1 1
+chrome124.0.6367.91 4 4
+firefox104.0 4 4
+netscape5.0 15 15
+opera70.0.3728.95 1 1
+chrome86.0.4240.75 31 31
+chrome124.0.6367.60 6 6
+chrome87.0.4280.88 11 1
+chrome75.0.3770.100 1 1
+firefox63.0 1 1
+msie8.0 1 1
+chrome83.0.4103.122 26 3
+chrome62.0.3197.0 1 1
+firefox68.0 3 0
+chrome117.0.0.0 1 1
+chrome51.0.2704.103 10 10
+edge44 3 3
+firefox52.0 128 80
+mozilla 86 31
+safari13.0.3 197 197
+chrome79.0.3945.130 18 18
+firefox114.0 1 1
+opera89.0.4447.51 1 1
+Unknown 59 21
+chrome121.0.0.0 27 4
+firefox47.0 1 1
+chrome96.0.4664.110 4 2
+chrome19.0.1062.0 1 1
+chrome126.0.0.0 38 5
+chrome83.0.4103.97 1 1
+safari 1 1
+chrome92.0.4515.107 33 1
+chrome112.0.5615.136 1 1
+chrome79.0.3945.88 2 2
+chrome91.0.4472.124 1 1
+chrome91.0.4472.114 5 5
+chrome80.0.3987.162 1 1
+chrome103.0.0.0 8 8
+chrome103.0.5060.134 1 1
+chrome63.0.3239.84 4 4
+chrome94.0.4606.81 2 2
+chrome93.0.4577.63 4 4
+msie7.0 2 2
+chrome71.0.2623.112 2 2
+chrome124.0.6367.119 2 2
+safari18.1.1 29 2
+chrome63.0.3239.132 6 4
+chrome122.0.0.0 1 1
+chrome109.0.0.0 124 25
+firefox115 2 2
+chrome58.0.3029.110 3 3
+chrome74.0.3729.169 75 75
+chrome81.0.4044.129 1 1
+chrome118.0.0.0 1 1
+chrome128.0.0.0 27 4
+chrome131.0.0.0 909 86
+chrome105.0.0.0 3 3
+chrome124.0.6367.63 4 4
+chrome124.0.6367.93 6 6
+chrome114.0.0.0 11 11
+chrome124.0.6367.62 8 8
+chrome113.0.0.0 1 1
+chrome124.0.0.0 47 16
+chrome123.0.0.0 2 2
+chrome84.0.4147.105 1 1
+chrome124.0.6367.78 4 4
+chrome119.0.0.0 37 4
+firefox60.0 11 11
+chrome125.0.0.0 140 140
+chrome108.0.0.0 5 1
+msie10.0 26 26
+chrome100.0.4896.60 2 2
+chrome85.0.3029.110 4 4
+chrome76.0.3809.100 1 1
+chrome78.0.3904.108 3 3
+chrome130.0.0.0 2 2
+chrome129.0.0.0 9 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+python-requests/2.32.3 20241230161143
+python-httpx/0.28.1 20241225095818
+Mozilla/5.0 20241230080050
+node 20241214235010
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20241223024019
+ALittle_Client 20241210001610
+Ruby 20241209095124
+Mozilla/5.0_(compatible;_Dataprovider.com) 20241209020745
+Embarcadero_URI_Client/1.0 20241216185230
+Mozilla/5.0_(compatible) 20241230115452
+Faraday_v2.11.0 20241205033434
+fasthttp 20241217022217
+Python/3.11_aiohttp/3.9.5 20241230064118
+python-requests/2.25.1 20241202235713
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Embarcadero_URI_Client/1.0 20241216185230
+python-requests/2.25.1 20241202235713
+Python/3.11_aiohttp/3.9.5 20241230064118
+Faraday_v2.11.0 20241205033434
+node 20241214235010
+ALittle_Client 20241210001610
+python-requests/2.32.3 20241230161143
+python-httpx/0.28.1 20241225095818
+Ruby 20241209095124
+fasthttp 20241217022217
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 784 1011
+From1 2 2
+From2 18 18
+From3 6 8
+From4 173 1300
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com 13 13
+in_search_yahoo_com 4 4
+www_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://linktr.ee 6 6
+http://mail.equaxsoftwarelabs.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 2535 2893040
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 725
+/wp-includes/ID3/index.php 5 -
+/2009/installer.php 1 www.google.com
+/images/about.php 3 -
+/test/ 1 -
+/test 1 -
+/public/scripts/filemanager//dialog.php 1 -
+/wp-content/ALFA_DATA/alfacgiapi/ 1 -
+/pages.php 1 -
+/wp-admin/css/colors/ocean/ 1 -
+/wp-includes/repeater.php 3 -
+/wp-includes/images/media/ 1 -
+/images/fancybox/blank.gif 1 http://equaxsoftwarelabs.com/whywe.html
+/wp-includes/Text/Diff/Engine/index.php 2 -
+/sitemap.ashx 1 -
+/wp-includes/css/dist/patterns/index.php 2 -
+/wp-includes/js/jquery/jquery.js 17 -
+/wp-content/plugins/wp-conflg.php 3 -
+/wp-includes/SimplePie/Parse/index.php 2 -
+/libraries/vendor/updates.php 3 -
+/admin/assets/plugins/plupload/examples/upload.php 1 -
+/xmrlpc.php 6 -
+/wp-includes/customize/about.php 3 -
+/wp-includes/theme-compat/autoload_classmap.php 1 -
+/wp-includes/js/codemirror/index.php 2 -
+/wp-content/plugins/cache-wordpress/ 1 -
+/wp-content/plugins/linkpreview/db.php 3 -
+/wp-content/themes/seotheme/db.php 3 -
+/new/installer.php 1 www.google.com
+/wp-includes/blocks/gallery/index.php 2 -
+/wp-comments.php 1 http://equaxsoftwarelabs.com/wp-comments.php
+/.well-known/pki-validation/ 1 -
+/.well-known/pki-validation/xmrlpc.php 3 -
+/unk.php 1 http://equaxsoftwarelabs.com/unk.php
+/wp-admin/network/ 3 -
+/wp-signup.php 3 -
+/ss.php 2 -
+/wp-includes/Requests/Response/index.php 2 -
+/ALFA_DATA/alfacgiapi/ 1 -
+/wp-content/plugins/elementor/ 1 -
+/wp-content/themes/twentythirteen/functions.php 3 -
+/assets/plugins/filemanager/dialog.php 1 -
+/wp-content/about.php 3 -
+/backup/ 1 -
+/wp-content/uploads/2021/ 1 -
+/wp-login.php 8 -
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox-0.5.css 1 -
+/cong.php 1 -
+/wp-content/plugins/zaen/includes/ 1 -
+/wp-content/languages/about.php 3 -
+/wp-content/themes/index.php 1 -
+/wp-content/plugins/1-flash-gallery/readme.txt 1 -
+/js/'+j+' 1 -
+/wp-admin/css/ 16 binance.com
+/wp-2019.php 3 -
+/wp-includes/fonts/index.php 2 -
+/wp-admin/admin-ajax.php 1 -
+/wp-includes/widgets/dir/index.php 2 -
+/test/installer.php 1 www.google.com
+/DEMO/installer.php 1 www.google.com
+/blog.html 1 -
+/wp-content/themes/aahana/json.php 3 -
+/wp-includes/blocks/latest-comments/index.php 2 -
+/wp-includes/html-api/index.php 3 -
+/wp-includes/block-patterns/about.php 3 -
+/.env 1 -
+/wp-content/plugins/prenota/ 1 -
+/index5.html 43 -
+/js/'+bc+ 1 -
+/wp-admin/includes/ 3 -
+/.well-knownold/ 2 -
+/wp-includes/blocks/query-pagination/index.php 2 -
+/wp-includes.bak/html-api/about.php 3 -
+/wp-includes/css/dist/widgets/index.php 2 -
+/sitemap_index.xml 2 -
+/wp-admin/meta/ 3 -
+/rex/l/index.php 1 -
+/site/wp-includes/ 1 -
+/wp-content/plugins/litespeed-cache/readme.txt 1 -
+/wp-includes/blocks/loginout/index.php 2 -
+/SHOP/installer.php 1 www.google.com
+/2019/installer.php 1 www.google.com
+/shop/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/twentyfive/ 1 -
+/upfile.php 3 -
+/wp-includes/blocks/quote/index.php 2 -
+/wp-admin/user/cloud.php 3 -
+/wp-includes/blocks/cover/index.php 2 -
+/wp-includes/css/dist/index.php 2 -
+/wp-includes/blocks/calendar/index.php 2 -
+/wp-includes/css/dist/customize-widgets/index.php 2 -
+/wp-consar.php 3 -
+/wp-includes/blocks/embed/index.php 2 -
+/wp-content/updraft/about.php 3 -
+/wp-content/plugins/fluid_forms/file-upload/server/php/index.php 1 -
+/assets/global/plugins/plupload/examples/upload.php 1 -
+/wp-content/uploads/ao_ccss/ 1 -
+/wp-includes/js/jcrop/index.php 2 -
+/wp-admin/install.php 1 -
+/admin/tmp/ 1 -
+/themes.php 4 -
+/wp-includes/Requests/ 1 -
+/wp-includes/style-engine/autoload_classmap.php 1 -
+/sitemap 1 -
+/WORDPRESS/installer.php 1 www.google.com
+/2019/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/assets/chosen.php 2 -
+/bk 73 -
+/wp-includes/blocks/separator/index.php 2 -
+/wp-includes/autoload_classmap.php 1 -
+/alfa-rex2.php7 3 -
+/backup/installer.php 1 www.google.com
+/wp-includes/blocks/preformatted/index.php 2 -
+/ajax-actions.php 3 -
+/wp-mail.php 4 -
+/wp-admin/js/widgets/about.php7 3 -
+/wp-content/plugins/simple-ads-manager/css/jslider.round.plastic.css 1 -
+/wp-admin/css/colors/coffee/ 1 -
+/wp-content/plugins/Core-Econ/upH.php 1 -
+/wp-admin/maint/chosen.php 1 -
+/wp-includes/rest-api/search/index.php 2 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 1 www.google.com
+/wp-includes/blocks/ 1 -
+/js/'+g+' 1 -
+/wp-includes/images/wlw/ 1 -
+/wp-content/blogs.dir/about.php 3 -
+/wp-content/plugins/linkpreview/ 1 -
+/login.php 1 -
+/wp-admin/css/colors/xmrlpc.php 3 -
+/2014/installer.php 1 www.google.com
+/wp-includes/sitemaps/providers/ 1 -
+/images/ 14 binance.com
+/store/installer.php 1 www.google.com
+/FORUM/installer.php 1 www.google.com
+/sitemaps.xml 2 -
+/wp-includes/Requests/Text/admin.php 3 -
+/sitemap.xml 2 -
+/wp-includes/css/dist/nux/index.php 2 -
+/js/'+w.attr( 1 -
+/wp-admin/maint/webdb.php 1 -
+/wp-content/plugins/wp-catcher/index.php 3 www.google.com
+/wp-content/plugins/cekidot/ 1 -
+/cache-compat.php 3 -
+/libraries/phpmailer/updates.php 3 -
+/equaxsoftwarelabs 1 www.google.com
+/baxa1.php 1 -
+/wp-admin/includes/xmrlpc.php 3 -
+/wp-includes/assets/index.php 2 -
+/admin/filemanager/dialog.php 1 -
+/ALFA_DATA/ 3 -
+/tester.php 1 http://equaxsoftwarelabs.com/tester.php
+/wp-content/plugins/front-end-editor/lib/aloha-editor/plugins/extra/draganddropfiles/demo/index.css 1 -
+/wp-includes/blocks/block/index.php 2 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-content/plugins/pica-photo-gallery/css/style.css 1 -
+/wp-includes/blocks/site-tagline/index.php 2 -
+/wp-admin/network/cloud.php 3 -
+/wp-admin/css/colors/coffee/xmrlpc.php 3 -
+/wp-includes/blocks/about.php 3 -
+/edit.php 4 http://equaxsoftwarelabs.com/edit.php
+/ws.php7 3 -
+/Backup/installer.php 1 www.google.com
+/up/.well-known/ 1 -
+/wp-includes/SimplePie/XML/ 1 -
+/wp-admin/js/index.php 1 -
+/wp-includes/PHPMailer/index.php 2 -
+/wp-activate.php 3 -
+/wp-content/gallery/about.php 3 -
+/wp-includes/certificates/chosen.php 1 -
+/wp-includes/css/dist/ 1 -
+/new 74 -
+/wp-content/themes/wp-pridmag/ 1 -
+/sitemap_index.xml.gz 1 -
+/wp-includes/js/tinymce/plugins/hr/index.php 2 -
+/wp-includes/blocks/paragraph/index.php 2 -
+/wp-includes/157.php 1 -
+/shop/installer.php 1 www.google.com
+/wp-content/plugins/db/ 1 -
+/wp-includes/certificates/ 1 -
+/wp-includes/Text/Diff/index.php 2 -
+/images/gradient/g40.png 2 -
+/worksec.php 1 -
+/wp-includes/js/ 1 -
+/STORE/installer.php 1 www.google.com
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/pomo/about.php 3 -
+/.well-known/ 16 binance.com
+/radio.php 4 -
+/wp-content/plugins/wp-diambar/includes/ 1 -
+/wp-includes/index.php 3 -
+/wp-includes/Requests/Exception/HTTP/index.php 2 -
+/yanz.php 3 -
+/wp-includes/js/mediaelement/index.php 2 -
+/wp-content/plugins/apikey/ 1 -
+/wp-admin/css/colors/blue/ 1 -
+/alfanew.php7 3 -
+/include/ 1 -
+/mah.php 2 -
+/2020/installer.php 1 www.google.com
+/wp-content/upgrade/index.php 1 -
+/wp-includes/blocks/autoload_classmap.php 1 -
+/wp-includes/SimplePie/index.php 2 -
+/sitemap.xml.gz 3 -
+/wp-includes/sitemaps/ 1 -
+/wp-admin/maint/wp-act.php 1 -
+/media/filemanager/dialog.php 1 -
+/modules/ 1 -
+/blog/wp-includes/css/buttons.css 1 -
+/assets/plugins/plupload/examples/upload.php 1 -
+/wp-includes/Requests/about.php 3 -
+/css/ 1 -
+/wordpress 74 -
+/wp-blog-header.php 3 -
+/wp-admin/maint/smile.php 1 -
+/wp-includes/blocks/html/index.php 2 -
+/wp-includes/blocks/media-text/index.php 2 -
+/wp-content/plugins/erinyani/upp.php 1 -
+/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif 1 http://equaxsoftwarelabs.com/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif
+/hoot.php 3 -
+/bypass.php 3 -
+/wp-admin/cloud.php 3 -
+/admin/editor/ 1 -
+/security.txt 1 -
+/images/cloud.php 3 -
+/mt/ 1 -
+/wp-includes/Requests/Cookie/index.php 2 -
+/wp-content/themes/twentyeleven/functions.php 3 -
+/wp-content/plugins/dummyyummy/wp-signup.php 1 -
+/2010/installer.php 1 www.google.com
+/wp-includes/css/index.php 2 -
+/wp-includes/Text/Diff/Renderer/index.php 2 -
+/wp/ 1 -
+/wp-includes/SimplePie/Decode/HTML/index.php 2 -
+/wp-includes/css/ 1 -
+/geju.php 6 -
+/ 9 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/Demo 1 www.google.com
+/wp-admin/network/xmrlpc.php 3 -
+/wp-content/plugins/wp-mailinglist/css/colorbox.css 1 -
+/wp-admin/setup-config.php 1 -
+//contact 1 -
+/as.php 3 -
+/wp-admin/images/cloud.php 3 -
+/wp-admin/maint/wp-damin.php 1 -
+/xmlrpc.php 11 -
+/ws.php 4 -
+/wp-admin/user/xmrlpc.php 3 -
+/log.php 3 -
+/wp-includes/blocks/columns/index.php 2 -
+/wp-content/plugins/seoo/wsoyanz.php 3 -
+/wp-includes/blocks/audio/index.php 2 -
+/wp-includes/js/crop/index.php 2 -
+/wordpress/wp-admin/includes/wp-admin/js/ 1 -
+/wp-includes/wp-includes/ 1 -
+/wp-includes/blocks/code/index.php 2 -
+/cache-wordpress/ 1 -
+/wp-includes/Text/file.php 1 -
+/images/fancybox/fancybox_overlay.png 1 http://equaxsoftwarelabs.com/whywe.html
+/wp-content/plugins/seoo/wsoyanz1.php 3 -
+/.well-known/pki-validation/about.php 3 -
+/wp-includes/Requests/Transport/index.php 2 -
+/media/system/js/core.js 20 -
+/wp-includes/block-patterns/index.php 2 -
+/plugins.php 3 -
+/wp-includes/block-bindings/chosen.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 3 -
+/admin/function.php 1 -
+/wp-includes/Requests/Exception/index.php 2 -
+/wp-p.php7 3 -
+/public/assets/plugins/plupload/examples/upload.php 1 -
+/wp-admin/maint/index.php 1 -
+/.well-known/pki-validation/cloud.php 3 -
+/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.css 2 -
+/images/gradient/g30.png 2 -
+/WSOEnigma.php 1 -
+/wp-content/uploads/2023/ 1 -
+/.well-known/acme-challenge/cloud.php 3 -
+/wp-content/upgrade-temp-backup/about.php 3 -
+/admin/controller/extension/extension/ 14 binance.com
+/assets/filemanager/dialog.php 1 -
+/wp-content/uploads/2022/ 1 -
+/WP/installer.php 1 www.google.com
+/wp-content/plugins/wpeazvp/ 1 -
+/js/'+h+' 1 -
+/wp-includes/js/mediaelement/renderers/index.php 2 -
+/wp-content/banners/about.php 3 -
+/wp-content/plugins/ubh/ 1 -
+/wp-includes/js/tinymce/plugins/image/index.php 2 -
+/wp-content/themes/twentytwenty/functions.php 3 -
+/wp-includes/blocks/archives/index.php 2 -
+/alfanew.php 3 -
+/sitemap.txt 3 -
+/libraries/legacy/updates.php 3 -
+/.X1-unix/ 2 -
+/wordpress/wp-content/uploads/ 1 -
+/wp-includes/about.php 3 -
+/test.php 1 -
+/tmps/ 1 -
+/new/ 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/install.php 5 http://equaxsoftwarelabs.com/install.php
+/wp-includes/js/imgareaselect/index.php 2 -
+/administrator/ 1 -
+/wp-includes/blocks/page-list/index.php 2 -
+/wp-content/plugins/awesome-coming-soon/come.php 3 -
+/wp-includes/css/buttons.css 6 -
+/wp-includes/Requests/src/Exception/index.php 2 -
+/.well-known/acme-challenge/ 1 -
+/wp-includes/js/tinymce/langs/index.php 2 -
+/wp-includes/ID3/ 1 -
+/css/owl.video.play.png 1 http://equaxsoftwarelabs.com/whywe.html
+/eew.php 1 -
+/wp-admin/js/about.php 3 -
+/util/login.aspx 2 -
+/wp-content/plugins/home/ 1 -
+/wp-content/uploads/simple-file-list/ 1 -
+/wp-content/themes/kadence/functions.php 3 -
+/wp-includes/blocks/shortcode/index.php 2 -
+/cache.php 1 http://equaxsoftwarelabs.com/cache.php
+/wp-includes/blocks/query-title/index.php 2 -
+/.well-known/security.txt 1 -
+/wp-includes/fonts/file.php 1 -
+/wp-includes/js/swfupload/index.php 2 -
+/wp-admin/js/widgets/xmrlpc.php 3 -
+/wp-includes/SimplePie/XML/Declaration/index.php 2 -
+/alfa-rex.php7 3 -
+/newsite 1 -
+/wp-includes/blocks/query-pagination-previous/index.php 2 -
+/wp-includes/rest-api/about.php 3 -
+/wp-content/plugins/wp-hps/sh/ 1 -
+/wp-includes/SimplePie/Cache/index.php 2 -
+/wp-content/plugins/pwnd/pwnd.php 1 -
+/wordpress/wp-includes/ 1 -
+/mail.php 3 -
+/wp-includes/blocks/missing/index.php 2 -
+/wp-includes/blocks/more/index.php 2 -
+/wp-content/plugins/core-stab/ 1 -
+/wp-includes/SimplePie/Net/index.php 2 -
+/blog/wp-includes/ 1 -
+/wp-includes/images/ 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 1 -
+/wp-includes/blocks/post-title/index.php 2 -
+/wp-includes/pomo/index.php 2 -
+/.qidb/ 2 -
+/wp 74 -
+/wp-includes/css/dist/edit-post/index.php 2 -
+/wp-includes/css/dist/block-directory/index.php 2 -
+/admin.php 4 -
+/2012/installer.php 1 www.google.com
+/wp/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/maint/maint/ajax-actions.php 3 -
+/wp/wp-includes/css/buttons.css 1 -
+/admin/uploads/images/ 1 -
+/wordpress/installer.php 1 www.google.com
+/classwithtostring.php 1 -
+/wp/installer.php 1 www.google.com
+/site/wp-includes/css/buttons.css 1 -
+/assets/admin/plugins/plupload/examples/upload.php 1 -
+/wp-content/plugins/cleantalk-spam-protect/ 1 -
+/wp-includes/images/chosen.php 1 -
+/img/about.php 3 -
+/wp-includes/SimplePie/about.php 3 -
+/wp-includes/css/dist/list-reusable-blocks/index.php 2 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/js/jquery/ui/index.php 2 -
+/humans.txt 1 -
+/wp-includes/Requests/src/Exception/Http/index.php 2 -
+/blog-single.html 18 -
+/wp-includes/blocks/spacer/index.php 2 -
+/wp-admin/images/xmrlpc.php 3 -
+/wp-admin/css/colors/ 1 -
+/.well-known/about.php 3 -
+/images/fancybox/fancybox_loading.gif 1 http://equaxsoftwarelabs.com/whywe.html
+/js/filemanager/dialog.php 1 -
+/wp-includes/blocks/query/index.php 2 -
+/wp-includes/block-supports/chosen.php 1 -
+/wp-includes/Requests/library/index.php 2 -
+/wp-content/themes/rishi/ 1 -
+/ubh/ 1 -
+/wp-includes/Requests/index.php 2 -
+/wp-json/wp/v2/users/ 4 -
+/wp-content/plugins/ 2 -
+/mini.php 1 http://equaxsoftwarelabs.com/mini.php
+/old/installer.php 1 www.google.com
+/wp-includes/blocks/tag-cloud/index.php 2 -
+/wp-includes/PHPMailer/ 1 -
+/wp-includes/ID3/about.php 3 -
+/wp-admin/includes/about.php 3 -
+/wp-includes/blocks/file/index.php 2 -
+/wp-includes/assets/autoload_classmap.php 1 -
+/wp-admin/css/colors/light/ 1 -
+/img/cloud.php 3 -
+/components/ 1 -
+/wp-includes/blocks/index.php 2 -
+/wp-includes/ID3 1 -
+/wp-content/mu-plugins/ 1 -
+/wp-content/themes/thuoc-nam/ 1 -
+/2018/installer.php 1 www.google.com
+/wp-includes/widgets/about.php 3 -
+/wp-includes/images/media/index.php 2 -
+/wp-content/plugins/owfsmac/ 1 -
+/403.php 3 -
+/home/installer.php 1 www.google.com
+/shell.php 3 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 1 -
+/magento_version 1 -
+/a 5 -
+/robots.txt 243 -
+/wp-includes/js/plupload/index.php 2 -
+/wp-content/themes/pridmag/db.php 3 -
+/Mini.php 1 http://equaxsoftwarelabs.com/Mini.php
+/randkeyword.PhP7 1 -
+/wp-admin/css/about.php 3 -
+/wp-content/uploads/ 3 -
+/wp-includes/css/dist/components/index.php 2 -
+/wp-includes/blocks/search/index.php 2 -
+/wp-includes/block-patterns/chosen.php 1 -
+/wp-includes/images/smilies/index.php 2 -
+/wp-includes/images/smilies/ 1 -
+/backup 73 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/baxa1.phP8 1 -
+/wp-content/plugins/simple-forum/resources/jscript/ajaxupload/ajaxupload.js 1 -
+/makeasmtp.php 3 -
+/images/xmrlpc.php 3 -
+/wp-admin/maint/mlm.php 1 -
+/testing 1 -
+/wp-includes/blocks/post-template/index.php 2 -
+/wp-includes/css/dist/format-library/index.php 2 -
+/home 74 -
+/style.php 2 www.google.com
+/sito/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/IXR/about.php 3 -
+/home/ 1 -
+/wp-includes/interactivity-api/index.php 2 -
+/wp-includes/blocks/rss/index.php 2 -
+/wp-content/themes/pridmag/ 1 -
+/wp-content/plugins/Uwogh-Segs/ 1 -
+/wordpress/ 1 -
+/wp-includes/blocks/button/index.php 2 -
+/.qiodetme.php 1 -
+/classsmtps.php 3 -
+/wp-includes/PHPMailer/autoload_classmap.php 1 -
+/wp.php 6 -
+/wp-content/index.php 2 -
+/cakil/ 1 -
+/templatesdex.php 1 -
+/wp-includes/Text/index.php 2 -
+/core5.php 1 http://equaxsoftwarelabs.com/core5.php
+/BACKUP/installer.php 1 www.google.com
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 2 -
+/wp-includes/blocks/social-link/index.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/dropdown.php 5 -
+/ae.php 3 -
+/wp-includes/js/tinymce/plugins/fullscreen/index.php 2 -
+/wp-includes/Text/about.php 4 -
+/wp-includes/block-supports/index.php 2 -
+/post.php 4 http://equaxsoftwarelabs.com/post.php
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/wp-content/themes/seotheme/mar.php 3 -
+/wp-includes/js/thickbox/index.php 2 -
+/wp-content/themes/ 2 -
+/upload.php 1 -
+/autoload_classmap.php 2 -
+/wso112233.php 3 -
+/wp-content/plugins/aryabot/ 1 -
+/wp-content/db-cache.php 3 -
+/wp-content/uploads/revslider/templates/immersion-photography/ 1 -
+/wp-includes/blocks/verse/index.php 2 -
+/wp-includes/images/crystal/ 1 -
+/forum/installer.php 1 www.google.com
+/blog.php 3 -
+/wp-includes/js/index.php 2 -
+/wp-includes/blocks/latest-posts/index.php 2 -
+/wp-content/plugins/pwnd-1/pwnd.php 1 -
+/cloud.php 3 -
+/public/javascript/filemanager//dialog.php 1 -
+/revolution.themepunch.com/wp-content/uploads/2014/05/wave21.png 2 -
+/demo/installer.php 1 www.google.com
+/js/respond.js 8 -
+/public/plugins/ckeditor/images/spacer.gif 1 http://equaxsoftwarelabs.com/public/plugins/ckeditor/images/spacer.gif
+/wp-load.php 3 -
+/wp-admin/includes/cloud.php 3 -
+/sendemail.php 39 http://equaxsoftwarelabs.com/contact.html
+/installer.php 1 www.google.com
+/bak.php 3 -
+/wp-includes/Requests/Proxy/index.php 2 -
+/phpformbuilder/plugins/filemanager//dialog.php 1 -
+/wp-includes/js/dist/index.php 2 -
+/wp-includes/chosen.php 1 -
+/wp-includes/blocks/query-pagination-next/index.php 2 -
+/wp-includes/worksec.php 1 -
+/wp-includes/rk2.php 1 -
+/2013/installer.php 1 www.google.com
+/wp-includes/blocks/categories/index.php 2 -
+/wp-includes/css/chosen.php 1 -
+/wp-admin/maint/ 3 -
+/wp-admin/ajax-actions.php 3 -
+/wp-includes/Requests/Utility/index.php 2 -
+/wp-content/themes/oceanwp/functions.php 3 -
+/wp-acess.php 1 http://equaxsoftwarelabs.com/wp-acess.php
+/updates.php 3 -
+/WordPress/installer.php 1 www.google.com
+/wp-includes/js/jquery/index.php 2 -
+/.vscode/sftp.json 2 -
+/wp-includes/blocks/heading/index.php 2 -
+/css/cloud.php 3 -
+/wp-content/plugins/cakil/ 1 -
+/wp-admin/css/colors/sunrise/ 1 -
+/temp/ 1 -
+/404.php 4 -
+/wp-content/plugins/seoplugins/mar.php 3 -
+/admin-post.php 3 -
+/old 74 -
+/wp-admin/css/colors/ectoplasm/ 1 -
+/wp-includes/blocks/pullquote/index.php 2 -
+/wp-includes/sodium_compat/src/Core32/SecretStream/index.php/wp-includes/js/tinymce/plugins/charmap/index.php 2 -
+/wp-includes/blocks/post-date/index.php 2 -
+/wp-includes/blocks/text-columns/index.php 2 -
+/lock.php 1 -
+/wp-includes/Requests/Auth/index.php 2 -
+/wp-content/plugins/seoplugins/db.php 3 -
+/BLOG/installer.php 1 www.google.com
+/wp-includes/blocks/nextpage/index.php 2 -
+/js/'+G.data( 1 -
+/site/installer.php 1 www.google.com
+/2016/installer.php 1 www.google.com
+/wp-includes/blocks/post-terms/index.php 2 -
+/wp-content/languages/ 1 -
+/alfanew2.php7 3 -
+/wp-includes/blocks/video/index.php 2 -
+/wp-includes/images/crystal/index.php 2 -
+/wp-includes/blocks/column/index.php 2 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/upload/image/ 1 -
+/wp-admin/css/colors/coffee/cloud.php 3 -
+/wp-content/plugins/random/ 1 -
+/wp-admin/css/colors/blue/about.php 1 -
+/wp-editor.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/wp-admin.php 1 -
+/wordpress/wp-includes/css/buttons.css 1 -
+/wp-content/plugins/about.php 6 -
+/wp-content/plugins/admin.php 4 -
+/wp-includes/wlwmanifest.xml 1 -
+/uploads/ 13 binance.com
+/admin/upload/ 1 -
+/dup-installer/main.installer.php 1 -
+/cgi-bin/cloud.php 3 -
+/blogs/wp-includes/css/buttons.css 1 -
+/Blog/installer.php 1 www.google.com
+/wp-cron.php 3 -
+/wp-includes/customize/index.php 2 -
+/wp-includes/blocks/post-featured-image/index.php 2 -
+/wp-admin/images/index.php 5 -
+/file.php 1 -
+/wp-content/plugins/simple/simple.php 3 -
+/blog 1 -
+/blog/ 1 -
+/modules/mod_simplefileuploadv1.3/elements/ 1 -
+/avaa.php 3 -
+/wp-includes/widgets/autoload_classmap.php 1 -
+/lal.php 1 http://equaxsoftwarelabs.com/lal.php
+/wp-admin/maint/go.php 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/style-engine/about.php 3 -
+/wp-content/plugins/wp-freeform/ 1 -
+/wp-admin/css/colors/modern/ 1 -
+/ge.php 1 -
+/wp-includes/js/plupload/ 1 -
+/2015/installer.php 1 www.google.com
+/css/xmrlpc.php 3 -
+/wp-includes/blocks/image/index.php 2 -
+/ebs.php7 3 -
+/ads.txt 37 -
+/wp-includes/Requests/Exception/Transport/index.php 2 -
+/wp-includes/blocks/chosen.php 1 -
+/images/fancybox/fancybox_sprite.png 1 http://equaxsoftwarelabs.com/whywe.html
+/sftp-config.json 2 -
+/wp-content/themes/sketch/ 1 -
+/wp-includes/js/dist/vendor/index.php 2 -
+/wp-admin/xmrlpc.php 3 -
+/wp-includes/js/tinymce/index.php 2 -
+/index/function.php 1 -
+/wp-admin/includes/chosen.php 1 -
+/images/fancybox/fancybox_sprite@2x.png 1 http://equaxsoftwarelabs.com/whywe.html
+/wp-includes/blocks/table/index.php 2 -
+/about.php 3 -
+/assets/ 1 -
+/wp-admin/network/index.php 2 -
+/wp-content/plugins/limit/ 1 -
+/wp-admin/css/colors/blue/cloud.php 3 -
+/cgi-bin/about.php 3 -
+/wp-includes/images/index.php 2 -
+/wp-content/plugins/wp-theme-editor/include.php 3 -
+/wp-includes/blocks/post-content/index.php 2 -
+/blog/installer.php 1 www.google.com
+/wp-admin/ 1 -
+/wp-content/themes/alera/ 1 -
+/wp-content/themes/about.php 3 -
+/wordpress/wp-admin/includes 1 -
+/wp-admin/network/admin.php 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/ID3/wp-includes/IXR/ 1 -
+/chosen.php 6 -
+/css.php 3 -
+/wp-includes/css/dist/edit-widgets/index.php 2 -
+/content.php 3 -
+/wp-content/plugins/google-seo-rank/module.php 4 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/wp-pridmag/up.php 1 www.google.com
+/2017/installer.php 1 www.google.com
+/wp-includes/blocks/query-pagination-numbers/index.php 2 -
+/wp-sigunq.php 3 -
+/wp-content/themes/zakra/ 1 -
+/wp-admin/repeater.php 3 -
+/wp-admin/js/ 1 -
+/wp-content/plugins/shell/noimg.php 1 -
+/wp-includes/blocks/navigation-link/index.php 2 -
+/info.php 1 http://equaxsoftwarelabs.com/info.php
+/moon.php 3 -
+/patriotic/wp-includes/images/smilies/ 1 -
+/wp-includes/blocks/buttons/index.php 2 -
+/wp-content/languages/index.php 1 -
+/wp-includes/blocks/freeform/index.php 2 -
+/wp-content/plugins/BrutalShell/ 1 -
+/x.php 1 -
+/wp-content/plugins/clara/clara.php 1 -
+/wp-includes/r.php 1 -
+/wp-includes/ 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/wp-content/plugins/Cache/Cache.php 3 -
+/NEW/installer.php 1 www.google.com
+/wp-admin/js/widgets/ 1 -
+/wp-includes/blocks/social-links/index.php 2 -
+/wp-includes/images/wlw/index.php 2 -
+/index.php 3 -
+/wp-includes/certificates/index.php 2 -
+/berlin.php 3 -
+/wp-admin/css/index.php 4 -
+/about/function.php 1 -
+/templates/atomic/templates.php 1 -
+/wp-admin/css/colors/blue/xmrlpc.php 3 -
+/cekidot/ 1 -
+/core 1 -
+/wsoyanz.php 3 -
+/wp-comments-post.php 3 -
+/wp-admin/includes/autoload_classmap.php 1 -
+/doc/function.php 1 -
+/wp-content/upgrade/ 1 -
+/Admin/uploads/ 1 -
+/wp-admin/css/colors/index.php 3 -
+/admin/uploads/ 1 -
+/repeater.php 3 -
+/wp-includes/IXR/index.php 4 -
+/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif 1 http://equaxsoftwarelabs.com/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif
+/wp-admin/user/ 3 -
+/sites/default/files/ 14 binance.com
+/cols3.php 1 http://equaxsoftwarelabs.com/cols3.php
+/generator/data/generator.conf 1 -
+/wp-includes/images/about.php 3 -
+/old/ 1 -
+/wp-includes/Text/autoload_classmap.php 1 -
+/wp-includes/blocks/group/index.php 2 -
+/wp-admin/css/colors/cloud.php 3 -
+/filemanager/dialog.php 1 -
+/vendor/laravel-filemanager/js/stand-alone-button.js 1 -
+/.well-known/acme-challenge/xmrlpc.php 3 -
+/admin/images/slider/ 1 -
+/wp-admin/dropdown.php 3 -
+/elfinder/connector 1 -
+/wp-includes/blocks/site-title/index.php 2 -
+/wp-includes/blocks/legacy-widget/index.php 2 -
+/images/fancybox/fancybox_loading@2x.gif 1 http://equaxsoftwarelabs.com/whywe.html
+/adminfuns.php7 3 -
+/gallery.html 44 -
+/inputs.php 3 -
+/wp-includes/blocks/post-excerpt/index.php 2 -
+/wp-includes/blocks/site-logo/index.php 2 -
+/sxx.php 1 -
+/cgi-bin/ 3 -
+/wp-includes/css/dist/editor/index.php 2 -
+/New/installer.php 1 www.google.com
+/wp-admin/images/about.php 4 -
+/china.php 1 www.google.com
+/wp-includes/css/dist/reusable-blocks/index.php 2 -
+/wp-admin/images/ 3 -
+/Equaxsoftwarelabs 1 www.google.com
+/mespaces.php 1 http://equaxsoftwarelabs.com/mespaces.php
+/wp-admin/includes/rk2.php 1 -
+/wp-log.php 1 http://equaxsoftwarelabs.com/wp-log.php
+/bc 73 -
+/wp-includes/blocks/list/index.php 2 -
+/wp-conflg.php 3 -
+/wp-content/uploads/index.php/wp-admin/index.php 1 -
+/about.php7 3 -
+/wp-admin/css/colors/midnight/ 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/wp-trackback.php 3 -
+/wp-admin/js/widgets/cloud.php 3 -
+/new.php 1 -
+/wp-content/ 3 -
+/wp-content/plugins/index.php 4 -
+/wp-includes/SimplePie/HTTP/index.php 2 -
+/wp-includes/js/codemirror/ 1 -
+/wp-includes/SimplePie/Content/Type/index.php 2 -
+/wp-content/plugins/fix/up.php 1 -
+/main 73 -
+/wp-content/repeater.php 3 -
+/wp-content/plugins/rex/l/index.php 1 -
+/wp-content/plugins/not/includes/about.php 3 -
+/bk/index.php 1 -
+/simple.php 4 -
+/wp-content/themes/tflow/ 1 -
+/click.php 1 -
+/fw.php 3 -
+/ini.php 3 -
+/cgi-bin/xmrlpc.php 3 -
+/img/xmrlpc.php 3 -
+/wp-content/updates.php 3 -
+/wp-includes/js/tinymce/plugins/fullscreen/ 1 -
+/.well-known/.qiodetme.php 1 -
+/mah/function.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 379
+34.78.153.177 40 64 505576 20241214232044
+35.233.107.11 40 64 505576 20241229224613
+98.81.151.11 31 31 145364 20241215235328
+183.207.45.113 31 67 2021394 20241225191723
+98.128.173.33 26 26 491588 20241219111552
+34.148.73.6 22 22 95026 20241205021113
+34.148.62.198 22 22 95026 20241217202647
+34.73.79.70 22 22 95026 20241205031506
+104.196.157.167 22 22 95026 20241211164341
+3.251.74.75 20 81 2157032 20241218153436
+69.160.160.60 19 51 1743211 20241202071322
+35.229.25.22 18 18 90102 20241211174301
+34.148.211.211 14 14 69785 20241205053443
+135.181.78.223 13 13 58087 20241230080050
+106.222.203.216 13 148 6865997 20241203224443
+92.255.85.164 12 12 288972 20241230000232
+34.121.19.4 11 11 47994 20241209095127
+34.105.90.22 11 11 58157 20241229011528
+144.217.135.213 10 10 251120 20241209020720
+52.14.49.51 8 8 0 20241213185904
+185.147.125.24 8 8 192648 20241227074112
+106.222.200.96 7 89 2575853 20241229210238
+139.59.177.211 7 7 31745 20241201234502
+3.235.138.235 6 6 0 20241206204954
+49.43.241.255 6 71 3492455 20241226063421
+114.96.103.33 1 1 5287 20241217154131
+167.172.155.129 1 2 9172 20241211203559
+43.135.182.95 1 1 5287 20241210175518
+107.172.178.124 1 1 34320 20241221165659
+43.163.1.85 1 1 5287 20241201191725
+43.133.139.6 2 2 10053 20241230104501
+191.101.209.142 2 2 48162 20241228082434
+175.6.217.4 1 1 5287 20241209180940
+18.219.215.210 5 5 0 20241228222444
+43.131.249.153 1 1 5287 20241209043624
+43.159.152.184 1 1 5287 20241220005413
+79.173.92.166 3 26 531302 20241205214858
+18.199.237.221 5 5 0 20241213182018
+159.89.125.32 1 2 9172 20241224144119
+3.219.216.21 1 1 5287 20241231001945
+54.158.240.18 1 1 0 20241226115507
+98.81.192.162 4 4 0 20241226211347
+42.83.147.53 1 1 5287 20241218022341
+43.153.71.132 1 1 5287 20241213233318
+101.33.66.34 1 1 5287 20241222215317
+185.147.125.18 4 4 96324 20241225193511
+38.154.186.62 0 1 3885 
+43.153.135.208 1 1 5287 20241228204706
+165.232.183.97 1 2 9172 20241204123206
+138.199.36.242 2 2 48162 20241213023500
+46.0.24.147 2 2 48162 20241205021100
+50.2.39.239 1 1 3034 20241202151610
+106.119.167.146 1 1 5287 20241218064658
+94.247.172.129 2 2 10574 20241230050036
+43.135.133.194 1 1 5287 20241207171857
+34.239.149.242 1 1 34320 20241222205750
+154.30.109.71 1 1 4833 20241207084906
+49.51.196.42 1 1 5409 20241222234429
+165.154.254.150 1 1 34320 20241211183640
+35.88.86.187 1 1 0 20241216124226
+3.145.133.114 2 2 0 20241210193409
+156.146.36.114 1 7 103794 20241216173910
+132.145.209.160 1 7 103794 20241225095815
+130.255.166.120 1 1 5287 20241214083639
+136.226.233.110 1 19 1071823 20241218040547
+54.174.58.246 0 6 75234 
+130.255.166.90 1 1 5287 20241222141314
+54.148.28.138 1 1 0 20241224101757
+185.153.179.119 1 1 13842 20241215230734
+159.203.1.29 1 2 9172 20241218111134
+222.79.104.23 1 1 5287 20241227215007
+49.51.33.159 1 1 5287 20241216180318
+156.146.55.180 2 2 48162 20241229091221
+185.54.231.56 1 1 34320 20241227063044
+45.139.64.205 0 1 8033 
+87.236.176.106 0 1 11322 
+93.158.90.74 1 1 5287 20241202072138
+157.45.215.47 4 37 1597767 20241216034040
+54.201.105.155 1 1 5287 20241231180327
+43.153.27.244 1 1 5287 20241220134505
+104.248.83.3 1 2 9172 20241230115451
+115.231.78.6 1 2 45642 20241226184755
+93.158.91.253 1 1 5287 20241228145807
+188.166.58.116 1 2 9172 20241210234300
+43.135.186.135 1 1 5189 20241223051537
+54.174.58.248 2 11 257962 20241220122052
+43.130.40.120 1 1 3369 20241222232628
+43.130.37.243 1 1 6062 20241223050152
+15.235.114.125 1 1 5287 20241205033434
+180.102.134.69 1 1 5287 20241226094338
+62.210.124.144 1 1 5287 20241209010449
+35.87.65.127 3 35 1744285 20241228190026
+43.155.169.133 2 2 10574 20241226105604
+185.247.137.227 0 1 3885 
+43.163.8.148 1 1 3369 20241223020557
+43.155.183.138 1 1 5287 20241222132327
+109.184.160.200 3 26 531302 20241207143248
+43.153.19.83 2 2 10574 20241227124022
+43.153.104.196 2 2 10574 20241206085628
+159.203.135.165 1 2 9172 20241214124354
+3.142.150.211 3 3 0 20241231003319
+49.51.47.100 3 3 15251 20241228074314
+158.220.119.192 2 2 7867 20241220191220
+43.153.123.4 1 1 5287 20241218235231
+129.226.213.145 1 1 5287 20241204065722
+213.239.215.171 1 1 5287 20241224130535
+43.159.152.187 2 2 5287 20241225052245
+5.161.192.48 1 1 3395 20241216031651
+194.169.175.180 3 3 15861 20241224225518
+191.102.170.129 0 1 150049 
+152.58.243.136 3 36 1592480 20241229212113
+36.111.67.189 1 1 5287 20241224021936
+43.167.157.80 1 1 5287 20241228141923
+5.79.212.230 4 4 96324 20241205191341
+170.106.72.178 2 2 10574 20241216104505
+101.0.62.32 1 27 1404835 20241219055903
+173.239.218.247 1 1 34320 20241221182221
+89.19.48.123 1 1 5287 20241219121029
+103.114.107.34 4 4 21148 20241224190336
+51.159.30.40 1 1 5287 20241230064118
+86.89.23.135 2 29 1318084 20241203025648
+43.153.86.78 2 2 10574 20241208022210
+54.234.76.197 1 1 34320 20241209035458
+43.134.142.8 1 1 5189 20241223073643
+18.234.181.109 1 1 5287 20241201221053
+209.38.130.29 1 2 9172 20241225105737
+124.40.247.10 4 42 1909255 20241214013648
+35.209.68.128 2 2 10574 20241231082846
+106.222.201.125 5 43 2151850 20241204215122
+167.71.160.8 1 2 9172 20241210123217
+49.37.183.245 4 41 1909130 20241219062147
+217.142.184.125 1 7 103794 20241216042714
+43.134.190.89 1 1 5287 20241229092057
+43.159.128.237 2 2 10574 20241202154530
+14.215.163.132 3 3 15861 20241226213951
+34.77.97.23 1 1 0 20241209204537
+35.91.88.18 1 1 5287 20241209110641
+151.0.22.41 1 1 13842 20241219231902
+35.202.72.83 3 3 82482 20241226051458
+20.94.215.56 2 2 8656 20241203141623
+181.214.206.99 2 2 48162 20241219124249
+207.135.200.227 1 1 5287 20241208064629
+43.152.72.244 1 1 5409 20241226013548
+172.98.86.200 1 1 3034 20241203172623
+43.130.102.223 2 2 5287 20241223001704
+203.2.64.59 1 1 5287 20241218200505
+37.79.11.174 3 26 531302 20241203111430
+43.153.15.51 1 1 5287 20241215151400
+43.130.15.147 1 1 5287 20241214123847
+129.226.147.7 1 1 5590 20241223013117
+84.17.60.181 2 2 48162 20241207135201
+34.221.5.173 1 1 0 20241205220142
+104.155.110.89 1 1 4833 20241217180553
+27.63.246.218 3 36 1592480 20241226100913
+43.159.138.217 1 1 5675 20241226021447
+124.248.67.235 1 1 3369 20241209062945
+182.42.110.255 1 1 5287 20241227100202
+43.128.19.78 2 2 8656 20241219115916
+157.230.235.205 1 2 9172 20241227220233
+43.130.57.76 1 1 5287 20241205193319
+43.159.152.4 4 4 19352 20241223015149
+34.75.205.200 4 4 21148 20241222230255
+18.188.12.100 4 4 0 20241222212521
+217.144.109.86 1 1 5287 20241211120743
+115.231.78.12 1 2 45642 20241204150833
+43.153.119.119 1 1 5590 20241222225838
+43.155.166.202 1 1 5287 20241229220522
+191.102.170.112 0 1 3885 
+45.139.67.170 1 1 5287 20241203185059
+165.154.213.170 2 2 68640 20241208104654
+185.247.137.104 0 1 3885 
+52.200.211.223 1 1 0 20241227210819
+18.117.125.45 3 3 0 20241224084838
+43.153.216.189 2 2 9841 20241223010356
+45.15.17.3 3 15 176338 20241227025505
+43.153.58.28 1 1 5287 20241218110724
+212.102.40.19 1 1 3034 20241211004305
+60.188.57.0 1 1 5287 20241225184646
+43.153.96.233 2 2 10574 20241231231346
+170.106.180.246 1 1 4655 20241225053408
+43.166.142.76 2 2 10574 20241225021115
+49.43.242.196 4 40 1988822 20241229041144
+18.217.90.48 5 5 0 20241217210330
+170.106.179.68 1 1 4408 20241223024550
+54.174.58.243 0 6 94386 
+134.209.254.35 1 2 9172 20241228112114
+222.79.103.59 3 3 15861 20241229095704
+182.42.105.85 2 2 10574 20241230210208
+43.130.3.120 1 1 4766 20241223023219
+43.153.54.138 1 1 5287 20241210100803
+182.44.10.67 1 1 5287 20241231082518
+185.247.137.216 1 1 5287 20241216073445
+43.159.149.56 1 1 5287 20241205013047
+45.139.66.89 0 1 8009 
+43.135.145.77 1 1 5287 20241203103934
+101.91.148.219 1 1 5287 20241225042335
+165.22.78.127 1 2 9172 20241208132311
+35.213.231.234 1 9 139126 20241213035541
+49.51.253.26 1 1 5590 20241226023943
+106.222.203.63 3 36 1748170 20241224052805
+49.51.183.15 2 2 9964 20241226024206
+193.176.211.199 1 1 34320 20241202161640
+35.171.144.152 1 1 34320 20241211152210
+43.135.185.59 2 2 10574 20241227062128
+193.34.73.238 1 1 5287 20241205030822
+49.51.183.75 1 1 5287 20241229031056
+150.109.16.20 2 2 10574 20241212215725
+50.3.137.17 1 1 3034 20241209045546
+196.242.4.126 1 1 3034 20241203021829
+43.130.60.195 2 2 10574 20241221071258
+85.214.12.170 5 5 22599 20241227140236
+49.51.36.179 3 3 15340 20241224194830
+43.157.148.38 1 1 4655 20241223003046
+43.153.12.58 2 2 10574 20241230234628
+3.145.217.154 3 3 0 20241230155537
+43.130.16.212 1 1 5287 20241217082619
+115.241.54.250 3 36 1748170 20241221043119
+124.156.193.7 1 1 6062 20241226031402
+178.254.38.45 1 1 5287 20241203202555
+43.153.47.201 2 2 9062 20241227191606
+199.244.88.230 1 1 5287 20241217205140
+54.70.81.234 1 1 5287 20241208044946
+43.153.7.191 1 1 5287 20241228014231
+43.159.141.150 1 1 5287 20241206232048
+117.33.163.216 2 2 10574 20241224144757
+170.106.192.3 1 1 5287 20241225044958
+191.102.179.97 1 1 0 20241205030821
+49.51.39.209 1 1 5287 20241201134057
+43.135.145.117 1 1 5287 20241222013415
+199.244.88.219 1 1 5287 20241203000100
+203.23.179.44 1 1 3034 20241222121838
+184.94.240.88 4 4 116657 20241212153629
+49.51.233.95 3 3 15077 20241225235157
+34.139.126.195 2 2 10574 20241205011658
+120.71.59.24 2 2 10574 20241219103707
+136.226.255.26 1 1 5287 20241218040542
+185.247.137.92 0 1 3885 
+125.75.66.97 3 3 15861 20241220143228
+185.247.137.63 0 1 11322 
+93.120.161.21 3 26 531302 20241208065449
+159.223.154.98 1 2 9172 20241216125306
+35.243.248.139 2 2 10574 20241228011929
+43.156.202.34 1 1 5287 20241203092147
+35.227.56.243 2 2 9743 20241205083557
+134.122.21.92 1 1 5287 20241231162339
+43.159.63.75 1 1 5287 20241211030334
+54.88.179.33 1 1 34320 20241211152210
+43.133.72.69 1 1 5287 20241226002515
+159.65.153.55 1 2 9172 20241212134736
+49.51.50.147 1 1 5287 20241229154647
+42.83.147.56 1 1 5287 20241225115733
+3.83.129.16 0 1 3885 
+106.222.201.63 0 1 3885 
+3.142.237.206 5 5 0 20241225213926
+87.249.132.170 2 2 48162 20241219051113
+43.159.145.149 1 1 3775 20241225050025
+43.163.3.58 1 1 5287 20241218173524
+49.205.132.4 3 36 1592480 20241224004232
+15.164.163.142 0 3 496295 
+124.226.222.66 2 2 10574 20241214150306
+20.72.168.253 3 36 1748170 20241213015027
+49.51.252.146 1 1 5287 20241231072152
+94.103.86.224 1 1 34320 20241219005805
+124.156.157.91 1 1 4731 20241225050944
+43.152.72.247 1 1 5287 20241209224204
+162.62.213.187 1 1 5287 20241215215050
+43.156.228.27 1 1 5189 20241226032214
+43.153.85.46 1 1 4503 20241223044353
+138.197.167.242 1 2 9172 20241225213257
+45.132.225.66 1 1 34320 20241218025554
+54.174.58.236 1 5 271669 20241220122052
+202.83.19.43 4 41 1909130 20241213002118
+212.227.63.9 1 1 34320 20241225060755
+212.102.60.151 1 1 3034 20241220235455
+199.187.211.17 1 1 3034 20241205013114
+49.51.178.45 1 1 3491 20241226010223
+165.231.70.204 1 1 3034 20241216051252
+195.90.221.76 1 1 5287 20241209054016
+217.160.202.182 2 2 10574 20241221155807
+111.172.249.49 3 3 15861 20241231192526
+43.128.110.17 1 1 3491 20241223034017
+149.56.150.194 3 35 1744285 20241209020744
+45.139.67.37 1 2 3885 20241203185056
+64.91.244.104 1 1 5287 20241208180813
+136.226.233.75 2 17 676347 20241218040549
+43.153.123.3 1 1 5287 20241210072258
+185.147.125.23 4 4 96324 20241226084747
+180.110.203.108 2 2 10574 20241222102320
+3.109.212.144 1 1 5287 20241223153035
+182.44.12.37 2 2 10574 20241228102416
+181.214.173.73 2 2 48162 20241207074925
+185.247.137.29 0 1 3885 
+139.59.227.157 1 1 34320 20241217022217
+43.159.143.139 1 1 5287 20241213092908
+165.227.186.135 1 2 9172 20241222113741
+94.41.129.112 1 1 34320 20241203234512
+43.153.10.13 1 1 5409 20241223021629
+49.51.204.74 1 1 5287 20241225172630
+34.77.90.66 1 1 4833 20241218171615
+49.51.243.156 2 2 10018 20241223000714
+43.153.74.75 3 3 15861 20241215014922
+89.37.66.165 1 1 3034 20241228124323
+96.62.135.143 1 1 4833 20241216033913
+87.236.176.96 1 1 5287 20241223024018
+89.187.164.139 3 3 12700 20241213061618
+34.93.238.182 3 3 102960 20241204234600
+116.68.72.213 3 36 1592480 20241229234714
+34.221.27.110 1 1 0 20241214235010
+43.130.32.245 1 1 5287 20241219123653
+209.127.108.223 0 1 11322 
+43.159.143.187 3 3 16636 20241223185743
+44.192.4.130 1 1 5287 20241201020955
+164.92.181.103 1 1 5287 20241210212428
+54.174.58.254 0 5 207304 
+43.155.195.141 1 1 0 20241222224540
+49.43.243.234 5 42 1984137 20241219213500
+165.154.225.30 1 1 34320 20241209093817
+46.228.199.158 1 1 5287 20241228080849
+43.153.122.30 1 1 4636 20241223004643
+212.102.35.2 1 1 34320 20241215213556
+136.143.177.61 4 4 17197 20241226185912
+223.15.245.170 1 1 5287 20241220005935
+162.62.213.165 2 2 11787 20241223074630
+142.132.248.24 1 1 5287 20241221022948
+170.106.180.153 1 1 5675 20241223024926
+43.135.140.225 1 1 5287 20241226235809
+161.35.214.42 1 2 9172 20241213204337
+193.34.73.163 0 1 11322 
+170.106.113.159 1 1 5287 20241219055854
+34.138.175.131 2 2 10574 20241217193529
+18.218.193.5 5 5 0 20241227193113
+43.135.148.92 2 2 10574 20241209131809
+18.117.236.215 4 4 0 20241214113340
+58.49.233.126 1 1 5287 20241213100823
+109.245.143.98 1 1 5287 20241202235713
+43.153.76.247 1 1 5287 20241212073101
+170.106.197.109 1 1 5287 20241208195744
+31.129.22.117 1 1 5287 20241209115707
+43.153.71.12 1 1 5287 20241224070843
+43.155.138.79 1 1 5287 20241219184429
+43.204.207.3 0 1 3885 
+46.101.245.220 1 2 9172 20241220124905
+43.153.67.21 1 1 5287 20241224133029
+185.7.214.130 4 4 96324 20241218003420
+178.128.255.70 1 2 9172 20241226132017
+156.233.225.83 1 11 157994 20241202091157
+43.156.109.53 1 1 4408 20241226020338
+176.123.8.139 1 1 3034 20241202074601
+138.199.59.148 2 2 48162 20241204152926
+43.131.39.179 1 1 5287 20241215080126
+132.255.133.159 0 1 179234 
+117.62.235.53 1 1 5287 20241225061544
+43.135.130.202 2 2 10574 20241225110345
+49.51.253.83 3 3 16369 20241226032729
+170.106.152.218 2 2 10574 20241231152533
+165.154.213.221 1 1 34320 20241216185230
+43.156.168.214 1 1 5675 20241223042638
+164.92.196.145 1 2 9172 20241202123855
+149.202.65.95 1 11 157994 20241230161134
+170.106.107.87 2 2 10574 20241222192759
+43.157.207.78 1 1 5287 20241230042722
+18.223.98.120 6 6 0 20241220232426
+43.135.182.43 2 2 9790 20241226022042
+142.93.221.40 1 2 9172 20241206114634
+194.38.23.16 1 1 34320 20241210001610
+54.174.58.247 0 3 841615 
+157.47.124.142 4 37 1753457 20241210031541
+35.180.98.173 1 1 5287 20241217045037
+43.163.6.124 1 1 5287 20241205103314
+43.159.140.236 1 1 4408 20241223000211
+43.153.96.79 1 1 5287 20241217222916
+15.235.50.228 1 1 13842 20241213180412
+3.16.169.20 4 4 0 20241220214201
+113.62.169.130 1 1 5287 20241201181620
+43.157.170.126 1 1 5287 20241226172835
+93.158.90.69 1 1 5287 20241216144602
+43.128.67.187 2 2 10018 20241222223740
+178.20.46.41 1 1 34320 20241217005516
+43.135.145.73 1 1 5287 20241230170238
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20241201 15 15 74041 9
+20241202 29 72 1977200 11
+20241203 32 223 9351143 16
+20241204 17 57 2384221 10
+20241205 82 112 1349828 20
+20241206 10 11 78482 9
+20241207 11 34 648320 7
+20241208 14 38 659965 11
+20241209 39 71 2208900 17
+20241210 16 51 1880718 12
+20241211 56 57 347877 19
+20241212 28 29 247939 14
+20241213 29 108 3949612 20
+20241214 57 131 2628178 14
+20241215 24 24 156587 9
+20241216 19 68 1905636 16
+20241217 39 39 226656 16
+20241218 38 134 4047870 17
+20241219 55 155 6022716 19
+20241220 21 55 1853414 18
+20241221 17 50 1912555 14
+20241222 26 27 142897 23
+20241223 30 33 154283 30
+20241224 27 127 5166723 18
+20241225 59 103 2388369 26
+20241226 44 111 3644724 33
+20241227 21 23 151778 18
+20241228 22 55 1868097 18
+20241229 68 276 8340382 15
+20241230 28 39 315711 15
+20241231 10 11 51468 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 5
+2mn-5mn 2
+0s-30s 477
+30mn-1h 2
+5mn-15mn 9
+30s-2mn 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 477 3948132 423 363
+/contact.html 90 770140 18 55
+/fonts/fontawesome-webfont.woff2 31 2192568 2 6
+/bos_home.html 31 146411 3 4
+/fonts/flaticon.woff 30 370080 0 13
+/services_home.html 29 179562 7 5
+/services_mobile.html 27 159372 3 6
+/whywe.html 27 188187 3 4
+/industries_home.html 26 162924 3 3
+/industries_hcare.html 24 156355 4 4
+/industries_it.html 23 121725 5 7
+/industries_retail.html 23 148855 3 3
+/industries_manu.html 22 0 3 3
+/bos_pharma.html 19 88445 6 2
+/error-page.html 18 94704 4 3
+/whywe_PROCESS.html 15 90930 5 5
+/whywe_ESL.html 15 97500 4 4
+/whywe_Methodology.html 15 77835 4 3
+/whywe_Project.html 14 65478 2 3
+/bos_textile.html 14 63756 1 4
+/bos_rental.html 13 60268 1 4
+END_SIDER

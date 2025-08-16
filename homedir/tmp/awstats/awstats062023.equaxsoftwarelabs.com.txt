@@ -1,0 +1,1150 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202306 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2704                
+POS_VISITOR 23700               
+POS_DAY 34849               
+POS_DOMAIN 3563                
+POS_LOGIN 4192                
+POS_ROBOT 4347                
+POS_WORMS 5411                
+POS_EMAILSENDER 5542                
+POS_EMAILRECEIVER 5685                
+POS_SESSION 35649               
+POS_SIDER 35838               
+POS_FILETYPES 5820                
+POS_DOWNLOADS 6043                
+POS_OS 6091                
+POS_BROWSER 6544                
+POS_SCREENSIZE 8847                
+POS_UNKNOWNREFERER 8921                
+POS_UNKNOWNREFERERBROWSER 9999                
+POS_ORIGIN 10771               
+POS_SEREFERRALS 10910               
+POS_PAGEREFS 11103               
+POS_SEARCHWORDS 11319               
+POS_KEYWORDS 11471               
+POS_MISC 2368                
+POS_ERRORS 11530               
+POS_CLUSTER 4048                
+POS_SIDER_404 11643               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230701002526 109 26155 22959103206270
+FirstTime 20230601015829
+LastTime 20230630234846
+LastUpdate 20230701050727 109 0 108 0 0
+TotalVisits 310                 
+TotalUnique 272                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 292                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 14 175960 34 159 3745039
+1 56 138 2984151 88 269 4956849
+2 20 179 3307728 64 117 613168
+3 23 62 2366618 34 43 178472
+4 12 49 1997506 54 125 1859689
+5 22 22 134817 96 161 1994070
+6 26 59 1861962 69 167 3079704
+7 14 26 278484 58 99 1590178
+8 13 13 166216 38 74 534989
+9 2 2 10462 53 142 3271208
+10 9 16 649331 51 141 2992045
+11 30 64 2485099 45 72 154619
+12 14 15 126569 50 101 1858714
+13 19 19 198791 49 59 245193
+14 36 101 2789801 75 112 1656698
+15 19 27 602806 47 109 2967708
+16 15 50 1823844 28 66 1506488
+17 31 75 2476004 38 106 818090
+18 12 12 109575 34 43 223194
+19 19 58 2176867 35 56 299299
+20 32 98 2415224 53 103 763104
+21 26 91 3709621 37 116 3321429
+22 56 139 3849553 64 122 1905755
+23 29 148 5791026 42 106 2668483
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 30
+us 330 743 17518645
+in 45 395 16817104
+cn 37 72 2211039
+il 21 87 2348084
+ru 16 57 1780044
+ca 16 16 488184
+de 11 11 77209
+sc 9 9 33421
+gb 9 9 85731
+se 7 7 35475
+fr 6 6 127989
+ua 6 6 170148
+cl 5 5 118109
+ro 4 4 90853
+id 3 3 10608
+tr 3 23 320357
+jp 3 3 39270
+sa 2 2 7072
+be 2 6 40680
+nl 2 2 10266
+eu 2 2 56716
+no 1 1 34137
+cz 1 1 5133
+hk 1 1 3536
+pl 1 1 3536
+bg 1 1 5133
+zw 1 1 5133
+zz 1 1 5133
+it 1 1 34137
+ir 1 1 5133
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 25
+AhrefsBot/ 528 26866255 20230630224432 0
+bingbot/ 219 3212768 20230630211925 0
+Googlebot/ 216 2064983 20230630081446 0
+feed 156 4424895 20230620014401 0
+bot[\s_+:,\.\;\/\\-] 138 1534690 20230630221535 0
+zoominfobot 92 394743 20230621001132 0
+aiHitBot/ 40 313743 20230619093425 0
+BLEXBot/ 40 183486 20230621025818 0
+spider 35 1549541 20230604052154 0
+Googlebot\-Image/ 29 187035 20230630041750 0
+MJ12bot/ 24 104066 20230626032807 0
+link 20 91743 20230623135200 0
+no_user_agent 8 273096 20230623123959 0
+YandexBot/ 8 41064 20230629073927 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 118565 20230627144558 0
+yandex 5 26862 20230625021521 0
+Go\-http\-client/ 4 20532 20230629040946 0
+SemrushBot/ 3 15399 20230626125737 0
+curl 2 9000 20230612021700 0
+scrapy 1 5133 20230607074215 0
+YandexImages/ 1 11429 20230627184019 0
+Velen 1 5133 20230614215146 0
+crawl 1 5133 20230613065313 0
+DotBot/ 1 34137 20230609191711 0
+survey 1 34137 20230604080627 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+gif 20 393470 0 0
+woff2 17 1202376 0 0
+png 152 5241264 0 0
+css 254 1798026 0 0
+js 368 7844114 0 0
+html 514 4824908 0 0
+woff 17 209712 0 0
+jpg 135 20974145 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+Unknown 78 42
+macosx 20 10
+macosx12 6 6
+androidlollipop 1 1
+macosx13 37 4
+androidkitkat 1 1
+winlong 2 0
+androidmarshmallow 4 4
+androidpie 1 1
+android10 78 8
+macosx14 1 1
+win8 5 2
+ios_iphone 17 17
+win7 121 42
+androidnougat 2 2
+macosx8 7 2
+win8.1 49 11
+macosx11 125 80
+linux 186 77
+macosx9 6 3
+macosx15 175 48
+macosx7 10 1
+macosx6 1 0
+win10 524 176
+linuxubuntu 6 3
+macosx10 1 1
+winxp 13 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 110
+chrome106.0.0.0 11 11
+firefox17.0 1 1
+msie9.0 2 1
+chrome93.0.4577.63 4 2
+chrome81.0.4044.138 4 4
+chrome90.0.4430.93 59 16
+chrome31.0.1650.57 1 0
+Unknown 26 25
+chrome114.0.0.0 341 35
+firefox40.0 1 1
+chrome111.0.5555.0 39 4
+chrome86.0.4240.111 1 1
+firefox65.0 3 3
+chrome105.0.0.0 1 1
+chrome17.0.963.56 1 0
+netscape5.0 4 4
+firefox31.0 3 0
+msie6.0 1 1
+firefox28.0 3 0
+chrome76.0.3809.100 2 1
+safari6.1 3 0
+chrome39.0.2171.95 1 1
+chrome12.0.742.91 1 0
+chrome81.0.4044.129 10 10
+chrome113.0.5672.63 35 3
+chrome100.0.4896.60 7 7
+chrome60.0.3112.107 2 2
+safari15.5 1 1
+firefox50.0 5 5
+chrome73.0.3683.90 1 1
+chrome103.0.0.0 24 24
+chrome83.0.4103.97 30 30
+chrome99.0.4859.172 1 1
+chrome113.0.0.0 15 5
+chrome91.0.4472.114 126 11
+chrome86.0.4240.75 32 32
+chrome102.0.5005.63 1 1
+chrome92.0.4512.0 36 4
+opera54.0.2952.51 4 4
+safari10.0 1 1
+chrome63.0.3239.132 2 0
+chrome109.0.0.0 38 6
+safari7.0 1 0
+chrome80.0.3987.162 1 1
+safari15.6.1 11 1
+chrome65.0.3325.181 2 2
+firefox52.0 121 76
+chrome40.0.2214.111 2 0
+chrome32.0.1700.41 1 1
+chrome81.0.4044.122 1 1
+chrome51.0.2704.106 1 1
+opera54.0.2952.54 1 1
+opera89.0.4447.51 7 7
+chrome100.0.4896.127 1 1
+chrome79.0.3945.130 18 18
+opera54.0.2952.64 1 1
+firefox104.0 1 1
+edge44 2 2
+chrome62.0.3202.89 1 1
+chrome66.0.3359.158 1 1
+firefox102.0 5 5
+chrome87.0.4280.88 11 1
+chrome80.0.3987.132 34 1
+chrome68.0.3440.106 12 12
+firefox57.0 1 1
+firefox33.0 2 1
+chrome32.0.1700.68 1 1
+chrome103.0.5060.114 1 1
+safari7.0.1 1 1
+firefox47.0 4 4
+chrome89.0.4389.114 2 2
+chrome72.0.3626.121 1 1
+opera12.16 1 1
+chrome5.0.375.99 2 2
+mozilla 50 15
+firefox89.0 2 2
+firefox114.0 1 1
+chrome31.0.1650.63 22 5
+chrome84.0.4147.105 3 3
+android 1 1
+msie10.0 2 0
+opera53.0.2907.106 2 2
+firefox112.0 1 1
+chrome96.0.4664.110 4 2
+chrome35.0.1916.153 1 1
+safari13.0.3 15 15
+chrome49.0.2623.112 63 9
+chrome108.0.0.0 14 14
+msie11 1 1
+chrome74.0.3729.169 7 7
+firefox36.0 3 2
+chrome85.0.4183.102 2 2
+firefox83.0 1 1
+chrome114.0.5735.106 31 31
+firefox24.0 1 1
+chrome66.0.3359.181 2 2
+firefox25.0 7 1
+chrome41.0.2227.0 1 0
+chrome62.0.3202.94 1 1
+firefox27.0 5 1
+chrome111.0.0.0 2 2
+chrome67.0.3396.87 2 2
+safari6.1.1 4 2
+firefox26.0 9 1
+msie11.0 4 0
+chrome32.0.1700.72 2 0
+chrome74.0.3729.157 35 3
+chrome74.0.3694.0 36 3
+firefox35.0 1 1
+chrome102.0.0.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+cpp-httplib/0.10.9 20230614135736
+Mozilla/5.0_Firefox/35.0 20230609140752
+python-requests/2.25.1 20230605140223
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230628003155
+imgproxy/2.16.7 20230609102716
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20230624085124
+python-requests/2.28.2 20230621134708
+python-requests/2.31.0 20230613143504
+Chrome/92.0.4512.0 20230628212747
+Mozilla/6.0_(compatible) 20230618205154
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230615221015
+Mozilla/5.0 20230614072404
+python-requests/2.30.0 20230605192519
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230606113721
+python-requests/2.26.0 20230614071037
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+imgproxy/2.16.7 20230609102716
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20230624085124
+python-requests/2.28.2 20230621134708
+python-requests/2.26.0 20230614071037
+python-requests/2.30.0 20230605192519
+python-requests/2.25.1 20230605140223
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230628003155
+python-requests/2.31.0 20230613143504
+cpp-httplib/0.10.9 20230614135736
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 441 609
+From1 1 1
+From2 18 18
+From3 3 3
+From4 85 846
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google_com 1 1
+www_google_com 8 8
+duckduckgo 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://bakman.fresnounified.org 2 2
+http://www.elainasblog.xyz 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 4 85949
+404 1053 1590668
+101 1 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 352
+/wp-content/plugins/ccx/index.php 1 -
+/wp-content/xleet-shell.php 1 -
+/wp-content/index.php 1 -
+/media/system/js/core.js 1 -
+/assets/js/uploadify/uploadify.css 1 -
+/admin/controller/extension/extension/ 3 binance.com
+/wp-admin/shell20211028.php 1 -
+/public/plugins/uploadify/uploadify.css 1 -
+/phpinfo 1 -
+/wp-content/themes/ 2 -
+/cms/wp-admin/install.php 3 -
+/ffAA531.php 2 -
+/oldsite/wp-admin/install.php 3 -
+/wp-content/plugins/revslider/includes/external/page/index.php 2 -
+/.env.php 1 -
+/wp-includes/xleet-shell.php 1 -
+/wikindex.php 1 -
+/debug/default/view 3 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/revolution.themepunch.com/wp-content/uploads/2014/05/wave21.png 2 -
+/admin-header.php 1 www.google.com
+/wp-includes/bala.php 1 www.google.com
+/index.php 2 -
+/777.php 1 http://equaxsoftwarelabs.com/777.php
+/.well-known/pki-validation/ 1 www.google.com
+/wp-content/uploads/ 2 -
+/wp-includes/.well-known/pki-validation/index.php 1 www.google.com
+/sitemap.xml 3 -
+/wp-admin/includes/class-wp-upgrader-list.php 1 www.google.com
+/wp-admin/x.php 2 -
+/aa.php 1 http://equaxsoftwarelabs.com/aa.php
+/wp-conflg.php 1 -
+/wp-content/plugins/seoplugins/mar.php 2 -
+/assets/ 1 -
+/.well-knownold/ 2 -
+/wp-admin/network/ 2 -
+/cgi-bin/class.api.php 1 www.google.com
+/wp-content/plugins/handline/handline.php 1 -
+/a.php 1 http://equaxsoftwarelabs.com/a.php
+/wp-content/shell20211028.php 3 www.google.com
+/w.php 1 http://equaxsoftwarelabs.com/w.php
+/sendemail.php 49 http://equaxsoftwarelabs.com/contact.html
+/wp-config.php-backup 1 -
+/wp-content/plugins/Cache/Cache.php 3 www.google.com
+/old/wp-admin/install.php 3 -
+/wp-content/themes/twentyseventeen/page/index.php 1 -
+/wp-content/updates.php 3 -
+/z.php 1 http://equaxsoftwarelabs.com/z.php
+/wp-login.php 6 -
+/xxl.php 1 www.google.com
+/wp-includes/Text/Diff/Renderer/ 1 -
+/bala.php 2 www.google.com
+/wp-admin/includes/ 1 -
+/wp-content/plugins/wp-task-scheduler/scheduler.php 1 -
+/alfacgiapi/perl.alfa 1 www.google.com
+/wp-content/plugins/dos2unix/dos2unix.php 2 -
+/admin/fileupload/index.php 1 -
+/doc.php 1 -
+/wp-admin/ 1 www.google.com
+/wp-content/plugins/wp-daft/t62.php 3 www.google.com
+/autoload_classmap.php 3 -
+/lufix.php 2 www.google.com
+/wp-includes/fonts/ 1 -
+/xleet-shell.php 1 -
+/admin/assets/fileupload/index.php 1 -
+/wp-content/ 5 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/http 2 -
+/666.php 1 http://equaxsoftwarelabs.com/666.php
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-admin/css/colors/ 1 www.google.com
+/backup/ 1 -
+/theme/assets/fileupload/index.php 1 -
+/wp-content/plugins/anttt/simple.php 2 -
+/util/login.aspx 2 -
+/wp-content/plugins/core-builder/index.php 1 -
+/wp-info.php 1 http://equaxsoftwarelabs.com/wp-info.php
+/wp-content/plugins/wp-file-upload/ROOBOTS.php 1 -
+/inputs.php 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/about.php 1 http://equaxsoftwarelabs.com/about.php
+/wp-includes/pomo/ 1 -
+/wp-includes/css/ 2 -
+/fileupload/index.php 1 -
+/ALFA_DATA/ 1 -
+/wp-content/themes/pridmag/db.php 1 -
+/wp-content/fw.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 2 -
+/assets/inputs.php 1 -
+/wp-cc.php 2 -
+/wp-content/themes/classic/inc/ 1 -
+/wp-confiig.php 1 -
+/2index.php 1 -
+/images/ 3 binance.com
+/admin/public/js/uploadify/uploadify.css 1 -
+/phpinfo.php 1 -
+/assets/uploadify/uploadify.css 1 -
+/x.php 1 www.google.com
+/image.php 1 www.google.com
+/alfa-rex.php7 6 -
+/misc/ajax.js 9 -
+/wp-admin/bala.php 1 www.google.com
+/wp-admin/maint/ 2 -
+/admin/assets/uploadify/uploadify.css 1 -
+/wp-content/plugins/wpputty/wpputty.php 1 -
+/.git/config 2 -
+/wp/wp-admin/install.php 3 -
+/backup/wp-admin/install.php 3 -
+/wp-includes/IXR/ 1 -
+/xltavrat.php 1 -
+/wp-content/vz_a56cC.php 1 -
+/0x.php 1 www.google.com
+/mini.php 1 -
+/images/fancybox/blank.gif 1 -
+/wp-includes/xl2023.php 2 www.google.com
+/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/gank.php.PhP 1 -
+/wp-includes/SimplePie/ 1 -
+/sitemap.txt 8 -
+/css/owl.video.play.png 1 -
+/wp-admin/install.php 3 -
+/old/ 1 -
+/radio.php 1 -
+/admin 1 -
+/sym403.php 1 -
+/plugins/uploadify/uploadify.css 1 -
+/a 3 -
+/_profiler/phpinfo 1 -
+/auto_seo.php 1 -
+/wp-content/plugins/wp-daft/miin.php 1 -
+/wp-admin/user/style.php 1 www.google.com
+/.env 42 -
+/1975.php 1 -
+/wp-content/plugins/wp-post-author/assets/css/awpa-frontend-style.css 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 2 www.google.com
+/env.js 1 -
+/applicazione.php 1 http://equaxsoftwarelabs.com/applicazione.php
+/wp-admin/css/ 5 binance.com
+/test/wp-admin/install.php 3 -
+/wp-plain.php 1 www.google.com
+/wp-admin/wso112233.php 2 www.google.com
+/wp-content/plugins/column/miin.php 2 www.google.com
+/new/wp-admin/install.php 3 -
+/frontend/web/debug/default/view 1 -
+//wp-content/themes/seotheme/db.php 3 -
+/.well-known/ 5 binance.com
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 1 www.google.com
+/blog-single.html 20 -
+/debug/default/view.html 1 -
+/fox.php 2 -
+/shell20211028.php 2 www.google.com
+/js/respond.js 16 -
+/magento_version 2 -
+/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/wp-content/themes/seotheme/db.php 2 www.google.com
+/beta/.env 1 -
+/isFromStart 2 -
+/install.php 2 -
+/wp-2019.php 2 -
+/images/inputs.php 1 -
+/wp-blog.php 1 -
+/wp-includes/rest-api/ 2 -
+/wp-includes/js/ 1 -
+/up.php 1 -
+/.well-known/security.txt 1 -
+/tool/view/phpinfo.view.php 1 -
+/wp-admin/xl2023.php 2 www.google.com
+/robots.txt 224 -
+/wp-admin/includes/themes.php 2 www.google.com
+/css/ 2 -
+/repeater.php 14 www.google.com
+/js/uploadify/uploadify.css 1 -
+/web/debug/default/view 1 -
+/gallery.html 39 -
+/wp-content/themes/wpclassic/inc/index.php 2 -
+/wp_wrong_datlib.php 1 -
+/wp-content/bala.php 1 www.google.com
+/wp-content/mu-plugins-old/ 1 -
+/wp-content/themes/centum/revslider/temp/update_extract/revslider/case.php 1 www.google.com
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-admin/css/colors/coffee/wp-crons.php 1 www.google.com
+/.wp-back.phP 1 -
+/wp-content/upgrade/ 2 -
+/images/fancybox/fancybox_overlay.png 1 -
+/wp-content/wso112233.php 2 www.google.com
+/wp-includes/ID3/ 1 -
+/.env.save 1 -
+/wp-content/vz_C1F0b.php 1 -
+/wp-22.php 1 -
+/wp-content/plugins/linkpreview/db.php 1 -
+/wp-admin/class.api.php 1 www.google.com
+/zz.php 1 http://equaxsoftwarelabs.com/zz.php
+/wp-includes/compat/embed/theme/index.php 1 www.google.com
+/images/gradient/g40.png 2 -
+/wp-content/languages/ 1 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 2 www.google.com
+/uploads/ 3 binance.com
+/wp-content/repeater.php 1 -
+/wp-includes/Text/ 2 -
+/wp-content/themes/seotheme/mar.php 2 -
+/wp-admin/dropdown.php 1 www.google.com
+/wp-content/themes/mero-megazines/ws.php 1 -
+/wp-content/plugins/wordpresss3cll/up.php 2 -
+/wp-content/plugins/seoplugins/db.php 1 -
+/wp-content/plugins/Cache-1/Cache.php 1 www.google.com
+/wp-content/plugins/Cache/dropdown.php 1 www.google.com
+/wp-admin/xleet-shell.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/alwso.php 2 -
+/wp-commentin.php 3 -
+/blog/wp-admin/install.php 3 -
+/wp-includes/rest-api/fields/cache/index.php 1 www.google.com
+/wp-content/plugins/instabuilder2/cache/up.php 1 -
+/wp-content/plugins/hellopress/wp_mna.php 2 www.google.com
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/:80/images/favicon/favicon-32x32.png 1 -
+/wp-includes/shell20211028.php 1 -
+/wp-content/themes/finley/min.php 2 www.google.com
+/wp-includes/filemanager.php 1 www.google.com
+/images/fancybox/fancybox_sprite@2x.png 1 -
+/wp-fox.php 2 -
+/alfanew.php7 1 -
+/wp-includes/wp-class.php 3 www.google.com
+/images/gradient/g30.png 2 -
+/sftp-config.json 2 -
+/wp-admin/images/ 2 -
+/wp-content/plugins/task-controller/index.php 1 -
+/wp-admin/repeater.php 1 -
+/view-source: 9 -
+/400.php 1 http://equaxsoftwarelabs.com/400.php
+/logs.php 1 http://equaxsoftwarelabs.com/logs.php
+/admin/uploadify/uploadify.css 1 -
+/images/main-slider/3.jpg 2 http://equaxsoftwarelabs.com/
+/public/assets/uploadify/uploadify.css 2 -
+/wp-admin/css/colors/coffee/index.php 3 www.google.com
+/web/wp-admin/install.php 3 -
+/wp-content/plugins/w0rdpr3ssnew/about.php 1 -
+/wp-content/themes/twenty/twenty.php 1 www.google.com
+/_ignition/health-check/ 2 -
+/ws.php 1 -
+/.vscode/sftp.json 2 -
+/site/ 1 -
+/assets/images/inputs.php 1 -
+/https 2 -
+/wp-includes/theme-compat/footer-private.php 1 www.google.com
+/wp-admin/user/ 2 -
+/wp-content/plugins/wordpress-three/miin.php 5 www.google.com
+/wp-content/plugins/TOPXOH/wDR.php 2 -
+/wp-includes/widgets/ 1 -
+/data.php 1 -
+/public/assets/plugins/uploadify/uploadify.css 1 -
+/wp-admin/fw.php 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/%C0 1 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/security.txt 1 -
+/user_editor.php 1 http://equaxsoftwarelabs.com/user_editor.php
+/uploadify/uploadify.css 1 -
+/wp-content/plugins/instabuilder2/cache/plugins/moon.php 1 -
+/cgi-bin/ 2 -
+/wp-admin/meta/ 2 -
+/wp/ 1 -
+/wp-includes/ 2 -
+/help.php 1 http://equaxsoftwarelabs.com/help.php
+/blog.html 2 -
+/local.php 2 -
+/images/fancybox/fancybox_loading.gif 1 -
+/wordpress/ 1 -
+/wp.php 1 -
+/wordpress/wp-admin/ 1 -
+/wordpress/wp-includes/ 1 -
+/wp-includes/certificates/ 1 -
+/wp-content/plugins/ango/sett.php 1 www.google.com
+/wp-content/plugins/hellopress/0xlufix2023.php 1 -
+/sites/default/files/ 3 binance.com
+/mt/pekok.php 1 -
+/images/fancybox/fancybox_loading@2x.gif 1 -
+/wp-content/plugins/Cache-2/Cache.php 1 www.google.com
+/wp-content/plugins/wpyii2/wpyii2.php 3 -
+/admin/assets/plugins/uploadify/uploadify.css 1 -
+/database.php 1 -
+/public/_ignition/health-check/ 2 -
+/edit.php 1 -
+/css.php 1 -
+/wp-content/plugins/press/wp-class.php 1 www.google.com
+/OLD/ 1 -
+/sendgrid/.env 2 -
+/wp-includes/repeater.php 1 -
+/wp-content/plugins/ioptimization/index.php 1 -
+/wp-includes/wso112233.php 2 www.google.com
+/ups.php 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/inputs.php 1 -
+/xl2023.php 3 www.google.com
+/wp-content/plugins/ 2 -
+/shell.php 3 -
+/wp-includes/blocks/ 1 -
+/wp-includes/customize/ 1 -
+/wp-content/plugins/ultra-cache/index.php 1 -
+/wp-admin/inputs.php 1 -
+//wp-includes/css/buttons.css 1 -
+/wp-includes/blocks/table/int/tmpl/index.php 1 www.google.com
+/fw.php 1 -
+/xleet.php 1 -
+/public/assets/global/plugins/uploadify/uploadify.css 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 3 -
+/.well-known/acme-challenge/ 2 -
+/ads.txt 36 -
+/images/fancybox/fancybox_sprite.png 1 -
+/adminer.php 2 -
+/clsid 2 -
+/administrator/index.php 9 -
+/wp-content/themes/welfare-charity/www.php 1 -
+/wso.php 2 -
+/wordpress/wp-admin/install.php 3 -
+/wp-includes/inputs.php 1 -
+/wp-content/themes/hello-element/footer.php 1 www.google.com
+/wp-includes/css/buttons.css 3 -
+/wp-admin/module.php 1 www.google.com
+/site/wp-admin/install.php 3 -
+/config.php 1 http://equaxsoftwarelabs.com/config.php
+/index5.html 41 -
+/prod/.env 2 -
+/wp-content/themes/sketch/404.php 2 -
+/wp-content/plugins/ninja-forms/ 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/wso112233.php 4 -
+/humans.txt 6 -
+/wp-includes/Requests/ 1 -
+/api/index.php/v1/config/application 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/woocommerce-product-options/includes/image-upload.php 1 -
+/style.php 6 -
+/beence.php 1 -
+/wp-content/mu-plugins/ 1 -
+/wp-content/plugins/xwp/up.php 1 -
+/wp-includes/default-string.php 1 www.google.com
+/wp-content/plugins/TOPXOH/OH.php 1 www.google.com
+/ 1 -
+/wp-content/xl2023.php 2 www.google.com
+/bk/ 1 -
+/ee.php 1 www.google.com
+/wp-includes/images/ 2 -
+/sitemap 6 -
+/sapi/debug/default/view 1 -
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/asset-manifest.json 1 http://equaxsoftwarelabs.com/
+/assets/global/plugins/uploadify/uploadify.css 1 -
+/wp-includes/wlwmanifest.xml 12 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 292
+104.155.44.236 38 62 493029 20230623224625
+35.205.231.215 38 59 473172 20230609014351
+82.80.244.59 20 30 161973 20230618205107
+69.160.160.52 19 52 1742669 20230613065342
+147.135.70.226 16 59 2346040 20230617172854
+4.236.139.61 13 13 63446 20230611092758
+149.56.150.60 9 9 243380 20230606113626
+52.172.140.171 9 9 43309 20230624051917
+3.134.89.251 8 123 1319279 20230615020446
+4.236.139.228 7 7 26196 20230611145113
+4.236.140.109 6 6 27132 20230611053630
+131.153.240.178 5 5 25665 20230621034402
+182.68.88.9 5 31 502459 20230627233013
+176.9.114.107 5 5 22540 20230625054256
+27.59.106.79 5 43 1969493 20230630003022
+4.236.139.6 4 4 21381 20230611231037
+3.145.51.14 4 36 1749264 20230613143511
+124.220.171.131 4 4 20532 20230615214536
+122.172.80.172 4 41 1836696 20230621042006
+131.153.142.170 4 4 20532 20230608065057
+159.65.133.107 4 36 1744131 20230628212749
+35.171.144.152 4 4 136548 20230630115212
+122.171.16.189 4 39 1903380 20230603013007
+164.100.133.238 3 36 1748016 20230630022917
+184.94.240.88 3 3 91671 20230628030152
+185.27.99.146 1 1 5133 20230614013838
+196.242.195.168 1 1 3536 20230607170036
+165.22.68.224 1 1 5433 20230620020325
+159.89.119.252 1 1 5133 20230625135251
+137.184.189.103 1 1 5133 20230629012250
+34.135.6.15 2 2 68274 20230604112712
+184.105.48.40 1 1 5133 20230606150447
+134.122.58.34 1 1 4386 20230628035133
+14.116.156.77 1 1 5133 20230606210222
+198.203.28.209 1 1 3536 20230601130911
+165.22.205.13 1 1 3867 20230628151847
+161.35.35.161 1 1 4341 20230619214430
+134.122.44.184 1 1 5511 20230619224019
+157.245.79.247 1 1 4241 20230619205425
+223.247.178.167 1 1 5133 20230626195701
+178.254.29.124 1 1 5133 20230616135104
+130.255.166.51 1 1 5133 20230622214849
+185.233.19.39 1 7 373584 20230602155806
+174.138.58.62 1 1 5433 20230627143649
+196.199.55.125 2 2 7072 20230622081702
+69.171.251.5 0 3 14739 
+192.145.71.140 1 1 3536 20230601133229
+198.235.24.240 1 1 34137 20230606061945
+45.33.82.20 1 1 5133 20230620072216
+87.236.176.14 0 1 3885 
+109.196.171.204 1 1 3536 20230630204654
+185.233.19.43 1 7 373584 20230621032451
+134.122.44.189 1 1 4567 20230619225036
+146.70.123.214 1 1 22579 20230614085926
+23.128.248.30 1 1 5133 20230627205109
+212.115.62.47 1 1 4677 20230624051855
+205.210.31.222 1 1 34137 20230608174708
+161.35.68.120 1 1 5433 20230625231119
+14.29.246.47 1 1 5133 20230619002205
+111.207.155.211 1 3 41907 20230609140752
+165.227.36.118 1 1 3867 20230619212453
+198.235.24.201 1 1 34137 20230602005218
+45.128.39.58 2 2 56716 20230624081054
+118.193.36.232 1 7 373584 20230602220807
+159.203.33.235 1 1 5133 20230605114158
+94.247.172.129 1 1 5133 20230629125510
+69.171.251.7 0 1 19249 
+154.47.22.78 1 1 3536 20230630113711
+104.167.221.206 1 1 4677 20230605145852
+82.80.249.214 1 1 5133 20230618204955
+35.87.32.194 1 1 5133 20230623151341
+35.90.235.53 1 1 5133 20230630131300
+159.65.207.245 1 1 0 20230624172252
+45.120.51.215 1 1 3536 20230627184257
+86.106.74.252 2 2 56716 20230603134948
+101.68.211.2 2 4 90918 20230621155006
+35.86.160.191 1 1 5133 20230615141332
+35.87.211.78 1 1 5133 20230606144515
+170.64.128.168 1 1 5133 20230627000014
+198.235.24.12 1 1 34137 20230606194607
+35.90.66.20 1 1 5133 20230618131857
+192.3.118.116 2 2 68274 20230605191101
+14.116.157.23 1 1 5133 20230616222547
+223.247.179.42 1 1 5133 20230623213606
+35.209.187.78 1 1 5133 20230616173241
+146.190.67.16 1 1 5133 20230627122718
+85.208.115.198 2 2 7072 20230621184225
+45.154.98.28 1 1 5133 20230623152802
+54.36.173.89 2 2 68274 20230614135736
+87.236.176.26 0 1 11322 
+192.71.38.71 1 1 5133 20230607161256
+206.189.119.247 1 1 3867 20230627083932
+198.235.24.231 1 1 34137 20230628003155
+35.213.203.149 1 1 5133 20230616171548
+34.218.64.254 1 1 5133 20230601163339
+54.174.58.225 1 1 0 20230624085124
+42.83.147.56 2 2 10266 20230613005441
+134.122.44.126 1 1 5133 20230620070350
+52.13.124.137 1 1 5133 20230603152210
+103.225.201.127 1 1 3536 20230625070229
+193.35.18.177 2 2 10266 20230602141244
+191.101.209.94 2 2 56716 20230622031359
+54.189.89.198 1 1 5133 20230623151438
+43.156.188.235 1 1 5133 20230606090135
+205.210.31.98 1 1 34137 20230615231238
+193.32.87.45 1 1 34137 20230607231118
+159.223.77.67 1 1 5133 20230621221232
+34.162.84.35 1 1 4677 20230629061110
+34.222.71.189 1 1 5133 20230621145715
+77.91.68.130 1 1 22579 20230614224515
+193.56.113.32 2 2 56716 20230609210525
+170.64.137.188 1 1 5133 20230619111939
+209.141.34.187 0 1 3885 
+183.136.225.46 2 2 68274 20230622171437
+35.92.120.125 1 1 5133 20230623151314
+35.163.70.207 1 1 5133 20230630131236
+209.141.44.114 1 11 157840 20230623072753
+196.242.131.97 2 2 7072 20230606010011
+52.11.17.214 1 1 5133 20230629142820
+113.125.51.198 2 2 10266 20230615212451
+46.148.40.164 1 1 5133 20230611163449
+52.43.122.62 1 1 5133 20230606144530
+18.236.174.90 1 1 5133 20230620125330
+54.189.243.141 1 1 5133 20230602124841
+62.122.184.129 2 2 17678 20230627232420
+85.10.207.246 1 1 34137 20230616183128
+194.36.98.245 2 2 7072 20230615113911
+164.92.194.60 1 1 5133 20230624141252
+37.49.230.214 1 1 5133 20230622050637
+87.236.176.48 0 1 3885 
+134.209.158.163 1 1 5133 20230615141345
+24.199.118.177 1 1 5133 20230623121200
+161.35.35.166 1 1 5234 20230619214811
+37.19.223.12 2 2 56716 20230606040046
+117.99.214.181 3 36 1748016 20230628213229
+34.212.226.146 1 1 5133 20230623151233
+79.133.182.86 1 1 34137 20230624150714
+198.235.24.249 1 1 34137 20230613035022
+139.162.172.139 1 1 5133 20230630035507
+198.235.24.19 1 1 34137 20230623083411
+181.215.99.140 1 1 4677 20230624051534
+35.91.202.217 1 1 5133 20230618132011
+41.220.26.186 1 1 5133 20230615072022
+42.83.147.34 2 2 10266 20230629042340
+193.56.113.19 1 1 22579 20230629142055
+69.171.251.4 0 1 10329 
+37.19.223.21 2 2 56716 20230622141039
+52.200.211.223 1 1 0 20230617193659
+54.202.229.63 1 1 5133 20230618132101
+20.0.39.21 3 3 15399 20230621134708
+35.164.246.163 1 1 5133 20230608150121
+162.250.216.143 1 1 5133 20230620013158
+52.42.121.100 1 1 5133 20230602124806
+35.87.187.207 3 36 1744256 20230602222206
+59.36.175.46 1 1 5133 20230629002950
+154.85.126.17 1 1 5133 20230622081045
+84.17.59.83 1 1 34137 20230617013325
+35.85.59.197 1 1 5133 20230603152229
+134.122.44.195 1 1 3321 20230620024225
+45.138.16.155 1 1 5133 20230623192941
+3.19.58.124 1 1 5133 20230605140223
+93.158.90.137 1 1 5133 20230629073838
+109.107.174.123 1 1 34137 20230610192505
+102.165.55.129 2 2 7072 20230625111704
+221.2.155.200 1 1 5133 20230614072404
+118.193.38.58 1 7 373584 20230609222843
+194.36.98.83 2 2 7072 20230620203451
+45.81.39.227 1 1 34137 20230601200801
+20.7.163.209 1 1 5133 20230601103554
+175.44.42.210 1 1 4677 20230602125419
+54.88.179.33 3 3 102411 20230630115212
+35.86.251.162 1 1 5133 20230623151158
+45.58.127.49 2 2 10266 20230603000636
+69.171.251.12 1 9 489080 20230627165655
+164.92.200.171 1 1 4567 20230627155811
+171.76.81.23 1 25 1445526 20230627231143
+170.106.150.251 1 1 0 20230614071037
+194.233.92.248 3 3 15399 20230613210509
+20.167.41.238 1 1 5133 20230626195311
+116.202.49.19 2 2 10266 20230601223254
+118.193.38.61 1 7 373584 20230620192358
+198.235.24.199 1 1 34137 20230608125049
+185.230.126.21 1 1 3536 20230613023053
+142.93.158.71 1 1 5133 20230629115237
+206.189.123.243 1 1 3321 20230628024003
+205.210.31.105 1 1 34137 20230601135045
+42.83.147.54 1 1 5133 20230626013537
+137.184.44.215 1 1 4241 20230630044135
+170.64.173.233 1 1 34137 20230613053134
+149.56.150.214 3 31 1675332 20230606113721
+182.43.148.98 2 2 10266 20230625010010
+64.225.112.43 1 1 5133 20230607011335
+38.153.113.87 1 1 3536 20230625063427
+82.80.249.164 0 5 210604 
+137.184.189.110 1 1 4386 20230626103859
+43.153.96.208 1 1 0 20230614071036
+138.199.36.226 2 2 56716 20230612234919
+35.89.96.204 1 1 34137 20230623103712
+188.74.168.133 1 1 0 20230605192519
+52.188.122.152 1 1 5133 20230613193102
+54.36.175.53 1 1 34137 20230607142958
+161.35.30.212 1 1 5511 20230629055646
+106.195.46.78 3 36 1592326 20230604194020
+14.29.223.121 2 2 10266 20230617230450
+88.244.93.96 2 22 315680 20230616141620
+104.131.162.245 1 1 4605 20230630162340
+193.56.113.54 1 1 22579 20230617083916
+14.29.231.137 2 2 10266 20230630220050
+159.65.147.123 0 1 179234 
+185.181.60.12 1 1 5133 20230607100109
+93.158.91.241 1 1 5133 20230601020018
+205.185.121.69 1 1 5133 20230622162423
+35.93.53.211 1 1 5133 20230601163309
+172.93.102.157 1 1 5133 20230615174259
+87.236.176.89 0 1 11322 
+193.56.113.29 1 1 22579 20230619042654
+198.235.24.127 1 1 34137 20230605182049
+196.199.119.34 1 1 3536 20230602233854
+143.110.166.84 1 1 4241 20230625114107
+82.80.249.143 0 1 16151 
+20.186.62.107 1 1 3536 20230618110959
+209.141.32.227 1 1 5133 20230623072751
+34.220.233.130 1 1 5133 20230629142846
+85.255.20.171 1 1 0 20230620202707
+102.165.54.149 1 1 3536 20230627183516
+137.184.199.166 1 1 5133 20230620135921
+15.235.14.170 2 2 9000 20230609231255
+37.19.223.217 2 2 56716 20230629215941
+69.171.251.3 0 7 232729 
+192.185.81.125 2 2 68274 20230621044202
+185.65.134.160 1 1 4677 20230614004248
+146.59.69.71 1 1 34137 20230612191323
+164.92.200.223 1 1 5133 20230626124743
+164.92.202.204 1 1 0 20230620122536
+144.126.206.211 1 1 5133 20230617130231
+69.171.251.6 0 3 81788 
+165.22.38.71 1 1 5133 20230611113147
+118.193.37.41 2 14 747168 20230610101858
+123.6.49.14 0 1 3885 
+37.110.8.129 3 26 529887 20230618140124
+165.227.44.97 1 1 5133 20230630234846
+193.148.18.69 2 2 7072 20230626231611
+43.153.30.206 1 1 34137 20230601015829
+69.171.251.15 1 5 866170 20230627165655
+185.233.19.36 1 7 373584 20230622111439
+205.210.31.52 2 2 68274 20230622141245
+23.229.29.180 1 1 3536 20230603062509
+152.32.131.34 1 7 373584 20230609223036
+167.172.33.39 1 1 4605 20230628140220
+54.186.156.228 1 1 5133 20230621145509
+35.89.180.214 1 1 5133 20230608150129
+68.183.197.63 1 1 5133 20230621121658
+209.141.33.65 0 1 3885 
+137.184.46.173 1 1 4341 20230624192744
+107.178.231.250 1 1 5133 20230602174812
+174.138.50.248 1 1 5133 20230619203744
+74.84.150.150 1 1 4677 20230608030358
+122.163.55.237 3 29 494725 20230629010239
+34.222.218.171 1 1 5133 20230620125415
+87.121.221.222 1 1 5133 20230616233349
+164.92.202.75 1 1 5234 20230626184331
+35.158.145.150 1 1 5133 20230607055006
+185.181.60.189 1 1 5133 20230626100132
+167.71.193.160 1 1 5133 20230608160349
+198.235.24.116 1 1 34137 20230620122342
+87.236.176.103 1 1 5133 20230609165030
+209.145.61.252 1 1 34137 20230605070647
+79.110.49.19 1 1 5133 20230609074943
+196.199.119.225 1 1 3536 20230607170602
+49.44.80.41 3 35 1744131 20230628234906
+69.171.251.117 0 2 4810 
+87.236.176.31 1 1 5133 20230615221010
+64.225.22.86 1 1 5133 20230613132740
+113.108.9.38 1 1 5133 20230605193722
+191.101.209.109 2 2 56716 20230627022804
+196.242.131.91 1 1 3536 20230602234548
+4.236.139.164 2 2 9360 20230612005214
+20.163.76.127 1 1 5133 20230615035410
+42.83.147.55 1 1 5133 20230619183219
+82.80.244.51 0 4 33519 
+69.171.251.118 1 1 5133 20230627165652
+82.80.230.228 0 46 1920704 
+131.153.240.162 2 2 10266 20230630143423
+69.171.251.14 0 3 20104 
+129.151.255.212 1 1 5133 20230617075414
+20.241.233.77 0 1 0 
+89.46.223.134 1 1 34137 20230612151106
+35.88.99.144 1 1 5133 20230618132033
+34.218.242.200 1 1 5133 20230615141402
+45.157.129.209 1 1 3536 20230619001748
+103.215.164.34 3 36 1748016 20230617035720
+20.120.74.197 1 1 3867 20230607040407
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20230601 13 13 150547 12
+20230602 17 69 2946825 14
+20230603 10 45 1979031 6
+20230604 5 38 1660600 2
+20230605 11 11 166890 9
+20230606 26 55 2124727 14
+20230607 12 12 144148 12
+20230608 23 23 164553 14
+20230609 49 85 1564271 10
+20230610 4 10 446991 4
+20230611 19 19 91857 12
+20230612 8 19 302000 7
+20230613 32 97 3594541 10
+20230614 8 8 94238 8
+20230615 23 140 1437291 12
+20230616 7 17 217642 7
+20230617 25 101 4166171 8
+20230618 29 118 2902039 8
+20230619 12 12 74408 12
+20230620 15 21 459478 14
+20230621 17 62 2407342 11
+20230622 15 22 655053 11
+20230623 51 87 778243 14
+20230624 18 18 152990 9
+20230625 13 13 56624 8
+20230626 9 9 42357 9
+20230627 21 103 3802848 15
+20230628 18 115 5378265 9
+20230629 20 83 2534746 14
+20230630 18 52 1991299 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+30mn-1h 2
+30s-2mn 7
+0s-30s 290
+2mn-5mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 268 3366801 235 204
+/contact.html 68 533706 36 48
+/fonts/fontawesome-webfont.woff2 17 1202376 1 10
+/fonts/flaticon.woff 17 209712 1 4
+/bos_home.html 17 112584 4 5
+/industries_home.html 15 68505 3 5
+/services_mobile.html 14 79491 3 6
+/whywe.html 14 94256 5 3
+/services_home.html 13 80500 3 2
+/industries_hcare.html 12 66132 2 3
+/industries_retail.html 12 65196 4 3
+/error-page.html 12 55712 4 3
+/industries_it.html 11 47751 4 4
+/industries_manu.html 10 0 2 2
+/whywe_Project.html 8 42632 1 3
+/bos_rental.html 7 31339 0 0
+/bos_textile.html 7 31080 0 1
+/whywe_ESL.html 7 44296 1 1
+/whywe_Methodology.html 6 30114 1 1
+/bos_pharma.html 6 26952 0 0
+/whywe_PROCESS.html 6 35316 0 1
+/cpanel/ 1 12545 0 1
+END_SIDER

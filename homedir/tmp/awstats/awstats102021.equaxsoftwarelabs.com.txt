@@ -1,0 +1,1336 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202110 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2701                
+POS_VISITOR 27254               
+POS_DAY 38912               
+POS_DOMAIN 3520                
+POS_LOGIN 4129                
+POS_ROBOT 4284                
+POS_WORMS 4907                
+POS_EMAILSENDER 5038                
+POS_EMAILRECEIVER 5181                
+POS_SESSION 39706               
+POS_SIDER 39907               
+POS_FILETYPES 5316                
+POS_DOWNLOADS 5552                
+POS_OS 5600                
+POS_BROWSER 5867                
+POS_SCREENSIZE 7324                
+POS_UNKNOWNREFERER 7398                
+POS_UNKNOWNREFERERBROWSER 8489                
+POS_ORIGIN 9399                
+POS_SEREFERRALS 9539                
+POS_PAGEREFS 9704                
+POS_SEARCHWORDS 9876                
+POS_KEYWORDS 10028               
+POS_MISC 2365                
+POS_ERRORS 10087               
+POS_CLUSTER 3985                
+POS_SIDER_404 10191               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211101000913 55 11698 12202696046306
+FirstTime 20211001020538
+LastTime 20211031200637
+LastUpdate 20211101051607 55 0 54 0 0
+TotalVisits 336                 
+TotalUnique 299                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 306                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 98 179 2894513 81 114 497112
+1 5 5 22272 60 134 1350847
+2 7 40 1764332 30 68 449980
+3 17 78 3410197 64 90 367193
+4 47 135 3323849 56 98 374938
+5 73 110 1191651 129 153 407594
+6 6 6 26454 25 60 387526
+7 8 8 84982 51 68 280472
+8 31 70 2116769 79 107 463528
+9 36 68 2172781 39 79 509282
+10 13 13 133397 20 24 67122
+11 18 58 2055358 57 75 185284
+12 69 69 407121 27 104 656819
+13 10 11 58964 41 85 645426
+14 6 6 105460 40 50 105141
+15 15 15 245099 53 64 212345
+16 7 23 1323753 23 39 132716
+17 16 18 198278 136 251 562269
+18 32 32 242633 67 85 174731
+19 6 60 5609862 67 117 630377
+20 7 7 29532 65 97 375107
+21 7 10 152317 29 65 486379
+22 15 16 102320 153 318 754497
+23 15 48 1835752 53 79 429155
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+us 345 528 12364046
+in 66 307 12068657
+ru 23 23 215334
+cn 21 26 165615
+vn 20 20 91743
+ca 11 36 529339
+ro 10 30 427453
+se 8 8 87514
+gr 8 23 1373861
+gb 7 39 1756998
+cl 6 6 19566
+ua 5 5 56716
+id 4 4 18573
+de 4 4 95345
+nz 3 3 11019
+sc 3 3 14133
+ar 2 2 9000
+ch 2 2 10462
+kz 2 2 56716
+it 2 2 56716
+cz 2 2 38004
+fr 2 2 10266
+ie 2 2 10266
+au 1 1 4605
+es 1 1 5433
+il 1 1 5133
+bd 1 1 5133
+be 1 1 0
+nl 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[\s_+:,\.\;\/\\-] 665 5279862 20211031182717 0
+Googlebot/ 156 1232638 20211031185905 0
+bingbot/ 47 596280 20211030010416 0
+AhrefsBot/ 35 179655 20211031011916 0
+bingpreview 17 591130 20211030013457 0
+BLEXBot/ 17 78334 20211023062449 0
+YandexBot/ 16 82128 20211028203827 0
+yandex 5 34299 20211022174015 0
+MJ12bot/ 5 25665 20211031222413 0
+no_user_agent 4 136548 20211026090842 0
+Googlebot\-Image/ 1 11856 20211005070007 0
+Baiduspider/ 1 5133 20211017164244 0
+java 1 5133 20211012143834 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+ttf 1 18640 0 0
+woff 12 224708 0 0
+jpg 106 17204948 0 0
+woff2 11 778039 0 0
+png 79 3529530 0 0
+js 190 2756607 0 0
+html 540 3803254 0 0
+gif 11 226325 0 0
+css 135 965595 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win10 424 156
+macosx9 8 8
+win8 5 5
+macosx10 6 6
+linux 129 83
+macosx12 38 38
+macosx11 128 80
+Unknown 115 53
+macosx 50 48
+linuxandroid 107 17
+winxp 3 3
+win2000 1 1
+win8.1 19 19
+win7 51 46
+ios_iphone 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 67
+chrome92.0.4515.131 1 1
+chrome90.0.4400.8 2 2
+android 1 1
+chrome95.0.4638.54 41 4
+chrome91.0.4472.77 1 1
+chrome60.0.3112.107 4 4
+chrome67.0.3396.79 4 4
+chrome81.0.4044.129 9 9
+chrome85.0.4183.121 12 10
+firefox45.0 2 2
+chrome73.0.1088.6 1 1
+chrome80.0.3987.132 40 40
+chrome94.0.4606.71 118 11
+safari5.0 1 1
+chrome74.0.3729.169 5 4
+chrome93.0.4577.63 3 0
+firefox59.0 2 2
+chrome79.0.3945.88 20 20
+chrome94.0.4606.61 41 2
+firefox57.0 1 1
+chrome92.0.4515.159 45 19
+opera54.0.2952.64 2 2
+safari10.0 23 3
+chrome94.0.4606.81 77 7
+firefox91.0 1 1
+chrome89.0.4389.90 28 3
+firefox81.0 7 7
+firefox84.0 5 5
+chrome35.0.1916.47 5 5
+chrome92.0.4515.107 1 1
+netscape5.0 5 5
+safari11.1.1 38 38
+firefox35.0 1 1
+chrome60.0.3112.90 11 11
+chrome83.0.4103.61 2 2
+mozilla 39 7
+chrome91.0.4472.114 6 6
+chrome86.0.4240.75 32 32
+msie7.0 2 2
+opera54.0.2952.71 2 2
+chrome88.0.4324.192 1 1
+chrome66.0.3359.181 4 4
+Unknown 73 43
+chrome68.0.3440.106 2 2
+firefox52.0 128 80
+chrome90.0.4430.93 2 2
+chrome84.0.4147.105 2 2
+chrome16.0.912.36 26 26
+chrome73.0.3683.90 1 1
+chrome36.0.1985.125 3 3
+msie9.0 6 1
+firefox92.0 1 1
+chrome87.0.4280.101 41 4
+chrome87.0.4280.88 21 21
+firefox82.0 2 1
+chrome39.0.2171.95 4 4
+safari 1 1
+chrome83.0.4103.44 2 2
+chrome22.0.1207.1 5 5
+chrome75.0.395.0 1 1
+chrome54.0.2840.99 3 3
+chrome94.0.4606.80 43 5
+chrome45.0.2454.94 1 1
+chrome90.0.4430.85 2 2
+chrome83.0.4103.97 63 63
+msie8.0 2 2
+chrome77.0.3865.90 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Mozilla/5.0_(compatible;_Dataprovider.com) 20211006090515
+python-requests/2.23.0 20211026223711
+Mozilla/5.0_(compatible;_ips-agent) 20211001231519
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20211027091919
+Mozilla/5.0 20211030053617
+GRequests/0.10 20211029233909
+Mozilla/5.0_Firefox/35.0 20211013154124
+WhatsApp/2.21.19.21_A 20211014083723
+imgproxy/2.16.7 20211028190312
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211029221243
+python-requests/2.22.0 20211029093947
+User-Agent\ 20211031200637
+ALittle_Client 20211031120541
+Scrapy/2.5.1_(_https://scrapy.org) 20211030053612
+python-requests/2.26.0 20211023043008
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211029113104
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20211031131640
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+GRequests/0.10 20211029233909
+python-requests/2.23.0 20211026223711
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20211027091919
+python-requests/2.22.0 20211029093947
+ALittle_Client 20211031120541
+User-Agent\ 20211031200637
+WhatsApp/2.21.19.21_A 20211014083723
+imgproxy/2.16.7 20211028190312
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211029221243
+python-requests/2.26.0 20211023043008
+Scrapy/2.5.1_(_https://scrapy.org) 20211030053612
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20211031131640
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211029113104
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 411 512
+From1 0 0
+From2 13 13
+From3 1 1
+From4 139 559
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 13 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://lab.onsec.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1408 2239445
+206 4 7734
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 586
+/common/help/images/helplogo.gif 1 -
+/admin/editor/ 1 -
+/admin/controller/extension/extension/ 10 binance.com
+/2019/ 1 -
+/admin/html/assets/fileupload/index.php 1 -
+/cms/ 1 -
+/public/js/info.js 1 -
+/app/images/login/logo.png 1 -
+/script/valid_formdata.js 1 -
+/images/src_images_but_dianz_s.png 1 -
+/wp-content 1 -
+/old-index.php 4 anonymousfox.co
+/pub/skins/pmwiki/pmwiki.css 1 -
+/revolution.themepunch.com/wp-content/uploads/2014/05/wave21.png 4 -
+/api/web/user/getIndexData.php 1 -
+/next/img/logo.gif 1 -
+/changelog.txt 1 -
+/archive/archive.css 1 -
+/api/.env 1 -
+/site.js 1 -
+/api/v1/invest 1 -
+/im/ 1 -
+/plus/download.php 1 -
+/uc_server/control/admin/db.php 1 -
+/wp-admin/config.bak.php 4 anonymousfox.co
+/system/language/zh-cn.xml 1 -
+/xmlrp.php 4 anonymousfox.co
+/language/index.html 2 -
+/nobody/mobile.htm 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/advfile/ad12.js 1 -
+/static/data/gamedatas.js 1 -
+/Scripts/common.js 1 -
+/aws.yml 2 -
+/forum.php 1 -
+/_ignition/execute-solution 1 -
+/api/contactWay 1 -
+/2017/ 1 -
+/Public/home/js/fukuang.js 1 -
+/include/fckeditor/editor/filemanager/connectors/test.html 1 -
+/JS/loginstatus.js 1 -
+/Search.html 1 -
+/images/zh-CN/logo.ico 1 -
+/blog.html 2 http://equaxsoftwarelabs.com/whywe.html
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/admin/template/article_more/config.htm 1 -
+/docs.css 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/Images/login/lefttu.jpg 1 -
+/static/hgicon.png 1 -
+/Error.aspx 1 -
+/sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html 1 -
+/plus/sitemap.html 1 -
+/Install/logo.gif 1 -
+/img/pic/login/top-left.jpg 1 -
+/maintlogin.jsp 1 -
+/xy/ 1 -
+/%21.env 1 -
+/docs/ 1 -
+/config.bak.php 5 anonymousfox.co
+/wp-content/langar.php 4 anonymousfox.co
+/admin/login.aspx 1 -
+/Templates/user/js/global.js 1 -
+/digg.php 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/wp-content/wp-old-index.php 4 anonymousfox.co
+/api/apps 1 -
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/common/download.js 1 -
+/logo/logo_jw.png 1 -
+/system/Update.aspx 1 -
+/kindeditor-min.js 1 -
+/api/user/mobilelogin 1 -
+/api/app/config_new 1 -
+/images/logo_88x31.gif 1 -
+/temp/ 2 -
+/h5/static/tabbar/txl.png 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/install.php 2 -
+/deptWebsiteAction.do 1 -
+/nyyh/chkjs.js 1 -
+/api/user/ismustmobile 1 -
+/wordpress/ 5 -
+/Editor.js 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/upload.php 4 anonymousfox.co
+/forums/list.page 1 -
+/config.js 3 -
+/friendGroup/list 1 -
+/cgi/index.cgi 1 -
+/Images/login/mainlogo.gif 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/xianyu/index/setp1.html 1 -
+/misc/print.css 1 -
+/.env 36 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/app/common/getRegisterSet 1 -
+/examples/file-manager.html 1 -
+/index/index/andiro 1 -
+/__media__/js/netsoltrademark.php 1 -
+/magmi/web/download_file.php 1 -
+/getConfig/listPopFrame.do 1 -
+/css/info.css 1 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/api/link/platform 1 -
+/Public/home/wap/css/qdgame.css 1 -
+/images/gradient/g30.png 4 -
+/larva.php 4 anonymousfox.co
+/jcms/index.jsp 1 -
+/Home/GetInitSource 1 -
+/div/ 1 -
+/store/var/resource_config.json 1 -
+/siteserver/login.aspx 1 -
+/tmp/ 1 -
+/Css/Hm.css 1 -
+/wap/trading/lastKlineParameter 1 -
+/includes/general.js 1 -
+/inc/rsd.php 1 -
+/blog/ 6 -
+/config.php 4 anonymousfox.co
+/api/v1/member/kefu 1 -
+/index/Mobile/kline_week 1 -
+/plugins/anchor/anchor.js 1 -
+/bk/ 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/was5/web/index.jsp 1 -
+/Public/home/js/check.js 1 -
+/data/images/wap_logo.gif 1 -
+/moduless.php 4 anonymousfox.co
+/css/dafa.css 1 -
+/plus/rssmap.html 1 -
+/common/member/js/user.util.js 1 -
+/step1.asp 1 -
+/csjs/bankCheck.js 1 -
+/alfa.php 4 anonymousfox.co
+/themes/default/default.css 1 -
+/infe/rest/flash/getServerIP.json 1 -
+/manager/js/left.js 1 -
+/wp-includes/wpconfig.bak.php 4 anonymousfox.co
+/common.js 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/FCK/fckeditor.js 1 -
+/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/a 4 -
+/ckeditor/ckfinder/install.txt 1 -
+/back/ 4 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/static/config.js 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 4 anonymousfox.co
+/bak/ 1 -
+/images/branding/logo.gif 1 -
+/wp-includes/fonts/css.php 4 anonymousfox.co
+/wp-1ogin_bak.php 4 anonymousfox.co
+/ckfinder/install.txt 1 -
+/ws/index/getTheLotteryInitList 1 -
+/app/.env 1 -
+/images/2_11.gif 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/_profiler/phpinfo 2 -
+/images/Default_bg_002.gif 1 -
+/index.php 13 anonymousfox.co
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/common/common.js 1 -
+/magmi/conf/magmi.ini 1 -
+/oldsite/wp-admin/install.php 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/images/ 10 binance.com
+/admin/js/IdSUtil.js 1 -
+/home/main/login 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/system/skins/default/system.login.htm 1 -
+/api/v1/about 1 -
+/js/dianzan.js 1 -
+/fckeditor/fckeditor.js 1 -
+/was/main.html 1 -
+/.aws/credentials 2 -
+/old-site/ 1 -
+/Pc/Lang/index.html 1 -
+/api/index/index 1 -
+/th3_err0r.php 4 anonymousfox.co
+/config/aws.yml 2 -
+/extman/default/images/logo.gif 1 -
+/template/js/comm/Confrim.js 1 -
+/kindeditor.js 1 -
+/butik/var/resource_config.json 1 -
+/images/login_Name.jpg 1 -
+/wp-includes 2 www.google.com
+/banner.do 1 -
+/inc/Templates/rss.xslt 1 -
+/plugins/filemanager/filemanager/js 1 -
+/dialog/dialog.js 1 -
+/Ntalker/lawfirm.aspx 1 -
+/new/wp-admin/install.php 1 -
+/v1/management/tenant/getSpeedDomain 1 -
+/site/get-hq 1 -
+/images/gradient/g40.png 4 -
+/wcm/ 1 -
+/static/guide/ab.css 1 -
+/console/js/CTRSRequestParam.js 1 -
+/gallery.html 69 -
+/new-site/ 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/images/hwem.css 1 -
+/guess/list.php 1 -
+/Home/Bind/binding 1 -
+/Include/EcsServerApi.js 1 -
+/docs/DOCUMENTATION.txt 1 -
+/archiver 1 -
+/demo/ 1 -
+/wpindex.php 4 anonymousfox.co
+/wp1/ 1 -
+/getLocale 1 -
+/Home/Index/ajaxTJ 1 -
+/getConfig/getArticle.do 2 -
+/robots.txt 277 -
+/magmi-importer/web/download_file.php 1 -
+/mobile/v3/appSuperDownload.do 1 -
+/kefu.php 1 -
+/Help 1 -
+/app/home/skins/default/style.css 1 -
+/system/Login.aspx 1 -
+/index/Mobile/fenshi 1 -
+/wp-includes/small.php 4 anonymousfox.co
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/install 1 -
+/.env.bak 2 -
+/admin.php 6 anonymousfox.co
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 4 anonymousfox.co
+/wp-content/wp-1ogin_bak.php 4 anonymousfox.co
+/common/help/images/helplogo_zh.gif 1 -
+/readme.html 1 -
+/stylesheet.css 1 -
+/themes/README.txt 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/im/h5/ 1 -
+//.env 1 -
+/wp-content/db_cache.php 4 anonymousfox.co
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/whir_system/module/security/login.aspx 1 -
+/mytio/config/base 1 -
+/app/js/base.js 1 -
+/web/api/getBanner 1 -
+/static/download/style.css 1 -
+/Home/GetAllGameCategory 1 -
+/wp-links-opml.php 1 -
+/examples/index.html 1 -
+/im/in/GetUuid 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/img/xxing.png 1 -
+/wp-content/config.bak.php 4 anonymousfox.co
+/test/wp-admin/install.php 1 -
+/wp-login.php 17 -
+/css/main.css 1 -
+/api/product/topRank 1 -
+/img/close.png 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/resources/main/common.js 1 -
+/ajax 1 -
+/console/include/not_login.htm 1 -
+/static/home/css2/login--1.css 1 -
+/wp-admin/install.php 1 -
+/static/data/thirdgames.json 1 -
+/template/920ka/css/lsy.css 1 -
+/plus/heightsearch.php 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/404.jpg 1 -
+/default/css/em_css.css 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/img/zllqdk.png 1 -
+/api/message/webInfo 1 -
+/Images/login/biaoti.jpg 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/.well-known/ 10 binance.com
+/user/getAllNicknames 1 -
+/up.php 4 anonymousfox.co
+/test/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/XsamXadoo_Bot_.php 1 -
+/home/ 1 -
+/app/images/login/toplogo.gif 1 -
+/e/master/login.aspx 1 -
+/wp-content/plugins/wpconfig.bak.php 4 anonymousfox.co
+/wp-includes/css/css.php 4 anonymousfox.co
+/haders.php 4 anonymousfox.co
+/extern.php 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/script/login.js 1 -
+/index.php/Wap/Api/getBanner 1 -
+/var/cache/mage--2/ 1 -
+/admin/webadmin.php 1 -
+/api/v/index/queryOfficePage 1 -
+/js/a.script 1 -
+/api/exclude/siteConfig/webSiteConfig 1 -
+/biz/server/config 1 -
+/Public/Wchat/js/cvphp.js 1 -
+/admin/admin_login.php 1 -
+/images/login/icon-up.gif 1 -
+/forum/ 1 -
+/editor/fckeditor.js 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/admin/login.php 1 -
+/api/mobile/checkStrategyHistory 1 -
+/old-wp/ 1 -
+/alfindex.php 4 anonymousfox.co
+/wordpress/wp-admin/install.php 1 -
+/wp-content/ 6 -
+/Content/Wap/base.css 1 -
+/wp-content/mu-plugins/db-safe-mode.php 5 anonymousfox.co
+/api/wallet/redDetail 1 -
+/wp-class.php 1 -
+/360/static/js/iku.js 1 -
+/themes/graphics/horde-power1.png 1 -
+/Public/js/common.js 1 -
+/public/js/ipb.js 1 -
+/skin/js/common.js 1 -
+/admin/inc/xml.xslt 1 -
+/wordpress 1 -
+/verification.asp 1 -
+/static/home/csjs/bankCheck.js 1 -
+/proxy/settings 1 -
+/app/login.jsp 1 -
+/m/ 1 -
+/js/index.php 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/template/920ka/js/woodyapp.js 1 -
+/examples/readonly.html 1 -
+/Public/mobile/js/config.js 1 -
+/wap/banner/details 1 -
+/admin/login.asp 1 -
+/help/en/h_authenticate.html 1 -
+/public/static/css/denglu.css 1 -
+/public/css/style.css 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/index/index/purchase.html 1 -
+/legion.php 4 anonymousfox.co
+/negozio/var/resource_config.json 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/v1/ 1 -
+/public/img/cz1.png 1 -
+/appxz/index.html 1 -
+/magmi-importer/conf/magmi.ini 1 -
+/js/respond.js 4 -
+/api/ApiHub/fetchJinse 1 -
+/static/home/css/css.css 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/lang/en.js 1 -
+/data/admin/ver.txt 1 -
+/user/userlist 1 -
+/wp-admin/css/ 10 binance.com
+/wp-booking.php 4 anonymousfox.co
+/static/xianyu/js/bankCheck.js 1 -
+/member/js/lang_zh_CN.js 1 -
+/phpmyadmin/ 1 -
+/phpmyadmin/docs.css 1 -
+/ids/admin/login.jsp 1 -
+/default/images/logo.gif 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/tools/rss.aspx 1 -
+/test_404_page/ 1 -
+/fckeditor.js 1 -
+/js/common.js 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/wp-content/plugins/config.bak.php 4 anonymousfox.co
+/api/public/ 1 -
+/help/user/index.html 1 -
+/bencandy.php 1 -
+/include/install_ocx.aspx 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html 1 -
+/blog-single.html 12 -
+/shop/var/resource_config.json 1 -
+/issmall/ 1 -
+/statics/js/API.js 1 -
+/public/about.html 1 -
+/archiver/ 1 -
+/json/configs/permanent/permanent-lottery-config-list.json 1 -
+/pub/guiedit/guiedit.js 1 -
+/js/ajax_x.js 1 -
+/js/app.ling.js 1 -
+/user/Login 1 -
+/inc/playerKinds.xml 1 -
+/service 1 -
+/nyyh/game.css 1 -
+/public/tpl/default/static/css.css 1 -
+/api/v1/borrowxx.html 1 -
+/boom.php 4 anonymousfox.co
+/index5.html 44 -
+/phpinfo.php 2 -
+/web/ 1 -
+/templates/index.html 1 -
+/resources/css/headernav.css 1 -
+/console/auth/reg_newuser.jsp 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/static/data/configjs.js 1 -
+/ckfinder/ckfinder.html 1 -
+/images/login/eyoumail.gif 1 -
+/test.php 4 anonymousfox.co
+/mh/phone.do 1 -
+/js/pups.js 1 -
+/wp/wp-admin/install.php 1 -
+/assets/backend/theme/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/wp-content/plugins/ubh/up.php 4 anonymousfox.co
+/css/app.css 1 -
+/%20-%20Copy.env 1 -
+/assets/extension/market/css/mt4.css 1 -
+/business/images/index-gg1.jpg 1 -
+/fckeditor/license.txt 1 -
+/weblog/ 1 -
+/public/h5static/js/main.js 1 -
+/wp-admin/ 1 -
+/Res/font/font.css 1 -
+/api/linkPF 1 -
+/util/login.aspx 2 -
+/User/Login.aspx 1 -
+/wp/ 5 -
+/melody/api/v1/pageconfig/list 1 -
+/js/home.js 1 -
+/feed.asp 1 -
+/bz.gif 1 -
+/wp-includes/lfx.php 4 anonymousfox.co
+/wp-content/plugins/ioptimization/IOptimize.php 4 anonymousfox.co
+/include/dedeajax2.js 1 -
+/js/tvConfig.js 1 -
+/admin/index.php 1 -
+/api/api_user.xml 1 -
+/dist/images/mask/bg1.jpg 1 -
+/2020/ 1 -
+/var/resource_config.json 1 -
+/files/pub_reset.css 1 -
+/wp-includes/css/buttons.css 1 -
+/Admin/Login.aspx 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/admin 3 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/history.txt 1 -
+/app/etc/local.xml 1 -
+/static/h5/img/icon__create-group.png 1 -
+/doku.php 1 -
+/web/wp-admin/install.php 1 -
+/console/js/CWCMDialogHead.js 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/css/skin/ymPrompt.css 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/magento_version 2 -
+/index.cgi 1 -
+/api/content_bottom 1 -
+/cindex.php 4 anonymousfox.co
+/legal/currency/set 1 -
+/style/default/hdwiki.css 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/XsamXadoo_Bot.php 1 -
+/login/img/nyyh/chkjs.js 1 -
+/cms/wp-admin/install.php 1 -
+/dev/ 1 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/member/space/company/info.txt 1 -
+/CHANGELOG.txt 1 -
+/m/allticker/1 1 -
+/images/pay.png 1 -
+/static/css/index.css 1 -
+/wp-includes/config.bak.php 4 anonymousfox.co
+/sendemail.php 39 http://equaxsoftwarelabs.com/contact.html
+/customdir/images/english_logo.jpg 1 -
+/site/wp-admin/install.php 1 -
+/list.php 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/assets/room/css/room_mobile.css 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/static/common/js/common.js 1 -
+/license.txt 1 -
+/max-templates/classic/styles/app.css 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/install/ 1 -
+/s_api/basic/download/info 1 -
+/fePublicInfo/ 1 -
+/wp-content/plugins/backup_index.php 5 anonymousfox.co
+/siteserver/upgrade/default.aspx 1 -
+/market/getStockBaseInfo 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/blog/wp-admin/install.php 1 -
+/magasin/var/resource_config.json 1 -
+/was/help.jsp 1 -
+/Recruit/download_url 1 -
+/zz2/address.php 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/sitemap.xml 4 -
+/homes/ 1 -
+/wp-cron.php 1 -
+/login/Jeecms.do 1 -
+/phpinfo 2 -
+/images/default/post_bt.gif 1 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 4 anonymousfox.co
+/admin/start/index.php 1 -
+/images/logo_product-cml.png 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/sites/default/files/ 10 binance.com
+/static/images/logo/webserver_small.gif 1 -
+/backup/ 5 -
+/plugin.php 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/uploads/ 10 binance.com
+/index/index/js/api.js 1 -
+/images/logo-white.png 1 -
+/api/system/system/config/get 1 -
+/humans.txt 6 -
+/api/index/grailindex 1 -
+/jcms/index_jcms.jsp 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/apis/api/index 1 -
+/include/dialog/config.php 1 -
+/v2/ 1 -
+/amfeed/main/download 1 -
+/static/index/css/iindex.css 1 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/asp.net/README.txt 1 -
+/im/App/config 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/template/tmp1/js/common.js 1 -
+/jiaoyimao/default.css 1 -
+/main/ 1 -
+/auth/login 1 -
+/Public/css/hall.css 1 -
+/css/nsc/reset.css 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 13 anonymousfox.co
+/style.php 5 anonymousfox.co
+/plug/publish 1 -
+/application/.env 1 -
+/2018/ 2 -
+/old/wp-admin/install.php 1 -
+/wp2/ 1 -
+/js/base1.js 1 -
+/wp-content/themes/config.bak.php 4 anonymousfox.co
+/backup/wp-admin/install.php 1 -
+/m 1 -
+/rss.php 1 -
+/admin/ 1 -
+/licence.txt 1 -
+/ckeditor/ckeditor.js 1 -
+/css/all.css 1 -
+/old/ 5 -
+/images/login9/login_33.jpg 1 -
+/template/home.htm 1 -
+/fckeditor/editor/filemanager/connectors/test.html 1 -
+/Wq_StranJF.js 1 -
+/base/login/login.php 1 -
+/common/template/lottery/lecai/css/style.css 1 -
+/mobile/config.js 1 -
+/thriveGame.css 1 -
+/js/json.js 1 -
+/ks_inc/ajax.js 1 -
+/images/login/logo.gif 1 -
+/h5/ 1 -
+/js/buttons.js 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/License.txt 1 -
+/master/login.aspx 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/oldsite/ 4 -
+/index.php/sign 1 -
+/boutique/var/resource_config.json 1 -
+/new/ 5 -
+/site/ 1 -
+/whir_system/login.aspx 1 -
+/bbs/ 1 -
+/info.php 3 -
+/room/getRoomBangFans 1 -
+/assets/images/bg.jpg 1 -
+/Public/uploads/web/step1.png 1 -
+/home/GetQrCodeInfo 1 -
+/fckeditor/fckconfig.js 1 -
+/ads.txt 39 -
+/ajax/allcoin_a/id/0 1 -
+/wap/trading/get_newallorder_ajax 1 -
+/rss.aspx 1 -
+/index.php/api/other/appSetting 1 -
+/wp-includes/css/wp-config.php 4 anonymousfox.co
+/js/fckeditor/editor/filemanager/connectors/test.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 306
+35.205.220.163 40 64 503934 20211002005752
+34.140.125.30 40 64 503934 20211017053650
+103.103.208.178 24 24 91743 20211021044131
+3.144.74.27 16 16 69905 20211030053617
+144.217.135.184 12 12 302025 20211006090452
+113.163.190.95 12 12 53427 20211021185340
+115.72.167.127 8 8 38316 20211021185340
+49.206.60.82 6 44 1958169 20211014084318
+123.58.210.47 6 8 44322 20211021172634
+168.62.164.160 4 4 18532 20211008010439
+122.161.48.43 4 41 1909474 20211027055052
+106.193.41.174 4 41 1936437 20211006115333
+52.190.7.92 4 4 18256 20211008032504
+91.241.19.243 4 4 18000 20211020115024
+171.61.175.54 4 30 682612 20211008041054
+77.222.113.111 4 4 113432 20211025101516
+157.50.25.144 4 41 1909474 20211017005156
+157.49.232.215 4 41 1909474 20211007031929
+49.207.199.154 4 41 1909474 20211011041132
+114.240.59.207 4 4 16734 20211007035804
+183.82.103.177 3 36 1748016 20211019232729
+147.182.242.131 3 3 14885 20211009150415
+91.219.212.206 3 3 12867 20211007184228
+27.59.107.79 3 36 1748016 20211013022023
+188.241.204.255 3 23 350136 20211010002021
+34.136.185.112 1 1 5133 20211011200536
+34.221.228.180 1 1 5133 20211026121810
+45.67.231.199 1 1 0 20211021154501
+209.97.187.46 2 2 8953 20211009010236
+54.75.20.167 1 1 5133 20211016074217
+3.250.17.50 1 1 5133 20211017085351
+52.26.167.254 1 1 5133 20211016121928
+85.75.9.135 1 16 1194449 20211003160336
+52.190.7.119 1 1 3321 20211006084852
+54.244.101.121 2 2 68274 20211024172826
+185.85.163.242 2 2 56716 20211018143348
+45.8.201.168 1 1 4477 20211010002057
+181.214.252.135 1 1 5133 20211010002041
+3.249.84.243 1 1 5133 20211013233851
+34.245.197.17 1 1 5133 20211017214505
+190.111.162.249 1 1 3867 20211031200637
+141.98.131.139 1 1 0 20211010002030
+64.137.77.249 1 1 6328 20211010002055
+34.222.166.101 1 1 5133 20211006132246
+54.68.108.92 1 1 5133 20211031122036
+45.129.18.124 1 1 0 20211011162700
+172.104.54.180 2 2 10266 20211011091001
+124.206.180.139 1 4 53229 20211013154124
+196.16.113.5 1 1 5133 20211027172936
+34.212.19.182 1 1 5133 20211026121452
+159.223.123.29 1 1 3867 20211027062014
+58.53.128.88 2 2 10266 20211020184318
+52.249.250.70 2 2 11120 20211008094621
+162.245.222.38 1 1 3867 20211014195132
+206.189.123.235 1 1 3321 20211001083920
+54.184.213.234 1 1 5133 20211009122417
+63.141.37.117 1 1 0 20211010002032
+190.111.161.39 1 1 5133 20211031200635
+23.80.97.144 1 1 3867 20211025120134
+192.99.18.136 1 1 5133 20211030094607
+52.186.122.29 2 2 4605 20211008042157
+46.235.64.43 1 1 3867 20211001020538
+34.220.52.89 1 1 5133 20211030121207
+34.209.219.161 1 1 5133 20211011122719
+64.246.165.140 1 1 5133 20211008001118
+158.46.146.53 1 1 4241 20211010002042
+122.175.246.174 2 2 9000 20211016004613
+34.220.206.136 1 1 5133 20211031121355
+54.174.56.115 1 1 0 20211006091914
+3.67.222.97 1 1 5133 20211015222332
+45.129.18.215 1 1 0 20211019091940
+49.12.219.112 1 1 5433 20211001083924
+205.237.95.18 1 1 4386 20211010002039
+50.112.226.167 1 1 5133 20211013122554
+110.239.217.240 1 1 4605 20211010002041
+168.61.172.62 1 1 5133 20211023043008
+18.203.137.91 1 1 5133 20211007233039
+93.158.91.229 1 1 5133 20211001182033
+52.214.96.131 2 2 56716 20211009182910
+35.162.131.188 1 1 5133 20211013122635
+217.9.17.135 1 1 0 20211010002048
+147.182.252.228 2 2 9474 20211011141720
+102.128.142.107 2 2 9000 20211028002944
+64.246.161.30 1 1 5133 20211027174007
+54.174.55.191 1 1 0 20211020092800
+49.12.219.109 1 1 0 20211013222606
+45.133.172.99 2 2 56716 20211017041515
+54.189.87.235 1 1 5133 20211031122646
+34.220.53.36 1 1 5133 20211025125939
+18.236.108.78 1 1 5133 20211010124329
+194.36.99.189 2 2 9000 20211002034707
+194.124.247.19 1 1 5329 20211010002055
+194.41.123.84 1 1 0 20211010002045
+54.155.255.230 1 1 5133 20211016115248
+194.36.99.134 1 1 3867 20211015174833
+54.212.183.68 1 1 5133 20211011122741
+176.74.192.85 1 1 5133 20211004110336
+161.35.91.105 1 1 5133 20211010042432
+192.99.18.122 3 3 15399 20211031123922
+122.4.122.5 1 1 5133 20211007152755
+45.66.177.225 1 1 5886 20211010002055
+116.203.21.171 1 1 4567 20211009100103
+52.186.127.237 1 1 4386 20211006094553
+167.114.172.180 3 28 490807 20211002044419
+54.71.7.104 1 1 5133 20211009121151
+54.69.52.168 1 1 5133 20211006130730
+18.237.129.138 1 1 5133 20211023123451
+185.223.250.50 1 1 5511 20211010002040
+162.55.4.184 3 3 14133 20211017054104
+37.19.223.233 2 2 56716 20211028042320
+35.163.145.191 1 1 5133 20211017121403
+27.0.173.196 1 1 5133 20211031131640
+18.237.157.234 1 1 5133 20211003125313
+188.126.73.203 2 2 56716 20211022182905
+158.46.150.107 1 1 0 20211010002048
+40.77.167.88 0 1 3195 
+34.221.72.163 1 1 5133 20211019123135
+34.240.1.107 1 1 5133 20211017015459
+52.213.42.139 1 1 5133 20211018113649
+54.194.243.98 1 1 5133 20211015070418
+106.125.148.136 1 1 5133 20211010142001
+45.77.5.214 1 1 5133 20211001082655
+52.51.75.95 1 1 5133 20211015200409
+181.214.129.217 2 2 9000 20211007003522
+2.57.122.148 1 1 5133 20211021114504
+34.247.135.20 1 1 5133 20211017194739
+40.77.167.82 0 1 10166 
+23.228.109.147 1 1 34137 20211031120541
+34.222.59.249 1 1 5133 20211007122408
+23.106.219.146 1 1 3867 20211026023509
+192.227.131.100 1 1 0 20211009040027
+72.13.62.27 3 3 13605 20211001231519
+46.137.18.114 1 1 5133 20211018095334
+217.9.19.152 1 1 0 20211010002031
+35.166.136.221 1 1 5133 20211018124634
+67.227.32.204 1 1 5133 20211013125323
+54.216.78.230 1 1 5133 20211013184856
+54.218.110.45 2 2 68274 20211031150017
+35.176.114.1 1 1 5133 20211012040929
+34.218.241.101 1 1 5133 20211001120644
+54.200.209.58 1 1 5133 20211026121819
+54.247.39.55 1 1 5133 20211016175009
+42.83.147.34 2 2 10266 20211028113604
+213.109.169.133 1 1 0 20211010002032
+194.53.70.86 1 1 0 20211010002033
+34.209.26.38 1 1 5133 20211025125913
+162.55.83.123 0 1 773761 
+34.219.208.56 1 1 5133 20211019123103
+54.154.20.204 1 1 5133 20211015104729
+45.129.18.165 1 1 0 20211015204718
+3.144.157.213 3 3 15399 20211024093011
+65.21.124.253 0 29 3319726 
+52.33.206.94 1 1 34137 20211013155941
+54.187.152.157 1 1 5133 20211006132324
+178.128.39.143 2 2 8727 20211001085502
+104.154.173.232 2 2 10266 20211011142052
+52.26.16.37 1 1 5133 20211003124509
+18.237.45.15 1 1 5133 20211010124403
+59.175.144.19 1 1 5133 20211029233909
+93.158.92.222 1 1 5133 20211023184308
+112.215.235.236 1 1 5133 20211008180451
+65.108.52.60 1 1 0 20211001083923
+34.86.35.22 1 1 34137 20211001050427
+181.214.201.139 1 1 5433 20211010002041
+45.8.184.80 1 1 4341 20211010002040
+54.245.219.92 1 1 5133 20211018124659
+52.38.162.221 1 1 34137 20211007152030
+93.158.92.234 1 1 5133 20211014201451
+5.79.219.115 1 1 5133 20211030225227
+209.97.187.47 1 1 4605 20211009181651
+54.174.56.22 1 1 0 20211027091919
+104.168.84.238 2 2 9000 20211018084017
+34.244.76.107 1 1 5133 20211017134350
+52.190.7.172 2 2 9378 20211007121827
+23.106.219.130 1 1 3867 20211015102319
+45.89.249.83 1 1 0 20211010002056
+54.189.133.241 1 1 5133 20211023123427
+68.183.108.188 1 1 3867 20211001071633
+45.125.245.204 2 2 9000 20211014122506
+52.186.86.67 2 2 9519 20211008030944
+137.184.191.169 1 1 3867 20211028102036
+138.68.191.31 1 1 3321 20211009181305
+52.41.14.50 1 1 5133 20211027122003
+54.189.230.128 1 2 9018 20211028083132
+35.161.56.6 1 1 5133 20211004121617
+209.242.213.243 1 1 0 20211010002032
+104.200.68.114 1 1 0 20211010002031
+158.46.149.208 1 1 0 20211010002031
+18.237.222.189 1 1 5133 20211008122109
+52.89.146.110 1 1 5133 20211006130828
+147.182.242.74 1 1 3867 20211011002606
+51.77.246.67 3 35 1744131 20211006090516
+159.75.9.197 3 4 19284 20211026223700
+34.246.182.28 1 1 5133 20211015235409
+54.179.149.33 1 1 5133 20211008032845
+54.212.181.117 1 1 5133 20211012123429
+161.35.91.198 2 2 10745 20211012155410
+23.80.97.133 1 1 3867 20211014232951
+102.129.226.41 1 1 4440 20211010002057
+34.77.162.7 1 1 34137 20211022210528
+45.79.124.167 1 1 5133 20211019221505
+92.118.160.57 1 1 34137 20211024120600
+54.245.146.43 1 1 5133 20211021121749
+94.177.15.79 1 1 3867 20211010002040
+18.237.21.249 1 1 5133 20211004121904
+144.202.104.164 1 1 4605 20211001083925
+158.46.149.56 1 1 4567 20211010002039
+62.4.31.171 1 1 5133 20211008061809
+35.160.193.167 1 1 5133 20211020124833
+185.107.240.204 1 1 3867 20211006223635
+78.141.217.93 1 1 5433 20211011055646
+193.56.29.48 1 1 5133 20211008033009
+147.182.252.188 1 1 4241 20211011055043
+45.67.231.209 1 1 5133 20211023105656
+143.198.145.39 1 1 5234 20211001083919
+52.24.96.66 1 1 5133 20211002121914
+34.77.162.16 2 2 68274 20211019151022
+77.222.115.111 2 2 56716 20211011083421
+52.186.86.231 3 3 15029 20211007234354
+157.55.39.137 0 1 62322 
+176.34.144.95 1 1 5133 20211018080352
+92.118.160.13 1 1 34137 20211017052627
+152.89.246.67 1 1 5133 20211004150828
+34.245.39.27 3 3 15399 20211008223045
+85.10.207.246 1 1 34137 20211024210921
+54.217.147.171 1 1 0 20211009001216
+191.96.59.154 1 1 0 20211010002032
+5.253.205.27 2 2 56716 20211006193822
+18.193.128.146 1 1 5133 20211011233808
+158.46.148.107 1 1 0 20211010002041
+45.129.18.169 1 1 0 20211026104421
+64.137.99.158 2 2 8340 20211010002055
+1.202.249.94 1 1 5133 20211014122114
+34.214.222.81 1 1 5133 20211021121719
+34.222.221.66 1 1 5133 20211030121229
+37.120.215.248 1 1 3867 20211012012226
+79.110.52.36 1 1 34137 20211028055312
+178.171.101.45 1 1 0 20211010002049
+157.55.39.23 0 1 17545 
+34.211.50.224 1 1 5133 20211027122037
+35.85.217.173 1 1 5133 20211009121838
+198.98.183.49 2 2 9000 20211027224240
+23.88.57.230 1 1 5133 20211026154503
+54.201.162.69 1 1 5133 20211014120432
+45.95.20.169 1 1 0 20211010002056
+35.163.15.247 1 1 5133 20211016121905
+54.244.81.19 1 1 5133 20211001120704
+54.244.58.187 1 1 5133 20211009121146
+188.190.122.155 1 1 0 20211010002034
+34.213.185.222 1 1 5133 20211007122338
+42.83.147.36 1 1 5133 20211007234236
+54.202.40.133 1 1 5133 20211008122044
+158.46.151.200 1 1 0 20211010001908
+154.13.1.196 2 2 56716 20211006170541
+161.35.112.71 1 1 3867 20211021123645
+34.220.33.213 1 1 5133 20211005124155
+34.86.35.7 1 1 34137 20211029113104
+92.118.160.41 1 1 34137 20211003233105
+52.215.224.242 1 1 5133 20211004161414
+54.213.170.147 1 1 5133 20211020124814
+54.174.56.219 1 1 0 20211013091935
+162.253.68.148 3 3 14133 20211031052619
+54.154.38.60 1 1 5133 20211014151441
+52.186.72.203 3 3 12931 20211008104844
+170.83.179.163 1 1 3867 20211011154934
+84.17.48.72 2 2 56716 20211026090142
+172.105.42.57 1 1 5133 20211019221514
+35.86.148.187 1 1 5133 20211031121403
+3.144.35.12 1 1 5133 20211031195834
+168.151.139.99 1 1 5234 20211010002039
+106.125.148.18 1 1 5133 20211013083408
+173.244.209.89 2 2 9000 20211023133409
+70.124.25.29 1 25 1445526 20211002195917
+178.171.101.238 1 1 0 20211010002031
+143.198.157.105 1 1 3867 20211001083924
+92.118.160.9 2 2 68274 20211029221243
+45.129.18.211 1 1 0 20211022083453
+54.213.33.241 1 1 5133 20211017121318
+34.218.76.196 1 1 5133 20211015125048
+196.196.222.83 2 2 9000 20211020065747
+89.187.164.249 1 1 3867 20211009013110
+35.166.140.141 1 1 5133 20211012123355
+93.158.92.148 1 1 5133 20211009210516
+3.68.114.9 1 1 5133 20211010225338
+157.55.39.149 0 1 8634 
+18.237.246.5 1 1 5133 20211031121603
+34.217.126.61 1 1 5133 20211014120355
+34.69.245.40 2 2 10266 20211006201748
+139.28.121.69 1 1 4492 20211010002057
+191.96.87.111 1 1 0 20211010002048
+216.19.217.230 1 1 0 20211010002031
+104.254.92.172 1 1 3867 20211006002914
+18.237.57.45 1 1 34137 20211010150604
+52.13.119.58 1 1 5133 20211009122354
+84.247.48.57 2 2 56716 20211015073024
+34.212.100.176 1 1 5133 20211005124219
+64.137.32.188 1 1 0 20211010002056
+158.69.69.83 3 3 14133 20211029093947
+52.24.174.162 1 1 5133 20211002121933
+93.158.92.207 1 1 5133 20211027171329
+23.95.119.109 1 1 5133 20211001112643
+54.75.4.168 2 2 9000 20211018131656
+52.186.123.13 3 3 16178 20211008035344
+54.202.170.4 1 1 5133 20211015125109
+52.190.7.110 3 3 15953 20211008114830
+52.190.7.100 2 2 8307 20211008094946
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20211001 25 25 142046 21
+20211002 48 121 2459533 6
+20211003 4 19 1238852 4
+20211004 9 9 44931 8
+20211005 4 4 49536 4
+20211006 43 112 4180063 23
+20211007 23 60 2028140 16
+20211008 28 54 801555 24
+20211009 18 18 122771 16
+20211010 50 70 501681 47
+20211011 21 58 2063140 16
+20211012 5 5 24500 5
+20211013 13 46 1847088 11
+20211014 15 53 2000568 9
+20211015 12 12 100381 11
+20211016 7 7 34665 6
+20211017 59 120 2611041 13
+20211018 11 11 100381 8
+20211019 9 42 1802685 7
+20211020 9 9 67536 7
+20211021 55 57 247074 9
+20211022 4 4 90853 3
+20211023 8 8 39798 7
+20211024 5 5 112677 4
+20211025 5 8 89941 4
+20211026 11 12 100399 8
+20211027 14 51 1982143 11
+20211028 8 39 4211358 6
+20211029 6 6 87540 4
+20211030 20 20 90437 5
+20211031 15 20 234333 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+15mn-30mn 3
+30mn-1h 2
+2mn-5mn 3
+0s-30s 323
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 260 2335866 232 190
+/contact.html 70 510079 25 56
+/services_home.html 18 98920 6 8
+/industries_manu.html 18 0 6 6
+/error-page.html 15 62354 6 6
+/whywe.html 15 94256 8 5
+/bos_home.html 14 76029 6 5
+/industries_home.html 14 79312 6 6
+/services_mobile.html 14 75250 6 5
+/industries_hcare.html 13 66132 6 6
+/industries_retail.html 13 65196 5 6
+/industries_it.html 13 52092 3 6
+/fonts/flaticon.woff 11 135632 1 4
+/fonts/fontawesome-webfont.woff2 11 778039 0 0
+/whywe_ESL.html 9 50624 3 3
+/whywe_PROCESS.html 9 47088 3 3
+/bos_rental.html 9 35816 3 4
+/whywe_Methodology.html 9 40152 2 3
+/whywe_Project.html 9 42632 3 5
+/bos_pharma.html 9 35936 3 3
+/bos_textile.html 9 35520 3 5
+/fonts/flaticon.ttf 1 18640 0 0
+/fonts/fontawesome-webfont.woff 1 89076 0 1
+END_SIDER

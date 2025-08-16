@@ -1,0 +1,1850 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202311 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/ssl/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2691                
+POS_VISITOR 51284               
+POS_DAY 56783               
+POS_DOMAIN 3474                
+POS_LOGIN 3926                
+POS_ROBOT 4081                
+POS_WORMS 4571                
+POS_EMAILSENDER 4702                
+POS_EMAILRECEIVER 4845                
+POS_SESSION 57473               
+POS_SIDER 57653               
+POS_FILETYPES 4980                
+POS_DOWNLOADS 5203                
+POS_OS 5251                
+POS_BROWSER 5507                
+POS_SCREENSIZE 6213                
+POS_UNKNOWNREFERER 6287                
+POS_UNKNOWNREFERERBROWSER 7045                
+POS_ORIGIN 7767                
+POS_SEREFERRALS 7906                
+POS_PAGEREFS 8069                
+POS_SEARCHWORDS 8217                
+POS_KEYWORDS 8369                
+POS_MISC 2355                
+POS_ERRORS 8428                
+POS_CLUSTER 3782                
+POS_SIDER_404 8555                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231201004548 39 8863 15100368383747
+FirstTime 0
+LastTime 20231130124220
+LastUpdate 20231201050704 39 0 38 0 0
+TotalVisits 153                 
+TotalUnique 140                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 140                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 41881 4 64 108988
+1 56 76 576195 541 586 1868912
+2 2 2 39270 16 69 1397996
+3 5 5 25790 17 85 1769134
+4 2 2 10266 15 55 412998
+5 8 9 133919 17 95 2800765
+6 5 6 36436 7 11 31128
+7 5 7 51368 10 13 35332
+8 159 159 743439 1034 1103 1946509
+9 6 7 33417 11 105 936946
+10 3 3 17357 9 25 1283735
+11 7 7 35238 11 42 1476734
+12 15 18 164591 11 43 1646904
+13 14 15 132261 10 142 1863820
+14 5 5 72141 14 38 605368
+15 5 5 52857 5 33 237617
+16 8 8 127329 13 70 1538890
+17 40 40 213190 17 53 1516402
+18 4 4 80113 15 67 2987261
+19 4 5 23726 9 44 517796
+20 6 6 58195 13 47 1519547
+21 45 69 527136 21 81 3007606
+22 9 9 110215 11 37 1568883
+23 44 65 547036 13 74 161717
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+us 203 249 1715798
+hn 129 129 634300
+nl 62 82 606707
+ca 13 13 418567
+ru 12 12 117443
+de 6 6 88806
+in 6 6 7758
+cn 6 6 117810
+be 6 10 24196
+ir 5 5 21002
+se 5 10 45090
+jp 4 4 18000
+bg 2 2 5133
+gb 2 2 10266
+gr 1 1 5133
+au 1 1 12224
+no 1 1 5133
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+AhrefsBot/ 477 23178619 20231130184956 0
+bingbot/ 148 2884433 20231130204932 0
+Applebot/ 91 959816 20231130024749 0
+Go\-http\-client/ 72 323124 20231105085538 0
+SemrushBot/ 22 102009 20231130173701 0
+no_user_agent 22 696826 20231125172542 0
+spider 21 228070 20231101032533 0
+bot[\s_+:,\.\;\/\\-] 21 98006 20231130084059 0
+Googlebot/ 9 65902 20231127094528 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 10 64801 0 0
+png 10 38517 0 0
+woff 1 12254 0 0
+xyzzas 1 4677 0 0
+html 452 2866914 0 0
+woff2 1 70733 0 0
+Unknown 2 9354 0 0
+xml 7 8121 0 0
+js 55 777995 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win10 248 223
+win8 1 1
+linuxubuntu 1 1
+linux 48 44
+j2me 1 1
+macosx10 4 3
+android 2 2
+win7 3 3
+winxp 1 1
+macosx11 120 75
+Unknown 65 65
+macosx15 41 41
+macosx14 1 1
+winnt 1 1
+androidkitkat 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 33
+chrome110.0.0.0 2 2
+chrome85.0.4183.121 6 6
+chrome98.0.4758.102 1 1
+chrome98.0.4758.141 1 1
+chrome117.0.0.0 76 56
+firefox20.0 1 1
+firefox52.0 119 74
+netscape5.0 6 6
+chrome114.0.0.0 40 40
+android 2 2
+Unknown 61 61
+chrome100.0.4896.60 4 4
+firefox99.0 1 1
+firefox12.0 1 1
+chrome60.0.3112.90 2 1
+chrome76.0.3809.100 1 1
+firefox47.0 1 1
+safari10.1.2 2 2
+chrome113.0.0.0 4 4
+chrome91.0.4472.114 1 1
+chrome107.0.0.0 1 1
+opera86.0.4363.50 1 1
+chrome109.0.0.0 10 6
+chrome41.0.2224.3 1 1
+firefox78.0 149 149
+chrome71.0.2623.112 2 2
+csscheck 1 1
+chrome105.0.0.0 10 5
+opera8.01 1 1
+chrome83.0.4103.97 3 3
+chrome108.0.0.0 26 26
+firefox35.0 1 1
+chrome74.0.3729.169 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+panscient.com 20231112174713
+python-requests/2.31.0 20231127192403
+fasthttp 20231114223449
+Mozilla/5.0 20231126231507
+()_{_:;_};_echo;_echo;_/bin/bash_-c_'expr_909025214___963966393' 20231105085520
+Outlook/15.0_(15.0.5337.1000;_MSI;_x64) 20231122083100
+CSSCheck/1.2.2 20231120130342
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231128122420
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20231122164550
+Python/3.8_aiohttp/3.8.6 20231120212414
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Python/3.8_aiohttp/3.8.6 20231120212414
+Microsoft_Office/15.0_(Windows_NT_10.0;_Microsoft_Outlook_15.0.5589;_Pro) 20231122083100
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231128122420
+panscient.com 20231112174713
+()_{_:;_};_echo;_echo;_/bin/bash_-c_'expr_909025214___963966393' 20231105085520
+fasthttp 20231114223449
+python-requests/2.31.0 20231127192403
+Outlook/15.0_(15.0.5337.1000;_MSI;_x64) 20231122083100
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 359 414
+From1 18 18
+From2 6 6
+From3 0 0
+From4 81 101
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 2055 2685043
+401 11 419
+206 32 18448
+431 1 273
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1328
+/v1/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/setup/setup-datasource-standard.jsp 1 -
+/upload.jsp 1 -
+/content/alawnt 1 -
+/defaultroot/public/iWebOfficeSign/OfficeServer.jsp 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+https://equaxsoftwarelabs.com/swagger/swagger-ui.html 1 https://equaxsoftwarelabs.com/
+/cgi-bin/welcome.cgi 1 ()%20{%20Referer
+/resin-doc/resource/tutorial/jndi-appconfig/test 1 -
+/api/spec/swagger.json 1 https://equaxsoftwarelabs.com/
+/layout-modes/masonry 1 -
+/web_shell_cmd.gch 1 -
+/config/getuser 1 -
+/22477613.php 1 -
+/jkstatus 2 -
+/OData/ 1 -
+/casmain.xgi 1 -
+/memadmin/index.php 1 -
+/nalqgutokv 1 -
+/x/..//RestAPI/LicenseMgr 1 -
+/admin/index.php 1 -
+/general/index/UploadFile.php 1 -
+/em/afr/igeoi/remote/H4sIAAAAAAAAA3WMsU7DMBCGr6RRU9QBGBg6IrHaLZVKCgNISBWRwgJixyRObWRiY1%2BpWXgMnoKXQDwBKzMrb4AETpWVX7rTd9L93%2Bs3xM7C9h17ZGSJUpFz5sQFM3Hv8%2B199%2BYjgo05bCrNyjkrUNsM%2Bigsd0Kr0puTU2gyWCVhb4XpBNlgLas5kuvL_GX_cDr8%2BbIR9DJIRJCf6ZJn0DXaYg59tkS 1 -
+/_vti_inf.html 1 -
+/api/userrolelist/systemRoles 1 -
+/.//WEB-INF 1 -
+/js/routing 1 -
+/config-prod.json 1 https://equaxsoftwarelabs.com/
+/js/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/resources//../WEB-INF/web.xml 1 -
+/db.sqlite3 1 -
+/aim/equipmap/accept.jsp 1 -
+https://equaxsoftwarelabs.com/reference 1 https://equaxsoftwarelabs.com/
+/shell20211028.php 2 www.google.com
+/xky3tkgysrn3.php 1 https://equaxsoftwarelabs.com/
+/examples/servlets/index.html 1 -
+/web/php/upload.php 1 -
+/login/userverify.cgi 2 -
+/.htpasswd.bak 1 -
+/shell.jspx 1 -
+/server-status 2 -
+/forum/ 1 -
+/sync.sh 1 -
+/WEB-INF/web.xml~ 1 -
+/img/clients/acs.jpg 1 https://www.equaxsoftwarelabs.com/about.html
+/scheduler/ui/js/ffffffffbca41eb4/UIUtilJavaScriptJS 1 -
+/v4/api 1 https://equaxsoftwarelabs.com/
+/html/device-id 1 -
+/login/verify 1 -
+/cgi-bin/webcgi/login 1 -
+/anywebmail/login.php 1 -
+/cgi-bin/php.cgi 1 -
+https://equaxsoftwarelabs.com/_swagger_/ 1 https://equaxsoftwarelabs.com/
+/equaxsoftwarelabs.sql 1 -
+/v2/docs 1 -
+/app.json 1 https://equaxsoftwarelabs.com/
+/webadmin/tools/unixlogin.php 1 https://equaxsoftwarelabs.com/webadmin/admin/service_manager_data.php
+/apisix/admin/services/ 1 -
+https://equaxsoftwarelabs.com/doc 1 https://equaxsoftwarelabs.com/
+/.htpasswd 1 -
+/dana-na/../dana/html5acc/guacamole/../../../../../../../etc/passwd 1 -
+https://equaxsoftwarelabs.com/api/api-docs 1 https://equaxsoftwarelabs.com/
+/cgi-bin/admin.cgi 2 -
+/cgi-bin/guestbook.cgi 1 ()%20{%20Referer
+/cevedbhowo 1 -
+/rest/request 1 -
+/..%2fconf/nhttpd.conf 1 -
+/uDBpUkM3 1 -
+/.rediscli_history 1 -
+/s/1xugdXf2gy4LHvZThieDT4/_/ 1 -
+/upgrade/detail.jsp/login/LoginSSO.jsp 1 -
+/sitemap.xml 4 -
+/view/action/download_file.php 1 -
+/register.aspx 1 -
+/id_dsa 1 -
+/tmp.txt 1 -
+/jquery.fancybox.pack.js 18 -
+/scripts/setup.php 1 -
+/cfide-scripts/ajax/package/cfajax.js 1 -
+/logincheck_new.php 1 -
+/conf/fastcgi.conf 1 -
+/adminer-4.4.0-en.php 1 https://equaxsoftwarelabs.com/
+/adminer-4.6.2.php 1 https://equaxsoftwarelabs.com/
+https://equaxsoftwarelabs.com/api/ 1 https://equaxsoftwarelabs.com/
+/installer 1 -
+/phpMoAdmin/moadmin.php 1 -
+/cf-scripts/scripts/ajax/package/cfajax.js 1 -
+/ioffice/prg/set/wss/ioAssistance.asmx 1 -
+/forum.php 1 -
+/css/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/gallery.html 10 -
+/v1/api 1 https://equaxsoftwarelabs.com/
+/general/login_code.php 1 https://equaxsoftwarelabs.com
+/seeyon/wpsAssistServlet 1 -
+/login/index 1 -
+/minio/bootstrap/v1/verify 1 -
+/wow.js 19 -
+/anlafoynvh 1 -
+/cgi-bin/../../../bin/sh 1 -
+/invoker/JMXInvokerServlet 1 -
+/wxapp.php 1 -
+/web-console/Invoker 1 -
+/js/respond.js 5 -
+/horde/imp/test.php 1 -
+/MicroStrategyWS/happyaxis.jsp 1 -
+/v1.0 1 https://equaxsoftwarelabs.com/
+/servlet/SnoopServlet 1 -
+/js/../../../../../../../../../../../../../etc/shells 1 -
+/%u002e/WEB-INF/web.xml 1 -
+/ytpyzmztfr 1 -
+/STATE_ID/123/agentLogUploader 1 -
+/css/../../../../../../../../../../../../../etc/shells 1 -
+/index.asp 1 -
+/dashboard/ 1 -
+/jmx-console/HtmlAdaptor 4 -
+/php.php 1 -
+https://equaxsoftwarelabs.com/api/swagger 1 https://equaxsoftwarelabs.com/
+/mobile/DBconfigReader.jsp 1 https://equaxsoftwarelabs.com
+/plugins/weathermap/editor.php 1 -
+/dbadmin/main.php 1 -
+/index.php.bak 1 -
+/linux/uuoxvm.jsp 1 -
+/api/users 1 -
+/mainpage/msglog.aspx 1 -
+/images/favicon/ 3 -
+/registration.cgi 1 -
+/cgi-bin/../../../../../../../../../../../../../etc/shells 1 -
+/cfmx/CFIDE/scripts/ajax/package/cfajax.js 1 -
+/admin.sql 1 -
+/nette.micro/ 1 -
+https://equaxsoftwarelabs.com/swagger-ui.html 1 https://equaxsoftwarelabs.com/
+/jquery.js 18 -
+/toLogin 1 -
+/h2-console/ 1 -
+/LetsEncrypt/Index 2 -
+/dfgggciitd 1 -
+/assets/file:%2f%2f/etc/passwd 1 -
+/downloader.php 1 -
+/install.sh 1 -
+/index.php 54 -
+https://equaxsoftwarelabs.com/api/swagger-resources 1 https://equaxsoftwarelabs.com/
+/logincheck_code.php 1 -
+/api/get_device_details 1 -
+/KTifkDFpOn.php 1 -
+/index/Api/post_curl 1 -
+/.idea/workspace.xml 1 -
+/KTifkDFpOn.exe 1 -
+/data.sql 1 -
+/wan.htm 1 -
+/hsqldb%0a 1 -
+/layouts/ 1 -
+/adminer-4.6.0-mysql.php 1 https://equaxsoftwarelabs.com/
+/js/../../../../../../../../etc/passwd%00.jpg 1 -
+/backup/ 1 -
+/.ssh/id_rsa.pub 1 -
+/static/../../../../../../../../../../../etc/shells 1 -
+/CGI/Java/Serviceability 1 -
+/v2/ 1 -
+/cu.html 1 -
+/install/lib/ajaxHandlers/ajaxServerSettingsChk.php 2 -
+/index.php/index/download/index 1 -
+/fileserver/ygjgng.txt 1 -
+/view/Behavior/862369.txt 1 -
+/pages/createpage-entervariables.action 1 -
+/web/jquery/uploader/multi_uploadify.php 1 -
+/nohup.out 1 -
+/secure/ManageFilters.jspa 1 -
+/registration.jsp 1 -
+/cgi-bin/gsdjbhl.txt 1 -
+/@fs/etc/passwd 1 -
+/CMSInstall/install.aspx 1 -
+/login 3 -
+/menu/guiw 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/LICENSE 1 -
+/mobile/auth_mobi.php 4 -
+/general/bi_design/appcenter/report_bi.func.php 1 -
+/db/main.php 1 -
+/db.conf 1 -
+/glbkdb.jsp/ 1 -
+/opcache.php 2 -
+/theme/META-INF%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afwindows/win.ini 1 -
+/upload.php 2 -
+/fs/console 1 -
+/seeyon/htmlofficeservlet 1 https://equaxsoftwarelabs.com
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd 1 -
+/sitemaps.xml 4 -
+/module/ 1 -
+/getcfg.php 2 -
+/swagger/v1/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/mobile/plugin/CheckServer.jsp 1 -
+/res/voice.html 2 -
+/weaver/org.springframework.web.servlet.ResourceServlet 1 -
+/adminer-4.6.0.php 1 https://equaxsoftwarelabs.com/
+/resin-admin/ 1 -
+/Qzs685QDtf5GqgeQ 1 -
+https://equaxsoftwarelabs.com/api/swagger-resources/restservices/v2/api-docs 1 https://equaxsoftwarelabs.com/
+/Data/Log/19_01_01.log 1 -
+/api/5/nginx 1 https://equaxsoftwarelabs.com/
+/ResourcePic/.ASPX 1 -
+/OData/OData.svc/ 1 -
+/download/410405 1 -
+/layout-mode 1 -
+/node_modules/body-parser/package.json 1 -
+/admin/dbdump.sql 1 -
+/LICENSE.md 1 -
+https://equaxsoftwarelabs.com/__swagger__/ 1 https://equaxsoftwarelabs.com/
+/cgi-bin/kerbynet 1 -
+/solr/admin/cores 2 -
+/../../../../conf/customer-config.xml 1 -
+/dqwkxvdwup 1 -
+/_vti_pvt/authors.pwd 1 -
+/general/userinfo.php 1 -
+/adminer-4.5.0-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/api/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/web/addons/ftp_download.php 1 -
+/servlet/codesettree 1 -
+/pcidss/report 2 -
+/css_parser.php 1 -
+/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/mantisbt-2.3.0/verify.php 1 -
+/client.do 1 -
+/admin.html 2 -
+/api/graphiql 1 -
+/.bash_history 1 -
+/cgi-bin/php-cgi 1 -
+/vgpgklepgr 1 -
+/system/mediafile/templateOfTaohong_manager.jsp 1 -
+/.index.php.swp 1 -
+/SWNetPerfMon.db.i18n.ashx 1 -
+/.well-known/ai-plugin.json 1 -
+/api/v1/swagger.json 1 https://equaxsoftwarelabs.com/
+/home.asp 1 -
+/ispirit/interface/gateway.php 2 -
+//bxss.me//%2F.. 1 -
+/adminer-4.2.5-en.php 1 https://equaxsoftwarelabs.com/
+/admin.php/common/add_images.html 1 -
+/verify.php 1 -
+/roller-ui/login.rol 1 -
+/api/v5 1 https://equaxsoftwarelabs.com/
+/cgi-bin/slogin/login.py 1 -
+/wp-json/metform/v1/forms/templates/0 1 -
+/1.php 1 -
+/phpunit/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ajax/telemetry.php 1 -
+/index.php/wap/goods/getGoodsListByConditions 2 -
+/v2/graphiql 1 -
+/static 2 -
+/v3/api 1 https://equaxsoftwarelabs.com/
+/api/v2.0/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/cgi-bin/jarrewrite.sh 1 -
+/gql 1 -
+/readme.md 1 -
+/setup.cgi 1 -
+/pweb/careerapply/HrmCareerApplyPerView.jsp 1 -
+/general/weibo/javascript/LazyUploadify/uploadify.php 1 -
+/_layouts/scriptresx.ashx 1 -
+/appmetrics-dash 1 -
+/user/login 1 -
+/conf_mail.php 1 -
+/adminer.php 1 https://equaxsoftwarelabs.com/
+/index.php/Home/uploadify/fileList 1 -
+/solr/select/ 1 -
+/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/test/test1/123 1 -
+/api/filemanager 1 -
+/seeyon/thirdpartyController.do.css/.. 1 -
+/install.php 1 https://equaxsoftwarelabs.com
+/weaver/bsh.servlet.BshServlet 1 -
+/config.json 2 -
+/servlet/~baseapp/nc.message.bs.NCMessageServlet 2 -
+/Proxy 1 -
+/plus/ajax_officebuilding.php 1 -
+/api/v4 1 https://equaxsoftwarelabs.com/
+/cgi-bin/get_file.php 1 -
+/equaxsoftwarelabsdb.sql 1 -
+/login.do 2 -
+/query 1 -
+/icons/../../../../../../../../../../../../../etc/shells 1 -
+/basic_status 1 -
+/ads.txt 29 -
+/druid/indexer/v1/sampler 1 -
+/status 4 -
+/v1/swagger.json 1 https://equaxsoftwarelabs.com/
+/download 1 -
+/_fragment 1 -
+/shell.jsp 1 -
+/_awstats/ 1 -
+/\\bxss.me//%2F.. 1 -
+/api/user/reg 1 -
+/glpi/plugins/barcode/front/send.php 1 -
+/servlet/FileReceiveServlet 1 -
+/adminer-4.6.2-mysql.php 1 https://equaxsoftwarelabs.com/
+/.git/index 1 -
+/../index.js 1 -
+/composer.json 1 -
+/api-docs/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/console 1 -
+/api/logout 1 -
+/public/index.php 2 -
+/api/v1.0/swagger.json 1 https://equaxsoftwarelabs.com/
+/xky3tkgysrn3 1 https://equaxsoftwarelabs.com/
+/adminer-4.6.0-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/run 1 -
+/pages/systemcall.php 1 -
+/adminer-4.3.1-en.php 1 https://equaxsoftwarelabs.com/
+/docs/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/fhem/FileLog_logWrapper 1 -
+/README.txt 1 -
+/stronghold-info 1 -
+/blog/wp-admin/setup-config.php 2 -
+/plus/guestbook.php 1 -
+/playground 1 -
+/examples/servlet/SnoopServlet 1 -
+/web-console/ 1 -
+/%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../%5C../etc/hosts 1 -
+/WebReport/ReportServer 1 -
+/services/system/info.html 1 -
+/scripts/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/WiFi.shtml 1 -
+/include/exportUser.php 1 -
+/parallax.js 19 -
+/cnhwxxdlre 1 -
+/clientaccesspolicy.xml 1 -
+/wp-json/mapsvg/v1/maps/2 1 -
+/configurations 2 -
+/cacti/ 1 -
+/concat 1 -
+/sitemap.xml.gz 3 -
+/KTifkDFpOn.cgi 1 -
+/register/toDownload.do 2 -
+/phpinfo.php 1 -
+/xky3tkgysrn3.jsp 1 https://equaxsoftwarelabs.com/
+/ui_base/js/../../../../../../../../../../etc/passwd 1 -
+/KTifkDFpOn.phtml 1 -
+/v2/graphql 1 -
+/system/deviceInfo 1 -
+https://equaxsoftwarelabs.com/api/v1/ui/ 1 https://equaxsoftwarelabs.com/
+/api/v1/canal/config/1/1 1 -
+https://equaxsoftwarelabs.com/docs/api-reference 1 https://equaxsoftwarelabs.com/
+https://equaxsoftwarelabs.com/api/swagger/ui/index 1 https://equaxsoftwarelabs.com/
+/serverLog/showFile.php 1 -
+/glpurgwgui 1 -
+/check 1 -
+/ioffice/prg/set/iocom/ioFileExport.aspx 1 -
+/xprober.php 1 -
+/user.php 3 45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:\"num\"
+/adminer-4.5.0-en.php 1 https://equaxsoftwarelabs.com/
+/wp-admin/admin-post.php 2 -
+/js/ 12 -
+/qvhwvkhfee 1 -
+/default 1 -
+/update.php 1 -
+/api/content/ 1 -
+/api/apidocs/swagger.json 1 https://equaxsoftwarelabs.com/
+/login_check.php 1 -
+/search.php 3 -
+/Common/ckeditor/plugins/multiimg/dialogs/image_upload.php 1 -
+/log/view 1 -
+/casa/nodes/thumbprints 2 -
+///////../../../etc/passwd 1 -
+/fosagent/repl/download-snapshot 2 -
+/owa/auth/x.js 1 -
+/isotope.js 18 -
+/php/getjson.php 1 -
+/run.sh 1 -
+/sdk/../../../../../../../../../../../../../etc/passwd 1 -
+/defaultroot/officeserverservlet 1 -
+/php/exportrecord.php 1 -
+/README 1 -
+/blog.html 1 https://equaxsoftwarelabs.com/services_home.html
+/monitorix/ 1 -
+/bonita/API/portal/page/ 1 -
+/base_import/static/c:/windows/win.ini 2 -
+/files/ldap.debug.txt 1 -
+/images/floorplans/plan 1 -
+/yxwleuoibe 1 -
+/admin/elmah.axd 1 -
+/nginx_status 1 -
+/userLogin.asp/../actionpolicy_status/../ER5200G2.cfg 1 -
+/Images/Remote 1 -
+/mobile/dbconfigreader.jsp 1 -
+/cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cfm 1 -
+/core/install.php 1 -
+/__debug__/render_panel/ 1 -
+/monitorix-cgi/monitorix.cgi 1 -
+/php/setup.php 1 -
+/account/sy_addmount.php 1 -
+/mobile/plugin/1/ofsLogin.jsp 1 -
+/AccessAnywhere/%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255cwindows%255cwin.ini 1 -
+/test.sh 1 -
+/requirements.txt 1 -
+/E4wjQqFw2l.cfm 1 -
+/.bash_profile 1 -
+/oputilsServlet 1 -
+/cgi-bin/mesh.cgi 1 -
+/plugins/web/service/search/auto-completion/domain/en.xml 1 -
+/v1 1 https://equaxsoftwarelabs.com/
+/admin.do 1 -
+/resizer.debug 1 -
+/plugin/customMethod 1 -
+/iOffice/prg/set/wss/udfmr.asmx 1 -
+/php/connector.minimal.php 1 -
+/admin%20/avatars 1 -
+/sys/ui/extend/varkind/custom.jsp 3 -
+/crossdomain.xml 2 -
+/apisix/batch-requests 1 -
+/v2/keys/rqhcakwwatodgptijprblajvsbgwfttx/sxisqtrxmfapijsnizpnwkfvmvvwswkk 1 -
+/owl.js 19 -
+/live_mfg.shtml 1 -
+/auth/cognito/callback 1 -
+/install/ 1 -
+/vendor/amnuts/opcache-gui/index.php 1 -
+/../debug.js 1 -
+/info 1 -
+/nginddxazf 1 -
+/artifactory/ui/auth/login 1 -
+/ui/vropspluginui/rest/services/getstatus 1 -
+/general/login_code_scan.php 1 -
+/swagger/v1/swagger.json 1 https://equaxsoftwarelabs.com/
+/key 1 -
+/admin/create.sql 1 -
+/tmUnblock.cgi 1 -
+/cgi-bin/ExportAllSettings.sh 1 -
+/cgi-bin/ufhtwq.txt 1 -
+/yyoa/ext/https/getSessionList.jsp 1 -
+/wls-wsat/CoordinatorPortType 2 -
+/s/opentsdb_header.jpg 1 -
+/api/v1/users/connection-token/ 1 -
+/data/mysql_error_trace.inc 1 -
+/sendemail.php 4 https://equaxsoftwarelabs.com/contact.html
+/iclock/ccccc/windows/win.ini 1 -
+/acslemzthp 1 -
+/console/images/%252e%252e%252f/console.portal 1 -
+/matomo/index.php 1 -
+/.htaccess 1 -
+/mifs/aad/api/v2/authorized/users 1 -
+/CF_SFSD/scripts/ajax/package/cfajax.js 1 -
+/api/auth/cognito/callback 1 -
+/login.html 2 -
+/jbossws/services 1 -
+/.zsh_history 1 -
+/main.ehp 1 -
+/examples/jsp/%252e%252e/%252e%252e/manager/html/ 1 -
+/service/extdirect 1 -
+/wp-content/plugins/WordPressCore/include.php 4 www.google.com
+/glpi/ajax/telemetry.php 1 -
+/interface/DownFileAttach.jsp 1 -
+/plus/recommend.php 1 -
+/manage.py 1 -
+/script.js 20 -
+/assets/%2f 1 -
+/kylin/api/admin/config 1 -
+/admin%20/license 1 -
+/shell.aspx 1 -
+/uddiexplorer/SearchPublicRegistries.jsp 1 -
+/uapws/soapFormat.ajax 1 -
+/+CSCOT+/oem-customization 1 -
+/batch.common.php 1 -
+/cf_scripts/scripts/ajax/package/cfajax.js 1 -
+/odata 1 -
+/test/test 1 -
+/9561222 1 -
+/zxgprqhntp 1 -
+https://equaxsoftwarelabs.com/swagger/ui/index 1 https://equaxsoftwarelabs.com/
+/registration.php 1 -
+/.htaccess.bak 1 -
+/web/static/c:/windows/win.ini 1 -
+/seeyonreport/ReportServer 1 -
+/adminer-4.6.1-mysql.php 1 https://equaxsoftwarelabs.com/
+/opensis/index.php 1 -
+/mgmt/tm/util/bash 3 -
+/page/login/login.html 1 -
+/artifactory/api/access/api/v1/users 1 -
+/plugin/LiveChat/getChat.json.php 1 -
+/passwordrecovered.cgi 1 -
+/wcntlfhoby 1 -
+/resin-doc/viewfile/ 1 -
+/.well-known/acme-challenge/<72894551> 1 -
+/v1.1 1 https://equaxsoftwarelabs.com/
+/stats 1 -
+/../release.js 1 -
+/card_scan.php 1 -
+/eoffice10/server/ext/system_support/leave_record.php 1 -
+/include/thumb.php 2 -
+/10158.php 1 -
+/userfiles 1 -
+/register.jsp 1 -
+/vendor/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/node/ 1 -
+/admin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/seeyon/management/index.jsp 1 -
+/database.yml.sqlite3 1 -
+/phpMyAdmin/main.php 1 -
+/InsightPluginShowGeneralConfiguration.jspa 1 -
+/auth/resetpassword 1 -
+/system/images/W1siZyIsICJjb252ZXJ0IiwgIi1zaXplIDF4MSAtZGVwdGggOCBncmF5Oi9ldGMvc2hlbGxzIiwgIm91dCJdXQ%3d%3d/test.jpeg 1 -
+/member/ajax_membergroup.php 1 -
+/admin 2 -
+/yasuxt.php 1 -
+/wiki/install.php 1 -
+/lwigmqidrg 1 -
+/./WEB-INF/web.xml 1 -
+/mobile/plugin/VerifyQuickLogin.jsp 1 -
+/gabiixcgyk 1 -
+/s/bvazbj/_/ 1 -
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd 1 -
+/..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fshells%23foo/development 1 -
+/composer.lock 1 -
+/administrator.cgi 1 ()%20{%20Referer
+/munin/ 1 -
+/Audio/1/hls/..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Cwin.ini/stream.mp3/ 1 -
+/lwfszsuxce 1 -
+/resin-doc/ 1 -
+/database.yml.pgsql 1 -
+/nsfvdvmtng 1 -
+/imc/javax.faces.resource/dynamiccontent.properties.xhtml 1 -
+/images/ 24 -
+/Ajax/AjaxMethod.ashx 1 -
+/mailsms/s 1 -
+/upload.html 1 -
+/password.jsn 1 -
+/.ssh/id_dsa 1 -
+/config/database.yml 2 -
+/.%0D./.%0D./.%0D./.%0D./bin/sh%20HTTP/1.0 1 -
+/.mysql_history 1 -
+/elmah.axd 1 -
+/solr//config 2 -
+/cgi-bin/wapopen 1 -
+/WEB-INF/web.xml 2 -
+/vpn/../vpns/cfg/smb.conf 2 -
+/request_para.cgi 1 -
+/adminer-4.6.1.php 1 https://equaxsoftwarelabs.com/
+/KTifkDFpOn.shtml 1 -
+/admin%20/logging 1 -
+/shell.php 1 -
+/images/../../../../../../../../../../../../../etc/shells 1 -
+https://equaxsoftwarelabs.com/swagger/index.html 1 https://equaxsoftwarelabs.com/
+/proxy.pac 1 -
+/ConsoleExternalUploadApi.XGI 1 -
+/cgdmrventr 1 -
+/wnwbnmgglu 1 -
+/System/Info/Public 1 -
+/ucms/index.php 1 -
+/V2/OData/OData.svc/ 1 -
+/ui/vropspluginui/rest/services/uploadova 1 -
+https://equaxsoftwarelabs.com/api/swagger/swagger-ui.html 1 https://equaxsoftwarelabs.com/
+/Interface/LogReport/zaiam.txt 1 -
+/ClientAccessPolicy.xml 1 -
+/kdqusksriq 1 -
+/deploy.sh 1 -
+/layout-modes/fit-rows 1 -
+/cgi-bin/webupg 1 http://0.0.0.0/autoupgrade.asp
+/fileupload/toolsAny 2 -
+/LICENSE.txt 1 -
+/data/pbootcms.db 1 -
+/jars/upload 1 -
+https://equaxsoftwarelabs.com/api/v1/doc 1 https://equaxsoftwarelabs.com/
+/ws.php 1 -
+//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js 20 -
+/api/auth/login 1 -
+/api/sms_check.php 1 -
+/webadm/ 1 -
+/bxcrkylghi 1 -
+/api/v1 1 https://equaxsoftwarelabs.com/
+/shell.asp 1 -
+/report/download.php 1 -
+/adbxtksbmb 1 -
+/rnfpnr.txt 1 -
+/.well-known/openid-configuration 1 -
+/.%00/WEB-INF/web.xml 2 -
+/self.key 1 -
+/persons 1 -
+/server-info 1 -
+/http/index.php 2 -
+/api/snapshots/:key 1 -
+/admin/dump.sql 1 -
+/ca/rest/certrequests 1 -
+/servlet/~ic/bsh.servlet.BshServlet 1 -
+/php-opcache-status/ 1 -
+/phpmyadmin/index.php 1 -
+/mac/gateway.php 1 https://equaxsoftwarelabs.com
+/fnleyddlfl 1 -
+/nbdifgvquh 1 -
+/.bash_logout 1 -
+/sslvpn/img/../../../../../../etc/passwd 1 -
+/secure/ViewUserHover.jspa 1 -
+/faq.php 1 -
+/realms/master/clients-registrations/default 1 -
+/abgxygmrvz 1 -
+/rsync.sh 1 -
+/jsp/viewer/snoop.jsp 1 -
+/wp-json/wp/v2/users/ 1 -
+/../../../../../../../../../../etc/passwd 1 -
+/v1/agent/self 3 -
+/yemxdb.jsp/ 1 https://equaxsoftwarelabs.com
+/pandora_console/attachment/pandora_chat.log.json.txt 1 -
+/pma/ 1 -
+/tmui/login.jsp/.. 1 -
+/.php_cs.cache 1 -
+/nagiosql/admin/logbook.php 1 -
+/index.php/example.com 1 -
+/cas/fileUpload/upload 1 https://equaxsoftwarelabs.comcas/login
+/Ap7d4TSsRE.jsp 1 -
+https://equaxsoftwarelabs.com/swagger-resources/restservices/v2/api-docs 1 https://equaxsoftwarelabs.com/
+https://equaxsoftwarelabs.com/classicapi/doc/ 1 https://equaxsoftwarelabs.com/
+/nodemon.json 1 https://equaxsoftwarelabs.com/
+/balancer-manager 1 -
+/cgi-bin/config.exp 1 -
+/upload.do 1 -
+https://equaxsoftwarelabs.com/api/_swagger_/ 1 https://equaxsoftwarelabs.com/
+/info.php 1 -
+/weaver/com.weaver.formmodel.apps.ktree.servlet.KtreeUploadAction 1 -
+/phpfpm_status 1 -
+/database.yml~ 1 -
+/api/3/nginx 1 https://equaxsoftwarelabs.com/
+/app/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/.bashrc 1 -
+https://equaxsoftwarelabs.com/api/apidocs 1 https://equaxsoftwarelabs.com/
+/%20../web-inf/ 1 -
+/api/experimental/latest_runs 1 -
+/yzocpavlan 1 -
+/signup.html 1 -
+/registration.asp 1 -
+/bitrix/redirect.php 1 -
+//bxss.me/.. 2 -
+/item 1 -
+/wps/PA_WCM_Authoring_UI/proxy/http/example.com 1 -
+/_users/org.couchdb.user:jbqrwncqhshzqgvbydpusookivrchdho 1 -
+/public/index.php/material/Material/_download_imgage 1 -
+/action.php 1 -
+/user/zs.php 1 -
+/%2557EB-INF/web.xml 1 -
+/perl/printenv.pl 1 -
+/base/static/c:/windows/win.ini 1 -
+/api/v1/nodes 1 -
+/images/sponsors/ 3 -
+/wp-admin/admin-ajax.php 19 -
+/api/whoami 1 -
+/libraries/ 1 -
+/extdirect 1 -
+/pma/main.php 1 -
+/drupal/install.php 1 -
+/api/v1/GetDevice 1 -
+/auth/newpassword 1 -
+/ueditor/net/controller.ashx 1 -
+/webtools/control/xmlrpc 2 -
+/+CSCOU+/../+CSCOE+/files/file_list.json 1 -
+/plus/carbuyaction.php 1 -
+/manager/status/all 1 -
+/_snapshot/jhvt 1 -
+https://equaxsoftwarelabs.com/api/v1/openapi 1 https://equaxsoftwarelabs.com/
+/api/v2/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/AirWatch/BlobHandler.ashx 1 -
+/szulvtrktl 1 -
+/admin%20/db/edit 1 -
+/uuhvwnktjw 1 -
+/tplus/SM/DTS/DownloadProxy.aspx 1 -
+/weaver/org.apache.xmlrpc.webserver.XmlRpcServlet 1 -
+/util/barcode.php 1 -
+/adminer-4.3.0-en.php 1 https://equaxsoftwarelabs.com/
+/data/login 1 -
+/Bo0QPdJd 1 -
+/rest/api/2/user/picker 1 -
+/rest/api/latest/groupuserpicker 1 -
+/debug/pprof/ 1 -
+/apisix/admin/routes 1 -
+/setup.sh 1 -
+/solr/ 1 -
+/admin/database.sql 1 -
+/dbdump.sql 1 -
+/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx%20TemplateMsg.js.zgz 2 -
+/cgi-bin/FormMail.cgi 1 ()%20{%20Referer
+/seeyon/webmail.do 1 -
+/was5/web 1 -
+/extend/Qcloud/Sms/Sms.php 1 -
+/CFIDE/scripts/ajax/package/cfajax.js 1 -
+/config.php~ 1 -
+/ouselppycc 1 -
+/webservice/get_usedspace.php 1 -
+/eZServerMonitor/ 1 -
+/plus/weixin.php 1 -
+/objects/getImage.php 1 -
+/nifi-api/flow/current-user 1 -
+/ztp/cgi-bin/handler 1 -
+/public/index.php/home/index/bind_follow/ 1 -
+/h2-console 1 -
+/sqlnet.log 1 -
+/robots.txt 188 -
+/glhmrwzniq 1 -
+/config/list 1 -
+/api/v1/users/admin 1 -
+/phpMyAdmin/index.php 1 -
+https://equaxsoftwarelabs.com/api/help 1 https://equaxsoftwarelabs.com/
+/Data/Log/22_01_01.log 1 -
+/index.php/bbs/index/download 1 -
+/him/api/rest/V1.0/system/log/list 1 -
+/test.sql 1 -
+/apidocs/swagger.json 1 https://equaxsoftwarelabs.com/
+/cgi-sys/addalink.cgi 1 ()%20{%20Referer
+/controllers/application_controller.rb 1 -
+/.ssh/authorized_keys 1 -
+/bglkbedtwd 1 -
+/boafrm/formSysCmd 1 -
+/tag_test_action.php 1 -
+/layout-modes/vertical 1 -
+/varz 1 -
+/cgi-bin/FormHandler.cgi 1 ()%20{%20Referer
+/wp-includes/images/include.php 1 www.google.com
+/out/ 1 -
+/mainFunctions/comboxstore.action 1 -
+/hsqldb 1 -
+/defaultroot/upload/fileUpload.controller 1 -
+/NdBEbMqDzCNmYTpEReKc 1 -
+/adminer-4.2.5-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/IEgu9NPFps.cfm 1 -
+/cgi-bin/export-cgi 1 -
+/upload/mobile/index.php 1 -
+/adminer-4.6.1-en.php 1 https://equaxsoftwarelabs.com/
+/cgi-bin/php4.cgi 1 -
+https://equaxsoftwarelabs.com/api/swagger/index.html 1 https://equaxsoftwarelabs.com/
+/statistics.html 1 -
+/system/refinery/images/W1siZyIsICJjb252ZXJ0IiwgIi1zaXplIDF4MSAtZGVwdGggOCBncmF5Oi9ldGMvc2hlbGxzIiwgIm91dCJdXQ%3d%3d/test.jpeg 1 -
+/out 1 -
+/defaultroot/extension/smartUpload.jsp 1 -
+/zentao/user-login.html 1 http://equaxsoftwarelabs.com/zentao/user-login.html
+/Applications/dellUI/RPC/WEBSES/create.asp 1 -
+/default.json 1 https://equaxsoftwarelabs.com/
+/admin%20/mail-server 1 -
+/swagger/v2/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/v3/graphiql 1 -
+/plug/comment/commentList.asp 1 -
+/chosen.php 4 www.google.com
+/v2/api 1 https://equaxsoftwarelabs.com/
+/reportresource/reportresource/ 1 -
+/api/spec/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/api/system/deviceinfo 1 -
+/yyoa/ext/trafaxserver/downloadAtt.jsp 1 -
+/autodiscover/autodiscover.json 3 -
+/p.php 1 -
+/ajax/api/content_infraction/getIndexableContent 1 -
+/ops/Login 1 -
+/db.sqlite 1 -
+/unauth/php/change_password.php/%22%3E%3Cwigviwlaoq%3E 1 -
+/adminer-4.3.0.php 1 https://equaxsoftwarelabs.com/
+/secure/QueryComponentRendererValue!Default.jspa 1 -
+/ha-stats 1 -
+/pma/index.php 1 -
+/Catalog/BlobHandler.ashx 1 -
+/.ssh/id_dsa.pub 1 -
+/nmexwshnia 1 -
+/piwik/index.php 2 -
+/manager/radius/server_ping.php 1 -
+/picturesPreview 1 -
+/kqctgwohra 1 -
+/user/register 1 -
+/test.php 1 -
+/hfgwoshbxf 1 -
+/hhtyhmbhhg 1 -
+/admin.jsp 1 -
+/auth/realms/master/clients-registrations/openid-connect 1 -
+/reports/rwservlet 1 -
+/mantisBT/verify.php 1 -
+/signin 2 -
+/devices.inc.php 1 -
+/styles/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/sysinit.shtml 1 -
+/redirect/bxss.me 1 -
+/xxl.php 2 www.google.com
+/tplus/ajaxpro/Ufida.T.SM.Login.UIP.LoginManager,Ufida.T.SM.Login.UIP.ashx 1 -
+/adminer-4.5.0-mysql.php 1 https://equaxsoftwarelabs.com/
+/cpt/manage/validate.jsp 1 -
+/Upload/upload_file.php 1 -
+/monitor/ 1 -
+/wp-json/ssa/v1/users 1 -
+https://equaxsoftwarelabs.com/api/swagger-ui/api-docs 1 https://equaxsoftwarelabs.com/
+/get_luser_by_sshport.php 1 -
+/photo/p/api/album.php 1 -
+/Server/CmxUser.php 1 -
+/search/index.php 1 -
+/t/index.php 1 -
+/webpagetest/index.php 1 -
+/cgi-bin/jumpto.php 1 -
+/compliancepolicyelements.inc.php 1 -
+/ 2 -
+/reports/rwservlet/showenv 1 -
+/about_state 1 -
+/debug.php 1 -
+/pentaho/api/userrolelist/systemRoles 2 -
+/uttfeiuwkm 1 -
+/cgi-bin/nightled.cgi 1 -
+/Data/Log/20_01_01.log 1 -
+/database.sql 2 -
+/saml/sp/acs 1 -
+/Api/portal/elementEcodeAddon/getSqlData 1 -
+/GCSTIBKt1i.jsp 1 -
+/register.asp 1 -
+/app/controllers/application_controller.rb 1 -
+/ojpedmdzlr 1 -
+/system/console/gatewaystatus 1 -
+/tests/generate.php 1 -
+/index.php/backend_api/ajax_get_calendar_events 1 -
+/api/graphql 2 -
+/equaxsoftwarelabs_db.sql 1 -
+/sitemap.txt 2 -
+/install 1 -
+/sitemap_index.xml 2 -
+/Board.XGI 1 -
+/bitrix/components/bitrix/photogallery_user/templates/.default/galleries_recalc.php 1 -
+/web/addons/jqueryFileTree.php 1 -
+https://equaxsoftwarelabs.com/idm/v2/api-docs 1 https://equaxsoftwarelabs.com/
+/css/ 4 -
+/listener.log 1 -
+/eam/vibd 1 -
+/admin/event/uploadimg.html 1 -
+/gsgehdiecw 1 -
+/plus/ajax_common.php 1 -
+/.//WEB-INF/weblogic.xml 1 -
+/messageType.do 1 -
+/apple-app-site-association 1 -
+/plug/oem/AspCms_OEMFun.asp 1 -
+https://equaxsoftwarelabs.com/swagger-ui 1 https://equaxsoftwarelabs.com/
+/interlib/report/ShowImage 2 -
+/static/api/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/new/newhttp:/interact.sh 1 -
+/mobile/browser/WorkflowCenterTreeData.jsp 1 -
+/api/v1/GetSrc 1 -
+/changePassword 1 -
+/v2/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/comment/api/index.php 2 -
+/OAapp/bfapp/buffalo/workFlowService 1 -
+/src/php/upload.php 1 -
+/mas/sysinfo/testCommandExecutor.jsp 1 -
+/a/b/..%00/WEB-INF/web.xml 1 -
+/hno5QOOYmlwXgU8x 1 -
+/html/log 1 -
+/webapi/auth 1 -
+/php/rj_get_token.php 1 -
+/seeyon/rest/authentication/ucpcLogin 1 -
+/icons/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/resizer.debug.ashx 1 -
+/KTifkDFpOn.aspx 1 -
+/application/configs/application.ini 1 -
+/uapws/service 1 -
+/dumpmdm.cmd 1 -
+/config/database.yml_original 1 -
+/api/v2.0/swagger.json 1 https://equaxsoftwarelabs.com/
+https://equaxsoftwarelabs.com/swaggerui 1 https://equaxsoftwarelabs.com/
+/report/ReportServer 1 -
+/logs/ 1 -
+/wp-json/am-member/license 1 -
+/jsp/help-sb-download.jsp 2 -
+/fdsnaizumf 1 -
+/inc/expired.php 1 -
+/webui/ 1 -
+/img/services/quality-assurence.jpg 1 https://www.equaxsoftwarelabs.com/softwarequality.html
+/OA/PM/svc.asmx 1 -
+/_vti_bin/shtml.exe 1 -
+/zabbix/ 1 -
+/ad.php 2 https://equaxsoftwarelabs.com/
+/agc/vicidial_mysqli_errors.txt 1 -
+/env.json 1 https://equaxsoftwarelabs.com/
+/settings.json 1 https://equaxsoftwarelabs.com/
+/ws/v1/cluster/info 1 -
+/200739007.txt 1 -
+/searchblox/plugin/index.html 1 -
+/opcache/index.php 1 -
+/xky3tkgysrn3.html 1 https://equaxsoftwarelabs.com/
+/jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd 1 -
+/nf_tracking.php 1 www.google.com
+/adminer-4.3.1-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php 1 -
+/device.rsp 1 -
+/pentaho/api/repos/dashboards/editor 1 -
+/opcache-gui/index.php 1 -
+/snippets.inc.php 1 -
+/revolution.min.js 20 -
+/owa/auth/y.js 1 -
+/auth/realms/master/clients-registrations/default 1 -
+/mobile/inc/get_contactlist.php 1 -
+/readme 1 -
+/api/terminals 1 -
+/dump.sql 2 -
+/pwxinovvnl 1 -
+/api/v3 1 https://equaxsoftwarelabs.com/
+/plus/download.php 1 -
+/cgi-bin/search.cgi 1 ()%20{%20Referer
+/temp.txt 1 -
+/client/index.php 1 -
+/adminer-4.3.0-mysql.php 1 https://equaxsoftwarelabs.com/
+/wp-json/wp/v2/posts 1 -
+/bugs/verify.php 1 -
+/v1_0/home/jobfairol/resumelist 1 -
+/cgi-bin/welcome 1 ()%20{%20Referer
+/html/repository 1 -
+/api/v1/method.callAnon/getPasswordPolicy 1 -
+/|~.aspx 1 -
+/opcache-status/opcache.php 1 -
+/auth/requestreset 1 -
+/v2/swagger.json 1 https://equaxsoftwarelabs.com/
+/etc/passwd 1 -
+/badging/badge_print_v0.php 1 -
+/systemController/showOrDownByurl.do 1 -
+/adminer-4.5.0.php 1 https://equaxsoftwarelabs.com/
+/jmx-console/ 1 -
+/.config.inc.php.swp 1 -
+/api/tokens 1 -
+/kfvxhfaecy 1 -
+/uapws/service/nc.itf.ses.inittool.PortalSESInitToolService 1 -
+/dokuwiki/install.php 1 -
+/view/IPV6/naborTable/static_convert.php 1 -
+/now.json 1 https://equaxsoftwarelabs.com/
+/index.htm 1 -
+/kxesaoevvr 1 -
+/admin%20/authentication 1 -
+/jquery-picture-cut/src/php/upload.php 1 -
+/plus/ajax_street.php 1 -
+/inter/ajax.php 1 -
+https://equaxsoftwarelabs.com/api-reference 1 https://equaxsoftwarelabs.com/
+/bitrix_server_test.php 1 -
+/OA_HTML/jsp/bsc/bscpgraph.jsp 1 -
+/nacos/v1/cs/ops/derby 1 -
+/module/smartblog/archive 1 -
+/backup.sql 1 -
+/SDK/webLanguage 1 -
+/manager/html/ 2 -
+/manager/index.php 1 -
+/analytics/index.php 2 -
+/manager/html 1 -
+/graphql 3 -
+/source/pack/127.0.0.1/download.php 1 -
+/_ignition/execute-solution 1 -
+/nfftguvdou 1 -
+https://equaxsoftwarelabs.com/api/__swagger__/ 1 https://equaxsoftwarelabs.com/
+/api/swagger.json 1 https://equaxsoftwarelabs.com/
+/v1/graphiql 1 -
+/portal/SptmForPortalThumbnail.jsp 1 -
+/v1/auth/users/ 1 -
+/.svn/entries 1 -
+/_next/../../../../../../../../../../etc/passwd 1 -
+/.well-known/apple-app-site-association 1 -
+/images/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/shells 1 -
+/events/ 1 -
+/stat/ 1 -
+/plugin/index.html 1 -
+/mysql/main.php 1 -
+/login.asp 2 -
+/catalog/install/index.php 1 -
+/prweb/PRAuth/app/default/ 1 -
+/files.md5 1 -
+/phpmyadmin/main.php 1 -
+/uapim/upload/grouptemplet 1 -
+/urifmgrkgv 1 -
+/KTifkDFpOn.asp 1 -
+/KTifkDFpOn 1 -
+/(download)/tmp/dgfcrrnh.txt 1 -
+/admin%20/db 1 -
+/id_rsa.pub 1 -
+/core 1 -
+/cgi-bin/mt/mt-xmlrpc.cgi 1 -
+/cgi-bin/status.pl 1 -
+/brvozphgls 1 -
+/crcbbuedka 1 -
+/backup.sh 1 -
+https://equaxsoftwarelabs.com/docs/ 1 https://equaxsoftwarelabs.com/
+/api-docs/swagger.json 1 https://equaxsoftwarelabs.com/
+//etc/passwd 1 -
+/database.yml_original 1 -
+/api/v1.0/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/upgrade_handle.php 1 -
+/../../../../../../../../z/../../../../../../../../../etc/shells 1 -
+https://equaxsoftwarelabs.com/swagger/docs/v1 1 https://equaxsoftwarelabs.com/
+/upload.aspx 1 -
+/login.php 4 -
+/jquery.fancybox-media.js 19 -
+/f/job.php 1 -
+/cfide/scripts/ajax/package/cfajax.js 1 -
+/bevgtpxwgb 1 -
+/admin%20/server-settings 1 -
+/db.php.bak 1 -
+/jira/secure/QueryComponentRendererValue!Default.jspa 1 -
+https://equaxsoftwarelabs.com/api/swagger-ui.html 1 https://equaxsoftwarelabs.com/
+https://equaxsoftwarelabs.com/api/docs/ 1 https://equaxsoftwarelabs.com/
+/railo-context/admin/update.cfm 1 -
+/ioncube/loader-wizard.php 1 -
+/sysShell 1 -
+/go/add-on/business-continuity/api/plugin 2 -
+/scripts/manage.py 1 -
+/laravel-filemanager/download 1 -
+/ui/h5-vsan/rest/proxy/service/a/b 1 -
+/oauth/authorize 2 -
+/__nuxt_vite_node__/module/jubpu 1 -
+/.env 4 -
+/ui/login.php 1 -
+/_adminer.php 1 https://equaxsoftwarelabs.com/
+/yyoa/DownExcelBeanServlet 1 -
+/cache/backup/ 1 -
+/download.php 2 -
+/api/v2/swagger.json 1 https://equaxsoftwarelabs.com/
+/v1/submissions 1 -
+/api/console/api_server 1 -
+/README.md 1 -
+//bxss.me 1 -
+/debug/pyspidervulntest/run 1 -
+/register.html 1 -
+/egroupware/phpgwapi/js/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php 1 -
+/files/ 1 -
+/OA_HTML/AppsLocalLogin.jsp 1 -
+/webshell.php 1 -
+/api/geojson 2 -
+/appmonitor/protected/selector/server_file/files 2 -
+/admin.cgi 1 ()%20{%20Referer
+/compliancepolicies.inc.php 1 -
+/zabbix/zabbix.php 1 -
+/Data/Log/21_01_01.log 1 -
+/backup/auto.php 1 -
+/graphiql 1 -
+/adminer-4.2.5.php 1 https://equaxsoftwarelabs.com/
+/ddi/server/upload/iozwyhut.php 1 -
+/app/../../../../../../../../../../../../../etc/shells 1 -
+/wp-content/plugins/site-editor/editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php 1 -
+/auth/check 1 -
+/swagger-ui/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/admin.php 1 -
+/snepokrmej 1 -
+/..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fpasswd%23/a 1 -
+/RestAPI/getAPIKey 1 -
+/admin/cms_channel.php 1 -
+/lucee/admin/imgProcess.cfm 2 -
+/vendor/../../../../../../../../../../../../../etc/shells 1 -
+/V3/OData/OData.svc/ 1 -
+/apisix/admin/migrate/export 1 -
+/servlet/sendData 1 -
+/api/settings/values 1 -
+/user/login/checkPermit 1 -
+/api/session/properties 1 -
+/wp-json/buddypress/v1/signup 1 -
+/services/user/values.xml 1 -
+/plugin.php 1 -
+/ping 2 -
+/bal 1 -
+/app/kibana 1 -
+/cgi-bin/ExportSettings.sh 1 -
+/Account/Register.aspx 1 -
+/cgi-bin/DownloadCfg/RouterCfm.cfg 1 -
+/menu/stapp 1 -
+https://equaxsoftwarelabs.com/api/v2/doc 1 https://equaxsoftwarelabs.com/
+/api/apidocs/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/registration.aspx 1 -
+/wp-login.php 1 -
+/api-third-party/download/extdisks../etc/passwd 1 -
+/log/system.log 1 -
+/bnmliqvhyo 1 -
+/iwchoipgbe 1 -
+/jolokia/exec/com.sun.management:type=DiagnosticCommand/compilerDirectivesAdd/!/tmp!/bjbjnqjlwslfuhbjyx 1 -
+/adminer-4.6.0-en.php 1 https://equaxsoftwarelabs.com/
+/ZbRsgvjktIsOmhJnJrYi 1 -
+/api/swaggerui/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/admin.asp 1 -
+/id_rsa 1 -
+/opensearch.xml 1 -
+/httpd.conf 1 -
+/h2/ 1 -
+/bootstrap.min.js 19 -
+/ispirit/login_code.php 1 https://equaxsoftwarelabs.com
+/api/v2/cmdb/vpn.ssl/settings 1 -
+/zgihasbxnq 1 -
+/cgi-bin/mainfunction.cgi 1 -
+/mifs/. 1 https://equaxsoftwarelabs.com/
+/UploadFileData 1 -
+/adminer-4.6.2-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/zabbix.php 1 -
+/cgi-bin/webproc 1 -
+/admin/LiveLogSettingsServlet 1 -
+/content/cdzyzy 1 -
+/db.sql 2 -
+https://equaxsoftwarelabs.com/api/v1/ 1 https://equaxsoftwarelabs.com/
+/hedwig.cgi 1 -
+/wp-includes/widgets/include.php 4 www.google.com
+/admin/backup.sql 1 -
+/logfile 1 -
+/ws/v1/cluster/apps/new-application 1 -
+/remote/fgt_lang 2 -
+/swagger.json 1 https://equaxsoftwarelabs.com/
+/res/url.html 1 -
+/.zshrc 1 -
+/test/pathtraversal/master/..%252F..%252F..%252F..%252F..%252F..%252Fetc%252fpasswd 1 -
+/nagiosql/admin/commandline.php 1 -
+/plugins/servlet/oauth/users/icon-uri 1 -
+/stats/ 1 -
+/rpc/dir 1 -
+/respond.js 18 -
+/web/php/sendLogToSupport.php 1 -
+/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml 1 -
+/admin/ 8 -
+/config.php.bak 1 -
+/php/ping.php 1 -
+/api 1 https://equaxsoftwarelabs.com/
+/CHANGELOG.md 1 -
+/_next/static/../server/pages-manifest.json 2 -
+/catalog-portal/ui/oauth/verify 2 -
+/webadmin/script 1 -
+/acc/clsf/report/datasource.php 1 -
+/app/etc/local.xml 1 -
+/coredumpcheck.php 1 -
+/images/main-slider/ 4 -
+/p_/webdav/xmltools/minidom/xml/sax/saxutils/os/popen2 1 -
+/i.php 1 -
+/db.inc 1 -
+/awstats/ 1 -
+/889283789.php 1 -
+/adminer-4.3.1.php 1 https://equaxsoftwarelabs.com/
+/adminer-4.6.1-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/api/dbstat/gettablessize 1 -
+/index5.html 11 -
+/web/addons/upload.php 1 -
+/readme.txt 1 -
+/ui_base/js/..%2f..%2f..%2f..%2fsettings.js 1 -
+/docs/../../../../../../../../../../../../../etc/shells 1 -
+/styles/../../../../../../../../../../../../../etc/shells 1 -
+/xdlzgkryds 1 -
+/cgi-bin/printenv.pl 1 -
+/live_check.shtml 1 -
+/config/.config.php.swp 1 -
+/actuator/env 1 -
+/E-mobile/App/Ajax/ajax.php 1 -
+/blog-single.html 11 -
+/manager/login.do 1 -
+/adminer-4.4.0-mysql.php 1 https://equaxsoftwarelabs.com/
+/_phpmyadmin/index.php 1 -
+/s/mjsjv/_/ 1 -
+/CMSPages/Staging/syncserver.asmx 1 -
+/health 1 -
+/go/add-on/business-continuity/api/cruise_config 1 -
+/itc/attachment_downloadByUrlAtt.action 1 -
+/xpdqrrdjus.php 1 -
+/password_change.cgi 1 https://equaxsoftwarelabs.com
+/source/pack/upload/index-uplog.php 1 -
+/RPC2_Login 1 -
+/language/lang 1 -
+/FileUploadServices/MOBFileUpload.ashx 1 -
+https://equaxsoftwarelabs.com/api/spec 1 https://equaxsoftwarelabs.com/
+/service/~iufo/com.ufida.web.action.ActionServlet 1 -
+/common/download/resource 2 -
+/realms/master/clients-registrations/openid-connect 1 -
+/Security/users 1 -
+/cgi-bin/php 1 -
+/zabbix/setup.php 1 -
+/5NSDoCuwrp.cfm 1 -
+/tplus/img/login/wchkhw.jpg 1 -
+/v1/graphql 1 -
+/admin/protected/selector/server_file/files 1 -
+/web/database/manager 1 -
+/web.config.i18n.ashx 2 -
+/api/edr/sangforinter/v2/cssp/slog_client 1 -
+/../conf/config.properties 1 -
+/uwcmpnogeq 1 -
+/adminer-4.4.0.php 1 https://equaxsoftwarelabs.com/
+/adminer-4.4.0-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/api/v1/user/login 1 -
+/adminer-4.6.2-en.php 1 https://equaxsoftwarelabs.com/
+/tomcat-docs/appdev/sample/web/hello.jsp 1 -
+/ttxkmlfbhw 1 -
+/cgi-bin/test.cgi 1 -
+/j2ee/servlet/SnoopServlet 1 -
+/v3/graphql 1 -
+/config/ 1 -
+/v5/api 1 https://equaxsoftwarelabs.com/
+/logs 1 -
+/Global.asax.bak 1 -
+/\\bxss.me 1 -
+/config.inc.php.bak 1 -
+/V4/OData/OData.svc/ 1 -
+/users/sign_in 2 -
+/ajax/api/hook/decodeArguments 1 -
+/upfile.php 1 -
+/wp-content/plugins/mailpress/mp-includes/action.php 2 -
+/_vti_bin/_vti_aut/author.dll 1 -
+/NCFindWeb 2 -
+/phpmoadmin/moadmin.php 1 -
+/api/6/nginx 1 https://equaxsoftwarelabs.com/
+/logout_redirect.do 1 -
+/config/database.yml~ 1 -
+/admin/sql 1 -
+/searchblox/servlet/FileServlet 1 -
+/tools/manage/upload.php 1 -
+/hrm/hrm_e9/orgChart/js/jquery/plugins/jqueryFileTree/connectors/jqueryFileTree.jsp 1 -
+/+CSCOT+/translation-table 1 -
+/general/calendar/arrange/get_cal_list.php 1 -
+/KTifkDFpOn.nsf 1 -
+/module/retrieve_pwd/header.inc.php 1 -
+/fosagent/repl/download-file 1 -
+/base/post.php 1 -
+/examples/servlets/servlet/SessionExample 1 -
+/wp-content/plugins/adaptive-images/adaptive-images-script.php 1 -
+/opcache-status/ 1 -
+/jenkins/script 1 -
+/lkynvhimbu 1 -
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/shells 1 -
+/cgi-bin/popen.cgi 1 -
+/_async/AsyncResponseService 1 -
+/tz.php 1 -
+/workrelate/plan/util/uploaderOperate.jsp 1 -
+/WEB-INF/web.xml_ 1 -
+/zentao/www/api-getModel-api-sql-sql=select+md5(26519857),password+from+zt_user 1 -
+/server 1 -
+/opensearch 1 -
+/czxckckede 1 -
+/form/DataApp 1 -
+/simple.phpp 1 www.google.com
+/KTifkDFpOn.jhtml 1 -
+/database.yml 1 -
+/upload 1 -
+/cms/manage/admin.php 1 -
+/api/v1/swagger.yaml 1 https://equaxsoftwarelabs.com/
+/druid/index.html 1 -
+/afsgflremf 1 -
+/index.php~ 1 -
+/a/b/%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc/resolv.conf 1 -
+/UxZp4H6ot3RHehm1 1 -
+//.. 1 -
+/static/api/swagger.json 1 https://equaxsoftwarelabs.com/
+/Adminer.php 1 https://equaxsoftwarelabs.com/
+/wp-apxupx.php 1 www.google.com
+/./RestAPI/LogonCustomization 1 -
+/atomlib.php 1 www.google.com
+/uai/download/uploadfileToPath.htm 1 -
+/perl-status 1 -
+/icons/../../../../etc/passwd 1 -
+/login.jsp 1 -
+/seeyon/thirdpartyController.do 1 -
+/getCorsFile 2 -
+/upload.sh 1 -
+/fetchBody 1 -
+/Items/RemoteSearch/Image 1 -
+/plugins/servlet/groupexportforjira/admin/json 1 -
+/.ssh/id_rsa 1 -
+/oauth/idp/logout 1 -
+/eureka/ 1 -
+/setup.py 1 -
+/tndwhhpuwv 1 -
+/tst324466 1 -
+/wp-admin/setup-config.php 2 -
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/windows/win.ini 1 -
+/configWizard/keyUpload.jsp 1 -
+/DGnPZqxiECsMdBcupHoy 1 -
+/api/image/cover-upload 1 -
+/api.php 1 -
+/api/v2/cmdb/system/admin/admin 1 -
+/public/login.htm 1 -
+/cvaqziumia 1 -
+/nagiosxi/login.php 1 -
+/adminer-4.3.1-mysql.php 1 https://equaxsoftwarelabs.com/
+/admin/db.sql 1 -
+/moadmin/moadmin.php 1 -
+/wp-admin/admin.php 3 -
+/KTifkDFpOn.cfm 1 -
+/api/v1/openapi.json 1 https://equaxsoftwarelabs.com/
+/KTifkDFpOn.pl 1 -
+/server/index.php 1 -
+/includes/mysql2i/mysql2i.func.php 1 -
+/examples/jsp/index.html 1 -
+/commands.inc.php 1 -
+/CFIDE/administrator/enter.cfm 1 -
+/api/v1/authentication/connection-token/ 1 -
+/appsettings.json 1 https://equaxsoftwarelabs.com/
+/cczdevilbr 1 -
+/nuxeo/login.jsp/pwn$%7B896615085+877368851%7D.xhtml 1 -
+/api/proxy/tcp 2 -
+/swarm.cgi 1 -
+/module/api.php 1 -
+/objects/getImageMP4.php 1 -
+/cgi-bin/downloadFlile.cgi 1 -
+/viewthread.php 1 -
+/servlet/com.sksoft.bill.ImageUpload 1 -
+/eam/vib 3 -
+/upload.asp 1 -
+/zegslvugwl 1 -
+/api/components/search_projects 1 -
+/haproxy 1 -
+/index.php/fuel/pages/select/ 1 -
+/enduserreg 1 -
+/.DS_Store 1 -
+/include/downmix.inc.php 1 -
+/a 4 -
+/CHANGELOG.txt 1 -
+https://equaxsoftwarelabs.com/api-docs/ 1 https://equaxsoftwarelabs.com/
+/rest/api/latest/projects/BIZEE/repos/bizee-communication-api/archive 1 -
+https://equaxsoftwarelabs.com/api/index.html 1 https://equaxsoftwarelabs.com/
+/levxadgibe 1 -
+/data/users/admin.xml 1 -
+/registration.html 1 -
+/kxwahbfwbs 1 -
+/..%2f..%2f..%2f..%2f..%2f../etc/passwd 1 -
+/btiriulzwi 1 -
+/api/swaggerui/swagger.json 1 https://equaxsoftwarelabs.com/
+/gjnrvweydd.php 1 -
+/script 1 -
+/reset/IjEi.YhAmmQ.cdQp7CnnVq02aQ05y8tSBddl-qs 1 -
+/web-console/status 1 -
+/inexistent_file_name.inexistent0123450987.cfm 1 -
+/adminer-4.2.5-mysql.php 1 https://equaxsoftwarelabs.com/
+/secrets.json 1 https://equaxsoftwarelabs.com/
+/create.sql 2 -
+/R9iPortal/inrpxohrodjdavuuihdi.jsp 1 -
+/pages/doenterpagevariables.action 1 -
+/%24%7B%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Confluence-Vuln%22%2C%22tjqfnfoolwPPPPPxuzrpbdbgu%22.replaceAll%28%22P%22%2C%22Q%22%29%29%29%7D/ 1 -
+/examples/jsp/snp/snoop.jsp 2 -
+/swagger/v2/swagger.json 1 https://equaxsoftwarelabs.com/
+/ognflokyxw 1 -
+/photo/combine.php 1 -
+/report.m 1 -
+https://equaxsoftwarelabs.com/api/swagger/static/index.html 1 https://equaxsoftwarelabs.com/
+/cgi-bin/php4 1 -
+/adminer-4.3.0-mysql-en.php 1 https://equaxsoftwarelabs.com/
+/mysql_config.ini 1 -
+/setup/setup-s/%u002e%u002e/%u002e%u002e/log.jsp 1 -
+/index.php/Pan/ShareUrl/downloadSharedFile 2 -
+/jsrpc.php 1 -
+/source/ 1 -
+/defaultroot/iWebOfficeSign/OfficeServer.jsp/../../public/iSignatureHTML.jsp/DocumentEdit.jsp 2 -
+/a.out 1 -
+/objects/getSpiritsFromVideo.php 1 -
+/pp404 1 -
+/ui/vcav-bootstrap/rest/vcav-providers/provider-logo 2 -
+/plus/search.php 1 -
+/servlet/%0ARefresh:0 1 -
+/api/v2 1 https://equaxsoftwarelabs.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 140
+91.148.228.81 55 75 571954 20231112013459
+34.78.26.69 39 63 498299 20231120212414
+154.6.12.147 38 38 174486 20231112174713
+35.233.90.183 36 57 479414 20231105231056
+186.65.116.240 19 19 87266 20231105085531
+161.0.8.50 14 14 65204 20231105085530
+190.123.213.196 13 13 67254 20231105085535
+23.95.156.187 13 13 51393 20231105085531
+186.179.31.246 12 12 63850 20231105085535
+186.179.31.204 11 11 59164 20231105085526
+161.0.13.234 8 8 39586 20231105085514
+161.0.8.10 8 8 38532 20231105085453
+161.0.13.200 7 7 31879 20231105085535
+185.240.33.198 7 7 34226 20231105085512
+57.128.97.68 6 10 24196 20231114070214
+186.179.31.202 6 6 27000 20231105085447
+161.0.8.141 6 6 29516 20231105085528
+49.206.130.156 6 6 7758 20231122083100
+186.65.112.163 5 5 26080 20231105085513
+186.179.31.210 5 5 24972 20231105085537
+43.154.76.4 4 4 18000 20231114132613
+137.226.113.44 4 4 20532 20231122164550
+186.65.116.191 3 3 15285 20231105085534
+186.179.19.9 3 3 13451 20231105085459
+54.88.179.33 3 3 102411 20231129134422
+165.22.226.159 1 1 5133 20231118081837
+35.171.144.152 1 1 34137 20231117124721
+34.219.214.38 1 1 5133 20231112054834
+188.166.145.195 2 2 9738 20231110002558
+206.189.11.30 1 1 4241 20231109035600
+198.235.24.80 1 1 34137 20231103162901
+157.230.218.237 1 1 5133 20231118120343
+161.35.166.193 1 1 4492 20231111202748
+143.244.140.124 1 1 5133 20231126131152
+147.182.231.98 1 1 5329 20231110224820
+205.210.31.111 1 1 34137 20231110225739
+167.71.185.204 1 1 5433 20231108205151
+52.90.59.59 2 2 10266 20231102092031
+5.78.107.50 1 1 4440 20231111233411
+159.223.206.37 1 1 4605 20231108130544
+205.210.31.39 1 1 34137 20231109180652
+205.210.31.103 1 1 34137 20231106151348
+24.144.94.43 1 1 6328 20231112000644
+93.158.91.25 1 2 9018 20231104051321
+143.244.164.44 1 1 5133 20231130002819
+143.198.34.103 1 1 5133 20231115211108
+205.210.31.43 1 1 34137 20231128122420
+5.133.192.105 1 2 9018 20231122192743
+154.17.105.49 2 2 5496 20231105085452
+198.235.24.44 1 1 34137 20231107022612
+46.101.85.152 1 1 5133 20231108124943
+5.78.66.17 1 1 5133 20231110001042
+87.106.114.236 2 2 68274 20231121163113
+143.244.133.59 1 1 12226 20231115222815
+167.99.200.89 1 1 5133 20231106122650
+188.166.158.68 2 2 8863 20231111214549
+165.232.110.229 1 1 5133 20231101122027
+147.182.224.75 1 1 4440 20231111111256
+143.198.46.51 1 1 5133 20231104113737
+207.154.232.192 1 1 4341 20231110213235
+78.128.112.207 1 1 0 20231108145404
+37.27.22.101 1 1 3867 20231109145154
+188.166.145.116 1 1 5886 20231112031836
+93.159.230.88 1 1 5133 20231108154640
+167.99.81.29 1 1 12228 20231102003457
+147.182.154.172 1 1 5133 20231129042141
+95.179.212.84 1 1 5133 20231102043638
+198.235.24.106 1 1 34137 20231103143352
+183.136.225.45 1 1 34137 20231124202710
+198.235.24.97 1 1 34137 20231101051233
+51.15.17.105 1 1 5133 20231114084517
+91.92.249.8 1 1 5133 20231104220644
+51.15.71.187 1 1 5133 20231125081533
+24.199.108.69 1 1 0 20231107102901
+35.164.1.24 1 1 5133 20231124064242
+206.189.108.48 1 1 5133 20231114133739
+65.109.13.35 1 1 3867 20231108211048
+206.189.3.246 1 1 0 20231110140722
+5.133.192.108 2 4 18036 20231116135229
+167.71.185.198 1 1 4567 20231107052750
+159.89.168.11 1 1 5133 20231104130507
+186.179.19.171 3 3 14267 20231105085517
+193.160.119.145 1 1 5133 20231121030025
+185.220.101.41 1 1 4677 20231112231858
+165.227.205.23 1 1 5133 20231122120632
+206.189.11.6 1 1 4386 20231110161024
+190.123.213.134 1 1 5133 20231101112014
+143.110.213.54 1 1 6328 20231110185735
+165.227.173.66 1 1 5133 20231115073033
+54.81.74.91 1 1 5133 20231120130342
+144.126.234.221 1 1 5133 20231120130307
+205.210.31.105 1 1 34137 20231106172316
+161.35.166.100 1 1 5511 20231110185821
+207.154.236.52 1 1 5019 20231112033911
+5.133.192.88 1 2 9018 20231129120808
+104.154.147.120 3 3 14133 20231123201451
+16.171.151.130 1 1 5133 20231117232647
+65.108.254.249 1 1 5511 20231109033721
+167.71.185.99 1 1 5433 20231107131715
+183.136.225.44 2 2 68274 20231124230048
+209.141.37.13 1 2 16455 20231127061027
+185.252.232.181 2 2 68274 20231114223449
+164.92.108.128 1 1 5234 20231106193917
+159.223.91.97 1 1 5133 20231110133546
+3.89.229.78 1 1 5133 20231111134411
+186.179.19.174 1 1 5329 20231105085533
+164.92.123.245 1 1 5133 20231116113400
+143.110.213.46 2 2 9610 20231110235705
+164.92.98.45 1 1 5886 20231110212713
+104.248.169.34 1 1 5133 20231124120343
+5.78.87.147 1 1 4241 20231107012920
+3.234.227.150 1 1 5133 20231112151942
+198.235.24.204 1 1 34137 20231115073112
+205.210.31.242 1 1 37927 20231104051817
+159.223.80.199 1 1 5234 20231110222942
+139.59.22.244 1 1 12224 20231130102523
+186.65.116.12 1 1 5133 20231105085428
+104.248.197.190 1 1 5133 20231130124220
+42.83.147.54 1 1 5133 20231123213103
+146.190.118.124 1 1 5133 20231128115400
+186.179.19.121 1 1 5133 20231105085457
+20.120.74.197 1 1 3867 20231113053625
+34.42.75.77 3 3 14133 20231105091035
+35.240.121.17 1 1 5133 20231127192403
+161.35.174.203 2 2 9670 20231112065422
+167.71.185.200 1 1 5019 20231110223625
+5.78.65.190 1 1 3321 20231110005817
+198.235.24.126 1 1 34137 20231121054807
+159.223.86.131 1 1 3321 20231108153116
+186.179.19.39 2 2 10266 20231105085429
+46.101.136.156 1 1 5133 20231110112629
+54.188.66.49 1 1 5133 20231124064217
+221.2.155.200 2 2 10266 20231126231507
+159.223.211.101 1 1 5133 20231112122747
+161.35.174.197 1 1 4567 20231109174438
+24.199.121.171 1 1 4492 20231110232414
+159.65.18.148 1 1 5133 20231102022626
+165.227.101.205 1 1 5133 20231102114604
+3.19.58.18 1 1 5133 20231102004127
+93.159.230.90 1 1 5133 20231108154540
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20231101 4 4 49536 4
+20231102 7 7 43026 6
+20231103 2 2 68274 2
+20231104 5 6 62344 5
+20231105 189 210 1213829 24
+20231106 5 5 83774 5
+20231107 6 6 52719 6
+20231108 13 13 56277 12
+20231109 5 5 52323 5
+20231110 18 19 117483 18
+20231111 6 6 57119 6
+20231112 105 127 835313 12
+20231113 1 1 3867 1
+20231114 8 10 65501 5
+20231115 5 5 61762 5
+20231116 2 3 14151 2
+20231117 3 3 73407 3
+20231118 2 2 10266 2
+20231120 41 65 508565 3
+20231121 4 4 107544 3
+20231122 9 10 27042 4
+20231123 4 4 19266 2
+20231124 5 5 83673 5
+20231125 1 1 5133 1
+20231126 3 3 15399 2
+20231127 2 3 21588 2
+20231128 2 2 39270 2
+20231129 4 5 82425 3
+20231130 3 3 22490 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 141
+2mn-5mn 4
+15mn-30mn 1
+30s-2mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/ 221 1816903 104 101
+/contact.html 22 84412 3 8
+/bos_pharma.html 16 71872 3 2
+/industries_hcare.html 15 82665 2 2
+/whywe_ESL.html 15 94920 2 3
+/whywe_PROCESS.html 14 82404 2 3
+/industries_retail.html 13 70629 3 2
+/whywe_Project.html 13 69277 3 7
+/services_home.html 12 55260 3 2
+/error-page.html 12 39852 4 2
+/bos_home.html 12 52632 3 2
+/industries_manu.html 12 0 3 2
+/industries_home.html 12 54804 3 2
+/whywe_Methodology.html 11 55209 2 2
+/bos_textile.html 11 48840 3 3
+/industries_it.html 11 47751 2 2
+/services_mobile.html 11 46651 2 3
+/whywe.html 10 52340 2 2
+/bos_rental.html 8 35816 2 2
+/autodiscover/autodiscover.xml 6 7758 1 1
+//bxss.me/.. 2 9354 0 0
+/fonts/fontawesome-webfont.woff2 1 70733 0 0
+https://equaxsoftwarelabs.com/ 1 4677 0 0
+/fonts/flaticon.woff 1 12254 0 0
+http://www.testing.xyzzas 1 4677 0 0
+/Autodiscover/Autodiscover.xml 1 363 1 0
+END_SIDER

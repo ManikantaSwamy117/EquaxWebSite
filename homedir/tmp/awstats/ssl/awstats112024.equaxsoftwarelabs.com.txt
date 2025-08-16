@@ -1,0 +1,1465 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202411 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/ssl/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2691                
+POS_VISITOR 26906               
+POS_DAY 31500               
+POS_DOMAIN 3457                
+POS_LOGIN 3938                
+POS_ROBOT 4093                
+POS_WORMS 4738                
+POS_EMAILSENDER 4869                
+POS_EMAILRECEIVER 5012                
+POS_SESSION 32215               
+POS_SIDER 32395               
+POS_FILETYPES 5147                
+POS_DOWNLOADS 5433                
+POS_OS 22629               
+POS_BROWSER 22936               
+POS_SCREENSIZE 23915               
+POS_UNKNOWNREFERER 23989               
+POS_UNKNOWNREFERERBROWSER 24454               
+POS_ORIGIN 24786               
+POS_SEREFERRALS 24924               
+POS_PAGEREFS 25087               
+POS_SEARCHWORDS 25343               
+POS_KEYWORDS 25495               
+POS_MISC 2355                
+POS_ERRORS 25554               
+POS_CLUSTER 3794                
+POS_SIDER_404 25655               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20241201031534 40 8897 10689975839068
+FirstTime 0
+LastTime 20241130115853
+LastUpdate 20241201053459 40 0 39 0 0
+TotalVisits 116                 
+TotalUnique 111                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 120                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 5 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 9 50671 7 49 527678
+1 2 2 10644 11 17 79176
+2 46 48 255576 19 31 103373
+3 3 3 15553 16 100 941670
+4 15 41 986545 16 64 469368
+5 10 820 68274 6 32 251733
+6 1 152 24225 19 47 368303
+7 5 5 130123 13 53 492150
+8 2 3 13695 17 90 475036
+9 7 7 95431 13 16 80387
+10 2 5 38067 11 18 36332
+11 8 13 58831 10 49 445060
+12 11 21 110066 9 19 46956
+13 3 6 27054 13 21 406928
+14 11 72 2081702 17 49 295474
+15 4 10 410469 10 26 88093
+16 9 21 894021 13 46 60914
+17 2 5 29512 15 82 584308
+18 4 5 58517 17 34 123640
+19 49 75 575347 35 74 337938
+20 10 11 281731 12 54 685766
+21 15 83 1493238 3 7 24647
+22 4 5 37624 16 57 553419
+23 46 72 573712 12 26 83733
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 161 384 5832855
+ua 39 39 179619
+cn 17 981 507788
+ru 11 17 303563
+kz 10 10 217053
+se 5 10 45244
+be 5 12 82058
+fi 4 4 124990
+in 4 10 421527
+bg 4 4 124990
+nl 3 3 44403
+ca 2 4 18036
+ir 2 2 10745
+au 2 3 14207
+hk 1 1 5133
+ao 1 7 373584
+ps 1 1 5133
+gr 1 1 4567
+rs 1 1 5133
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+Applebot/ 347 4061068 20241129151502 0
+Googlebot/ 96 665554 20241119075219 0
+bot[\s_+:,\.\;\/\\-] 75 391419 20241129185025 0
+AhrefsBot/ 62 727736 20241130170403 0
+bingbot/ 59 816321 20241130162922 0
+SemrushBot/ 21 96876 20241121131700 0
+MJ12bot/ 20 83961 20241127022701 0
+no_user_agent 5 173783 20241117072745 0
+java 4 90918 20241118063539 0
+yandex 3 19092 20241109235522 0
+unknown 1 26 20241124021051 1
+Googlebot\-Image/ 1 11429 20241112234603 0
+YandexBot/ 1 5287 20241128004836 0
+crawl 1 5287 20241127154025 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+js 115 2456088 0 0
+png 58 532864 0 0
+txt 1 12290 0 0
+html 256 2333379 0 0
+gif 5 102875 0 0
+zip 318 0 0 0
+gz 322 0 0 0
+css 68 466460 0 0
+jpg 15 2001737 0 0
+woff 5 61270 0 0
+Unknown 8 0 0 0
+woff2 5 353665 0 0
+rar 318 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 890
+/wz.tar.gz 3 0 0
+/wz.rar 3 0 0
+/wz.zip 3 0 0
+/b.tar.gz 2 0 0
+/ftp.tar.gz 2 0 0
+/333.rar 2 0 0
+/111111.rar 2 0 0
+/ftp.zip 2 0 0
+/sjk.rar 2 0 0
+/000.rar 2 0 0
+/%E7%A8%8B%E5%BA%8F.tar.gz 2 0 0
+/555.tar.gz 2 0 0
+/777.tar.gz 2 0 0
+/999.tar.gz 2 0 0
+/666.rar 2 0 0
+/999.zip 2 0 0
+/777.zip 2 0 0
+/555.zip 2 0 0
+/shujuku.rar 2 0 0
+/333.zip 2 0 0
+/sjk.tar.gz 2 0 0
+/sjk.zip 2 0 0
+/ftp.rar 2 0 0
+/333.tar.gz 2 0 0
+/website.rar 2 0 0
+/666.tar.gz 2 0 0
+/b.rar 2 0 0
+/%E7%A8%8B%E5%BA%8F.rar 2 0 0
+/000.zip 2 0 0
+/000.tar.gz 2 0 0
+/666.zip 2 0 0
+/555.rar 2 0 0
+/777.rar 2 0 0
+/999.rar 2 0 0
+/00.tar.gz 2 0 0
+/shujuku.tar.gz 2 0 0
+/888.tar.gz 2 0 0
+/gg.tar.gz 2 0 0
+/111111.tar.gz 2 0 0
+/111111.zip 2 0 0
+/888.zip 2 0 0
+/new.rar 2 0 0
+/shujuku.zip 2 0 0
+/10.tar.gz 2 0 0
+/bb.zip 2 0 0
+/444.tar.gz 2 0 0
+/bb.rar 2 0 0
+/444.zip 2 0 0
+/b.zip 2 0 0
+/new.tar.gz 2 0 0
+/%E7%A8%8B%E5%BA%8F.zip 2 0 0
+/website.zip 2 0 0
+/wangzhan.tar.gz 2 0 0
+/wangzhan.rar 2 0 0
+/gg.zip 2 0 0
+/00.zip 2 0 0
+/wangzhan.zip 2 0 0
+/gg.rar 2 0 0
+/new.zip 2 0 0
+/00.rar 2 0 0
+/888.rar 2 0 0
+/website.tar.gz 2 0 0
+/10.zip 2 0 0
+/bb.tar.gz 2 0 0
+/10.rar 2 0 0
+/444.rar 2 0 0
+/kf.tar.gz 1 0 0
+/111.zip 1 0 0
+/update.zip 1 0 0
+/cpanel.equaxsoftwarelabs.com.zip 1 0 0
+/equaxsoftwarelabscom.tar.gz 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93.zip 1 0 0
+/jb.zip 1 0 0
+/88.tar.gz 1 0 0
+/14.zip 1 0 0
+/mail.tar.gz 1 0 0
+/material.zip 1 0 0
+/8.rar 1 0 0
+/%E6%95%B0%E6%8D%AE.tar.gz 1 0 0
+/update.tar.gz 1 0 0
+/0.tar.gz 1 0 0
+/26.zip 1 0 0
+/g.tar.gz 1 0 0
+/hf.rar 1 0 0
+/aft.tar.gz 1 0 0
+/e.rar 1 0 0
+/shuju.tar.gz 1 0 0
+/2022.zip 1 0 0
+/sj.tar.gz 1 0 0
+/rrrr.zip 1 0 0
+/yy.tar.gz 1 0 0
+/au.rar 1 0 0
+/equaxsoftwarelabs.com.tar.gz 1 0 0
+/77.zip 1 0 0
+/100.rar 1 0 0
+/server.zip 1 0 0
+/wwww.rar 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(2).rar 1 0 0
+/18.zip 1 0 0
+/scm.tar.gz 1 0 0
+/321.tar.gz 1 0 0
+/hj.zip 1 0 0
+/vip.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD.zip 1 0 0
+/5.6.tar.gz 1 0 0
+/r.rar 1 0 0
+/server.tar.gz 1 0 0
+/mysql.zip 1 0 0
+/%E6%9C%8D%E5%8A%A1%E5%99%A8.zip 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.rar 1 0 0
+/template.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.zip 1 0 0
+/bin.rar 1 0 0
+/fourm.rar 1 0 0
+/news.zip 1 0 0
+/oa.zip 1 0 0
+/ii.tar.gz 1 0 0
+/mm.tar.gz 1 0 0
+/mssql.zip 1 0 0
+/tt.tar.gz 1 0 0
+/shu.tar.gz 1 0 0
+/%E5%BC%95%E6%93%8E.tar.gz 1 0 0
+/vip.tar.gz 1 0 0
+/5.6.zip 1 0 0
+/material.tar.gz 1 0 0
+/%E6%B3%A8%E5%86%8C%E6%9C%BA.tar.gz 1 0 0
+/14.rar 1 0 0
+/material.rar 1 0 0
+/jb.rar 1 0 0
+/user.zip 1 0 0
+/2.tar.gz 1 0 0
+/321.zip 1 0 0
+/scm.zip 1 0 0
+/hf.zip 1 0 0
+/26.rar 1 0 0
+/web1.zip 1 0 0
+/shu.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD.rar 1 0 0
+/temp.rar 1 0 0
+/25.tar.gz 1 0 0
+/77.rar 1 0 0
+/au.zip 1 0 0
+/upload.zip 1 0 0
+/beian.tar.gz 1 0 0
+/php.rar 1 0 0
+/hj.rar 1 0 0
+/cpanel.equaxsoftwarelabs.com.tar.gz 1 0 0
+/good.zip 1 0 0
+/y.tar.gz 1 0 0
+/c.zip 1 0 0
+/6.rar 1 0 0
+/18.rar 1 0 0
+/n.zip 1 0 0
+/l.tar.gz 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(2).zip 1 0 0
+/111.tar.gz 1 0 0
+/upload.tar.gz 1 0 0
+/ffff.zip 1 0 0
+/j.zip 1 0 0
+/template.rar 1 0 0
+/system.rar 1 0 0
+/dev.rar 1 0 0
+/oa.rar 1 0 0
+/aft.zip 1 0 0
+/%E5%AE%A2%E6%88%B7%E7%AB%AF.tar.gz 1 0 0
+/logo.zip 1 0 0
+/template.tar.gz 1 0 0
+/cache.tar.gz 1 0 0
+/66.tar.gz 1 0 0
+/backupdata.rar 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.tar.gz 1 0 0
+/%E6%96%B0%E7%89%88%E6%9C%AC.zip 1 0 0
+/err_log.tar.gz 1 0 0
+/k.zip 1 0 0
+/%E6%95%B0%E6%8D%AE.rar 1 0 0
+/include.tar.gz 1 0 0
+/ww.rar 1 0 0
+/%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6.rar 1 0 0
+/core.tar.gz 1 0 0
+/jj.tar.gz 1 0 0
+/%E5%A4%87%E4%BB%BD.zip 1 0 0
+/rr.rar 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6.tar.gz 1 0 0
+/sb.zip 1 0 0
+/%E6%9B%B4%E6%96%B0.zip 1 0 0
+/bat.rar 1 0 0
+/datad.tar.gz 1 0 0
+/cq.tar.gz 1 0 0
+/1.tar.gz 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(3).zip 1 0 0
+/ff.zip 1 0 0
+/t.tar.gz 1 0 0
+/119.tar.gz 1 0 0
+/databasebak.zip 1 0 0
+/equaxsoftwarelabs.tar.gz 1 0 0
+/24.rar 1 0 0
+/data.zip 1 0 0
+/2019.zip 1 0 0
+/qq.rar 1 0 0
+/7.zip 1 0 0
+/bye.zip 1 0 0
+/ssss.zip 1 0 0
+/html.zip 1 0 0
+/oo.tar.gz 1 0 0
+/webroot.rar 1 0 0
+/pic.tar.gz 1 0 0
+/error.tar.gz 1 0 0
+/file.rar 1 0 0
+/phpcms.rar 1 0 0
+/u.tar.gz 1 0 0
+/da.rar 1 0 0
+/cccc.tar.gz 1 0 0
+/extend.rar 1 0 0
+/m2.tar.gz 1 0 0
+/webbak.rar 1 0 0
+/28.rar 1 0 0
+/host.tar.gz 1 0 0
+/dz.zip 1 0 0
+/application.tar.gz 1 0 0
+/w.tar.gz 1 0 0
+/users.rar 1 0 0
+/a.rar 1 0 0
+/if.zip 1 0 0
+/pic.zip 1 0 0
+/pwd.rar 1 0 0
+/vv.tar.gz 1 0 0
+/admin.zip 1 0 0
+/shop.rar 1 0 0
+/3.rar 1 0 0
+/%E6%95%B4%E7%AB%99.tar.gz 1 0 0
+/ww.zip 1 0 0
+/root.zip 1 0 0
+/9.tar.gz 1 0 0
+/1234.zip 1 0 0
+/v.tar.gz 1 0 0
+/bye.tar.gz 1 0 0
+/z.zip 1 0 0
+/crm5.rar 1 0 0
+/rr.zip 1 0 0
+/sb.rar 1 0 0
+/config.tar.gz 1 0 0
+/030.rar 1 0 0
+/%E7%89%88%E6%9C%AC.tar.gz 1 0 0
+/config.zip 1 0 0
+/ff.rar 1 0 0
+/12345.tar.gz 1 0 0
+/%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD.rar 1 0 0
+/24.zip 1 0 0
+/%E5%B7%A5%E5%85%B7.rar 1 0 0
+/qq.zip 1 0 0
+/equaxsoftwarelabs.rar 1 0 0
+/ddd.rar 1 0 0
+/s.zip 1 0 0
+/zz.tar.gz 1 0 0
+/cpanelequaxsoftwarelabscom.rar 1 0 0
+/db.tar.gz 1 0 0
+/copy.zip 1 0 0
+/back.tar.gz 1 0 0
+/da.zip 1 0 0
+/2021.zip 1 0 0
+/err_log.zip 1 0 0
+/include.zip 1 0 0
+/28.zip 1 0 0
+/%E6%95%B4%E7%AB%99.rar 1 0 0
+/uu.tar.gz 1 0 0
+/mdbtar.gz 1 0 0
+/dz.rar 1 0 0
+/123.rar 1 0 0
+/119.zip 1 0 0
+/1314.tar.gz 1 0 0
+/if.rar 1 0 0
+/%E6%A8%A1%E6%9D%BF.rar 1 0 0
+/%E6%9C%8D%E5%8A%A1%E7%AB%AF.tar.gz 1 0 0
+/%E7%BD%91%E7%AB%99.rar 1 0 0
+/vip.rar 1 0 0
+/good.tar.gz 1 0 0
+/weblog.tar.gz 1 0 0
+/hj.tar.gz 1 0 0
+/t.rar 1 0 0
+/%E5%85%AD%E5%90%88.zip 1 0 0
+/18.tar.gz 1 0 0
+/weblog.zip 1 0 0
+/%E5%BC%95%E6%93%8E.zip 1 0 0
+/1.rar 1 0 0
+/ffff.tar.gz 1 0 0
+/%E7%AB%99%E7%82%B9.tar.gz 1 0 0
+/m.zip 1 0 0
+/tt.zip 1 0 0
+/123123.zip 1 0 0
+/ii.zip 1 0 0
+/dede.rar 1 0 0
+/mm.zip 1 0 0
+/banben.tar.gz 1 0 0
+/oa.tar.gz 1 0 0
+/i.zip 1 0 0
+/banben.zip 1 0 0
+/bin.zip 1 0 0
+/package.rar 1 0 0
+/123123.tar.gz 1 0 0
+/%E6%BA%90%E7%A0%81.tar.gz 1 0 0
+/logo.tar.gz 1 0 0
+/cpanel.tar.gz 1 0 0
+/14.tar.gz 1 0 0
+/88.zip 1 0 0
+/php.tar.gz 1 0 0
+/jb.tar.gz 1 0 0
+/cpanel.zip 1 0 0
+/install.zip 1 0 0
+/a.tar.gz 1 0 0
+/equaxsoftwarelabs.com.rar 1 0 0
+/w.rar 1 0 0
+/hdocs.tar.gz 1 0 0
+/user.tar.gz 1 0 0
+/kf.zip 1 0 0
+/111.rar 1 0 0
+/100.zip 1 0 0
+/yy.zip 1 0 0
+/%E5%A4%87%E4%BB%BD.tar.gz 1 0 0
+/25.rar 1 0 0
+/77.tar.gz 1 0 0
+/users.zip 1 0 0
+/equaxsoftwarelabs.zip 1 0 0
+/web1.tar.gz 1 0 0
+/dev.tar.gz 1 0 0
+/%E6%9C%80%E6%96%B0.rar 1 0 0
+/u.rar 1 0 0
+/sj.zip 1 0 0
+/%E6%9C%8D%E5%8A%A1%E5%99%A8.tar.gz 1 0 0
+/f.zip 1 0 0
+/26.tar.gz 1 0 0
+/q.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6.rar 1 0 0
+/%E5%95%86%E5%9F%8E.zip 1 0 0
+/admin.rar 1 0 0
+/php.zip 1 0 0
+/%E5%85%AD%E5%90%88.tar.gz 1 0 0
+/index.tar.gz 1 0 0
+/tt.rar 1 0 0
+/install.tar.gz 1 0 0
+/%E7%AB%99%E7%82%B9.zip 1 0 0
+/3.tar.gz 1 0 0
+/ii.rar 1 0 0
+/news.tar.gz 1 0 0
+/%E6%B3%A8%E5%86%8C%E6%9C%BA.zip 1 0 0
+/backupdata.tar.gz 1 0 0
+/mm.rar 1 0 0
+/aft.rar 1 0 0
+/databackup.zip 1 0 0
+/v.rar 1 0 0
+/100.tar.gz 1 0 0
+/9.rar 1 0 0
+/dev.zip 1 0 0
+/upfile.rar 1 0 0
+/scm.rar 1 0 0
+/databak.rar 1 0 0
+/321.rar 1 0 0
+/email.tar.gz 1 0 0
+/o.zip 1 0 0
+/88.rar 1 0 0
+/sqldata.rar 1 0 0
+/Release.rar 1 0 0
+/mail.zip 1 0 0
+/kf.rar 1 0 0
+/%E7%89%88%E6%9C%AC.rar 1 0 0
+/public.bf.zip 1 0 0
+/5.6.rar 1 0 0
+/25.zip 1 0 0
+/au.tar.gz 1 0 0
+/yy.rar 1 0 0
+/bin.tar.gz 1 0 0
+/pass.rar 1 0 0
+/2022.tar.gz 1 0 0
+/123456.rar 1 0 0
+/rrrr.tar.gz 1 0 0
+/beifen.rar 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93.rar 1 0 0
+/%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6.zip 1 0 0
+/shu.rar 1 0 0
+/p.zip 1 0 0
+/sj.rar 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.tar.gz 1 0 0
+/hf.tar.gz 1 0 0
+/backup.zip 1 0 0
+/zz.rar 1 0 0
+/g.rar 1 0 0
+/0.rar 1 0 0
+/e.tar.gz 1 0 0
+/db.rar 1 0 0
+/pwd.tar.gz 1 0 0
+/http.rar 1 0 0
+/oo.zip 1 0 0
+/4.zip 1 0 0
+/bye.rar 1 0 0
+/userlist.zip 1 0 0
+/backup.tar.gz 1 0 0
+/back.zip 1 0 0
+/copy.tar.gz 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.rar 1 0 0
+/if.tar.gz 1 0 0
+/application.zip 1 0 0
+/2021.tar.gz 1 0 0
+/030.tar.gz 1 0 0
+/runtime.tar.gz 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.rar 1 0 0
+/1314.zip 1 0 0
+/8.tar.gz 1 0 0
+/uu.rar 1 0 0
+/dz.tar.gz 1 0 0
+/m2.zip 1 0 0
+/1111.rar 1 0 0
+/%E6%BA%90%E7%A0%81.zip 1 0 0
+/mysql.rar 1 0 0
+/%E6%9C%80%E6%96%B0.tar.gz 1 0 0
+/ddd.tar.gz 1 0 0
+/%E5%B7%A5%E5%85%B7.tar.gz 1 0 0
+/jj.zip 1 0 0
+/%E5%AE%8C%E6%95%B4.rar 1 0 0
+/site.rar 1 0 0
+/1234.tar.gz 1 0 0
+/root.tar.gz 1 0 0
+/vv.rar 1 0 0
+/erptar.gz 1 0 0
+/66.zip 1 0 0
+/public.bf.tar.gz 1 0 0
+/123.tar.gz 1 0 0
+/ff.tar.gz 1 0 0
+/mssql.rar 1 0 0
+/databasebak.tar.gz 1 0 0
+/r.tar.gz 1 0 0
+/fourm.zip 1 0 0
+/cq.zip 1 0 0
+/d.zip 1 0 0
+/bat.zip 1 0 0
+/media.tar.gz 1 0 0
+/sb.tar.gz 1 0 0
+/2019.tar.gz 1 0 0
+/cpanelequaxsoftwarelabscom.tar.gz 1 0 0
+/htdocs.zip 1 0 0
+/da.tar.gz 1 0 0
+/files.tar.gz 1 0 0
+/cpanel.equaxsoftwarelabs.com.rar 1 0 0
+/dedecms.rar 1 0 0
+/userlist.tar.gz 1 0 0
+/db.zip 1 0 0
+/html.tar.gz 1 0 0
+/ssss.tar.gz 1 0 0
+/ftp1.rar 1 0 0
+/zz.zip 1 0 0
+/ddd.zip 1 0 0
+/oo.rar 1 0 0
+/master.rar 1 0 0
+/htdocs.tar.gz 1 0 0
+/cccc.zip 1 0 0
+/qq.tar.gz 1 0 0
+/userlist.rar 1 0 0
+/host.zip 1 0 0
+/x.zip 1 0 0
+/abcd.rar 1 0 0
+/bat.tar.gz 1 0 0
+/123.zip 1 0 0
+/119.rar 1 0 0
+/uu.zip 1 0 0
+/2.rar 1 0 0
+/m2.rar 1 0 0
+/28.tar.gz 1 0 0
+/%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD.tar.gz 1 0 0
+/jj.rar 1 0 0
+/ww.tar.gz 1 0 0
+/vv.zip 1 0 0
+/pic.rar 1 0 0
+/runtime.zip 1 0 0
+/pwd.zip 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(2).tar.gz 1 0 0
+/core.zip 1 0 0
+/66.rar 1 0 0
+/24.tar.gz 1 0 0
+/6.tar.gz 1 0 0
+/wwwroot.rar 1 0 0
+/y.rar 1 0 0
+/about.tar.gz 1 0 0
+/vendor.tar.gz 1 0 0
+/h.zip 1 0 0
+/030.zip 1 0 0
+/cq.rar 1 0 0
+/vendor.zip 1 0 0
+/test.rar 1 0 0
+/data.tar.gz 1 0 0
+/l.rar 1 0 0
+/rr.tar.gz 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.tar.gz 1 0 0
+/app.tar.gz 1 0 0
+/ftp1.tar.gz 1 0 0
+/ssss.rar 1 0 0
+/html.rar 1 0 0
+/cpanelequaxsoftwarelabscom.zip 1 0 0
+/system.tar.gz 1 0 0
+/cc.zip 1 0 0
+/27.zip 1 0 0
+/o.rar 1 0 0
+/2019.rar 1 0 0
+/system.zip 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(3).rar 1 0 0
+/old.tar.gz 1 0 0
+/file.zip 1 0 0
+/234.zip 1 0 0
+/abcd.tar.gz 1 0 0
+/23.tar.gz 1 0 0
+/hdocs.rar 1 0 0
+/p.rar 1 0 0
+/520.tar.gz 1 0 0
+/upload.rar 1 0 0
+/error.zip 1 0 0
+/v1.tar.gz 1 0 0
+/dy.zip 1 0 0
+/s.tar.gz 1 0 0
+/datad.zip 1 0 0
+/33.zip 1 0 0
+/com.tar.gz 1 0 0
+/bbb.tar.gz 1 0 0
+/shi.rar 1 0 0
+/%E5%A4%87%E4%BB%BD.rar 1 0 0
+/%E6%9B%B4%E6%96%B0.rar 1 0 0
+/cache.zip 1 0 0
+/22.zip 1 0 0
+/%E6%95%B0%E6%8D%AE.zip 1 0 0
+/z.tar.gz 1 0 0
+/114.tar.gz 1 0 0
+/bbs.zip 1 0 0
+/data.rar 1 0 0
+/test.tar.gz 1 0 0
+/www.zip 1 0 0
+/v.zip 1 0 0
+/webroot.zip 1 0 0
+/19.tar.gz 1 0 0
+/9.zip 1 0 0
+/%E6%A8%A1%E6%9D%BF.zip 1 0 0
+/web.rar 1 0 0
+/http.tar.gz 1 0 0
+/webroot.tar.gz 1 0 0
+/27.rar 1 0 0
+/cc.rar 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.zip 1 0 0
+/%E6%9C%8D%E5%8A%A1%E5%99%A8.rar 1 0 0
+/%E6%95%B4%E7%AB%99.zip 1 0 0
+/copy.rar 1 0 0
+/11.tar.gz 1 0 0
+/bbb.zip 1 0 0
+/eee.rar 1 0 0
+/w.zip 1 0 0
+/com.zip 1 0 0
+/bbs.tar.gz 1 0 0
+/www.tar.gz 1 0 0
+/114.zip 1 0 0
+/7.tar.gz 1 0 0
+/5.5.rar 1 0 0
+/ads.txt 1 0 12290
+/2021.rar 1 0 0
+/20.tar.gz 1 0 0
+/%E5%AE%8C%E6%95%B4.tar.gz 1 0 0
+/1111.tar.gz 1 0 0
+/xx.tar.gz 1 0 0
+/email.rar 1 0 0
+/server.rar 1 0 0
+/u.zip 1 0 0
+/dy.rar 1 0 0
+/q.rar 1 0 0
+/f.rar 1 0 0
+/%E5%B7%A5%E5%85%B7.zip 1 0 0
+/site.tar.gz 1 0 0
+/shop.zip 1 0 0
+/public.bf.rar 1 0 0
+/234.tar.gz 1 0 0
+/33.rar 1 0 0
+/bf.tar.gz 1 0 0
+/old.zip 1 0 0
+/index.rar 1 0 0
+/app.zip 1 0 0
+/t.zip 1 0 0
+/99.tar.gz 1 0 0
+/root.rar 1 0 0
+/err_log.rar 1 0 0
+/include.rar 1 0 0
+/12345.zip 1 0 0
+/1234.rar 1 0 0
+/1.zip 1 0 0
+/520.zip 1 0 0
+/012.rar 1 0 0
+/han.rar 1 0 0
+/ss.tar.gz 1 0 0
+/admin.tar.gz 1 0 0
+/m.rar 1 0 0
+/crm5.zip 1 0 0
+/22.rar 1 0 0
+/i.rar 1 0 0
+/update.rar 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6.zip 1 0 0
+/k.tar.gz 1 0 0
+/222.zip 1 0 0
+/media.rar 1 0 0
+/wwww.zip 1 0 0
+/j.tar.gz 1 0 0
+/2023tar.gz 1 0 0
+/55.tar.gz 1 0 0
+/ee.zip 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(3).tar.gz 1 0 0
+/aa.zip 1 0 0
+/mssql.tar.gz 1 0 0
+/y.zip 1 0 0
+/c.tar.gz 1 0 0
+/li.zip 1 0 0
+/news.rar 1 0 0
+/h.rar 1 0 0
+/%E5%AE%A2%E6%88%B7%E7%AB%AF.zip 1 0 0
+/%E6%9C%8D%E5%8A%A1%E7%AB%AF.zip 1 0 0
+/mysql.tar.gz 1 0 0
+/21.tar.gz 1 0 0
+/l.zip 1 0 0
+/n.tar.gz 1 0 0
+/ccc.rar 1 0 0
+/rar.zip 1 0 0
+/%E6%9C%8D%E5%8A%A1%E7%AB%AF.rar 1 0 0
+/shuju.zip 1 0 0
+/12.rar 1 0 0
+/config.rar 1 0 0
+/nn.zip 1 0 0
+/ll.tar.gz 1 0 0
+/521.rar 1 0 0
+/%E6%9B%B4%E6%96%B0.tar.gz 1 0 0
+/xxx.tar.gz 1 0 0
+/31.zip 1 0 0
+/2022.rar 1 0 0
+/pass.tar.gz 1 0 0
+/09.tar.gz 1 0 0
+/zip.tar.gz 1 0 0
+/x.rar 1 0 0
+/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.zip 1 0 0
+/2.zip 1 0 0
+/aaa.tar.gz 1 0 0
+/net.rar 1 0 0
+/dnf.tar.gz 1 0 0
+/rrrr.rar 1 0 0
+/xxx.zip 1 0 0
+/good.rar 1 0 0
+/44.tar.gz 1 0 0
+/databackup.rar 1 0 0
+/sql.rar 1 0 0
+/webbak.tar.gz 1 0 0
+/ee.rar 1 0 0
+/%E5%95%86%E5%9F%8E.tar.gz 1 0 0
+/webbak.zip 1 0 0
+/application.rar 1 0 0
+/ffff.rar 1 0 0
+/about.rar 1 0 0
+/aa.rar 1 0 0
+/li.rar 1 0 0
+/aaa.zip 1 0 0
+/dede.tar.gz 1 0 0
+/dnf.zip 1 0 0
+/extend.zip 1 0 0
+/phpcms.zip 1 0 0
+/beian.zip 1 0 0
+/extend.tar.gz 1 0 0
+/logo.rar 1 0 0
+/%E5%AE%A2%E6%88%B7%E7%AB%AF.rar 1 0 0
+/phpcms.tar.gz 1 0 0
+/sss.rar 1 0 0
+/d.rar 1 0 0
+/zip.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%BA%93.tar.gz 1 0 0
+/12.zip 1 0 0
+/nn.rar 1 0 0
+/g.zip 1 0 0
+/kk.tar.gz 1 0 0
+/0.zip 1 0 0
+/user.rar 1 0 0
+/4.rar 1 0 0
+/29.tar.gz 1 0 0
+/31.rar 1 0 0
+/222.tar.gz 1 0 0
+/web1.rar 1 0 0
+/hh.tar.gz 1 0 0
+/dd.tar.gz 1 0 0
+/bak.rar 1 0 0
+/rar.tar.gz 1 0 0
+/temp.zip 1 0 0
+/%E6%96%B0%E7%89%88%E6%9C%AC.rar 1 0 0
+/files.rar 1 0 0
+/99.rar 1 0 0
+/h.tar.gz 1 0 0
+/123456.tar.gz 1 0 0
+/shop.tar.gz 1 0 0
+/site.zip 1 0 0
+/beifen.zip 1 0 0
+/c.rar 1 0 0
+/6.zip 1 0 0
+/shi.zip 1 0 0
+/web.tar.gz 1 0 0
+/password.tar.gz 1 0 0
+/eee.tar.gz 1 0 0
+/password.rar 1 0 0
+/33.tar.gz 1 0 0
+/media.zip 1 0 0
+/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD.tar.gz 1 0 0
+/n.rar 1 0 0
+/bf.rar 1 0 0
+/123456.zip 1 0 0
+/fourm.tar.gz 1 0 0
+/beifen.tar.gz 1 0 0
+/5.5.tar.gz 1 0 0
+/j.rar 1 0 0
+/19.zip 1 0 0
+/www.rar 1 0 0
+/bbs.rar 1 0 0
+/databackup.tar.gz 1 0 0
+/upfile.tar.gz 1 0 0
+/backupdata.zip 1 0 0
+/crm5.tar.gz 1 0 0
+/wwwroot.tar.gz 1 0 0
+/22.tar.gz 1 0 0
+/upfile.zip 1 0 0
+/ss.rar 1 0 0
+/%E5%AE%8C%E6%95%B4.zip 1 0 0
+/x.tar.gz 1 0 0
+/234.rar 1 0 0
+/%E6%BA%90%E7%A0%81.rar 1 0 0
+/http.zip 1 0 0
+/11.rar 1 0 0
+/dedecms.tar.gz 1 0 0
+/27.tar.gz 1 0 0
+/back.rar 1 0 0
+/cc.tar.gz 1 0 0
+/shuju.rar 1 0 0
+/v1.zip 1 0 0
+/dy.tar.gz 1 0 0
+/%E6%B3%A8%E5%86%8C%E6%9C%BA.rar 1 0 0
+/012.tar.gz 1 0 0
+/han.tar.gz 1 0 0
+/%E6%A8%A1%E6%9D%BF.tar.gz 1 0 0
+/xx.rar 1 0 0
+/23.zip 1 0 0
+/20.rar 1 0 0
+/1111.zip 1 0 0
+/1314.rar 1 0 0
+/equaxsoftwarelabs.com.zip 1 0 0
+/about.zip 1 0 0
+/99.zip 1 0 0
+/app.rar 1 0 0
+/old.rar 1 0 0
+/bf.zip 1 0 0
+/core.rar 1 0 0
+/d.tar.gz 1 0 0
+/password.zip 1 0 0
+/r.zip 1 0 0
+/19.rar 1 0 0
+/cpanel.rar 1 0 0
+/%E7%BD%91%E7%AB%99%E5%A4%87%E4%BB%BD.zip 1 0 0
+/test.zip 1 0 0
+/beian.rar 1 0 0
+/ss.zip 1 0 0
+/dedecms.zip 1 0 0
+/012.zip 1 0 0
+/520.rar 1 0 0
+/han.zip 1 0 0
+/%E6%96%B0%E7%89%88%E6%9C%AC.tar.gz 1 0 0
+/%E7%BD%91%E7%AB%99.tar.gz 1 0 0
+/ftp1.zip 1 0 0
+/banben.rar 1 0 0
+/com.rar 1 0 0
+/eee.zip 1 0 0
+/bbb.rar 1 0 0
+/11.zip 1 0 0
+/cccc.rar 1 0 0
+/123123.rar 1 0 0
+/file.tar.gz 1 0 0
+/8.zip 1 0 0
+/wwwroot.zip 1 0 0
+/shi.tar.gz 1 0 0
+/web.zip 1 0 0
+/runtime.rar 1 0 0
+/e.zip 1 0 0
+/weblog.rar 1 0 0
+/abcd.zip 1 0 0
+/v1.rar 1 0 0
+/files.zip 1 0 0
+/host.rar 1 0 0
+/xx.zip 1 0 0
+/20.zip 1 0 0
+/equaxsoftwarelabscom.zip 1 0 0
+/5.5.zip 1 0 0
+/23.rar 1 0 0
+/114.rar 1 0 0
+/4.tar.gz 1 0 0
+/31.tar.gz 1 0 0
+/users.tar.gz 1 0 0
+/vendor.rar 1 0 0
+/package.zip 1 0 0
+/sqldata.tar.gz 1 0 0
+/databak.tar.gz 1 0 0
+/%E6%9C%80%E6%96%B0.zip 1 0 0
+/29.rar 1 0 0
+/sql.tar.gz 1 0 0
+/521.zip 1 0 0
+/s.rar 1 0 0
+/kk.rar 1 0 0
+/p.tar.gz 1 0 0
+/ll.zip 1 0 0
+/nn.tar.gz 1 0 0
+/Release.tar.gz 1 0 0
+/error.rar 1 0 0
+/o.tar.gz 1 0 0
+/net.zip 1 0 0
+/sss.tar.gz 1 0 0
+/dd.rar 1 0 0
+/hdocs.zip 1 0 0
+/temp.tar.gz 1 0 0
+/09.zip 1 0 0
+/hh.rar 1 0 0
+/aa.tar.gz 1 0 0
+/3.zip 1 0 0
+/database.zip 1 0 0
+/ee.tar.gz 1 0 0
+/55.zip 1 0 0
+/222.rar 1 0 0
+/download.zip 1 0 0
+/z.rar 1 0 0
+/datad.rar 1 0 0
+/44.rar 1 0 0
+/bak.tar.gz 1 0 0
+/%E5%BC%95%E6%93%8E.rar 1 0 0
+/ccc.zip 1 0 0
+/rar.rar 1 0 0
+/21.zip 1 0 0
+/dede.zip 1 0 0
+/%E5%85%AD%E5%90%88.rar 1 0 0
+/install.rar 1 0 0
+/master.zip 1 0 0
+/%E7%BD%91%E7%AB%99.zip 1 0 0
+/cache.rar 1 0 0
+/master.tar.gz 1 0 0
+/htdocs.rar 1 0 0
+/li.tar.gz 1 0 0
+/%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6.tar.gz 1 0 0
+/equaxsoftwarelabscom.rar 1 0 0
+/7.rar 1 0 0
+/databasebak.rar 1 0 0
+/29.zip 1 0 0
+/f.tar.gz 1 0 0
+/q.tar.gz 1 0 0
+/kk.zip 1 0 0
+/mail.rar 1 0 0
+/12.tar.gz 1 0 0
+/ll.rar 1 0 0
+/%E7%89%88%E6%9C%AC.zip 1 0 0
+/pass.zip 1 0 0
+/email.zip 1 0 0
+/09.rar 1 0 0
+/dd.zip 1 0 0
+/bak.zip 1 0 0
+/ccc.tar.gz 1 0 0
+/hh.zip 1 0 0
+/a.zip 1 0 0
+/521.tar.gz 1 0 0
+/12345.rar 1 0 0
+/database.rar 1 0 0
+/download.tar.gz 1 0 0
+/wwww.tar.gz 1 0 0
+/index.zip 1 0 0
+/m.tar.gz 1 0 0
+/k.rar 1 0 0
+/download.rar 1 0 0
+/55.rar 1 0 0
+/%E7%AB%99%E7%82%B9.rar 1 0 0
+/44.zip 1 0 0
+/sql.zip 1 0 0
+/i.tar.gz 1 0 0
+/xxx.rar 1 0 0
+/database.tar.gz 1 0 0
+/21.rar 1 0 0
+/zip.rar 1 0 0
+/sss.zip 1 0 0
+/Release.zip 1 0 0
+/servertar.gz 1 0 0
+/net.tar.gz 1 0 0
+/backup.rar 1 0 0
+/dnf.rar 1 0 0
+/sqldata.zip 1 0 0
+/%E5%95%86%E5%9F%8E.rar 1 0 0
+/package.tar.gz 1 0 0
+/databak.zip 1 0 0
+/aaa.rar 1 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+macosx11 128 80
+android 6 6
+win2003 4 4
+macosx7 1 0
+ios_iphone 9 9
+macosx13 2 2
+win7 31 13
+android10 1 1
+Unknown 1026 60
+winphone 1 1
+macosx15 13 13
+win8.1 1 1
+win10 108 42
+androidoreo 1 1
+linux 154 39
+linuxubuntu 6 0
+winxp 1 1
+macosx14 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 44
+chrome76.0.3809.89 1 1
+chrome103.0.5060.114 1 1
+chrome124.0.0.0 15 15
+chrome100.0.4896.60 2 2
+msie11.0 1 1
+chrome49.0.2623.112 23 5
+chrome129.0.0.0 48 25
+chrome115.0.0.0 2 2
+chrome76.0.3809.100 1 1
+chrome110.0.0.0 2 2
+chrome108.0.0.0 1 1
+chrome125.0.0.0 105 13
+chrome101.0.4951.54 1 1
+chrome120.0.0.0 1 1
+netscape5.0 1 1
+chrome16.0.912.63 4 4
+chrome122.0.0.0 4 4
+chrome22.0.1250.0 1 1
+chrome91.0.4472.124 1 1
+chrome95.0.4638.69 1 0
+chrome114.0.0.0 35 3
+chrome121.0.0.0 4 4
+chrome103.0.5042.0 1 1
+Unknown 1012 54
+firefox45.0 1 1
+chrome105.0.0.0 10 5
+firefox52.0 128 80
+chrome103.0.5060.66 2 2
+chrome83.0.4103.97 1 1
+chrome79.0.3945.79 1 1
+chrome85.0.4183.121 1 1
+firefox126.0 6 0
+safari17.0 9 9
+firefox123.0 4 4
+chrome17.0.963.56 1 0
+chrome74.0.3729.169 1 1
+chrome54.0.2840.99 3 3
+mozilla 13 5
+chrome63.0.3239.132 2 2
+chrome103.0.0.0 6 6
+chrome128.0.0.0 1 1
+chrome71.0.2623.112 1 1
+chrome93.0.4577.0 31 3
+chrome122.0.6261.64 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+python-requests/2.26.0 20241129172805
+Chrome 20241117100515
+panscient.com 20241117024359
+Mozilla/5.0 20241126232516
+Python/3.11_aiohttp/3.11.7 20241129234130
+python-requests/2.32.3 20241113021958
+Python/3.11_aiohttp/3.10.10 20241114191659
+python-requests/2.31.0 20241121060108
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20241123064237
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+python-requests/2.32.3 20241113021958
+Python/3.11_aiohttp/3.10.10 20241114191659
+python-requests/2.31.0 20241121060108
+Python/3.11_aiohttp/3.11.7 20241129234130
+Chrome 20241117100515
+panscient.com 20241117024359
+python-requests/2.26.0 20241129172805
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 250 1296
+From1 0 0
+From2 1 1
+From3 3 5
+From4 20 192
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://cpanel.equaxsoftwarelabs.com 2 2
+http://184.168.96.164:80 1 1
+https://mail.equaxsoftwarelabs.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 350 400490
+401 8 365
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 45
+/industries_manu.html 6 -
+/ckfinder/ckfinder.html 2 -
+/sitemap.xml 6 -
+/wow.js 1 -
+/sitemap.xml.gz 2 -
+/jquery.js 1 -
+/_profiler/phpinfo 1 -
+/wp-json/ 1 -
+/blog.html 1 -
+//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js 1 -
+/bos_home.html/ 2 -
+/.well-known/apple-app-site-association 3 -
+/jquery.fancybox.pack.js 1 -
+/revolution.min.js 1 -
+/contact.html/ 2 -
+/phpinfo.php 1 -
+/parallax.js 1 -
+/index5.html 12 -
+/apple-app-site-association 3 -
+/respond.js 1 -
+/isotope.js 1 -
+/wp-login.php 1 http://www.google.com.hk
+/sendemail.php 12 -
+/ads.txt 32 -
+/gallery.html 15 -
+/robots.txt 199 -
+/bootstrap.min.js 1 -
+/contact 1 -
+/jquery.fancybox-media.js 1 -
+/ 1 -
+/js/respond.js 7 -
+/owl.js 1 -
+//example.com/ 2 -
+/a 4 -
+/index.html/ 2 -
+/config.json 1 -
+/humans.txt 1 -
+/services_home.html/ 2 -
+/.ftpconfig 1 -
+/admin/ckfinder/ckfinder.html 1 -
+/favicon.svg 2 -
+/sellers.json 1 -
+/script.js 1 -
+/blog-single.html 8 -
+/sitemap.txt 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 120
+34.140.211.239 41 65 509067 20241114191659
+34.79.130.169 41 65 510863 20241129234130
+37.19.197.164 39 39 179619 20241117024359
+101.35.21.106 8 966 0 20241121055835
+92.249.48.48 4 4 124990 20241123200038
+107.173.160.181 4 4 116802 20241129040250
+87.120.113.29 4 4 124990 20241122074014
+195.20.19.66 4 4 124990 20241118203303
+34.143.251.186 4 4 20532 20241110161634
+185.236.231.85 4 4 124990 20241109042045
+13.203.30.58 3 35 1732287 20241123144147
+198.244.213.98 3 3 22561 20241122150816
+216.41.234.45 3 28 662227 20241111041009
+142.111.185.23 3 31 303311 20241117141146
+207.182.31.41 3 25 464275 20241113211128
+192.171.84.85 3 25 463159 20241113211117
+147.53.121.102 3 26 522376 20241113211221
+118.26.39.17 2 8 410953 20241102163001
+15.204.182.106 2 2 10266 20241118193136
+123.207.4.25 2 2 24590 20241127093708
+35.171.144.152 2 2 68274 20241107054442
+103.149.26.200 2 8 410953 20241102163001
+115.231.78.8 2 2 24590 20241103153107
+15.204.183.221 1 1 5133 20241113115851
+103.153.76.252 1 1 5287 20241129172805
+5.133.192.94 1 2 9172 20241129021533
+192.104.34.34 1 1 34183 20241126234632
+152.42.134.141 1 2 9018 20241120114459
+64.23.155.114 1 1 12295 20241113212601
+107.189.31.187 0 1 3885 
+34.203.50.75 1 1 4677 20241107084940
+3.80.120.215 1 1 5133 20241110192604
+142.93.6.163 1 2 9018 20241104133232
+157.230.26.98 1 2 9172 20241129230813
+87.236.176.183 1 1 5133 20241107124649
+35.202.72.83 1 1 34137 20241126045556
+64.227.108.190 1 1 3867 20241113224919
+37.99.18.235 1 1 22579 20241123140836
+188.143.169.41 0 6 38184 
+178.128.247.213 1 1 4567 20241111220003
+37.99.43.148 1 1 13842 20241128102615
+198.23.5.34 1 1 5133 20241113021958
+87.236.176.103 0 2 15207 
+37.99.32.99 1 1 22579 20241119180616
+64.227.142.161 1 2 24585 20241127220106
+188.134.80.97 1 1 5133 20241115114859
+5.133.192.108 1 2 9018 20241103210752
+87.236.176.188 1 1 12295 20241121003735
+134.209.189.77 1 1 3321 20241112110244
+139.59.78.59 1 2 9018 20241112123256
+87.236.176.100 0 1 3885 
+142.93.211.182 1 2 9018 20241124113806
+146.190.232.196 1 2 9018 20241126123959
+103.153.76.86 1 1 5287 20241127234102
+87.236.176.18 1 1 5133 20241118005653
+134.209.185.239 1 1 4241 20241114140528
+64.227.111.45 1 1 4386 20241113212230
+115.231.78.6 1 1 37235 20241124021050
+83.149.97.161 1 1 34137 20241120163530
+128.1.38.37 1 2 38022 20241108040429
+5.78.123.225 1 1 5511 20241113012605
+64.23.129.140 1 1 5133 20241112175217
+143.110.216.32 1 2 9018 20241122111144
+37.99.19.85 1 1 22579 20241126095544
+167.99.42.128 1 2 9018 20241114131758
+112.213.116.20 1 1 5133 20241125121211
+52.33.242.130 1 1 5133 20241114045636
+159.203.129.163 1 1 0 20241113000629
+87.236.176.24 0 1 3885 
+87.236.176.60 0 1 3885 
+138.197.125.28 1 2 9172 20241130115853
+165.22.231.204 1 2 9018 20241116130614
+165.227.44.46 1 2 9018 20241102110731
+5.133.192.146 1 2 9018 20241110023831
+37.99.96.153 1 1 22579 20241113095316
+206.189.14.204 1 2 9018 20241101184935
+77.74.177.114 1 1 5133 20241106193101
+148.59.184.63 1 1 1 20241113211043
+64.227.99.253 1 1 5133 20241111024649
+35.153.215.143 1 1 5133 20241101093833
+42.83.147.56 1 1 5133 20241115120630
+203.83.11.13 1 1 5189 20241126232516
+143.198.155.40 1 2 9018 20241113235252
+37.99.2.237 1 1 22579 20241108205732
+152.42.137.173 1 2 9172 20241128120549
+93.158.91.29 1 2 9018 20241122141143
+167.99.209.184 0 1 11322 
+87.236.176.93 1 1 12295 20241121124942
+104.248.236.64 1 2 9172 20241127205537
+37.99.42.216 1 1 22579 20241102190800
+35.85.216.150 1 1 5133 20241114164146
+159.203.142.68 1 1 4605 20241111225211
+87.236.176.196 1 1 5133 20241123064228
+45.55.84.147 1 1 4341 20241113184155
+93.159.230.28 1 1 5133 20241120193644
+37.99.26.149 1 1 22579 20241121160444
+161.35.20.248 1 2 9018 20241113005358
+93.174.93.127 1 1 5133 20241107033500
+37.99.49.64 1 1 22579 20241118091854
+206.189.84.77 1 1 5433 20241112212620
+161.35.138.18 1 2 9018 20241108124413
+167.71.15.49 1 2 9018 20241118122121
+87.116.182.254 1 1 5133 20241121094710
+89.248.174.11 1 1 5133 20241110014925
+65.21.246.172 1 1 5133 20241124003104
+134.122.116.216 1 1 5133 20241106093201
+165.227.118.170 1 1 5133 20241111030714
+209.38.110.219 1 2 9018 20241115192644
+154.212.141.234 1 7 373584 20241102163332
+5.102.105.31 1 1 5133 20241117100515
+5.161.48.181 1 1 5234 20241113043322
+138.68.107.164 1 2 9018 20241106123301
+143.198.139.111 1 2 9018 20241110120236
+140.108.1.90 1 1 5133 20241113021955
+124.236.100.56 1 1 5287 20241129033028
+5.133.192.171 1 2 9018 20241116083746
+134.122.43.48 1 2 9018 20241126190142
+37.99.19.79 1 1 22579 20241106184227
+87.236.176.125 0 1 11322 
+87.236.176.236 0 1 3885 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20241101 2 3 14151 2
+20241102 7 26 1227087 6
+20241103 3 4 33608 2
+20241104 1 2 9018 1
+20241105 1 1 5133 1
+20241106 5 6 46996 5
+20241107 5 8 102309 4
+20241108 3 5 69619 3
+20241109 4 4 124990 1
+20241110 8 10 48834 6
+20241111 7 35 700757 5
+20241112 4 5 22905 4
+20241113 23 92 1541459 17
+20241114 45 70 532592 5
+20241115 3 4 19284 3
+20241116 2 4 18036 2
+20241117 43 71 488063 3
+20241118 9 13 191078 5
+20241119 1 1 22579 1
+20241120 3 4 48288 3
+20241121 12 970 52302 5
+20241122 7 9 155321 4
+20241123 9 47 1923173 4
+20241124 3 4 51386 3
+20241125 1 1 5133 1
+20241126 7 9 126419 7
+20241127 4 6 51339 4
+20241128 2 3 23014 2
+20241129 49 75 656583 6
+20241130 1 2 9172 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+15mn-30mn 1
+2mn-5mn 3
+0s-30s 110
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 118 1463195 89 88
+/contact.html 21 343417 11 11
+/industries_home.html 8 36461 2 1
+/industries_hcare.html 8 43983 2 1
+/services_home.html 8 36798 2 1
+/industries_it.html 8 34673 2 1
+/industries_manu.html 8 1 2 2
+/services_mobile.html 7 30021 1 1
+/whywe.html 7 36988 1 1
+/error-page.html 7 23587 1 1
+/bos_home.html 7 29480 1 1
+/industries_retail.html 7 38345 1 1
+/whywe_ESL.html 6 38312 0 0
+/bos_pharma.html 6 27278 0 0
+/bos_rental.html 6 27180 0 0
+/whywe_Project.html 6 30670 0 0
+/bos_textile.html 6 26868 0 0
+/whywe_PROCESS.html 6 35668 0 0
+/whywe_Methodology.html 6 30454 0 0
+/fonts/fontawesome-webfont.woff2 5 353665 0 4
+/fonts/flaticon.woff 5 61270 0 1
+/erprar 1 0 0 0
+/erpzip 1 0 0 0
+/2023zip 1 0 0 0
+/serverrar 1 0 0 0
+/2023rar 1 0 0 0
+/serverzip 1 0 0 1
+/mdbzip 1 0 0 0
+/mdbrar 1 0 1 0
+END_SIDER

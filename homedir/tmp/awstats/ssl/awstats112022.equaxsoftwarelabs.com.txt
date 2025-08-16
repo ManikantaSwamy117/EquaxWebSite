@@ -1,0 +1,919 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202211 will be lost/reset.
+# Last config file used to build this data file was /home/nipxbc3lca9g/tmp/awstats/ssl/awstats.equaxsoftwarelabs.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2685                
+POS_VISITOR 44470               
+POS_DAY 47216               
+POS_DOMAIN 3411                
+POS_LOGIN 3794                
+POS_ROBOT 3949                
+POS_WORMS 4394                
+POS_EMAILSENDER 4525                
+POS_EMAILRECEIVER 4668                
+POS_SESSION 47876               
+POS_SIDER 48054               
+POS_FILETYPES 4803                
+POS_DOWNLOADS 5026                
+POS_OS 5074                
+POS_BROWSER 5279                
+POS_SCREENSIZE 5763                
+POS_UNKNOWNREFERER 5837                
+POS_UNKNOWNREFERERBROWSER 6472                
+POS_ORIGIN 7078                
+POS_SEREFERRALS 7214                
+POS_PAGEREFS 7373                
+POS_SEARCHWORDS 7521                
+POS_KEYWORDS 7673                
+POS_MISC 2349                
+POS_ERRORS 7732                
+POS_CLUSTER 3650                
+POS_SIDER_404 7833                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221201065738 1 0 10903696503569
+FirstTime 0
+LastTime 20221130180705
+LastUpdate 20221202051845 1 0 0 0 0
+TotalVisits 75                  
+TotalUnique 65                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 71                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 48 438488 15 24 129532
+1 4 26 363891 2 6 13928
+2 3 4 48288 6 21 37583
+3 41 44 235149 15 23 52692
+4 0 0 0 1 3 8230
+5 1 1 5133 9 12 80219
+6 0 0 0 11 45 464542
+7 2 2 10266 6 31 1438185
+8 1 1 34137 16 27 74707
+9 3 4 26721 11 21 89987
+10 1 2 1973 9 49 448345
+11 8 39 1619944 7 46 624278
+12 29 29 147591 6 21 30140
+13 4 5 125089 7 9 20659
+14 1 1 5133 5 7 25794
+15 1 1 34137 8 32 89639
+16 2 10 423109 6 58 118268
+17 13 16 119586 259 496 839097
+18 4 14 786782 8 36 1462431
+19 2 3 49103 3 6 19904
+20 5 5 39309 7 19 295530
+21 1 1 34137 7 29 1192628
+22 40 62 433870 10 16 86177
+23 5 6 110892 5 35 1440319
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 141 222 2182970
+in 18 21 100887
+ca 9 9 307233
+de 5 5 25665
+se 4 8 36072
+ru 4 4 20532
+cn 4 35 1570408
+gb 3 3 44403
+fr 3 3 44403
+ma 1 7 381021
+il 1 2 16455
+jp 1 5 362679
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+AhrefsBot/ 210 6593203 20221130200553 0
+bingbot/ 63 810202 20221128020011 0
+bot[\s_+:,\.\;\/\\-] 8 36376 20221111210743 0
+YandexBot/ 6 30798 20221125150045 0
+bingpreview 6 195749 20221124114439 0
+no_user_agent 4 140338 20221123164409 0
+Go\-http\-client/ 4 82930 20221121003935 0
+Applebot/ 4 5433 20221121022223 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 22 150260 0 0
+js 89 1999168 0 0
+png 12 313629 0 0
+html 186 1445341 0 0
+gif 1 20575 0 0
+xml 4 5172 0 0
+woff 2 24508 0 0
+woff2 2 141466 0 0
+jpg 6 992609 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linux 52 32
+win8 4 4
+win10 23 19
+win7 30 4
+Unknown 56 56
+macosx10 3 3
+androidmarshmallow 1 1
+linuxandroid 45 11
+macosx11 106 60
+macosx 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+chrome81.0.4044.129 5 5
+chrome93.0.4577.82 1 1
+chrome44.0.2403.157 1 1
+safari9.0.2 2 1
+chrome45.0.2454.85 2 2
+edge17 2 2
+chrome49.0.2623.112 20 4
+chrome83.0.4103.97 24 24
+android 1 1
+chrome85.0.4183.121 4 4
+Unknown 53 53
+msie10.0 4 4
+chrome106.0.0.0 36 5
+msie9.0 10 0
+firefox58.0 2 2
+chrome74.0.3729.169 4 4
+mozilla 5 5
+chrome105.0.0.0 10 6
+chrome81.0.4044.138 1 1
+chrome87.0.4280.141 10 7
+chrome106.0.5249.0 23 3
+firefox52.0 104 59
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+python-requests/2.28.1 20221109225806
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/http;__http://researchscan.comsys.rwth-aachen.de) 20221130180705
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221122131017
+Outlook/15.0_(15.0.5337.1000;_MSI;_x64) 20221108203623
+okhttp/3.3.1 20221103172509
+panscient.com 20221111033108
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Microsoft_Office/15.0_(Windows_NT_10.0;_Microsoft_Outlook_15.0.5493;_Pro) 20221108203623
+Outlook/15.0_(15.0.5337.1000;_MSI;_x64) 20221108203623
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221122131017
+okhttp/3.3.1 20221103172509
+panscient.com 20221111033108
+python-requests/2.28.1 20221109225806
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 173 249
+From1 0 0
+From2 1 1
+From3 0 0
+From4 20 74
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+401 2 70
+404 753 1187715
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 501
+/masterControl/getSystemSetting 1 https://equaxsoftwarelabs.com/masterControl/getSystemSetting
+/api/message/webInfo 1 https://equaxsoftwarelabs.com/api/message/webInfo
+/Public/Wchat/js/cvphp.js 1 https://equaxsoftwarelabs.com/Public/Wchat/js/cvphp.js
+/res/kuai/21.css 1 https://equaxsoftwarelabs.com/res/kuai/21.css
+/base/exchange_article/index/classid/1/id/1 1 https://equaxsoftwarelabs.com/base/exchange_article/index/classid/1/id/1
+/js/config.js 1 https://equaxsoftwarelabs.com/js/config.js
+/phone/images/icon_01.png 1 https://equaxsoftwarelabs.com/phone/images/icon_01.png
+/api/im/conf 1 https://equaxsoftwarelabs.com/api/im/conf
+/api/v1/app-info 1 https://equaxsoftwarelabs.com/api/v1/app-info
+/images/remen.png 1 https://equaxsoftwarelabs.com/images/remen.png
+/Public/css/_pk10.css 1 https://equaxsoftwarelabs.com/Public/css/_pk10.css
+/proxy/settings 1 https://equaxsoftwarelabs.com/proxy/settings
+/api/index/grailindex 1 https://equaxsoftwarelabs.com/api/index/grailindex
+/api/im/v2/app/t 1 https://equaxsoftwarelabs.com/api/im/v2/app/t
+/Public/js/common.js 1 https://equaxsoftwarelabs.com/Public/js/common.js
+/index/aurl 1 https://equaxsoftwarelabs.com/index/aurl
+/api/Index/getLangCfg 1 https://equaxsoftwarelabs.com/api/Index/getLangCfg
+/Public/css/hall.css 1 https://equaxsoftwarelabs.com/Public/css/hall.css
+/skin/main/onload.js 1 https://equaxsoftwarelabs.com/skin/main/onload.js
+/admin/uploadify/jquery.uploadify.v2.1.4.js 1 -
+/kust/img/nyyh/chkjs.js 1 https://equaxsoftwarelabs.com/kust/img/nyyh/chkjs.js
+/js/post.js/ 1 https://equaxsoftwarelabs.com/js/post.js/
+/revolution.min.js 1 -
+/.env.example 1 -
+/assets/js/dmshub.js 1 https://equaxsoftwarelabs.com/assets/js/dmshub.js
+/static/home/csjs/bankCheck.js 1 https://equaxsoftwarelabs.com/static/home/csjs/bankCheck.js
+/jiaoyimao/default.css 1 https://equaxsoftwarelabs.com/jiaoyimao/default.css
+/admin/webadmin.php 1 https://equaxsoftwarelabs.com/admin/webadmin.php
+/public/web/css/add//index.css 1 https://equaxsoftwarelabs.com/public/web/css/add//index.css
+/s_api/basic/config_js 1 https://equaxsoftwarelabs.com/s_api/basic/config_js
+/home/main/login 1 https://equaxsoftwarelabs.com/home/main/login
+/nyyh/game.css 1 https://equaxsoftwarelabs.com/nyyh/game.css
+/csjs/bankCheck.js 1 https://equaxsoftwarelabs.com/csjs/bankCheck.js
+/login 2 https://equaxsoftwarelabs.com/login
+/xianyu/ 1 https://equaxsoftwarelabs.com/xianyu/
+/images/no.jpg 1 https://equaxsoftwarelabs.com/images/no.jpg
+/t000/login-img-3.svg 1 https://equaxsoftwarelabs.com/t000/login-img-3.svg
+/static/js/main.js 1 https://equaxsoftwarelabs.com/static/js/main.js
+/nyyh/chkjs.js 1 https://equaxsoftwarelabs.com/nyyh/chkjs.js
+/jquery.fancybox.pack.js 1 -
+/api/apps 1 https://equaxsoftwarelabs.com/api/apps
+/code/js/config.js 1 https://equaxsoftwarelabs.com/code/js/config.js
+/js/subsidy/bk.min.js 1 https://equaxsoftwarelabs.com/js/subsidy/bk.min.js
+/mobile 1 https://equaxsoftwarelabs.com/mobile
+/phalapi/public/ 2 https://equaxsoftwarelabs.com/phalapi/public/
+/static/index/js/lk/order.js 1 https://equaxsoftwarelabs.com/static/index/js/lk/order.js
+/1-200611214053U8.jpg 1 https://equaxsoftwarelabs.com/1-200611214053U8.jpg
+/site.js 1 https://equaxsoftwarelabs.com/site.js
+/index/api/getconfig 1 https://equaxsoftwarelabs.com/index/api/getconfig
+/entry/login 1 https://equaxsoftwarelabs.com/entry/login
+/wap/trading/get_newallorder_ajax 1 https://equaxsoftwarelabs.com/wap/trading/get_newallorder_ajax
+/room/script/face.js 1 https://equaxsoftwarelabs.com/room/script/face.js
+/api/content_bottom 1 https://equaxsoftwarelabs.com/api/content_bottom
+/mg/other/codepay/js/codepay_util.js 1 https://equaxsoftwarelabs.com/mg/other/codepay/js/codepay_util.js
+/infe/rest/flash/getServerIP.json 1 https://equaxsoftwarelabs.com/infe/rest/flash/getServerIP.json
+/assets/images/mobile/dou_charge_money_icon.png 1 https://equaxsoftwarelabs.com/assets/images/mobile/dou_charge_money_icon.png
+/v2/start/config 1 https://equaxsoftwarelabs.com/v2/start/config
+/resource/home/js/common.js 1 https://equaxsoftwarelabs.com/resource/home/js/common.js
+/wp-includes/class-wp-page-icon.php 3 -
+/js/pups.js 1 https://equaxsoftwarelabs.com/js/pups.js
+/api/v2/config/index 1 https://equaxsoftwarelabs.com/api/v2/config/index
+/im/in/GetUuid 1 https://equaxsoftwarelabs.com/im/in/GetUuid
+/assets/mstock/newimg/guid-info.png 1 https://equaxsoftwarelabs.com/assets/mstock/newimg/guid-info.png
+/.env 13 -
+/statics/js/API.js 1 https://equaxsoftwarelabs.com/statics/js/API.js
+/static/customer/js/xiaotian.cli.v2.js 1 https://equaxsoftwarelabs.com/static/customer/js/xiaotian.cli.v2.js
+/js/json.js 1 https://equaxsoftwarelabs.com/js/json.js
+/wap/static//images/index_tzjr.png 1 https://equaxsoftwarelabs.com/wap/static//images/index_tzjr.png
+/h5 2 https://equaxsoftwarelabs.com/h5
+/detaila/js/ntkfstat.js 1 https://equaxsoftwarelabs.com/detaila/js/ntkfstat.js
+/api/apps/config 1 https://equaxsoftwarelabs.com/api/apps/config
+/Public/home/js/check.js 1 https://equaxsoftwarelabs.com/Public/home/js/check.js
+/index/login 1 https://equaxsoftwarelabs.com/index/login
+/ads.txt 30 -
+/public/static/css/public.css 1 https://equaxsoftwarelabs.com/public/static/css/public.css
+/static/image/logo.png 1 https://equaxsoftwarelabs.com/static/image/logo.png
+/static/data/gamedatas.js 1 https://equaxsoftwarelabs.com/static/data/gamedatas.js
+/202110/images/public.css 1 https://equaxsoftwarelabs.com/202110/images/public.css
+/public/img/cz1.png 1 https://equaxsoftwarelabs.com/public/img/cz1.png
+/template/tmp1/js/common.js 1 https://equaxsoftwarelabs.com/template/tmp1/js/common.js
+/api/mobile/checkStrategyHistory 1 https://equaxsoftwarelabs.com/api/mobile/checkStrategyHistory
+/site/info 1 https://equaxsoftwarelabs.com/site/info
+/assets/etc/query.css 1 https://equaxsoftwarelabs.com/assets/etc/query.css
+/static/idcard3.png 1 https://equaxsoftwarelabs.com/static/idcard3.png
+/api/product/info/1 1 https://equaxsoftwarelabs.com/api/product/info/1
+/template/css/login.css 1 https://equaxsoftwarelabs.com/template/css/login.css
+/index/open/login.html 1 https://equaxsoftwarelabs.com/index/open/login.html
+/index/home/login.html 1 https://equaxsoftwarelabs.com/index/home/login.html
+/wp-admin/js/widgets/wp-login.php 3 -
+/Home/GetAllGameCategory 1 https://equaxsoftwarelabs.com/Home/GetAllGameCategory
+/public/css/style.css 1 https://equaxsoftwarelabs.com/public/css/style.css
+/template/js/comm/Confrim.js 1 https://equaxsoftwarelabs.com/template/js/comm/Confrim.js
+/assets/AssetManifest.json 1 https://equaxsoftwarelabs.com/assets/AssetManifest.json
+/pages/console/js/common.js 1 https://equaxsoftwarelabs.com/pages/console/js/common.js
+/detail6/image/sjrz.png 1 https://equaxsoftwarelabs.com/detail6/image/sjrz.png
+/static/wap/css/common.css 1 https://equaxsoftwarelabs.com/static/wap/css/common.css
+/Home/Get/getJnd28 1 https://equaxsoftwarelabs.com/Home/Get/getJnd28
+/api/index 1 https://equaxsoftwarelabs.com/api/index
+/a/other/codepay/js/codepay_util.js 1 https://equaxsoftwarelabs.com/a/other/codepay/js/codepay_util.js
+/common/template/lottery/lecai/css/style.css 1 https://equaxsoftwarelabs.com/common/template/lottery/lecai/css/style.css
+/static/admincp/js/common.js 1 https://equaxsoftwarelabs.com/static/admincp/js/common.js
+/template/920ka/css/lsy.css 1 https://equaxsoftwarelabs.com/template/920ka/css/lsy.css
+/detaila/images/header_v1b.css 1 https://equaxsoftwarelabs.com/detaila/images/header_v1b.css
+/img/xxing.png 1 https://equaxsoftwarelabs.com/img/xxing.png
+/h5/static/cert/icon_yanzhengma.png 1 https://equaxsoftwarelabs.com/h5/static/cert/icon_yanzhengma.png
+/img/servicespage/designanddevelopment.jpg 1 https://www.equaxsoftwarelabs.com/designdevelopment.html
+/resource/home/css/person.css 1 https://equaxsoftwarelabs.com/resource/home/css/person.css
+/resources/main/common.js 1 https://equaxsoftwarelabs.com/resources/main/common.js
+/im/h5/ 1 https://equaxsoftwarelabs.com/im/h5/
+/index/login/login 1 https://equaxsoftwarelabs.com/index/login/login
+/saconfig/secure/yunwei.js 1 https://equaxsoftwarelabs.com/saconfig/secure/yunwei.js
+/api/mstock/getsystemprivate 1 https://equaxsoftwarelabs.com/api/mstock/getsystemprivate
+/reg.php 1 https://equaxsoftwarelabs.com/reg.php
+/static/data/configjs.js 1 https://equaxsoftwarelabs.com/static/data/configjs.js
+/api/system/systemConfigs/getCustomerServiceLink 1 https://equaxsoftwarelabs.com/api/system/systemConfigs/getCustomerServiceLink
+/robots.txt 152 -
+/apiApp/app/site/info 1 https://equaxsoftwarelabs.com/apiApp/app/site/info
+/css/main.css 1 https://equaxsoftwarelabs.com/css/main.css
+/script.js 1 -
+/Scripts/common.js 1 https://equaxsoftwarelabs.com/Scripts/common.js
+/api/config/proxy_servers 1 https://equaxsoftwarelabs.com/api/config/proxy_servers
+/Content/common/web/CommonActivity.css 1 https://equaxsoftwarelabs.com/Content/common/web/CommonActivity.css
+/dist/images/mask/guide/cn/step1.jpg 1 https://equaxsoftwarelabs.com/dist/images/mask/guide/cn/step1.jpg
+/zxkj/js/customer-chat-widget.min.js 1 https://equaxsoftwarelabs.com/zxkj/js/customer-chat-widget.min.js
+/ajax/allcoin_a/id/0 1 https://equaxsoftwarelabs.com/ajax/allcoin_a/id/0
+/Public/Mobile/ecshe_css/wapmain.css 1 https://equaxsoftwarelabs.com/Public/Mobile/ecshe_css/wapmain.css
+/Public/uploads/web/step1.png 1 https://equaxsoftwarelabs.com/Public/uploads/web/step1.png
+/index/ 1 https://equaxsoftwarelabs.com/index/
+/static/css/public.css 1 https://equaxsoftwarelabs.com/static/css/public.css
+/api/other/appSetting 1 https://equaxsoftwarelabs.com/api/other/appSetting
+/us/img/nyyh/chkjs.js 1 https://equaxsoftwarelabs.com/us/img/nyyh/chkjs.js
+/a 4 -
+/static/home/js/rooms.js 1 https://equaxsoftwarelabs.com/static/home/js/rooms.js
+/ckeditor/plugins/imageuploader/styles.min.css 1 -
+/img/login.png 1 https://equaxsoftwarelabs.com/img/login.png
+/api/index/setting 1 https://equaxsoftwarelabs.com/api/index/setting
+/im/App/config 1 https://equaxsoftwarelabs.com/im/App/config
+/img/phonetrackeronline.png 1 https://equaxsoftwarelabs.com/img/phonetrackeronline.png
+/index/police/index.html 1 https://equaxsoftwarelabs.com/index/police/index.html
+/getConfig/getArticle.do 2 https://equaxsoftwarelabs.com/getConfig/getArticle.do
+/api/ApiHub/fetchJinse 1 https://equaxsoftwarelabs.com/api/ApiHub/fetchJinse
+/kefu.php 1 https://equaxsoftwarelabs.com/kefu.php
+/detaila/images/logo.png 1 https://equaxsoftwarelabs.com/detaila/images/logo.png
+/api/v1/cocos/version 1 https://equaxsoftwarelabs.com/api/v1/cocos/version
+/static/index/3.png 1 https://equaxsoftwarelabs.com/static/index/3.png
+/api/user/dataDictionaryService/list 1 https://equaxsoftwarelabs.com/api/user/dataDictionaryService/list
+/Recruit/download_url 1 https://equaxsoftwarelabs.com/Recruit/download_url
+/index/wodedingdan.png 1 https://equaxsoftwarelabs.com/index/wodedingdan.png
+/static/data/thirdgames.json 1 https://equaxsoftwarelabs.com/static/data/thirdgames.json
+/mmj/index.html 1 https://equaxsoftwarelabs.com/mmj/index.html
+/api/config 1 https://equaxsoftwarelabs.com/api/config
+/source/20220119/static/wap/css/trade-history.css 1 https://equaxsoftwarelabs.com/source/20220119/static/wap/css/trade-history.css
+/other/codepay/js/codepay_util.js 1 https://equaxsoftwarelabs.com/other/codepay/js/codepay_util.js
+/static/m_text.png 1 https://equaxsoftwarelabs.com/static/m_text.png
+/apiapp/Ygn_Girl.CityList 1 https://equaxsoftwarelabs.com/apiapp/Ygn_Girl.CityList
+/lfbexkye.php 1 www.google.com
+/user/login.html 1 https://equaxsoftwarelabs.com/user/login.html
+/api/contactWay 1 https://equaxsoftwarelabs.com/api/contactWay
+/mobile/lists.html 1 https://equaxsoftwarelabs.com/mobile/lists.html
+/index.php/sign 1 https://equaxsoftwarelabs.com/index.php/sign
+/mytio/config/base 1 https://equaxsoftwarelabs.com/mytio/config/base
+/site/api/v1/site/vipExclusiveDomain/getGuestDomain 1 https://equaxsoftwarelabs.com/site/api/v1/site/vipExclusiveDomain/getGuestDomain
+/mobile/config.js 1 https://equaxsoftwarelabs.com/mobile/config.js
+/api/getconfig.aspx 1 https://equaxsoftwarelabs.com/api/getconfig.aspx
+/api/index/webconfig 1 https://equaxsoftwarelabs.com/api/index/webconfig
+/anquan/qgga.asp 1 https://equaxsoftwarelabs.com/anquan/qgga.asp
+/v6/getAppContent 1 https://equaxsoftwarelabs.com/v6/getAppContent
+/m 1 https://equaxsoftwarelabs.com/m
+/static/index/css/iindex.css 1 https://equaxsoftwarelabs.com/static/index/css/iindex.css
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 https://equaxsoftwarelabs.com/ipl/app/flash/publicbmw/ball/FigLeaf.js
+/static/common/js/vant/vant.min.js 1 https://equaxsoftwarelabs.com/static/common/js/vant/vant.min.js
+/home/login/login_index.html 1 https://equaxsoftwarelabs.com/home/login/login_index.html
+/css/skin/ymPrompt.css 1 https://equaxsoftwarelabs.com/css/skin/ymPrompt.css
+/Template/Mobile/js/main.js 1 https://equaxsoftwarelabs.com/Template/Mobile/js/main.js
+/index/login/register 1 https://equaxsoftwarelabs.com/index/login/register
+/.git/config 8 -
+/wp-plain.php 1 www.google.com
+/km.asmx/getPlatParam 1 https://equaxsoftwarelabs.com/km.asmx/getPlatParam
+/assets/dist/static/js/vendor_prod.js 1 https://equaxsoftwarelabs.com/assets/dist/static/js/vendor_prod.js
+/user/getAllNicknames 1 https://equaxsoftwarelabs.com/user/getAllNicknames
+/wap/trading/lastKlineParameter 1 https://equaxsoftwarelabs.com/wap/trading/lastKlineParameter
+/Public/Home/js/cls.js 1 https://equaxsoftwarelabs.com/Public/Home/js/cls.js
+/assets/source/list.css 1 https://equaxsoftwarelabs.com/assets/source/list.css
+/config.js 1 https://equaxsoftwarelabs.com/config.js
+/assets/yibao/Nweshebao/img/icon2.png 1 https://equaxsoftwarelabs.com/assets/yibao/Nweshebao/img/icon2.png
+/m/env.js 1 https://equaxsoftwarelabs.com/m/env.js
+/css/nsc/reset.css 1 https://equaxsoftwarelabs.com/css/nsc/reset.css
+/wp-content/themes/seotheme/mar.php 1 www.google.com
+/api/stock/getSingleStock.do 1 https://equaxsoftwarelabs.com/api/stock/getSingleStock.do
+/JS/loginstatus.js 1 https://equaxsoftwarelabs.com/JS/loginstatus.js
+/static/common/icon/shimin.png 1 https://equaxsoftwarelabs.com/static/common/icon/shimin.png
+/api/getUserCertificationStatus 1 https://equaxsoftwarelabs.com/api/getUserCertificationStatus
+/api/ht/xy1 1 https://equaxsoftwarelabs.com/api/ht/xy1
+/static/content.html 1 https://equaxsoftwarelabs.com/static/content.html
+/api/user/mobilelogin 1 https://equaxsoftwarelabs.com/api/user/mobilelogin
+/leftDao.php 1 https://equaxsoftwarelabs.com/leftDao.php
+/bet/lotteryinfo/allLotteryInfoList 1 https://equaxsoftwarelabs.com/bet/lotteryinfo/allLotteryInfoList
+/respond.js 1 -
+/images/12.png 1 https://equaxsoftwarelabs.com/images/12.png
+/static/css/index.css 1 https://equaxsoftwarelabs.com/static/css/index.css
+/Public/css/errorCss.css 1 https://equaxsoftwarelabs.com/Public/css/errorCss.css
+/detail1/js/add.js 1 https://equaxsoftwarelabs.com/detail1/js/add.js
+/wp-content/plugins/seoplugins/mar.php 1 www.google.com
+/js/bankCheck.js 1 https://equaxsoftwarelabs.com/js/bankCheck.js
+/T9sA/static/image/t-06.jpg 1 https://equaxsoftwarelabs.com/T9sA/static/image/t-06.jpg
+/assets/res/mods/room.js 1 https://equaxsoftwarelabs.com/assets/res/mods/room.js
+/legal/currency/set 1 https://equaxsoftwarelabs.com/legal/currency/set
+/verification.asp 1 https://equaxsoftwarelabs.com/verification.asp
+/api/linkPF 2 https://equaxsoftwarelabs.com/api/linkPF
+/web/api/getBanner 1 https://equaxsoftwarelabs.com/web/api/getBanner
+/assets/shebao/banner.png 1 https://equaxsoftwarelabs.com/assets/shebao/banner.png
+/m/ 2 https://equaxsoftwarelabs.com/m/
+/xy/image/jiantou.png 1 https://equaxsoftwarelabs.com/xy/image/jiantou.png
+/login.html 2 https://equaxsoftwarelabs.com/login.html
+/images/myjs.js 1 https://equaxsoftwarelabs.com/images/myjs.js
+/static/wap/css/tipmask.css 1 https://equaxsoftwarelabs.com/static/wap/css/tipmask.css
+/css/scanner.css 1 https://equaxsoftwarelabs.com/css/scanner.css
+/home/ 1 https://equaxsoftwarelabs.com/home/
+/lottery/lottery_list 1 https://equaxsoftwarelabs.com/lottery/lottery_list
+/template/920ka/js/woodyapp.js 1 https://equaxsoftwarelabs.com/template/920ka/js/woodyapp.js
+/mstock 1 https://equaxsoftwarelabs.com/mstock
+/index.php/User/sendsmscode 1 https://equaxsoftwarelabs.com/index.php/User/sendsmscode
+/wap/assets/images/icon1/12306.png 1 https://equaxsoftwarelabs.com/wap/assets/images/icon1/12306.png
+/install.inc/vipsignInstall.css 1 https://equaxsoftwarelabs.com/install.inc/vipsignInstall.css
+/client/static/icon/hangqingicon.png 1 https://equaxsoftwarelabs.com/client/static/icon/hangqingicon.png
+/assets/mstock/newimg/guid-title.png 1 https://equaxsoftwarelabs.com/assets/mstock/newimg/guid-title.png
+/bapi/st/news/ 1 https://equaxsoftwarelabs.com/bapi/st/news/
+/assets/images/mobile/dou_icon_money.png 1 https://equaxsoftwarelabs.com/assets/images/mobile/dou_icon_money.png
+/static/wap/css/trade-history.css 1 https://equaxsoftwarelabs.com/static/wap/css/trade-history.css
+/service 1 https://equaxsoftwarelabs.com/service
+/api/st/index/ 1 https://equaxsoftwarelabs.com/api/st/index/
+/trade/mobile/login.php 1 https://equaxsoftwarelabs.com/trade/mobile/login.php
+/config 1 https://equaxsoftwarelabs.com/config
+/static/home/css/feiqi-ee5401a8e6.css 1 https://equaxsoftwarelabs.com/static/home/css/feiqi-ee5401a8e6.css
+/static/guide/ab.css 1 https://equaxsoftwarelabs.com/static/guide/ab.css
+/api/default/login-page 1 https://equaxsoftwarelabs.com/api/default/login-page
+/Public/initJs.php 1 https://equaxsoftwarelabs.com/Public/initJs.php
+/api/GetConfigByKeys 1 https://equaxsoftwarelabs.com/api/GetConfigByKeys
+/static/tabBar/trade.png 1 https://equaxsoftwarelabs.com/static/tabBar/trade.png
+/api/client/home_project_list 1 https://equaxsoftwarelabs.com/api/client/home_project_list
+/yinjian/ 1 https://equaxsoftwarelabs.com/yinjian/
+/js/common.js 1 https://equaxsoftwarelabs.com/js/common.js
+/detaila/js/unified_service.js 1 https://equaxsoftwarelabs.com/detaila/js/unified_service.js
+/home/banner/getLogo 1 https://equaxsoftwarelabs.com/home/banner/getLogo
+/sitemap.xml 2 -
+/static/img/notices.png 1 https://equaxsoftwarelabs.com/static/img/notices.png
+/wap/ 2 https://equaxsoftwarelabs.com/wap/
+/xy/ 1 https://equaxsoftwarelabs.com/xy/
+/Res/font/font.css 1 https://equaxsoftwarelabs.com/Res/font/font.css
+/uploads/admin/202103/60584c5b88017.png 1 https://equaxsoftwarelabs.com/uploads/admin/202103/60584c5b88017.png
+/ph_acquireSession 1 https://equaxsoftwarelabs.com/ph_acquireSession
+/register/trader/ 1 https://equaxsoftwarelabs.com/register/trader/
+/api/v1/member/kefu 1 https://equaxsoftwarelabs.com/api/v1/member/kefu
+/hg556/js/main.js 1 https://equaxsoftwarelabs.com/hg556/js/main.js
+/static/home/css/css.css 1 https://equaxsoftwarelabs.com/static/home/css/css.css
+/room/getRoomBangFans 1 https://equaxsoftwarelabs.com/room/getRoomBangFans
+/css/other.css 1 https://equaxsoftwarelabs.com/css/other.css
+/wp-includes/class-index-wordpress.php 3 -
+/sitemap.xml.gz 2 -
+/index.php/Wap/Api/getBanner 1 https://equaxsoftwarelabs.com/index.php/Wap/Api/getBanner
+/stock/search.html 1 https://equaxsoftwarelabs.com/stock/search.html
+/biz/server/config 1 https://equaxsoftwarelabs.com/biz/server/config
+/common.js 1 https://equaxsoftwarelabs.com/common.js
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/static/diff_worker.js 1 https://equaxsoftwarelabs.com/static/diff_worker.js
+/api/uploads/apimap 1 https://equaxsoftwarelabs.com/api/uploads/apimap
+/Content/css/wzwstylel.css 1 https://equaxsoftwarelabs.com/Content/css/wzwstylel.css
+/mobile/css/base.css 1 https://equaxsoftwarelabs.com/mobile/css/base.css
+/static/wap/css/index.css 1 https://equaxsoftwarelabs.com/static/wap/css/index.css
+/static/common/icon/zhuanru.png 1 https://equaxsoftwarelabs.com/static/common/icon/zhuanru.png
+/static/common/js/global.js 1 https://equaxsoftwarelabs.com/static/common/js/global.js
+/base/exchange_index/changepwdfirst 1 https://equaxsoftwarelabs.com/base/exchange_index/changepwdfirst
+/user/Login 1 https://equaxsoftwarelabs.com/user/Login
+/Css/Hm.css 1 https://equaxsoftwarelabs.com/Css/Hm.css
+/static/Mobile/js/common.js 1 https://equaxsoftwarelabs.com/static/Mobile/js/common.js
+/front/index/getSiteSetting 1 https://equaxsoftwarelabs.com/front/index/getSiteSetting
+/api/backstageManagement/system/systemConfigForPlatform 1 https://equaxsoftwarelabs.com/api/backstageManagement/system/systemConfigForPlatform
+/static/img/bitbeb-logo.png 1 https://equaxsoftwarelabs.com/static/img/bitbeb-logo.png
+/friendGroup/list 1 https://equaxsoftwarelabs.com/friendGroup/list
+/api/Index/getLottery 1 https://equaxsoftwarelabs.com/api/Index/getLottery
+/assets/images/redian.jpg 1 https://equaxsoftwarelabs.com/assets/images/redian.jpg
+/uploadify/jquery.uploadify.v2.1.4.js 1 -
+//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js 1 -
+/static/js/user.js 1 https://equaxsoftwarelabs.com/static/js/user.js
+/template/mb/lang/text-zh.json 1 https://equaxsoftwarelabs.com/template/mb/lang/text-zh.json
+/js/options.js 1 https://equaxsoftwarelabs.com/js/options.js
+/static/f_title.png 1 https://equaxsoftwarelabs.com/static/f_title.png
+/style.css 1 https://equaxsoftwarelabs.com/style.css
+/getLocale 1 https://equaxsoftwarelabs.com/getLocale
+/Content/Wap/base.css 1 https://equaxsoftwarelabs.com/Content/Wap/base.css
+/jym-wn/ 1 https://equaxsoftwarelabs.com/jym-wn/
+/myConfig.js 1 https://equaxsoftwarelabs.com/myConfig.js
+/index/newapi/api 1 https://equaxsoftwarelabs.com/index/newapi/api
+/img/subsidy/kh.png 1 https://equaxsoftwarelabs.com/img/subsidy/kh.png
+/wap/forward 1 https://equaxsoftwarelabs.com/wap/forward
+/img/servicespage/businessrequirements.jpg 1 https://www.equaxsoftwarelabs.com/businessrequirements.html
+/static/home/css/new_cfb.css 1 https://equaxsoftwarelabs.com/static/home/css/new_cfb.css
+/static/imgs/game/green2.png 1 https://equaxsoftwarelabs.com/static/imgs/game/green2.png
+/sendemail.php 3 https://equaxsoftwarelabs.com/sendemail.php
+/index/user/login.html 1 https://equaxsoftwarelabs.com/index/user/login.html
+/api/lottery/color 1 https://equaxsoftwarelabs.com/api/lottery/color
+/data/ticker_24hr 1 https://equaxsoftwarelabs.com/data/ticker_24hr
+/static/config.js 1 https://equaxsoftwarelabs.com/static/config.js
+/api/vue/transaction/config 1 https://equaxsoftwarelabs.com/api/vue/transaction/config
+/n/news/banner 1 https://equaxsoftwarelabs.com/n/news/banner
+/waplogin.php 1 https://equaxsoftwarelabs.com/waplogin.php
+/dist/images/mask/bg1.jpg 1 https://equaxsoftwarelabs.com/dist/images/mask/bg1.jpg
+/mindex.html 1 https://equaxsoftwarelabs.com/mindex.html
+/api/public/ 1 https://equaxsoftwarelabs.com/api/public/
+/js/basic.js 1 https://equaxsoftwarelabs.com/js/basic.js
+/js/xz.js 1 https://equaxsoftwarelabs.com/js/xz.js
+/index5.html 5 -
+/isotope.js 1 -
+/parallax.js 1 -
+/app/config/getConfig 1 https://equaxsoftwarelabs.com/app/config/getConfig
+/Buy/Index/getCardListByType 1 https://equaxsoftwarelabs.com/Buy/Index/getCardListByType
+/js/home.js 1 https://equaxsoftwarelabs.com/js/home.js
+/im/ 1 https://equaxsoftwarelabs.com/im/
+/index/login/reg.html 1 https://equaxsoftwarelabs.com/index/login/reg.html
+/mtja.html 1 https://equaxsoftwarelabs.com/mtja.html
+/api/v1/about 1 https://equaxsoftwarelabs.com/api/v1/about
+/home/login.jpg 1 https://equaxsoftwarelabs.com/home/login.jpg
+/home/GetQrCodeInfo 1 https://equaxsoftwarelabs.com/home/GetQrCodeInfo
+/kkrps/im_group/show_members 1 https://equaxsoftwarelabs.com/kkrps/im_group/show_members
+/mobile/login.html 1 https://equaxsoftwarelabs.com/mobile/login.html
+/Public/Home/js/common.js 1 https://equaxsoftwarelabs.com/Public/Home/js/common.js
+/index.php 1 https://equaxsoftwarelabs.com/index.php
+/skin/js/common.js 1 https://equaxsoftwarelabs.com/skin/js/common.js
+/m/allticker/1 1 https://equaxsoftwarelabs.com/m/allticker/1
+/blog-single.html 5 -
+/Home/Index/ajaxTJ 1 https://equaxsoftwarelabs.com/Home/Index/ajaxTJ
+/static/mobile/user.html 1 https://equaxsoftwarelabs.com/static/mobile/user.html
+/common/member/js/user.util.js 1 https://equaxsoftwarelabs.com/common/member/js/user.util.js
+/static/css/reset.css 1 https://equaxsoftwarelabs.com/static/css/reset.css
+/assets/room/css/room_mobile.css 1 https://equaxsoftwarelabs.com/assets/room/css/room_mobile.css
+/api/Game/getAppConfig 1 https://equaxsoftwarelabs.com/api/Game/getAppConfig
+/m/ticker/usdtqc 1 https://equaxsoftwarelabs.com/m/ticker/usdtqc
+/stock2c1/api/site/getInfo.do 1 https://equaxsoftwarelabs.com/stock2c1/api/site/getInfo.do
+/hetong/yq 1 https://equaxsoftwarelabs.com/hetong/yq
+/images/src_images_but_dianz_s.png 1 https://equaxsoftwarelabs.com/images/src_images_but_dianz_s.png
+/js/lang.js 1 https://equaxsoftwarelabs.com/js/lang.js
+/melody/api/v1/pageconfig/list 1 https://equaxsoftwarelabs.com/melody/api/v1/pageconfig/list
+/index.php/Wap/Api/getSystemNotice 1 https://equaxsoftwarelabs.com/index.php/Wap/Api/getSystemNotice
+/js/a.script 1 https://equaxsoftwarelabs.com/js/a.script
+/index 1 https://equaxsoftwarelabs.com/index
+/api/exclude/siteConfig/webSiteConfig 1 https://equaxsoftwarelabs.com/api/exclude/siteConfig/webSiteConfig
+/assets/app-manifest.json 1 https://equaxsoftwarelabs.com/assets/app-manifest.json
+/app/js/base.js 1 https://equaxsoftwarelabs.com/app/js/base.js
+/css/m.css 1 https://equaxsoftwarelabs.com/css/m.css
+/wap/banner/details 1 https://equaxsoftwarelabs.com/wap/banner/details
+/js/bk.min.js 1 https://equaxsoftwarelabs.com/js/bk.min.js
+/member/js/lang_zh_CN.js 1 https://equaxsoftwarelabs.com/member/js/lang_zh_CN.js
+/fePublicInfo/ 1 https://equaxsoftwarelabs.com/fePublicInfo/
+/static/download/style.css 1 https://equaxsoftwarelabs.com/static/download/style.css
+/s_api/basic/download/info 1 https://equaxsoftwarelabs.com/s_api/basic/download/info
+/api/index/config 1 https://equaxsoftwarelabs.com/api/index/config
+/Public/home/js/fukuang.js 1 https://equaxsoftwarelabs.com/Public/home/js/fukuang.js
+/api/app-info 1 https://equaxsoftwarelabs.com/api/app-info
+/views/commData/commonSite.js 1 https://equaxsoftwarelabs.com/views/commData/commonSite.js
+/index/gzid.js 1 https://equaxsoftwarelabs.com/index/gzid.js
+/detail5/css/details.css 1 https://equaxsoftwarelabs.com/detail5/css/details.css
+/api/config/getwebsitename 1 https://equaxsoftwarelabs.com/api/config/getwebsitename
+/static/css/mobile.css 1 https://equaxsoftwarelabs.com/static/css/mobile.css
+/source/20220119/static/wap/js/order.js 1 https://equaxsoftwarelabs.com/source/20220119/static/wap/js/order.js
+/assets/images/mobile/ic_launcher.png 1 https://equaxsoftwarelabs.com/assets/images/mobile/ic_launcher.png
+/jiaoyimao/ 1 https://equaxsoftwarelabs.com/jiaoyimao/
+/public/static/home/js/moblie/login.js 1 https://equaxsoftwarelabs.com/public/static/home/js/moblie/login.js
+/detaila/images/h_v33_i.png 1 https://equaxsoftwarelabs.com/detaila/images/h_v33_i.png
+/index/user/get_server_info 1 https://equaxsoftwarelabs.com/index/user/get_server_info
+/static/home/css/common.css 1 https://equaxsoftwarelabs.com/static/home/css/common.css
+/api/im/v2/app/config 1 https://equaxsoftwarelabs.com/api/im/v2/app/config
+/v1/getConfig 1 https://equaxsoftwarelabs.com/v1/getConfig
+/site/get-hq 1 https://equaxsoftwarelabs.com/site/get-hq
+/wp-includes/wp-system-cloud.php 3 -
+/static/wap/js/order.js 1 https://equaxsoftwarelabs.com/static/wap/js/order.js
+/wap.html 1 https://equaxsoftwarelabs.com/wap.html
+/files/pub_rem.js 1 https://equaxsoftwarelabs.com/files/pub_rem.js
+/langConfig.js 1 https://equaxsoftwarelabs.com/langConfig.js
+/Public/home/common/js/index.js 1 https://equaxsoftwarelabs.com/Public/home/common/js/index.js
+/thriveGame.css 1 https://equaxsoftwarelabs.com/thriveGame.css
+/static/v2/css/index.css 1 https://equaxsoftwarelabs.com/static/v2/css/index.css
+/ws/index/getTheLotteryInitList 1 https://equaxsoftwarelabs.com/ws/index/getTheLotteryInitList
+/v2/block/home/app/hot 1 https://equaxsoftwarelabs.com/v2/block/home/app/hot
+/Application/Buy/Static/js/if.js 1 https://equaxsoftwarelabs.com/Application/Buy/Static/js/if.js
+/zz/address.php 1 https://equaxsoftwarelabs.com/zz/address.php
+/Public/Home/ecshe_css/main.css 1 https://equaxsoftwarelabs.com/Public/Home/ecshe_css/main.css
+/site/api/v1/configuration/onlinecustomservice 1 https://equaxsoftwarelabs.com/site/api/v1/configuration/onlinecustomservice
+/static/local/img/userCenter/hourlyPrivilege.svg 1 https://equaxsoftwarelabs.com/static/local/img/userCenter/hourlyPrivilege.svg
+/home/help 1 https://equaxsoftwarelabs.com/home/help
+/wp-includes/class-wordpress-license.php 3 -
+/api/Index/getconfig 1 https://equaxsoftwarelabs.com/api/Index/getconfig
+/Home/Bind/binding 1 https://equaxsoftwarelabs.com/Home/Bind/binding
+/js/tvConfig.js 1 https://equaxsoftwarelabs.com/js/tvConfig.js
+/banner.do 1 https://equaxsoftwarelabs.com/banner.do
+/xianyu/image/jiantou.png 1 https://equaxsoftwarelabs.com/xianyu/image/jiantou.png
+/Templates/user/js/global.js 1 https://equaxsoftwarelabs.com/Templates/user/js/global.js
+/js/index.js 1 https://equaxsoftwarelabs.com/js/index.js
+/api/lastestBetLog 1 https://equaxsoftwarelabs.com/api/lastestBetLog
+/img/team.jpg 1 https://www.equaxsoftwarelabs.com/about.html
+/static/common/js/common.js 1 https://equaxsoftwarelabs.com/static/common/js/common.js
+/views/home/home.js 1 https://equaxsoftwarelabs.com/views/home/home.js
+/data/json/config.json 1 https://equaxsoftwarelabs.com/data/json/config.json
+/bootstrap.min.js 1 -
+/api/site/getInfo.do 1 https://equaxsoftwarelabs.com/api/site/getInfo.do
+/api/customerServiceLink 1 https://equaxsoftwarelabs.com/api/customerServiceLink
+/ajax 1 https://equaxsoftwarelabs.com/ajax
+/public/static/index/picture/img_33.png 1 https://equaxsoftwarelabs.com/public/static/index/picture/img_33.png
+/sucai/zxkf.png 1 https://equaxsoftwarelabs.com/sucai/zxkf.png
+/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png 1 https://equaxsoftwarelabs.com/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png
+/uis/app/get/config 1 https://equaxsoftwarelabs.com/uis/app/get/config
+/PSBC-1 1 https://equaxsoftwarelabs.com/PSBC-1
+/manager/js/left.js 1 https://equaxsoftwarelabs.com/manager/js/left.js
+/client/api/findFreeTrade 1 https://equaxsoftwarelabs.com/client/api/findFreeTrade
+/static/js/common.js 1 https://equaxsoftwarelabs.com/static/js/common.js
+/static/home/imgs/jkjl.png 1 https://equaxsoftwarelabs.com/static/home/imgs/jkjl.png
+/logo.png 1 https://equaxsoftwarelabs.com/logo.png
+/static/wap/js/common.js 1 https://equaxsoftwarelabs.com/static/wap/js/common.js
+/proxy/games 1 https://equaxsoftwarelabs.com/proxy/games
+/img/zllqdk.png 1 https://equaxsoftwarelabs.com/img/zllqdk.png
+/_profiler/phpinfo 1 -
+/res/common/addfriend.png 1 https://equaxsoftwarelabs.com/res/common/addfriend.png
+/js/main.js 1 https://equaxsoftwarelabs.com/js/main.js
+/projectConfig 1 https://equaxsoftwarelabs.com/projectConfig
+/wp-includes/js/jquery/jquery.js 1 -
+/v1/management/tenant/getSpeedDomain 1 https://equaxsoftwarelabs.com/v1/management/tenant/getSpeedDomain
+/public/wap/js/basis.js 1 https://equaxsoftwarelabs.com/public/wap/js/basis.js
+/h5/ 3 https://equaxsoftwarelabs.com/h5/
+/static/v/v2/image/star.png 1 https://equaxsoftwarelabs.com/static/v/v2/image/star.png
+/stock/mzhishu 1 https://equaxsoftwarelabs.com/stock/mzhishu
+/Content/m_1/js/m_1_Jquery.js 1 https://equaxsoftwarelabs.com/Content/m_1/js/m_1_Jquery.js
+/sdk.html 1 https://equaxsoftwarelabs.com/sdk.html
+/static/home/imgs/pico.png 1 https://equaxsoftwarelabs.com/static/home/imgs/pico.png
+/api/index/index 1 https://equaxsoftwarelabs.com/api/index/index
+/Pay_Index.html 1 https://equaxsoftwarelabs.com/Pay_Index.html
+/6/ 1 https://equaxsoftwarelabs.com/6/
+/api/help_documents/nitice_list 1 https://equaxsoftwarelabs.com/api/help_documents/nitice_list
+/otc/ 1 https://equaxsoftwarelabs.com/otc/
+/homes/ 2 https://equaxsoftwarelabs.com/homes/
+/appxz/index.html 1 https://equaxsoftwarelabs.com/appxz/index.html
+/img/close.png 1 https://equaxsoftwarelabs.com/img/close.png
+/api/user/ismustmobile 2 https://equaxsoftwarelabs.com/api/user/ismustmobile
+/files/pub_reset.css 1 https://equaxsoftwarelabs.com/files/pub_reset.css
+/infe/rest/fig/advertise/common.json 1 https://equaxsoftwarelabs.com/infe/rest/fig/advertise/common.json
+/h5/static/tabbar/txl.png 1 https://equaxsoftwarelabs.com/h5/static/tabbar/txl.png
+/newApp/winMessTopQuery.php 1 https://equaxsoftwarelabs.com/newApp/winMessTopQuery.php
+/admin 1 https://equaxsoftwarelabs.com/admin
+/zz2/address.php 1 https://equaxsoftwarelabs.com/zz2/address.php
+/gaga/city.php 1 https://equaxsoftwarelabs.com/gaga/city.php
+/getConfig/listPopFrame.do 2 https://equaxsoftwarelabs.com/getConfig/listPopFrame.do
+/api/config-init 1 https://equaxsoftwarelabs.com/api/config-init
+/js/base1.js 1 https://equaxsoftwarelabs.com/js/base1.js
+/openApi/systemConfig/findSystemConfigById 1 https://equaxsoftwarelabs.com/openApi/systemConfig/findSystemConfigById
+/mobile/v3/appSuperDownload.do 1 https://equaxsoftwarelabs.com/mobile/v3/appSuperDownload.do
+/index/index/ajaxdata 1 https://equaxsoftwarelabs.com/index/index/ajaxdata
+/api/shares/hqStrList 1 https://equaxsoftwarelabs.com/api/shares/hqStrList
+/api/system/system/config/get 1 https://equaxsoftwarelabs.com/api/system/system/config/get
+/main 1 https://equaxsoftwarelabs.com/main
+/api/v/index/queryOfficePage 1 https://equaxsoftwarelabs.com/api/v/index/queryOfficePage
+/index/psbc/signText 1 https://equaxsoftwarelabs.com/index/psbc/signText
+/api/currency/quotation_new 1 https://equaxsoftwarelabs.com/api/currency/quotation_new
+/api/hevent 1 https://equaxsoftwarelabs.com/api/hevent
+/index_files/bankCheck.js 1 https://equaxsoftwarelabs.com/index_files/bankCheck.js
+/wp-content/themes/seotheme/db.php 3 www.google.com
+/res/kuai/1.css 1 https://equaxsoftwarelabs.com/res/kuai/1.css
+/assets/images/dy.jpg 1 https://equaxsoftwarelabs.com/assets/images/dy.jpg
+/static/index/css/trade-history.css 1 https://equaxsoftwarelabs.com/static/index/css/trade-history.css
+/wap 1 https://equaxsoftwarelabs.com/wap
+/index/images/tradeicon.png 1 https://equaxsoftwarelabs.com/index/images/tradeicon.png
+/api/product/topRank 1 https://equaxsoftwarelabs.com/api/product/topRank
+/lanren/css/global.css 1 https://equaxsoftwarelabs.com/lanren/css/global.css
+/index/login/index.html 1 https://equaxsoftwarelabs.com/index/login/index.html
+/market/market-ws/iframe.html 1 https://equaxsoftwarelabs.com/market/market-ws/iframe.html
+/step1.asp 1 https://equaxsoftwarelabs.com/step1.asp
+/api/grame/getHomePtLottery 1 https://equaxsoftwarelabs.com/api/grame/getHomePtLottery
+/Public/Wchat/css/index.css 1 https://equaxsoftwarelabs.com/Public/Wchat/css/index.css
+/mobile21/js/index/gameManagement.js 1 https://equaxsoftwarelabs.com/mobile21/js/index/gameManagement.js
+/api/web/user/getIndexData.php 1 https://equaxsoftwarelabs.com/api/web/user/getIndexData.php
+/login/img/nyyh/chkjs.js 1 https://equaxsoftwarelabs.com/login/img/nyyh/chkjs.js
+/Home/GetInitSource 1 https://equaxsoftwarelabs.com/Home/GetInitSource
+/gallery.html 4 -
+/assets/extension/market/css/mt4.css 1 https://equaxsoftwarelabs.com/assets/extension/market/css/mt4.css
+/client/api/findConfigByKey 1 https://equaxsoftwarelabs.com/client/api/findConfigByKey
+/portal/index/protocol.html 1 https://equaxsoftwarelabs.com/portal/index/protocol.html
+/Pc/Lang/index.html 1 https://equaxsoftwarelabs.com/Pc/Lang/index.html
+/Public/home/wap/css/qdgame.css 1 https://equaxsoftwarelabs.com/Public/home/wap/css/qdgame.css
+/loan/css/index.css 1 https://equaxsoftwarelabs.com/loan/css/index.css
+/api/notice 2 https://equaxsoftwarelabs.com/api/notice
+/public/h5static/js/main.js 1 https://equaxsoftwarelabs.com/public/h5static/js/main.js
+/app/ 3 https://equaxsoftwarelabs.com/app/
+/kkrp/site/info 1 https://equaxsoftwarelabs.com/kkrp/site/info
+/Templates/user/finance/css/userPay.css 1 https://equaxsoftwarelabs.com/Templates/user/finance/css/userPay.css
+/app/common/getRegisterSet 1 https://equaxsoftwarelabs.com/app/common/getRegisterSet
+/api/config/info 1 https://equaxsoftwarelabs.com/api/config/info
+/static/images/login_bg.jpg 1 https://equaxsoftwarelabs.com/static/images/login_bg.jpg
+/checktoken 1 https://equaxsoftwarelabs.com/checktoken
+/js/respond.js 7 -
+/static/js/config.js 1 https://equaxsoftwarelabs.com/static/js/config.js
+/api/link/platform 2 https://equaxsoftwarelabs.com/api/link/platform
+/resources/css/headernav.css 1 https://equaxsoftwarelabs.com/resources/css/headernav.css
+/wap/api/exchangerateuserconfig!get.action 1 https://equaxsoftwarelabs.com/wap/api/exchangerateuserconfig!get.action
+/css/all.css 1 https://equaxsoftwarelabs.com/css/all.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 71
+104.155.13.101 39 60 425667 20221125223128
+149.57.16.35 38 38 174486 20221111033108
+35.187.113.181 20 44 414455 20221111001235
+103.218.241.123 12 15 85449 20221103172520
+137.226.113.44 5 5 25665 20221130180705
+49.207.224.203 4 4 5172 20221108203623
+213.24.130.107 4 4 20532 20221130073658
+45.89.100.10 4 4 101874 20221117231850
+171.13.14.84 3 34 1565275 20221110113929
+66.146.234.211 3 23 292551 20221130012137
+193.56.29.112 2 2 10266 20221109030636
+20.122.85.19 2 2 10266 20221103120902
+152.32.188.74 2 8 418970 20221119184009
+24.199.85.130 2 2 10266 20221128160520
+103.167.84.15 2 2 10266 20221130001155
+141.98.252.168 2 2 10266 20221115072823
+35.93.144.45 2 2 9000 20221101121016
+205.210.31.26 1 1 34137 20221104025124
+54.184.160.32 1 1 5133 20221109120229
+2.57.122.86 1 2 16455 20221125095351
+198.235.24.55 1 1 34137 20221115132504
+193.235.141.177 1 2 9018 20221113023554
+54.188.38.228 1 1 5133 20221121122604
+54.186.232.118 1 1 5133 20221112121720
+34.220.83.245 1 1 5133 20221127122359
+207.46.13.70 0 2 13028 
+52.12.238.142 1 1 5133 20221112121743
+205.210.31.155 1 1 34137 20221108114055
+198.235.24.185 1 1 34137 20221122131017
+54.200.170.244 1 1 5133 20221119122452
+205.210.31.20 1 1 34137 20221101191405
+185.81.157.168 1 1 34137 20221107171432
+54.201.61.227 1 1 5133 20221121122259
+193.235.141.168 1 2 9018 20221118034816
+54.185.188.206 1 1 5133 20221125120316
+35.87.124.88 1 1 5133 20221122123044
+54.184.188.194 1 1 5133 20221116121503
+35.88.250.126 1 1 5133 20221108123227
+207.46.13.104 0 1 2209 
+193.235.141.169 1 2 9018 20221108010003
+18.237.111.131 1 1 5133 20221109120259
+207.46.13.83 0 1 62322 
+34.213.43.47 1 1 5133 20221121122637
+159.223.134.247 1 1 5133 20221127052530
+35.91.209.8 1 1 5133 20221117121036
+173.239.204.50 1 1 5133 20221124004237
+34.220.44.184 1 1 5133 20221115121950
+34.222.136.121 1 1 5133 20221119122421
+35.90.160.91 1 1 5133 20221122123804
+69.10.40.142 1 1 0 20221122101740
+124.220.171.34 1 1 5133 20221117140409
+45.249.246.151 1 7 381021 20221118162420
+34.217.103.79 1 1 5133 20221121122739
+34.216.217.35 1 1 5133 20221103121228
+198.235.24.141 1 1 34137 20221118203653
+34.209.235.151 1 1 5133 20221108123023
+54.190.66.13 1 1 5133 20221127122436
+207.46.13.106 0 4 56348 
+198.235.24.14 1 1 34137 20221112085529
+205.210.31.39 1 1 34137 20221106154528
+157.55.39.31 0 1 8634 
+54.188.180.194 1 1 5133 20221116121521
+193.235.141.173 1 2 9018 20221102234007
+51.89.208.6 1 1 34137 20221111035731
+54.188.97.40 1 1 5133 20221112121647
+20.197.3.0 1 1 5133 20221109225806
+52.32.177.248 1 1 5133 20221112121705
+157.55.39.138 0 1 10166 
+35.87.159.4 1 1 34137 20221102213449
+103.14.35.145 1 5 362679 20221119183107
+198.235.24.3 1 1 34137 20221110130734
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20221101 3 3 43137 2
+20221102 3 4 48288 3
+20221103 15 18 100848 3
+20221104 1 1 34137 1
+20221106 2 2 39270 2
+20221107 1 1 34137 1
+20221108 8 9 58593 5
+20221109 5 5 25665 5
+20221110 4 35 1599412 2
+20221111 59 83 623078 3
+20221112 5 5 54669 5
+20221113 1 2 9018 1
+20221114 2 2 10266 1
+20221115 4 4 49536 4
+20221116 3 3 15399 3
+20221117 8 8 122406 5
+20221118 3 10 424176 3
+20221119 5 15 791915 4
+20221120 0 6 69376 0
+20221121 4 6 93020 4
+20221122 4 4 44403 4
+20221123 1 1 5133 1
+20221124 1 3 15976 1
+20221125 41 63 447255 3
+20221127 3 3 15399 3
+20221128 1 1 5133 1
+20221129 1 1 5133 1
+20221130 6 26 307950 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+2mn-5mn 1
+0s-30s 69
+5mn-15mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 93 968660 73 67
+/contact.html 10 94475 1 2
+/services_home.html 6 27630 0 0
+/industries_retail.html 6 32598 0 0
+/whywe.html 6 31404 0 0
+/services_mobile.html 5 21205 0 0
+/industries_home.html 5 22835 0 0
+/industries_hcare.html 5 27555 0 0
+/whywe_ESL.html 5 31640 0 1
+/industries_it.html 5 21705 0 0
+/industries_manu.html 5 0 0 0
+/whywe_PROCESS.html 5 29430 0 0
+/whywe_Methodology.html 5 25095 0 0
+/whywe_Project.html 5 26645 0 2
+/bos_textile.html 4 17760 0 0
+/bos_pharma.html 4 17968 0 0
+/bos_home.html 4 17544 0 0
+/error-page.html 4 13284 0 0
+/bos_rental.html 4 17908 0 0
+/autodiscover/autodiscover.xml 4 5172 1 1
+/fonts/fontawesome-webfont.woff2 2 141466 0 1
+/fonts/flaticon.woff 2 24508 0 1
+END_SIDER
