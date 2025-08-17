@@ -4160,7 +4160,7 @@ input:focus {
 }
 
 .services-card-bg {
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 	padding: 28px;
 }
 
@@ -4172,7 +4172,10 @@ input:focus {
 	color: #cd2222d6;
 
 }
+
 .fa-instagram {
-    color: #E1306C; /* Instagram pink gradient main color */
-    font-size: 24px; /* Optional size */
+	color: #E1306C;
+	/* Instagram pink gradient main color */
+	font-size: 24px;
+	/* Optional size */
 }
