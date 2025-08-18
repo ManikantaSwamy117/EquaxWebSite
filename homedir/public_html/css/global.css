@@ -838,3 +838,96 @@ img {
 	width: 20%;
 }
 
+.tag{
+	padding: 6px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 31px;
+	font-size: 18px;
+	width: 50%;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+/* WHY ESL */
+
+
+.text-toggle {
+        position: relative;
+		
+    }
+
+    .more-text {
+        display: none;
+    }
+
+    .toggle-checkbox {
+        display: none;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		
+    }
+
+    .toggle-label {
+       background-color:#fff;
+        color:#00bdfd;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 14px;
+		border-radius: 12px;
+		
+    }
+
+    .toggle-checkbox:checked ~ .more-text {
+        display: inline;
+		
+    }
+
+    .toggle-checkbox:checked ~ .toggle-label::after {
+        content: ' View Less';
+		
+
+    }
+
+    .toggle-label::after {
+        content: ' View More';
+    }
+
+
+/* END WHY ESL */
+
+
+.title{
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	color: #00bdfd;
+}
+
+.btn{
+	background-color: #00bdfd;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 12px;
+	align-items: end;
+	 justify-content: flex-end;
+	display: flex;
+	padding: 5px;
+	  margin-top: 5px;
+
+}
+.read-end{
+	
+
+	padding: 2px;
+	display: flex;
+	justify-content: end;
+	
+}
