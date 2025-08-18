@@ -255,7 +255,15 @@
                         <section class="services-section style-two" style="background-color: #fff;">
                             <div class="auto-container">
                                 <div class="sec-title">
-                                    <h2>Our <span class="theme_color">Company</span></h2>
+                                    <h2>
+                                        <div style="display: flex; justify-content: center;">
+                                            <div class="head-tag">
+                                                <span style="color: #00d1ff;">></span>
+                                                Our <span class="theme_color">Company</span>
+                                            </div>
+                                        </div>
+
+                                    </h2>
                                     <br>
                                     <p>
                                         <strong>Established in 2017</strong>, <strong>EQUAX Software Labs Pvt
@@ -276,13 +284,25 @@
                                     </p>
                                 </div>
                             </div>
+                            
+                            
                             <div class="card">
                                 <div class="row" style="display: flex; flex-direction: column; gap: 54px;">
                                     <div class="col-lg-12 services-card-bg ">
                                         <div class="col-12 col-sm-6 col-md-4 col-lg-6">
                                             <div class="card-body">
-                                                <h2 class="card-title theme_color" style="text-decoration: underline;">
-                                                    Mission</h2>
+                                                <img src="images/background/Mission.jpg" alt="web application image"
+                                                    style="border-radius: 16px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6">
+                                            <div class="card-body">
+                                                <h2 class="card-title theme_color">
+                                                    <div style="display: flex;flex-direction: column;">
+                                                        Mission
+                                                         <span style="position: absolute;top:10px;color: black;">____</span>
+                                                    </div>
+                                                </h2>
                                                 <div class="text">
                                                     <p>
                                                         Discover and produce most usable web and
@@ -300,19 +320,24 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-                                            <div class="card-body">
-                                                <img src="images/background/Mission.jpg" alt="web application image"
-                                                    style="border-radius: 16px;">
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div class="col-lg-12 services-card-bg">
                                         <div class="col-12 col-sm-6 col-md-4 col-lg-6">
                                             <div class="card-body">
-                                                <h2 class="card-title theme_color" style="text-decoration: underline;">
-                                                    Vision</h2>
+                                                <img src="images/background/vission.jpg" alt="web application image"
+                                                    style="border-radius: 16px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6">
+                                            <div class="card-body">
+                                                 <h2 class="card-title theme_color">
+                                                    <div style="display: flex;flex-direction: column;">
+                                                        Vision
+                                                          <span style="position: absolute;top:10px;color: black;">____</span>
+                                                    </div>
+                                                </h2>
                                                 <div class="text">
                                                     <p>
                                                         Vision Project execution starts from vision. It is really
@@ -325,14 +350,20 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6">
-                                            <div class="card-body">
-                                                <img src="images/background/vission.jpg" alt="web application image"
-                                                    style="border-radius: 16px;">
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
+                                <br>
+                                 <h2>
+                                        <div style="display: flex; justify-content: center;">
+                                            <div class="tag">
+                                                <span style="color: #00d1ff;">></span>
+                                                Equax <span class="theme_color">Software</span> <span class="theme_color">Labs</span>
+                                            </div>
+                                        </div>
+
+                                    </h2>
+                                    <br>
                                 <div class="row" style="display: flex">
                                     <div class="col-lg-4 services-card-bg">
                                         <div class="col-12 col-sm-6 col-md-4" style="width: 100%;">
@@ -343,19 +374,24 @@
                                                 </div>
                                                 <div class="text">
                                                     <h2 class="card-title theme_color"
-                                                        style="text-decoration: underline;">
-                                                        Process</h2>
-                                                    <p>
+                                                        style="text-decoration: underline; ">
+                                                        Why ESL?</h2>
+                                                    <p id="esl-text">
                                                         Comprehensive requirement gathering,
                                                         extensive domain research, innovative solutions, open
                                                         communication,
-                                                        efficient project execution and exemplary post product support
+                                                        efficient project execution 
+                                                           <span id="dots">...</span>
+                                                            <span id="more" style="display: none;">
+                                                        and exemplary post product support
                                                         defines
                                                         our process in a simple way. Our complete process of project
                                                         execution
                                                         is client centric. Primary objectives are openness and mutual
                                                         satisfaction during the execution..
+                                                         </span>
                                                     </p>
+                                                      <button onclick="toggleViewMore()" id="view-more-btn" style="color: #00d1ff;">View More</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -408,11 +444,89 @@
                                         </div>
                                     </div>
                                 </div>
+                                <br>
+                                  <div class="row" style="display: flex">
+                                    <div class="col-lg-4 services-card-bg">
+                                        <div class="col-12 col-sm-6 col-md-4" style="width: 100%;">
+                                            <div class="card-body">
+                                                <div class="card-body">
+                                                    <img src="images/background/progress.webp"
+                                                        alt="web application image" style="border-radius: 16px;">
+                                                </div>
+                                                <div class="text">
+                                                    <h2 class="card-title theme_color"
+                                                        style="text-decoration: underline;">
+                                                        Process</h2>
+                                                    <p>
+                                                        Comprehensive requirement gathering,
+                                                        extensive domain research, innovative solutions, open
+                                                        communication,
+                                                        efficient project execution and exemplary post product support
+                                                        defines
+                                                        our process in a simple way. Our complete process of project
+                                                        execution
+                                                        is client centric. Primary objectives are openness and mutual
+                                                        satisfaction during the execution..
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    
+                                    <div class="col-lg-4 services-card-bg">
+                                        <div class="col-12 col-sm-6 col-md-4" style="width: 100%;">
+                                            <div class=" card-body">
+                                                <div class="card-body">
+                                                    <img src="images/background/innovation.webp"
+                                                        alt="web application image" style="border-radius: 16px;">
+                                                </div>
+                                                <div class="text">
+                                                    <h2 class="card-title theme_color"
+                                                        style="text-decoration: underline;">
+                                                        Innovations</h2>
+                                                    <p>
+                                                        ESL is powered with highly inspired, creative, talented and
+                                                        dedicated professionals who are willing to put their all
+                                                        strengths in pursuit of professional objectives. We respect,
+                                                        admire and love the aptitude of our team members and motivate
+                                                        individuals to think outside the box. This makes our work
+                                                        environment lively and creative and eventually leads to greater
+                                                        innovations.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 services-card-bg">
+                                        <div class="col-12 col-sm-6 col-md-4" style="width: 100%;">
+                                            <div class="card-body">
+                                                <div class="card-body">
+                                                    <img src="images/background/customer-satisfaction-5579117-4642487.png"
+                                                        alt="web application image" style="border-radius: 16px;">
+                                                </div>
+                                                <div class="text">
+                                                    <h2 class="card-title theme_color"
+                                                        style="text-decoration: underline;">
+                                                        Satisfaction</h2>
+                                                    <p>
+                                                        Client satisfaction is on the highest priority of our business.
+                                                        Every single task of our company is devoted to client’s
+                                                        satisfaction. We care about ease of client during project
+                                                        execution process. Flexibility plays vital role in successful
+                                                        project execution. We have adaptability to remain committed to
+                                                        the quality and output considering your needs
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
 
 
-                      
+
                     </div>
                     <!--Content Side-->
 

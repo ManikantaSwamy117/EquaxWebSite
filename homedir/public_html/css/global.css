@@ -829,3 +829,12 @@ img {
 	z-index: 99;
 	left: 2px;
 }
+
+.head-tag {
+	padding: 6px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 31px;
+	font-size: 18px;
+	width: 20%;
+}
+
