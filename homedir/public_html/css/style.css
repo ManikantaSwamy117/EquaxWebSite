@@ -4186,7 +4186,7 @@ input:focus {
 }
 
 .box {
-	min-height: 428px;
+	min-height: 460px;
 	border-color: rgb(0 189 253 / 22%);
 	;
 	/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
@@ -4198,14 +4198,12 @@ input:focus {
 }
 
 .card-text {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.7;
-	/* Improves readability */
 	letter-spacing: 0.5px;
-	/* Subtle spacing */
-	color: #000000;
-	/* Dark gray for good contrast */
+	color: #1c1c1c;
+	padding: 2%;
 }
 
 /* .btn-tag {
@@ -4227,45 +4225,53 @@ input:focus {
 	color: #fff;
 	background-color: #00bddf;
 } */
- .btn-tag {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 31px;
-    font-size: 12px;
-    min-height: 30px;
-    min-width: 100px;
-    text-align: center;
-    line-height: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 14px 29px 0px;
-    cursor: pointer;
-    transition: color 0.4s ease;
+.btn-tag {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 31px;
+	font-size: 12px;
+	min-height: 30px;
+	min-width: 100px;
+	text-align: center;
+	line-height: 30px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 14px 29px 0px;
+	cursor: pointer;
+	transition: color 0.4s ease;
 }
 
 .btn-tag span {
-    position: relative;
-    z-index: 2;
-    color: #00bddf; /* initial text color */
-    transition: color 0.4s ease;
+	position: relative;
+	z-index: 2;
+	color: #00bddf;
+	/* initial text color */
+	transition: color 0.4s ease;
 }
 
 .btn-tag::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 100%;
-    background-color: #00bddf;
-    transition: right 0.4s ease;
-    z-index: 1;
-    border-radius: 31px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 100%;
+	background-color: #00bddf;
+	transition: right 0.4s ease;
+	z-index: 1;
+	border-radius: 31px;
 }
 
 .btn-tag:hover::before {
-    right: 0;
+	right: 0;
 }
 
 .btn-tag:hover span {
-    color: #fff;
+	color: #fff;
+}
+
+.esl_line_text {
+	line-height: 34px;
+	text-align: justify;
+	font-size: 15px;
+	letter-spacing: 0.3px;
 }
