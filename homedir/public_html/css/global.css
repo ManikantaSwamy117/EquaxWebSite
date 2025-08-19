@@ -837,7 +837,7 @@ img {
 	font-size: 16px;
 }
 
-.tag{
+.tag {
 	padding: 6px;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	border-radius: 31px;
@@ -856,80 +856,84 @@ img {
 
 
 .text-toggle {
-        position: relative;
-		
-    }
+	position: relative;
 
-    .more-text {
-        display: none;
-    }
+}
 
-    .toggle-checkbox {
-        display: none;
-		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-		
-    }
+.more-text {
+	display: none;
+}
 
-    .toggle-label {
-       background-color:#fff;
-        color:#00bdfd;
-		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        padding: 6px 12px;
-        border-radius: 4px;
-        display: inline-block;
-        margin-top: 10px;
-        cursor: pointer;
-        font-size: 14px;
-		border-radius: 12px;
-		
-    }
+.toggle-checkbox {
+	display: none;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    .toggle-checkbox:checked ~ .more-text {
-        display: inline;
-		
-    }
+}
 
-    .toggle-checkbox:checked ~ .toggle-label::after {
-        content: ' View Less';
-		
+.toggle-label {
+	background-color: #fff;
+	color: #00bdfd;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 6px 12px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 12px;
 
-    }
+}
 
-    .toggle-label::after {
-        content: ' View More';
-    }
+.toggle-checkbox:checked~.more-text {
+	display: inline;
+
+}
+
+.toggle-checkbox:checked~.toggle-label::after {
+	content: ' View Less';
+
+
+}
+
+.toggle-label::after {
+	content: ' View More';
+}
 
 
 /* END WHY ESL */
 
 
-.title{
-	align-content: center;
+.title {
 	display: flex;
 	justify-content: center;
 	color: #00bdfd;
+	font-weight: 700;
+	font-size: inherit;
+	text-decoration: underline;
+	text-decoration-color: #0000801f;
 }
 
-.btn{
+.btn {
 	background-color: #00bdfd;
-	color:#fff;
+	color: #fff;
 	font-size: 14px;
 	border-radius: 12px;
 	align-items: end;
-	 justify-content: flex-end;
+	justify-content: flex-end;
 	display: flex;
 	padding: 5px;
-	  margin-top: 5px;
+	margin-top: 5px;
 
 }
-.read-end{
-	
 
+.read-end {
 	padding: 2px;
 	display: flex;
 	justify-content: end;
-	
+	margin-top: 15px;
+
 }
+
 .listbtn {
 	display: flex;
 	align-items: center;
@@ -948,7 +952,8 @@ img {
 	margin-left: 8px;
 	font-weight: 600;
 }
-.listbtn:hover{
+
+.listbtn:hover {
 	display: flex;
 	align-items: center;
 	padding: 5%;
@@ -956,7 +961,7 @@ img {
 	/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 	border-radius: 16px;
 	height: 67px;
-	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; 
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 
@@ -964,14 +969,16 @@ img {
 /* start moving box */
 
 .services-block-two .box {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        border-radius: 16px;
-        overflow: hidden;
-    }
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border-radius: 16px;
+	overflow: hidden;
+}
 
-    .services-block-two .box:hover {
-        transform: translateY(-10px); /* Moves box up */
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Adds shadow */
-    }
+.services-block-two .box:hover {
+	transform: translateY(-10px);
+	/* Moves box up */
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+	/* Adds shadow */
+}
 
- /* end moning box */
+/* end moning box */
