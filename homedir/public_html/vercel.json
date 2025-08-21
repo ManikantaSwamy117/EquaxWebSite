@@ -1,9 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "EquaxWebSite/homedir/public_html/index.html", "use": "@vercel/static" }
+    {
+      "src": "homedir/public_html/index.html",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "EquaxWebSite/homedir/public_html/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "homedir/public_html/$1"
+    }
   ]
 }
