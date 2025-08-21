@@ -1,15 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "homedir/public_html/index.html",
-      "use": "@vercel/static"
-    }
+    { "src": "homedir/public_html/**", "use": "@vercel/static-build" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "homedir/public_html/$1"
-    }
+    { "src": "/(.*)", "dest": "homedir/public_html/$1" }
   ]
 }
