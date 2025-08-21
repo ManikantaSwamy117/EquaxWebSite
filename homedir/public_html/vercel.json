@@ -1,9 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "homedir/public_html/**", "use": "@vercel/static-build" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "homedir/public_html/$1" }
-  ]
+  "projects": {},
+  "builds": [],
+  "outputDirectory": "homedir/public_html"
 }
