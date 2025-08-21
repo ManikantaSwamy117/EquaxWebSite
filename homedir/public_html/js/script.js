@@ -479,3 +479,10 @@ counters.forEach(counter => {
 
 	animate();
 });
+
+// demo code
+document.querySelector(".talk-expert-btn").addEventListener("click", function () {
+	debugger
+	// Example: Calendly link
+	window.open("https://calendly.com/your-company/demo", "_blank");
+});

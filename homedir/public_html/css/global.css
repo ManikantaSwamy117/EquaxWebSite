@@ -84,7 +84,8 @@ p {
 
 .auto-container {
 	position: static;
-	max-width: 1200px;
+	/* max-width: 1200px; */
+	max-width: 1412px;
 	padding: 0px 15px;
 	margin: 0 auto;
 }
@@ -1137,16 +1138,37 @@ img {
 		flex: 1 1 100%;
 	}
 }
-.image{
-	  width: 100%;
-  height: auto;
-  border-radius: 16px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  
+
+.image {
+	width: 100%;
+	height: auto;
+	border-radius: 16px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	display: flex;
+
 }
 
 
 
 /* prema css */
+.welcome-card {
+	background: #FFFFFF !important;
+	box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.08) !important;
+	min-height: 285px;
+	padding: 5%;
+}
+
+.welcome-card:hover {
+	background: #FFFFFF !important;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;
+	min-height: 285px;
+	padding: 5%;
+}
+
+.Establishment-card {
+	background: #FFFFFF !important;
+	box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.08) !important;
+	height: 247px;
+	padding: 5%;
+}
