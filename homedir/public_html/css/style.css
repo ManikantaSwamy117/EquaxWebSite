@@ -4472,3 +4472,14 @@ input:focus {
 	position: relative;
 	border-radius: 89%;
 }
+
+.project-exp-img {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.project-exp-img>img {
+	max-height: 127px;
+	border-radius: 100px;
+}
