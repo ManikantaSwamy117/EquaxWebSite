@@ -1190,8 +1190,34 @@ img {
   transform: scale(1.05);
 }
 
+.sidebar-page-container right-side{
+	width: 200%;
 
 
+}
+.icon-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-img {
+  width: 24px;
+  height: auto;
+}
+
+.description {
+  text-align: justify;
+}
+
+.subbox {
+  margin-bottom: 24px; 
+  padding: 15px;
+
+
+  background: #fff;
+}
 
 /* prema css */
 .welcome-card {
@@ -1213,4 +1239,8 @@ img {
 	box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.08) !important;
 	height: 247px;
 	padding: 5%;
+}
+.dark-text esl_line_height{
+	width: 100%;
+
 }
