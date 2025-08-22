@@ -1140,21 +1140,27 @@ img {
 }
 
 .image {
-	width: 100%;
-	height: auto;
-	border-radius: 16px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 16px;
 }
 
 .image-zoom-container {
     overflow: hidden;
     border-radius: 10px;
-    width: 100%;
-    max-height: 300px; /* Adjust as needed */
-    margin-bottom: 15px;
+    width: 30%;
+    max-height: 50px; /* Adjust as needed */
+    margin-bottom: 5px;
 }
 
 .zoom-image {
