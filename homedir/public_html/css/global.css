@@ -643,8 +643,11 @@ img {
 .list-style-one li {
 	position: relative;
 	color: #1c1c1c;
-	font-size: 14px;
+	font-size: 15px !important;
 	margin-bottom: 18px;
+}
+.list-style-one li > p{
+	color: #0a2626;
 }
 
 .list-style-one li:last-child {
