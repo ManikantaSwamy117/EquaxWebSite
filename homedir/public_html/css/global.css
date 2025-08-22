@@ -1142,14 +1142,13 @@ img {
 	}
 }
 
-.image {
-  width: 100%;
+.image-tag {
+  max-width: 150%;
   height: auto;
   border-radius: 16px;
-
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .image img {
