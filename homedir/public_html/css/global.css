@@ -646,7 +646,8 @@ img {
 	font-size: 15px !important;
 	margin-bottom: 18px;
 }
-.list-style-one li > p{
+
+.list-style-one li>p {
 	color: #0a2626;
 }
 
@@ -1143,82 +1144,85 @@ img {
 }
 
 .image-tag {
-  max-width: 150%;
-  height: auto;
-  border-radius: 16px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+	max-width: 150%;
+	height: auto;
+	border-radius: 16px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .image img {
-  max-width: 30%;
-  height: auto;
-  border-radius: 16px;
+	max-width: 30%;
+	height: auto;
+	border-radius: 16px;
 }
 
 .image-zoom-container {
-    overflow: hidden;
-    border-radius: 10px;
-    width: 30%;
-    max-height: 50px; /* Adjust as needed */
-    margin-bottom: 5px;
+	overflow: hidden;
+	border-radius: 10px;
+	width: 30%;
+	max-height: 50px;
+	/* Adjust as needed */
+	margin-bottom: 5px;
 }
 
 .zoom-image {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease;
-    display: block;
-    cursor: pointer;
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s ease;
+	display: block;
+	cursor: pointer;
 }
 
 /* Zoom on hover (desktop) */
 .zoom-image:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /* Zoom on tap (mobile) */
 @media (hover: none) {
-    .zoom-image:active {
-        transform: scale(1.1);
-    }
+	.zoom-image:active {
+		transform: scale(1.1);
+	}
 }
+
 .zoom {
-  transition: transform 0.3s ease;
+	transition: transform 0.3s ease;
 }
 
 .zoom:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
-.sidebar-page-container right-side{
+.sidebar-page-container right-side {
 	width: 200%;
 
 
 }
+
 .icon-heading {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
 }
 
 .icon-img {
-  width: 24px;
-  height: auto;
+	width: 24px;
+	height: auto;
 }
 
 .description {
-  text-align: justify;
+	text-align: justify;
 }
 
 .subbox {
-  margin-bottom: 24px; 
-  padding: 15px;
+	margin-bottom: 24px;
+	padding: 15px;
 
 
-  background: #fff;
+	background: #fff;
 }
 
 /* prema css */
@@ -1239,10 +1243,25 @@ img {
 .Establishment-card {
 	background: #FFFFFF !important;
 	box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.08) !important;
-	height: 247px;
+	height: 268px;
 	padding: 5%;
 }
-.dark-text esl_line_height{
+
+.Establishment-card>span {
+	font-size: 12px;
+}
+
+
+.dark-text esl_line_height {
 	width: 100%;
 
+}
+
+.Erp-grid-card {
+	border: 2px solid gray !important;
+	display: flex !important;
+	justify-content: center !important;
+	padding: 3% !important;
+	border-radius: 42px !important;
+	margin: 10px;
 }
