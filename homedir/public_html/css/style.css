@@ -4484,3 +4484,56 @@ input:focus {
 	border-radius: 100px;
 }
 
+.scroll-container {
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 30px 0;
+	position: relative;
+}
+
+.scroll-track {
+	display: flex;
+	width: max-content;
+	height: 472px;
+	animation: scroll-left 10s linear infinite;
+}
+
+.scroll_list_border {
+    list-style: none;
+    text-align: center;
+    width: 350px;
+    border: 1px solid gray;
+    margin: 8px;
+    border-radius: 18px;
+}
+
+.scroll_list_border>h2 {
+	font-size: x-large;
+	font-weight: 700;
+	padding-top: 34px;
+}
+
+
+.scroll_list_border img {
+	border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+	min-height: 232px;
+}
+
+.scroll-text {
+	font-size: 14px;
+	display: flex;
+	text-align: justify;
+	padding: 16px;
+}
+
+@keyframes scroll-left {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-50%);
+	}
+}
