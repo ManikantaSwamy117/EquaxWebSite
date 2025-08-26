@@ -33,6 +33,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center top;
 	-webkit-font-smoothing: antialiased;
+
 }
 
 a {
@@ -1264,4 +1265,75 @@ img {
 	padding: 3% !important;
 	border-radius: 42px !important;
 	margin: 10px;
+}
+
+.col-lg-3 h1 {
+	color: rgb(1 73 75) !important;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.col-lg-3 span {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.mobile-card {
+	height: 445px;
+	/* border: 1px solid gray; */
+	background: #386bdde0;
+	padding: 7%;
+	color: #fff;
+	border-radius: 14px;
+}
+
+.serviceand-Maintenance-card {
+	height: 445px;
+	/* border: 1px solid gray; */
+	background: #54c752b8;
+	padding: 7%;
+	color: #fff;
+	border-radius: 14px;
+}
+
+.funs-card {
+	background: rgb(239, 242, 245);
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.card-header {
+	display: flex;
+	gap: 15px !important;
+	align-items: center;
+}
+
+.card-header h3 {
+	margin: 0;
+	color: rgb(0, 23, 38);
+}
+
+/* Arrow styling */
+.arrow {
+	transition: transform 0.3s ease;
+	/* font-size: 18px; */
+}
+
+/* Rotate when active */
+.funs-card.active .arrow {
+	transform: rotate(90deg);
+}
+
+.card-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.funs-card.active .card-content {
+	max-height: 200px;
+	margin-top: 10px;
 }

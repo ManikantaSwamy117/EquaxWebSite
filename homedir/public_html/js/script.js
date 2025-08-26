@@ -486,3 +486,6 @@ document.querySelector(".talk-expert-btn").addEventListener("click", function ()
 	// Example: Calendly link
 	window.open("https://calendly.com/your-company/demo", "_blank");
 });
+function toggleCard(card) {
+      card.classList.toggle("active");
+    }
