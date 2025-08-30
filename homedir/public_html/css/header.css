@@ -26,8 +26,8 @@
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	height: 80px;
-	padding: 0px 0px;
+	height: 100px;
+	padding: 0px 30px;
 	background: #ffffff;
 	z-index: 0;
 	border-bottom: 1px solid #f7f7f7;
@@ -369,6 +369,10 @@
 	-o-transition: all 500ms ease;
 }
 
+
+
+
+
 .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
 	position: absolute;
 	right: 6px;
@@ -619,7 +623,6 @@
 }
 
 .header-style-five .header-upper {
-	padding: 0px;
 	background: transparent;
 }
 
@@ -630,12 +633,13 @@
 
 .header-style-five .navigation li>a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 13px;
 	padding: 25px 0px 0px;
 }
 
 .header-style-five .nav-outer {
-	padding-right: 40px;
+	/* padding-right: 40px; */
+	padding-right: 0px;
 }
 
 .header-style-five .btn-outer {
@@ -678,4 +682,19 @@
 
 .main-header.header-style-five .header-top .top-left .social-links a {
 	color: #fff;
+}
+
+.header-btn {
+	position: relative;
+	top: 7px;
+	width: 100px;
+	padding: 10px 10px;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border-radius: 16px;
+	color: #fff;
+	background: linear-gradient(135deg, #00bdfd, #008bfc);
 }
