@@ -686,10 +686,10 @@
 
 .header-btn {
 	position: relative;
-	top: 7px;
+	top: 0px;
 	width: 100px;
 	padding: 10px 10px;
-	height: 34px;
+	height: 46px;
 	display: flex;
 	justify-content: center;
 	align-content: center;
