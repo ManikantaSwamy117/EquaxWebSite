@@ -480,12 +480,73 @@ counters.forEach(counter => {
 	animate();
 });
 
-// demo code
-document.querySelector(".talk-expert-btn").addEventListener("click", function () {
-	debugger
-	// Example: Calendly link
-	window.open("https://calendly.com/your-company/demo", "_blank");
-});
+// // demo code
+// document.querySelector(".talk-expert-btn").addEventListener("click", function () {
+// 	debugger
+// 	// Example: Calendly link
+// 	window.open("https://calendly.com/your-company/demo", "_blank");
+// });
 function toggleCard(card) {
-      card.classList.toggle("active");
+	card.classList.toggle("active");
+}document.addEventListener('DOMContentLoaded', () => {
+  const waIcon = document.getElementById('waIcon');
+  const waChatBox = document.getElementById('waChatBox');
+  const waClose = document.getElementById('waClose');
+  const waSend = document.getElementById('waSend');
+  const waInput = document.getElementById('waInput');
+  const waChatBody = document.getElementById('waChatBody');
+  const phoneNumber = "+919902509680";
+
+  // Show or hide icon based on scroll
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight;
+    const windowHeight = window.innerHeight;
+    const middlePoint = (docHeight - windowHeight) / 2;
+
+    if(scrollTop >= middlePoint){
+      waIcon.style.display = 'flex'; // show icon
+    } else {
+      waIcon.style.display = 'none'; // hide icon
+      waChatBox.style.display = 'none'; // hide chat box if user scrolls above middle
     }
+  });
+
+  // Click icon -> open chat box
+  waIcon.addEventListener('click', () => {
+    waChatBox.style.display = 'flex';
+    waInput.focus();
+  });
+
+  // Close chat box
+  waClose.addEventListener('click', () => {
+    waChatBox.style.display = 'none';
+  });
+
+  // Send message
+  waSend.addEventListener('click', () => {
+    const msg = waInput.value.trim();
+    if(!msg) return;
+
+    const userDiv = document.createElement('div');
+    userDiv.className = 'user-msg';
+    userDiv.textContent = msg;
+    waChatBody.appendChild(userDiv);
+    waChatBody.scrollTop = waChatBody.scrollHeight;
+
+    waInput.value = '';
+
+    const encodedMsg = encodeURIComponent(msg);
+    const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+    const waUrl = isMobile
+      ? `https://wa.me/${phoneNumber.replace(/\D/g,'')}?text=${encodedMsg}`
+      : `https://web.whatsapp.com/send?phone=${phoneNumber.replace(/\D/g,'')}&text=${encodedMsg}`;
+    
+    window.open(waUrl,'_blank');
+  });
+
+  // Send on Enter
+  waInput.addEventListener('keypress', e => {
+    if(e.key === 'Enter') waSend.click();
+  });
+});

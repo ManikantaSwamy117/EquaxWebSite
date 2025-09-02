@@ -1336,4 +1336,89 @@ img {
 .funs-card.active .card-content {
 	max-height: 200px;
 	margin-top: 10px;
+
+
 }
+/* WhatsApp Icon */
+.wa-chat-btn{
+  position: fixed;
+  right: 10px;
+  bottom: 65px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25D366;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor: pointer;
+  z-index: 9999;
+  display: none; /* hidden initially */
+}
+.wa-chat-btn svg{
+  width:28px;
+  height:28px;
+  fill:#fff;
+}
+
+/* Mini Chat Box */
+#waChatBox{
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 300px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 14px 34px rgba(0,0,0,.28);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9999;
+  font-family: sans-serif;
+}
+#waChatHeader{
+  background:#128C7E;
+  color:#fff;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+#waChatBody{
+  height:250px;
+  padding: 10px;
+  overflow-y:auto;
+  background:#f9f9f9;
+}
+.bot-msg, .user-msg{
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+.bot-msg{ background:#eee; }
+.user-msg{ background:#DCF8C6; margin-left:auto; }
+#waChatFooter{
+  display:flex; border-top:1px solid #eee;
+}
+#waInput{
+  flex:1;
+  padding:10px;
+  border:none;
+  outline:none;
+}
+#waSend{
+  background:#25D366;
+  border:none;
+  color:#fff;
+  padding: 0 16px;
+  cursor:pointer;
+}
+#waClose{
+  background:transparent;
+  border:none;
+  color:#fff;
+  font-size:20px;
+  cursor:pointer;
+}
+
