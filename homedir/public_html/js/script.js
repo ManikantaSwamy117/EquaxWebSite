@@ -488,7 +488,10 @@ counters.forEach(counter => {
 // });
 function toggleCard(card) {
 	card.classList.toggle("active");
-}document.addEventListener('DOMContentLoaded', () => {
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
   const waIcon = document.getElementById('waIcon');
   const waChatBox = document.getElementById('waChatBox');
   const waClose = document.getElementById('waClose');
@@ -506,7 +509,8 @@ function toggleCard(card) {
 
     if(scrollTop >= middlePoint){
       waIcon.style.display = 'flex'; // show icon
-    } else {
+    } 
+	else {
       waIcon.style.display = 'none'; // hide icon
       waChatBox.style.display = 'none'; // hide chat box if user scrolls above middle
     }

@@ -4551,6 +4551,7 @@ textarea::placeholder {
   color: #495057;
   opacity: 1;
   font-weight: 500;
+  font-size: 14px;
 }
 .align-BOSERPManufaxcture{
 	display: flex;
