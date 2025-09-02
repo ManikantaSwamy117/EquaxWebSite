@@ -4500,12 +4500,12 @@ input:focus {
 }
 
 .scroll_list_border {
-    list-style: none;
-    text-align: center;
-    width: 350px;
-    border: 1px solid gray;
-    margin: 8px;
-    border-radius: 18px;
+	list-style: none;
+	text-align: center;
+	width: 350px;
+	border: 1px solid gray;
+	margin: 8px;
+	border-radius: 18px;
 }
 
 .scroll_list_border>h2 {
@@ -4517,7 +4517,7 @@ input:focus {
 
 .scroll_list_border img {
 	border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+	border-top-left-radius: 15px;
 	min-height: 232px;
 }
 
@@ -4536,4 +4536,24 @@ input:focus {
 	100% {
 		transform: translateX(-50%);
 	}
+}
+
+
+::placeholder {
+  color: #495057;   
+  opacity: 1;      
+  font-weight: 500; 
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  color: #495057;
+  opacity: 1;
+  font-weight: 500;
+}
+.align-BOSERPManufaxcture{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 }
