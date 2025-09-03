@@ -12,22 +12,22 @@
 
 
 	//Update Header Style and Scroll to Top
-	// function headerStyle() {
-	// 	if ($('.main-header').length) {
-	// 		var windowpos = $(window).scrollTop();
-	// 		var siteHeader = $('.sticky-header');
-	// 		var scrollLink = $('.scroll-to-top');
-	// 		if (windowpos >= 200) {
-	// 			siteHeader.addClass('now-visible');
-	// 			scrollLink.fadeIn(300);
-	// 		} else {
-	// 			siteHeader.removeClass('now-visible');
-	// 			scrollLink.fadeOut(300);
-	// 		}
-	// 	}
-	// }
+	function headerStyle() {
+		if ($('.main-header').length) {
+			var windowpos = $(window).scrollTop();
+			//var siteHeader = $('.sticky-header');
+			var scrollLink = $('.scroll-to-top');
+			if (windowpos >= 200) {
+				//siteHeader.addClass('now-visible');
+				scrollLink.fadeIn(300);
+			} else {
+				//siteHeader.removeClass('now-visible');
+				scrollLink.fadeOut(300);
+			}
+		}
+	}
 
-	// headerStyle();
+	headerStyle();
 
 
 
