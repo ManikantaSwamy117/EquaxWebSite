@@ -12,37 +12,38 @@
 	top: 0px;
 	z-index: 999;
 	width: 100%;
-	transition: all 500ms ease;
+	/* transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
+	-o-transition: all 500ms ease; */
 }
 
 .sticky-header {
 	position: fixed;
-	opacity: 0;
-	visibility: hidden;
+	/* opacity: 0; */
+	/* visibility: hidden; */
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	height: 100px;
-	padding: 0px 30px;
+	display: flex;
+	height: auto;
+	padding: 32px;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 0px 30px; */
 	background: #ffffff;
-	z-index: 0;
-	border-bottom: 1px solid #f7f7f7;
-	transition: all 500ms ease;
+	/* z-index: 0; */
+	/* border-bottom: 1px solid #f7f7f7; */
+	/* transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
+	-o-transition: all 500ms ease; */
 }
 
-.sticky-header .logo {
-	padding: 18px 0px 21px;
-}
 
-.sticky-header.now-visible {
+/* .sticky-header.now-visible {
 	z-index: 999;
 	opacity: 1;
 	visibility: visible;
@@ -66,18 +67,18 @@
 	-op-animation-iteration-count: 1;
 	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
-}
+} */
 
 .main-header .header-upper {
 	position: relative;
 	padding: 15px 0px;
-	background: #ffffff;
-	transition: all 500ms ease;
+	/* background: #ffffff; */
+	/* transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	z-index: 5;
+	z-index: 5; */
 }
 
 .main-header .header-upper .logo-outer {
@@ -170,6 +171,8 @@
 	position: relative;
 	margin: 0px;
 	top: 10px;
+	right: 10px;
+	display: flex;
 }
 
 .main-menu .navigation>li {
@@ -216,8 +219,8 @@
 .sticky-header .main-menu .navigation>li:hover>a,
 .sticky-header .main-menu .navigation>li.current>a,
 .sticky-header .main-menu .navigation>li.current-menu-item>a {
-	background: #00bdfd;
-	color: #ffffff;
+	/* background: #00bdfd; */
+	/* color: #ffffff; */
 	opacity: 1;
 	border-radius: 16px;
 }
@@ -273,7 +276,8 @@
 	font-size: 12px;
 	text-transform: capitalize;
 	border-bottom: 1px solid rgba(190, 190, 190, 0.2);
-	color: #222;
+	color: #222 !important;
+
 	transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-webkit-transition: all 300ms ease;
@@ -283,6 +287,7 @@
 
 .main-menu .navigation>li>ul>li:hover>a {
 	background: rgba(255, 255, 255, 0.20);
+
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
@@ -613,7 +618,7 @@
 
 .main-header.header-style-five {
 	margin-bottom: -166px;
-	background: rgba(46, 46, 46, 0.35);
+	/* background: rgba(46, 46, 46, 0.35); */
 	height: 100px;
 }
 
@@ -633,7 +638,7 @@
 
 .header-style-five .navigation li>a {
 	color: #fff;
-	font-size: 13px;
+	/* font-size: 13px; */
 	padding: 25px 0px 0px;
 }
 
@@ -697,4 +702,89 @@
 	border-radius: 16px;
 	color: #fff;
 	background: linear-gradient(135deg, #00bdfd, #008bfc);
+}
+
+/* Custom Header Styles */
+.custom-header {
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.custom-header .logo img {
+	max-height: 50px;
+}
+
+.nav-menu {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu li {
+	position: relative;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	color: #333;
+	font-weight: 500;
+}
+
+.nav-menu .dropdown {
+	display: none;
+	position: absolute;
+	background: #fff;
+	border: 1px solid #ddd;
+	top: 100%;
+	left: 0;
+	z-index: 10;
+	padding: 10px 0;
+	min-width: 200px;
+}
+
+.nav-menu .dropdown li {
+	padding: 5px 20px;
+}
+
+.has-dropdown:hover .dropdown {
+	display: block;
+}
+
+.demo-btn {
+	background-color: #ffc400;
+	padding: 8px 14px;
+	border-radius: 4px;
+	font-weight: bold;
+	color: #000;
+}
+
+/* Mobile Toggle */
+.mobile-toggle {
+	display: none;
+	flex-direction: column;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.mobile-toggle span {
+	display: block;
+	width: 25px;
+	height: 3px;
+	background-color: #333;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+	display: block;
 }

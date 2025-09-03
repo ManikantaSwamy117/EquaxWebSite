@@ -12,40 +12,40 @@
 
 
 	//Update Header Style and Scroll to Top
-	function headerStyle() {
-		if ($('.main-header').length) {
-			var windowpos = $(window).scrollTop();
-			var siteHeader = $('.sticky-header');
-			var scrollLink = $('.scroll-to-top');
-			if (windowpos >= 200) {
-				siteHeader.addClass('now-visible');
-				scrollLink.fadeIn(300);
-			} else {
-				siteHeader.removeClass('now-visible');
-				scrollLink.fadeOut(300);
-			}
-		}
-	}
+	// function headerStyle() {
+	// 	if ($('.main-header').length) {
+	// 		var windowpos = $(window).scrollTop();
+	// 		var siteHeader = $('.sticky-header');
+	// 		var scrollLink = $('.scroll-to-top');
+	// 		if (windowpos >= 200) {
+	// 			siteHeader.addClass('now-visible');
+	// 			scrollLink.fadeIn(300);
+	// 		} else {
+	// 			siteHeader.removeClass('now-visible');
+	// 			scrollLink.fadeOut(300);
+	// 		}
+	// 	}
+	// }
 
-	headerStyle();
+	// headerStyle();
 
 
 
 	//Submenu Dropdown Toggle
-	if ($('.main-header li.dropdown ul').length) {
-		$('.main-header li.dropdown').append('<div class="dropdown-btn"><Span class="fa fa-angle-down"></span></div>');
+	// if ($('.main-header li.dropdown ul').length) {
+	// 	$('.main-header li.dropdown').append('<div class="dropdown-btn"><Span class="fa fa-angle-down"></span></div>');
 
-		//Dropdown Button
-		$('.main-header li.dropdown .dropdown-btn').on('click', function () {
-			$(this).prev('ul').slideToggle(500);
-		});
+	// 	//Dropdown Button
+	// 	$('.main-header li.dropdown .dropdown-btn').on('click', function () {
+	// 		$(this).prev('ul').slideToggle(500);
+	// 	});
 
 
-		//Disable dropdown parent link
-		$('.navigation li.dropdown > a').on('click', function (e) {
-			e.preventDefault();
-		});
-	}
+	// 	//Disable dropdown parent link
+	// 	$('.navigation li.dropdown > a').on('click', function (e) {
+	// 		e.preventDefault();
+	// 	});
+	// }
 
 
 	//Revolution Slider
@@ -491,66 +491,78 @@ function toggleCard(card) {
 }
 
 
+
 document.addEventListener('DOMContentLoaded', () => {
-  const waIcon = document.getElementById('waIcon');
-  const waChatBox = document.getElementById('waChatBox');
-  const waClose = document.getElementById('waClose');
-  const waSend = document.getElementById('waSend');
-  const waInput = document.getElementById('waInput');
-  const waChatBody = document.getElementById('waChatBody');
-  const phoneNumber = "+919902509680";
+	const waIcon = document.getElementById('waIcon');
+	const waChatBox = document.getElementById('waChatBox');
+	const waClose = document.getElementById('waClose');
+	const waSend = document.getElementById('waSend');
+	const waInput = document.getElementById('waInput');
+	const waChatBody = document.getElementById('waChatBody');
+	const phoneNumber = "+919902509680";
 
-  // Show or hide icon based on scroll
-  window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const docHeight = document.documentElement.scrollHeight;
-    const windowHeight = window.innerHeight;
-    const middlePoint = (docHeight - windowHeight) / 2;
+	// Show or hide icon based on scroll
+	window.addEventListener('scroll', () => {
+		const scrollTop = window.scrollY || document.documentElement.scrollTop;
+		const docHeight = document.documentElement.scrollHeight;
+		const windowHeight = window.innerHeight;
+		const middlePoint = (docHeight - windowHeight) / 2;
 
-    if(scrollTop >= middlePoint){
-      waIcon.style.display = 'flex'; // show icon
-    } 
-	else {
-      waIcon.style.display = 'none'; // hide icon
-      waChatBox.style.display = 'none'; // hide chat box if user scrolls above middle
+		if (scrollTop >= middlePoint) {
+			waIcon.style.display = 'flex'; // show icon
+		}
+		else {
+			waIcon.style.display = 'none'; // hide icon
+			waChatBox.style.display = 'none'; // hide chat box if user scrolls above middle
+		}
+	});
+
+	// Click icon -> open chat box
+	waIcon.addEventListener('click', () => {
+		waChatBox.style.display = 'flex';
+		waInput.focus();
+	});
+
+	// Close chat box
+	waClose.addEventListener('click', () => {
+		waChatBox.style.display = 'none';
+	});
+
+	// Send message
+	waSend.addEventListener('click', () => {
+		const msg = waInput.value.trim();
+		if (!msg) return;
+
+		const userDiv = document.createElement('div');
+		userDiv.className = 'user-msg';
+		userDiv.textContent = msg;
+		waChatBody.appendChild(userDiv);
+		waChatBody.scrollTop = waChatBody.scrollHeight;
+
+		waInput.value = '';
+
+		const encodedMsg = encodeURIComponent(msg);
+		const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+		const waUrl = isMobile
+			? `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMsg}`
+			: `https://web.whatsapp.com/send?phone=${phoneNumber.replace(/\D/g, '')}&text=${encodedMsg}`;
+
+		window.open(waUrl, '_blank');
+	});
+
+	// Send on Enter
+	waInput.addEventListener('keypress', e => {
+		if (e.key === 'Enter') waSend.click();
+	});
+});
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleBtn = document.querySelector(".navbar-toggle");
+    const navMenu = document.querySelector(".navbar-collapse");
+
+    if (toggleBtn && navMenu) {
+      toggleBtn.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
     }
   });
-
-  // Click icon -> open chat box
-  waIcon.addEventListener('click', () => {
-    waChatBox.style.display = 'flex';
-    waInput.focus();
-  });
-
-  // Close chat box
-  waClose.addEventListener('click', () => {
-    waChatBox.style.display = 'none';
-  });
-
-  // Send message
-  waSend.addEventListener('click', () => {
-    const msg = waInput.value.trim();
-    if(!msg) return;
-
-    const userDiv = document.createElement('div');
-    userDiv.className = 'user-msg';
-    userDiv.textContent = msg;
-    waChatBody.appendChild(userDiv);
-    waChatBody.scrollTop = waChatBody.scrollHeight;
-
-    waInput.value = '';
-
-    const encodedMsg = encodeURIComponent(msg);
-    const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
-    const waUrl = isMobile
-      ? `https://wa.me/${phoneNumber.replace(/\D/g,'')}?text=${encodedMsg}`
-      : `https://web.whatsapp.com/send?phone=${phoneNumber.replace(/\D/g,'')}&text=${encodedMsg}`;
-    
-    window.open(waUrl,'_blank');
-  });
-
-  // Send on Enter
-  waInput.addEventListener('keypress', e => {
-    if(e.key === 'Enter') waSend.click();
-  });
-});

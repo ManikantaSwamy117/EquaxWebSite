@@ -47,6 +47,7 @@ font-family: 'Montserrat', sans-serif;*/
 .main-slider {
 	position: relative;
 	width: 100%;
+	top: 150px;
 }
 
 .main-slider .tp-caption {
@@ -4451,7 +4452,7 @@ input:focus {
 
 .text-service {
 	flex: 1;
-	max-width: 50%;
+	max-width: 100%;
 	text-align: center;
 }
 
