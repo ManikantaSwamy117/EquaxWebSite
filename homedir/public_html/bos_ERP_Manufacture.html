@@ -32,18 +32,18 @@
                 </button>
                 <nav id="main-nav" class="main-nav" aria-label="Main navigation">
                     <ul class="menu">
-                        <li><a href="index.html"><span class="menu-active-color">Home</span></a></li>
+                        <li><a href="index.html"><span>Home</span></a></li>
                         <li><a href="whywe.html"><span >About Us</span></a></li>
 
                         <!-- Products -->
                         <li class="has-submenu">
-                            <a href="#" class="submenu-link">Products</a>
+                           <a href="#" class="submenu-link"><span class="menu-active-color">Products</span></span></a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Products submenu">▾</button>
                             <ul class="submenu">
                                 <li><a href="bos_home.html">BOS ERP</a></li>
                                 <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
-                                <li><a href="bos_ERP_Manufacture.html">BOS ERP Manufacture</a></li>
+                                <li><a href="bos_ERP_Manufacture.html"><span class="sub_menu_active_color">BOS ERP Manufacture</span></a></li>
                                 <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
                             </ul>
                         </li>
@@ -61,15 +61,15 @@
 
                         <!-- Industries -->
                         <li class="has-submenu">
-                            <a href="gallery.html" class="submenu-link">Industries</a>
+                            <a href="#" class="submenu-link">Industries</a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Industries submenu">▾</button>
                             <ul class="submenu">
-                                <li><a href="industries_home.html">Insurance</a></li>
+                                <!-- <li><a href="industries_home.html">Insurance</a></li> -->
                                 <li><a href="industries_manu.html">Manufacturing</a></li>
-                                <li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
+                                <!-- <li><a href="industries_hcare.html">Healthcare & Leisure</a></li> -->
                                 <li><a href="industries_retail.html">Retail & B2B Services</a></li>
-                                <li><a href="industries_it.html">IT & Telecommunication</a></li>
+                                <!-- <li><a href="industries_it.html">IT & Telecommunication</a></li> -->
                             </ul>
                         </li>
 
@@ -720,7 +720,9 @@
     </div>
     <!--End pagewrapper--><!--Scroll to top-->
 
-    <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="fa fa-long-arrow-up"></span>
+     <div id="scrollToTopBtn">
+        <span>&uarr;</span>
+    </div>
     </div>
     <div>
         <!-- WhatsApp Floating Icon -->

@@ -1,4 +1,5 @@
 /* basic layout */
+
 * {
 	box-sizing: border-box;
 }
@@ -48,6 +49,11 @@
 
 .menu-active-color {
 	color: #00d1ff;
+}
+
+.sub_menu_active_color {
+	font-weight: 800;
+	color: #2787c7;
 }
 
 .menu>li>a,
@@ -198,4 +204,29 @@
 .submenu li a:hover {
 	background: #00d1ff;
 	color: #fff;
+}
+
+#scrollToTopBtn {
+	display: none;
+	/* hidden until scroll */
+	position: fixed;
+	bottom: 10px;
+	right: 12px;
+	width: 45px;
+	height: 45px;
+	background: #00bdfd;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	transition: background 0.3s ease;
+	z-index: 1000;
+}
+
+#scrollToTopBtn:hover {
+	background: #008bfc;
 }

@@ -558,25 +558,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-//   document.addEventListener("DOMContentLoaded", function() {
-//   const menuToggle = document.getElementById("menu-toggle");
-//   const mainNav = document.getElementById("main-nav");
-
-//   // Toggle main menu
-//   menuToggle.addEventListener("click", function() {
-//     mainNav.style.display = mainNav.style.display === "block" ? "none" : "block";
-//   });
-
-//   // Toggle submenus
-//   document.querySelectorAll(".main-nav .has-submenu > a").forEach(link => {
-//     link.addEventListener("click", function(e) {
-//       if (window.innerWidth <= 768) {
-//         e.preventDefault();
-//         this.parentElement.classList.toggle("open");
-//       }
-//     });
-//   });
-// });
 document.addEventListener('DOMContentLoaded', function() {
   const menuToggle = document.getElementById('menu-toggle');
   const mainNav = document.getElementById('main-nav');
@@ -627,3 +608,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+ const scrollBtn = document.getElementById("scrollToTopBtn");
+
+  // Show button after scrolling 200px
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  });
+
+  // Smooth scroll to top when clicked
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });

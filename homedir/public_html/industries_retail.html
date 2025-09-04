@@ -26,203 +26,67 @@
     <!-- Preloader -->
     <div class="preloader"></div>
 
-    <!-- Main Header / Header Style Two -->
-    <header class="main-header header-style-two">
-		
-        <!--Header Top-->
-   		<div class="header-top">
-        	<div class="auto-container clearfix">
-            	<!--Top Left-->
-            	<div class="top-left pull-left">
-                    
-                    <ul class="links-nav clearfix">
-                        <li class="social-links">
-                        	<a href="#"><span class="fa fa-facebook-f"></span></a>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                            <a href="#"><span class="fa fa-google-plus"></span></a>
-                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                            <a href="#"><span class="fa fa-pinterest-p"></span></a>
+   <!-- Main Header / Header Style Two -->
+        <header class="site-header">
+            <div class="container-fuild">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" alt="Logo" />
+                </a>
+                <!-- hamburger (mobile only) -->
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    &#9776;
+                </button>
+                <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                    <ul class="menu">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="whywe.html"><span >About Us</span></a></li>
+
+                        <!-- Products -->
+                        <li class="has-submenu">
+                           <a href="#" class="submenu-link"><span>Products</span></span></a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Products submenu">▾</button>
+                            <ul class="submenu">
+                                <li><a href="bos_home.html">BOS ERP</a></li>
+                                <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
+                                <li><a href="bos_ERP_Manufacture.html"><span class="sub_menu_active_color">BOS ERP Manufacture</span></a></li>
+                                <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
+                            </ul>
                         </li>
+
+                        <!-- Services -->
+                        <li class="has-submenu">
+                            <a href="#" class="submenu-link">Services</a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Services submenu">▾</button>
+                            <ul class="submenu">
+                                <li><a href="services_home.html">Web Application</a></li>
+                                <li><a href="services_mobile.html">Mobile Application</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Industries -->
+                        <li class="has-submenu">
+                            <a href="#" class="submenu-link"><span class="menu-active-color">Industries</span></a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Industries submenu">▾</button>
+                            <ul class="submenu">
+                                <!-- <li><a href="industries_home.html">Insurance</a></li> -->
+                                <li><a href="industries_manu.html">Manufacturing</a></li>
+                                <!-- <li><a href="industries_hcare.html">Healthcare & Leisure</a></li> -->
+                                <li><a href="industries_retail.html">Retail & B2B Services</a></li>
+                                <!-- <li><a href="industries_it.html">IT & Telecommunication</a></li> -->
+                            </ul>
+                        </li>
+
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><button class="header-btn">Book Demo</button></li>
                     </ul>
-                    
-                </div>
-                
-                <!--Top Right-->
-                    <div class="top-right pull-right">
-                    
-                        <ul class="links-nav">
-						    <li><span class="icon flaticon-plus-symbol"></span> Join with us</li>
-                            <li><span class="icon flaticon-telephone"></span> 080 - 4098 0862</li>
-                            <li><a href="contact.html" style="color:#ffffff"><span class="icon flaticon-close-envelope"></span>Contact us</a></li>
-                        </ul>
-                        
-                    </div>
+                </nav>
             </div>
-        </div><!--End Header Top-->
-        
-   	
-    	<!--Header-Upper-->
-        <div class="header-upper">
-        	<div class="auto-container">
-            	<div class="clearfix">
-
-                	<div class="pull-left logo-outer">
-                    	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="Bolton"></a></div>
-                    </div>
-
-                   <div class="nav-outer pull-right clearfix">
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class="dropdown"><a href="index.html">Corporate</a>
-									<ul>
-                                        <li><a href="whywe.html">Why ESL?</a></li>
-                                    </ul>
-								
-								</li>                                
-                                <li class="dropdown"><a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services_home.html">Web Application</a></li>
-                                        <li><a href="services_mobile.html">Mobile Application</a></li>
-                                        <li><a href="#">Consulting</a></li>
-                                        <li><a href="#">Out sourcing</a></li>
-                                    </ul>
-                                </li>
-                                <li class=" dropdown"><a href="#">Product</a>
-                                    <ul>
-                                        <li><a href="bos_home.html">BOS ERP</a></li>
-                                    </ul>
-                                </li>
-                               <!-- <li class="dropdown"><a href="error-page.html">Delivery Excellence</a>
-                                    <ul>
-                                        <li><a href="error-page.html">Engagement Model</a></li>
-                                        <li><a href="error-page.html">Best Practices</a></li>
-                                        <li><a href="error-page.html">Development Methodologies</a></li>
-                                        <li><a href="error-page.html">Quality Assurance</a></li>
-                                    </ul>
-                                </li> -->
-                                <li class="current dropdown"><a href="industries_home.html">Industries</a>
-									<ul>
-										<li><a href="industries_home.html" >Insurance</a></li>
-										<li><a href="industries_manu.html" >Manufacturing</a></li>
-										<li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
-										<li><a href="industries_retail.html"  class="bos_active">Retail and Distribution</a></li>
-										<li><a href="industries_it.html">IT & Telecommunication</a></li>
-                                    </ul>								
-								</li>
-                                <li class="dropdown"><a href="#">Clients</a>
-                                    
-                                </li>
-                                
-                                <li class="dropdown"><a href="#">Labs</a>
-								 <ul class="list">
-									<li><a href="error-page.html" >R & D</a></li>
-									<li><a href="error-page.html" >Idea Wall</a></li>
-								</ul>
-								</li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <!-- Main Menu End-->
-					<div class="btn-outer"><a href="#" class="search-btn search-box-btn"><span class="icon fa fa-search"></span></a></div>
-                </div>
-                    
-                </div>
-            </div>
-        </div>
-
-        <!--Sticky Header-->
-        <div class="sticky-header">
-        	<div class="auto-container clearfix">
-            	<!--Logo-->
-            	<div class="logo pull-left">
-                	<a href="index.html" class="img-responsive"><img src="images/logo.png" alt="Bolton"></a>
-                </div>
-
-                <!--Right Col-->
-                <div class="right-col pull-right">
-                	<!-- Main Menu -->
-                    <nav class="main-menu">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                        </div>
-
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class=" dropdown"><a href="index.html">Corporate</a>
-									<ul>
-                                        <li><a href="whywe.html">Why ESL?</a></li>
-                                    </ul>
-								
-								</li>                                
-                                <li class="dropdown"><a href="services_home.html">Services</a>
-                                    <ul>
-                                        <li><a href="services_home.html">Web Application</a></li>
-                                        <li><a href="services_mobile.html">Mobile Application</a></li>
-                                        <li><a href="#">Consulting</a></li>
-                                        <li><a href="#">Out sourcing</a></li>
-                                    </ul>
-                                </li>
-                                <li class=" dropdown"><a href="#">Product</a>
-                                    <ul>
-                                        <li><a href="bos_home.html">BOS ERP</a></li>
-                                    </ul>
-                                </li>
-                                  <li class="current dropdown"><a href="gallery.html">Industries</a>
-									<ul>
-										<li><a href="industries_home.html">Insurance</a></li>
-										<li><a href="industries_manu.html">Manufacturing</a></li>
-										<li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
-										<li><a href="industries_retail.html"  class="bos_active">Retail and Distribution</a></li>
-										<li><a href="industries_it.html">IT & Telecommunication</a></li>
-                                    </ul>								
-								</li>
-         <!--                       <li class="dropdown"><a href="error-page.html">Delivery Excellence</a>
-                                    <ul>
-                                        <li><a href="error-page.html">Engagement Model</a></li>
-                                        <li><a href="error-page.html">Best Practices</a></li>
-                                        <li><a href="error-page.html">Development Methodologies</a></li>
-                                        <li><a href="error-page.html">Quality Assurance</a></li>
-                                    </ul>
-                                </li>
-                              
-                                <li class="dropdown"><a href="#">Clients</a>
-                                    
-                                </li>
-                                
-                                <li class="dropdown"><a href="#">Labs</a>
-								 <ul class="list">
-									<li><a href="error-page.html" >R & D</a></li>
-									<li><a href="error-page.html" >Idea Wall</a></li>
-								</ul>
-								</li> -->
-                            </ul>
-                        </div>
-                    </nav><!-- Main Menu End-->
-                </div>
-
-            </div>
-        </div>
-        <!--End Sticky Header-->
-
-    </header>
-    <!--End Main Header -->
-
-	<!--Page Title-->
+        </header>
+        <!--End Main Header -->
+        <!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/4.jpg);">
     	<div class="auto-container">
         	<h1>RETAIL AND DISTRIBUTION</h1>
@@ -430,7 +294,9 @@
 <!--End pagewrapper-->
 
 <!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="fa fa-long-arrow-up"></span></div>
+ <div id="scrollToTopBtn">
+        <span>&uarr;</span>
+    </div></div>
 
 <!--Search Popup-->
 <div id="search-popup" class="search-popup">
