@@ -205,6 +205,17 @@
 		max-height: 100px;
 	}
 
+	.main-menu .navigation {
+		position: relative;
+		margin: 0px;
+		top: 10px;
+		right: 10px;
+		display: inherit !important;
+	}
+
+	.header-btn {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -287,7 +298,7 @@
 		right: 0px;
 		right: 10px;
 		top: 24px;
-		
+
 	}
 
 	.navbar-toggle {

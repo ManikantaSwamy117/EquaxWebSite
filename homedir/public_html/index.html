@@ -27,75 +27,69 @@
 
         <!-- Preloader -->
         <div class="preloader"></div>
+       <!-- Main Header / Header Style Two -->
+        <header class="site-header">
+            <div class="container-fuild">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" alt="Logo" />
+                </a>
+                <!-- hamburger (mobile only) -->
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    &#9776;
+                </button>
+                <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                    <ul class="menu">
+                        <li><a href="index.html"><span class="menu-active-color">Home</span></a></li>
+                        <li><a href="whywe.html"><span >About Us</span></a></li>
 
-        <!-- Main Header / Header Style Two -->
-       <header class="main-header header-style-two">
-            <div class="sticky-header">
-                <!--Logo-->
-                <div class="logo pull-left">
-                    <a href="index.html" class="img-responsive"><img src="images/logo.png" alt="Bolton"></a>
-                </div>
-                <!--Right Col-->
-                <div class="right-col pull-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <div class="navbar-header">
-                            <!-- Toggle Button -->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index.html">Home</a>
-                                </li>
-                                <li><a href="whywe.html">about Us</a>
-                                </li>
-                                <li class="dropdown"><a href="#">Products</a>
-                                    <ul>
-                                        <li><a href="bos_home.html">BOS ERP</a></li>
-                                        <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
-                                        <li><a href="bos_ERP_Manufacture.html">BOS ERP Manufacture</a></li>
-                                        <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services_home.html">Web Application</a></li>
-                                        <li><a href="services_mobile.html">Mobile Application</a></li>
-
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="gallery.html">Industries</a>
-                                    <ul class="list">
-                                        <li><a href="industries_home.html">Insurance</a></li>
-                                        <li><a href="industries_manu.html">Manufacturing</a></li>
-                                        <li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
-                                        <li><a href="industries_retail.html">Retail and B2B Online Services</a>
-                                        </li>
-                                        <li><a href="industries_it.html">IT & Telecommunication</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Contact Us</a>
-                                </li>
-                                <li><button class="header-btn">Book Demo</button>
-                                </li>
-
+                        <!-- Products -->
+                        <li class="has-submenu">
+                            <a href="#" class="submenu-link">Products</a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Products submenu">▾</button>
+                            <ul class="submenu">
+                                <li><a href="bos_home.html">BOS ERP</a></li>
+                                <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
+                                <li><a href="bos_ERP_Manufacture.html">BOS ERP Manufacture</a></li>
+                                <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
                             </ul>
-                            </li>
-                        </div>
-                    </nav><!-- Main Menu End-->
-                </div>
-            </div>
-            <!--End Sticky Header-->
+                        </li>
 
+                        <!-- Services -->
+                        <li class="has-submenu">
+                            <a href="#" class="submenu-link">Services</a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Services submenu">▾</button>
+                            <ul class="submenu">
+                                <li><a href="services_home.html">Web Application</a></li>
+                                <li><a href="services_mobile.html">Mobile Application</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Industries -->
+                        <li class="has-submenu">
+                            <a href="gallery.html" class="submenu-link">Industries</a>
+                            <button class="submenu-toggle" aria-expanded="false"
+                                aria-label="Toggle Industries submenu">▾</button>
+                            <ul class="submenu">
+                                <li><a href="industries_home.html">Insurance</a></li>
+                                <li><a href="industries_manu.html">Manufacturing</a></li>
+                                <li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
+                                <li><a href="industries_retail.html">Retail & B2B Services</a></li>
+                                <li><a href="industries_it.html">IT & Telecommunication</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><button class="header-btn">Book Demo</button></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <!--End Main Header -->
-
-        <!--Main Slider-->
-        <section class="main-slider mb-2" data-start-height="650" data-slide-overlay="yes" style="position: relative;top:67px">
+        <!--Page Title-->
+    
+        <section class="main-slider" data-start-height="650" data-slide-overlay="yes" style="position: relative;top:0px">
             <div class="tp-banner-container">
                 <div class="tp-banner">
                     <ul>
@@ -131,7 +125,7 @@
                                 data-easing="easeOutBounce" data-splitin="none" data-splitout="none"
                                 data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200"
                                 data-endeasing="Power4.easeIn">
-                                <div class="btn-box" style="top:100px"><a href="#"
+                                <div class="btn-box" style="top:100px"><a href="bos_home.html"
                                         class="theme-btn btn-style-one">CHECKOUT OUR PRODUCTS AND FEATURES</a></div>
                             </div>
 
@@ -179,7 +173,7 @@
                                 data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200"
                                 data-endeasing="Power4.easeIn">
                                 <div class="btn-box" style="top:100px">
-                                    <a href="#ourservices" class="theme-btn btn-style-one">OUR SERVICES</a>
+                                    <a href="services_home.html" class="theme-btn btn-style-one">OUR SERVICES</a>
                                 </div>
                             </div>
 
@@ -196,7 +190,7 @@
         <!--End Main Slider-->
 
         <!-- our services section -->
-        <section class="services-section style-two mt-5">
+        <section class="services-section style-two">
             <div class="auto-container">
                 <!-- <div class="sec-title">
                     <h2>Welcome to <span class="theme_color">Equax Software Labs</span></h2>

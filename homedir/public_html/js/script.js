@@ -556,13 +556,74 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const toggleBtn = document.querySelector(".navbar-toggle");
-    const navMenu = document.querySelector(".navbar-collapse");
 
-    if (toggleBtn && navMenu) {
-      toggleBtn.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
+
+//   document.addEventListener("DOMContentLoaded", function() {
+//   const menuToggle = document.getElementById("menu-toggle");
+//   const mainNav = document.getElementById("main-nav");
+
+//   // Toggle main menu
+//   menuToggle.addEventListener("click", function() {
+//     mainNav.style.display = mainNav.style.display === "block" ? "none" : "block";
+//   });
+
+//   // Toggle submenus
+//   document.querySelectorAll(".main-nav .has-submenu > a").forEach(link => {
+//     link.addEventListener("click", function(e) {
+//       if (window.innerWidth <= 768) {
+//         e.preventDefault();
+//         this.parentElement.classList.toggle("open");
+//       }
+//     });
+//   });
+// });
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.getElementById('menu-toggle');
+  const mainNav = document.getElementById('main-nav');
+
+  // hamburger toggles the whole mobile menu
+  menuToggle.addEventListener('click', function() {
+    const opened = mainNav.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
+  });
+
+  // submenu toggles (mobile)
+  document.querySelectorAll('.has-submenu').forEach(function(li) {
+    const link = li.querySelector('.submenu-link');
+    const toggleBtn = li.querySelector('.submenu-toggle');
+
+    // if user clicks the visible toggle button (mobile), toggle submenu open
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = li.classList.toggle('open');
+        toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
+
+    // also make parent link toggle submenu on mobile (useful for users who tap the text)
+    if (link) {
+      link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) {
+          e.preventDefault(); // prevent '#'
+          const isOpen = li.classList.toggle('open');
+          if (toggleBtn) toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        }
+        // on desktop (>=769) the link behaves normally (hover reveals submenu)
       });
     }
   });
+
+  // on resize: close mobile menu/submenus when switching back to desktop
+  window.addEventListener('resize', function() {
+    if (window.innerWidth > 768) {
+      mainNav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      document.querySelectorAll('.has-submenu.open').forEach(function(el) {
+        el.classList.remove('open');
+        const t = el.querySelector('.submenu-toggle');
+        if (t) t.setAttribute('aria-expanded', 'false');
+      });
+    }
+  });
+});
