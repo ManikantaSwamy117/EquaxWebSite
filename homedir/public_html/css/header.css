@@ -201,10 +201,10 @@
 	/* color: #00d1ff; */
 }
 
-.submenu li a:hover {
+/* .submenu li a:hover {
 	background: #00d1ff;
 	color: #fff;
-}
+} */
 
 #scrollToTopBtn {
 	display: none;
@@ -229,4 +229,62 @@
 
 #scrollToTopBtn:hover {
 	background: #008bfc;
+}
+
+.submenu li a {
+	  display: inline-block;
+  margin:2px;           /* remove bottom margin */
+	padding: 5px;
+  position: relative;
+  color: black;
+  text-decoration: none; /* remove default underline */
+}
+
+.submenu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px; /* underline thickness */
+  background-color: #00d1ff;
+  transition: width 0.3s ease; /* smooth animation */
+}
+
+.submenu li a:hover {
+  color: #00d1ff;
+}
+
+.submenu li a:hover::after {
+  width: 100%; /* underline expands smoothly */
+}
+.megamenu-column ul {
+  margin: 0;           /* remove top margin of ul */
+  padding: 0;          /* remove left padding (indent) */
+  list-style: none;    /* optional: removes bullets */
+}
+.label-name {	  
+  display: inline-block;   /* underline matches text width */
+  position: relative;
+  padding: 8px;
+  text-align: center;
+  color: #00d1ff;
+  text-decoration: none;   /* remove browser default underline */
+  cursor: pointer;
+  margin: 0;
+}
+
+.label-name::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;            /* position just below text */
+  width: 100%;             /* underline visible by default */
+  height: 1px;             /* underline thickness */
+  background-color: #615e5e; /* underline color */
+  transition: all 0.3s ease; /* smooth effect */
+}
+
+.label-name:hover::after {
+  background-color: #00d1ff; /* underline changes color on hover */
 }

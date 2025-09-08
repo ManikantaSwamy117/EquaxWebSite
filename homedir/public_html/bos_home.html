@@ -21,7 +21,7 @@
 	<div class="page-wrapper"><!-- Preloader -->
 		<div class="preloader"></div>
 	   <!-- Main Header / Header Style Two -->
-        <header class="site-header">
+  <header class="site-header">
             <div class="container-fuild">
                 <a class="logo" href="index.html">
                     <img src="images/logo.png" alt="Logo" />
@@ -32,46 +32,71 @@
                 </button>
                 <nav id="main-nav" class="main-nav" aria-label="Main navigation">
                     <ul class="menu">
-                        <li><a href="index.html"><span>Home</span></a></li>
-                        <li><a href="whywe.html"><span >About Us</span></a></li>
+                        <li><a href="index.html"><span >Home</span></a></li>
+                        <li><a href="whywe.html"><span>About Us</span></a></li>
 
                         <!-- Products -->
                         <li class="has-submenu">
-                            <a href="#" class="submenu-link"><span class="menu-active-color">Products</span></span></a>
+                        
+                            <a href="#" class="submenu-link " ><span class="menu-active-color">Products & Services</span> </a>
+                            
                             <button class="submenu-toggle" aria-expanded="false"
-                                aria-label="Toggle Products submenu">▾</button>
+                                aria-label="Toggle Products & Services submenu">▾</button>
+
                             <ul class="submenu">
-                                <li><a href="bos_home.html"><span class="sub_menu_active_color">BOS ERP</span></a></li>
-                                <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
-                                <li><a href="bos_ERP_Manufacture.html">BOS ERP Manufacture</a></li>
-                                <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
+                                <li>
+                                    <div style="display:flex; gap:20px;">
+                                        <!-- Products (Left) -->
+                                        <div class="megamenu-column">
+                                            <label class="label-name">PRODUCTS</label>
+                                            
+                                            <ul>
+                                                <li><a href="bos_home.html"><span class="menu-active-color">BOS ERP</span></a></li>
+                                                <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
+                                                <li><a href="bos_ERP_Manufacture.html">BOS ERP Manufacture</a></li>
+                                                <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
+                                            </ul>
+                                        </div>
+                                         <hr style="border: 1px solid rgb(116, 107, 107); height: 100px;position: relative; top: 20px;">
+                                        <!-- Services (Right) -->
+                                        <div>
+                                            <label class="label-name">SERVICES</label>
+                                            <ul>
+                                                <li><a href="services_home.html">Web Application</a></li>
+                                                <li><a href="services_mobile.html">Mobile Application</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </li>
 
+
                         <!-- Services -->
+                             <li><a href="career.html">CAREERS</a></li>
                         <li class="has-submenu">
-                            <a href="#" class="submenu-link">Services</a>
+                            <a href="#" class="submenu-link">INSIGHT</a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Services submenu">▾</button>
                             <ul class="submenu">
-                                <li><a href="services_home.html">Web Application</a></li>
-                                <li><a href="services_mobile.html">Mobile Application</a></li>
+                                <li><a href="services_home.html">Success Stories</a></li>
+                                <li><a href="services_mobile.html">News</a></li>
                             </ul>
                         </li>
-
+                       
                         <!-- Industries -->
-                        <li class="has-submenu">
-                            <a href="#" class="submenu-link">Industries</a>
+                        <!-- <li class="has-submenu">
+                            <a href="gallery.html" class="submenu-link">Industries</a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Industries submenu">▾</button>
                             <ul class="submenu">
-                                <!-- <li><a href="industries_home.html">Insurance</a></li> -->
+                                <li><a href="industries_home.html">Insurance</a></li>
                                 <li><a href="industries_manu.html">Manufacturing</a></li>
-                                <!-- <li><a href="industries_hcare.html">Healthcare & Leisure</a></li> -->
+                                <li><a href="industries_hcare.html">Healthcare & Leisure</a></li>
                                 <li><a href="industries_retail.html">Retail & B2B Services</a></li>
-                                <!-- <li><a href="industries_it.html">IT & Telecommunication</a></li> -->
+                                <li><a href="industries_it.html">IT & Telecommunication</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><button class="header-btn">Book Demo</button></li>
