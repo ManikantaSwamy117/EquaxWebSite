@@ -74,7 +74,7 @@
 
                         <!-- Services -->
                              <li><a href="career.html">CAREERS</a></li>
-                        <li class="has-submenu">
+                        <!-- <li class="has-submenu">
                             <a href="#" class="submenu-link">INSIGHT</a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Services submenu">▾</button>
@@ -82,7 +82,7 @@
                                 <li><a href="services_home.html">Success Stories</a></li>
                                 <li><a href="services_mobile.html">News</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                        
                         <!-- Industries -->
                         <!-- <li class="has-submenu">
@@ -99,7 +99,7 @@
                         </li> -->
 
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><button class="header-btn">Book Demo</button></li>
+                         <li><button class="header-btn talk-expert-btn">Book Demo</button></li>
                     </ul>
                 </nav>
             </div>
@@ -296,7 +296,7 @@
                         <div class="col-lg-3">
                             <div class="d-flex flex-column gap-3 m-4">
                                 <img src="images/icons/Sales.png" style="width: 30px;">
-                                <h1>Sales</h1>
+                                <h1>Billing</h1>
                                 <span>Track your progress and motivate your efforts everyday.</span>
                             </div>
                         </div>
@@ -324,17 +324,17 @@
                         <div class="col-lg-3">
                             <div class="d-flex flex-column gap-3 m-4">
                                 <img src="images/icons/Stock Transfer.png" style="width: 30px;">
-                                <h1>Stock Transfer</h1>
+                                <h1>warehouse Management</h1>
                                 <span>Track your progress and motivate your efforts everyday.</span>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="d-flex flex-column gap-3 m-4">
+                        <!-- <div class="col-lg-3">
+                             <div class="d-flex flex-column gap-3 m-4">
                                 <img src="images/icons/Production.png" style="width: 30px;">
                                 <h1>Production</h1>
                                 <span>Share tasks and progress in a real-time team space.</span>
-                            </div>
-                        </div>
+                            </div> 
+                        </div> -->
                         <div class="col-lg-3">
                             <div class="d-flex flex-column gap-3 m-4">
                                 <img src="images/icons/GST.png" style="width: 30px;">
@@ -360,11 +360,35 @@
                         <br>Our Core Features</b></h1>
             </section>
             <br>
-            <div class="row mt-2">
+            <div class="row">
                 <div class="col-lg-12">
                     <div class="col-lg-6 mb-4">
                         <div class="mobile-card">
-                            <div class="row">
+                            <h1>Mobile Applications </h1>
+                            <h4>Mobile Access – On-the-go fleet control, driver updates, and notifications</h4>
+                            <div class="d-flex justify-content-center mt-2">
+                                <img src="images/gallery/mobilecard-img.avif">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="serviceand-Maintenance-card">
+                            <h1>Service & Maintenance</h1>
+                            <h4>We provide intelligent service reminders and maintenance logs to keep your vehicles
+                                running
+                                smoothly and efficiently.</h4>
+                            <div class="d-flex justify-content-center mt-4">
+                                <img src="images/gallery/service&manintance-image.avif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row mt-2">
+                <div class="col-lg-12">
+                    <div class="col-lg-6 mb-4">
+                        <div class="row">
                                 <div class="col-12">
                                     <div class="d-flex flex-column">
                                         <div class="d-flex align-items-center gap-4">
@@ -414,11 +438,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="serviceand-Maintenance-card">
-                            <div class="row">
+                       <div class="row">
                                 <div class="col-12">
                                     <div class="d-flex flex-column">
                                         <div class="d-flex align-items-center gap-4">
@@ -472,7 +494,6 @@
                                 </div>
 
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -710,6 +731,72 @@
 				</div>
 			</div>
 		</div> -->
+             <div id="popupForm" class="modal">
+    <div class="modal-content">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Book Demo</h2>
+            <span class="close">&times;</span>
+        </div>
+        <form id="contactForm">
+            <div class="row g-4">
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Company Name</label>
+                        <input type="text" name="company" placeholder="Company Name" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
+                        <select class="form-select form-control" name="product" required>
+                            <option value="">Select Products</option>
+                            <option value="BOS Distribution">BOS Distribution</option>
+                            <option value="BOS Production">BOS Production</option>
+                            <option value="BOS Fleet-Management">BOS Fleet-Management</option>
+                            <option value="BOS Facility Management">BOS Facility Management</option>
+                            <option value="BOS B2B">BOS B2B</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Name</label>
+                        <input type="text" name="contact_name" placeholder="Contact Name" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Email</label>
+                        <input type="email" name="contact_email" placeholder="Enter your Contact Email" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Number</label>
+                        <input type="text" name="contact_number" placeholder="Contact Number" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Optional field (no required class, no star) -->
+                <div class="col-12">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label" style="color:#030303c9">Have any queries?</label>
+                        <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 text-end">
+                    <button type="submit" class="header-btn w-100">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
         <!--Main Footer-->
         <div class="page-title" style="background: rgb(38 249 239);">
             <div class="auto-container">
@@ -720,15 +807,14 @@
                                 <div style="margin-top: 20px;padding: 2%;">
                                     <h1>Let’s talk
                                         to make
-                                        <br> <br>
+                                        <br> 
                                         something
                                         great together
                                     </h1>
-                                    <br>
+                                    <br>   <br>
                                     <p>contact@equaxsoftwarelabs.com
                                     </p>
-                                    <p>+91 9902509680,
-                                        +91 9902509680</p>
+                                    <p>+91 9902509680</p>
                                     <p> Admin office: #146/5,
                                         1st Floor, 7th Cross,
                                         Coconut Avenue Road,
@@ -739,50 +825,101 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="container">
-                                    <form class="p-4 shadow rounded bg-light">
-                                        <div class="row g-3">
+                                    <form class="p-4 shadow rounded bg-light" id="letTalkForm">
+                                        <div class="row g-4">
                                             <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">Name</label>
-                                                <input type="text" placeholder="Name" class="form-control">
+                                                <div class="d-flex flex-column align-items-start">
+                                                    <label class="form-label" style="color:#030303c9">Company
+                                                        Name</label>
+                                                    <input type="text" name="company" placeholder="Company Name"
+                                                        class="form-control" required>
+                                                </div>
                                             </div>
 
                                             <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">Email</label>
-                                                <input type="email" placeholder="Email" class="form-control">
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">I'm interested
+                                                        in:</label>
+                                                    <select class="form-select form-control" name="product" required>
+                                                        <option value="">Select Products</option>
+                                                        <option value="BOS Distribution">BOS Distribution</option>
+                                                        <option value="BOS Production">BOS Production</option>
+                                                        <option value="BOS Fleet-Management">BOS Fleet-Management
+                                                        </option>
+                                                        <option value="BOS Facility Management">BOS Facility Management
+                                                        </option>
+                                                        <option value="BOS B2B">BOS B2B</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="col-lg-6">
+                                                <div class="d-flex flex-column align-items-start"><label
+                                                        class="form-label" style="color:#030303c9">Contact
+                                                        Name</label>
+                                                    <input type="text" name="contact_name" placeholder="Contact Name"
+                                                        class="form-control" required>
+                                                </div>
+
                                             </div>
 
                                             <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">Company Name</label>
-                                                <input type="text" placeholder="Company Name" class="form-control">
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">Contact
+                                                        Email</label>
+                                                    <input type="email" name="contact_email"
+                                                        placeholder="Enter your Contact Email" class="form-control"
+                                                        required>
+                                                </div>
+
                                             </div>
 
                                             <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">Contact Number</label>
-                                                <input type="text" placeholder="Contact Number" class="form-control">
+                                                <div class="d-flex flex-column align-items-start"><label
+                                                        class="form-label" style="color:#030303c9">Contact
+                                                        Number</label>
+                                                    <input type="text" name="contact_number"
+                                                        placeholder="Contact Number" class="form-control" required>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">Contact
+                                                        When</label>
+                                                    <select class="form-select form-control" name="contact_when"
+                                                        required>
+                                                        <option value="">Select</option>
+                                                        <option value="Immediately">Immediately</option>
+                                                        <option value="Within a week">Within a week</option>
+                                                        <option value="Just Enquiry">Just Enquiry</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">Address</label>
+                                                    <textarea name="address" placeholder="Address" rows="3"
+                                                        class="form-control" required></textarea>
+                                                </div>
+
                                             </div>
 
-                                            <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">I'm interested in:</label>
-                                                <select class="form-select form-control">
-                                                    <option value="">Select</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                </select>
-                                            </div>
 
-                                            <div class="col-lg-6">
-                                                <label class="form-label d-block text-start">Location</label>
-                                                <input type="text" placeholder="Location" class="form-control">
-                                            </div>
 
                                             <div class="col-12">
-                                                <label class="form-label d-block text-start">Subject Of the Meet</label>
-                                                <textarea class="form-control" rows="3"
-                                                    placeholder="Enter subject"></textarea>
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">Remarks</label>
+                                                    <textarea name="remarks" class="form-control" rows="4"
+                                                        placeholder="Enter Remarks" required></textarea>
+                                                </div>
+
                                             </div>
 
-                                            <div class="col-lg-12 col-lg-6 d-flex text-end">
+                                            <div class="col-lg-12 text-end">
                                                 <button type="submit" class="header-btn w-100">Submit</button>
                                             </div>
                                         </div>
@@ -797,55 +934,66 @@
         </div>
 
 
+             <!--Main Footer-->
         <footer class="main-footer">
+
             <div class="auto-container">
-                <div class="row clearfix"><!--Big Column-->
+                <div class="row clearfix">
+
+                    <!--Big Column-->
                     <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="row clearfix"><!--Footer Column-->
+                        <div class="row clearfix">
+
+                            <!--Footer Column-->
                             <div class="footer-column col-md-8 col-sm-6 col-xs-12">
                                 <div class="footer-widget logo-widget">
-                                    <div class="footer-logo"><a href="index5.html"><img alt=""
-                                                src="images/logo-three.png" /></a></div>
-
+                                    <div class="footer-logo"><a href="index5.html"><img src="images/logo-three.png"
+                                                alt=""></a></div>
                                     <div class="widget-content">
                                         <ul class="contact-info">
-                                            <li><span class="number">080 - 4098 0862</span></li>
-                                            <li><span class="number">contact@equaxsoftwarelabs.com</span></li>
-                                            <li><span class="number">Registered Office:Plot No 2, Sheshasai,
-                                                    Riverside,Doddabele,Kengeri,<br />
-                                                    Bangalore - 560 060.</span></li>
-                                            <li><span class="number">Administrative Office:</span>#145/5A, 1st floor,
-                                                7th&nbsp; cross, Coconut Avenue Road, Opp. Silver Valley College,&nbsp;
-                                                Malleswaram&nbsp;<br />
-                                                Bangalore - 560 003.</li>
+                                            <li><span class="icon flaticon-telephone"></span> <span class="number">080 -
+                                                    4098 0862,<br>
+                                                    +91 9902509680</span></li>
+                                            <li><span class="icon flaticon-close-envelope"></span><span
+                                                    class="number">contact@equaxsoftwarelabs.com</span></li>
+                                            <li><span class="icon flaticon-placeholder"></span><span
+                                                    class="number">Registered Office:Plot No 2, Sheshasai, Riverside
+                                                    Estate
+                                                    Estate,Doddabele,Kengeri,<br>Bangalore - 560 060.</span></li>
+                                            <li><span class="icon flaticon-placeholder"></span><span
+                                                    class="number">#145/5, 1st floor ,Opp.
+											Silver Valley Collage, 7th cross, Coconut Avenue
+                                                    Road,
+                                                    Opp. Silver Valley College, Malleswaram<br>Bangalore - 560
+                                                    003.</span></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <!--Footer Column-->
 
+                            <!--Footer Column-->
                             <div class="footer-column col-md-4 col-sm-6 col-xs-12">
                                 <div class="footer-widget links-widget">
                                     <h2>QUICK LINKS</h2>
-
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="index.html">Corporate</a></li>
                                             <li><a href="services_home.html">Services</a></li>
                                             <li><a href="bos_home.html">Products</a></li>
-                                            <li><a href="industries_home.html">Industries</a></li>
-                                            <!--	<li><a href="error-page.html">Delivery Excellence</a></li>
-	
-	<li><a href="#">Clients</a></li>
-	<li><a href="error-page.html">Labs</a></li> -->
+                                            <!-- <li><a href="industries_home.html">Industries</a></li> -->
+                                            <!--        <li><a href="error-page.html">Delivery Excellence</a></li>
+                                       
+										<li><a href="#">Clients</a></li>
+                                        <li><a href="error-page.html">Labs</a></li> -->
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                    <!--Big Column-->
 
+                    <!--Big Column-->
                     <div class="big-column col-md-6 col-sm-12 col-xs-12">
                         <div class="row clearfix">
                             <!--Footer Column-->
@@ -857,50 +1005,62 @@
                                             style='color: white'><span
                                                 class="fa fa-instagram"></span></span>Instagram</a>
                                     </li>
-                                    <li style="color: white;"><a href="" style='color: white'><a href="#"><span
-                                                    class="fa fa-twitter"></span></a>Twitter</a></li>
-                                    <li style="color: white;"><a href="https://g.co/kgs/DesD9d1" style='color: white'><a
-                                                href="#"><span class="fa fa-google-plus"></span></a>Google</a></li>
+                                    <!-- <li style="color: white;"><a href="" style='color: white'><a href="#"><span
+                                                    class="fa fa-twitter"></span></a>Twitter</a></li> -->
+
+                                    <li style="color: white;"><a href="https://g.co/kgs/DesD9d1"
+                                            style='color: white'><span
+                                                class="fa fa-google-plus"></span></span>Google</a></li>
+
                                     <li style="color: white;"><a
                                             href="https://www.linkedin.com/company/equaxsoftwarelabs"
-                                            style='color: white'><a href="#"><span
-                                                    class="fa fa-linkedin"></span></a>linkedin</a></li>
+                                            style='color: white'><span class="fa fa-linkedin"></span></span>linkedin</a>
+                                    </li>
                                     <li style="color: white;"><a
                                             href="https://www.facebook.com/people/Equax-Software-Labs/61569336508289/"
-                                            style='color: white'><a href="#"><span
-                                                    class="fa fa-facebook-f"></span></a>Facebook</a></li>
+                                            style='color: white'><span
+                                                class="fa fa-facebook-f"></span></span>Facebook</a>
+                                    </li>
                                 </ul>
                             </div>
-                            <!--Footer Column-->
 
+                            <!--Footer Column-->
                             <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                                 <h2>Newsletter</h2>
 
                                 <div class="subscribe-widget">
-                                    <form action="contact.html" method="post">
-                                        <div class="form-group"><input name="name" placeholder="Name *" required=""
-                                                type="text" value="" /></div>
-
-                                        <div class="form-group"><input name="email" placeholder="Email *" required=""
-                                                type="email" value="" /></div>
-
-                                        <div class="form-group"><button class="theme-btn btn-style-one"
-                                                type="submit">GO</button></div>
+                                    <form method="post" action="contact.html">
+                                        <div class="form-group">
+                                            <input type="text" name="name" value="" placeholder="Name *" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" value="" placeholder="Email *" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="theme-btn btn-style-one">GO</button>
+                                        </div>
                                     </form>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
+
+                </div>
+
+            </div>
+
+            <!--Footer Bottom-->
+            <div class="footer-bottom">
+                <div class="copyright">&copy;
+                    <!-- ©  -->
+                    <span id="year"></span> Equax Software Labs All Rights Reserved.
                 </div>
             </div>
-            <!--Footer Bottom-->
 
-            <div class="footer-bottom">
-                <div class="copyright">&copy; 2017 Equax Software Labs All Rights Reserved.</div>
-            </div>
         </footer>
         <!--End Main Footer-->
-    </div>
     <!--End pagewrapper--><!--Scroll to top-->
 
      <div id="scrollToTopBtn">

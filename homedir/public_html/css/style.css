@@ -2990,12 +2990,13 @@ font-family: 'Montserrat', sans-serif;*/
 }
 
 .page-title h1 {
-	font-size: 32px;
+	font-size: 52px;
 	font-weight: 800;
 	color: #ffffff;
 	letter-spacing: 1px;
 	line-height: 1em;
 	margin-top: 8px;
+	line-height: 68px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }

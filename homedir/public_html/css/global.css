@@ -1339,161 +1339,187 @@ img {
 
 
 }
+
 /* WhatsApp Icon */
-.wa-chat-btn{
-  position: fixed;
-  right: 10px;
-  bottom: 65px;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: #25D366;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  cursor: pointer;
-  z-index: 9999;
-  display: none; /* hidden initially */
+.wa-chat-btn {
+	position: fixed;
+	right: 10px;
+	bottom: 65px;
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background: #25D366;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 9999;
+	display: none;
+	/* hidden initially */
 }
-.wa-chat-btn svg{
-  width:28px;
-  height:28px;
-  fill:#fff;
+
+.wa-chat-btn svg {
+	width: 28px;
+	height: 28px;
+	fill: #fff;
 }
 
 /* Mini Chat Box */
-#waChatBox{
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  width: 300px;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 14px 34px rgba(0,0,0,.28);
-  display: none;
-  flex-direction: column;
-  overflow: hidden;
-  z-index: 9999;
-  font-family: sans-serif;
+#waChatBox {
+	position: fixed;
+	bottom: 90px;
+	right: 20px;
+	width: 300px;
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 14px 34px rgba(0, 0, 0, .28);
+	display: none;
+	flex-direction: column;
+	overflow: hidden;
+	z-index: 9999;
+	font-family: sans-serif;
 }
-#waChatHeader{
-  background:#128C7E;
-  color:#fff;
-  padding: 10px;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
+
+#waChatHeader {
+	background: #128C7E;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-#waChatBody{
-  height:250px;
-  padding: 10px;
-  overflow-y:auto;
-  background:#f9f9f9;
+
+#waChatBody {
+	height: 250px;
+	padding: 10px;
+	overflow-y: auto;
+	background: #f9f9f9;
 }
-.bot-msg, .user-msg{
-  margin: 6px 0;
-  padding: 8px 12px;
-  border-radius: 12px;
-  max-width: 80%;
+
+.bot-msg,
+.user-msg {
+	margin: 6px 0;
+	padding: 8px 12px;
+	border-radius: 12px;
+	max-width: 80%;
 }
-.bot-msg{ background:#eee; }
-.user-msg{ background:#DCF8C6; margin-left:auto; }
-#waChatFooter{
-  display:flex; border-top:1px solid #eee;
+
+.bot-msg {
+	background: #eee;
 }
-#waInput{
-  flex:1;
-  padding:10px;
-  border:none;
-  outline:none;
+
+.user-msg {
+	background: #DCF8C6;
+	margin-left: auto;
 }
-#waSend{
-  background:#25D366;
-  border:none;
-  color:#fff;
-  padding: 0 16px;
-  cursor:pointer;
+
+#waChatFooter {
+	display: flex;
+	border-top: 1px solid #eee;
 }
-#waClose{
-  background:transparent;
-  border:none;
-  color:#fff;
-  font-size:20px;
-  cursor:pointer;
+
+#waInput {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
+
+#waSend {
+	background: #25D366;
+	border: none;
+	color: #fff;
+	padding: 0 16px;
+	cursor: pointer;
+}
+
+#waClose {
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 .img-fluid {
-  text-align: left !important;   /* force the wrapper to align left */
+	text-align: left !important;
+	/* force the wrapper to align left */
 }
 
 .career-img {
-  height: 331px;   /* same as your inline style */
-  width: auto;     /* keeps proportions */
-  display: block;  /* so it can be aligned */
-  float: left;     /* stick image to left */
-  margin: 0;       /* remove unwanted spacing */
+	height: 331px;
+	/* same as your inline style */
+	width: auto;
+	/* keeps proportions */
+	display: block;
+	/* so it can be aligned */
+	float: left;
+	/* stick image to left */
+	margin: 0;
+	/* remove unwanted spacing */
 }
 
 
 .waChatHeader {
-  background: #f9f9fb;
-  padding: 60px 20px;
-  text-align: center;
+	background: #f9f9fb;
+	padding: 60px 20px;
+	text-align: center;
 }
 
 .section-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #00bcd4;
-  margin-bottom: 40px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #00bcd4;
+	margin-bottom: 40px;
 }
 
 .work-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
 }
 
 .work-card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.4s ease;
-  text-align: left;
+	background: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.4s ease;
+	text-align: left;
 }
 
 
 .work-card:hover {
 
-  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-  background-color: #78d6ee; /* light blue background on hover */
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+	background-color: #78d6ee;
+	/* light blue background on hover */
 }
 
 
 .work-card h3 {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 10px;
-   color: inherit; 
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 10px;
+	color: inherit;
 }
 
 .work-card p {
-  font-size: 15px;
-  color: #555;
-  line-height: 1.6;
-  color: inherit;
+	font-size: 15px;
+	color: #555;
+	line-height: 1.6;
+	color: inherit;
 }
 
 .career-note {
-  margin-top: 30px;
-  font-size: 18px;
-  color: #444;
-  font-weight: 500;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #444;
+	font-weight: 500;
 }
 
 
-.icons{
+.icons {
 	width: 60px;
 	height: auto;
 
@@ -1501,119 +1527,196 @@ img {
 
 
 .list-with-icons {
-  list-style: none; /* remove default bullets */
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	/* remove default bullets */
+	padding: 0;
+	margin: 0;
 }
 
 .list-with-icons li {
-  position: relative;
-  padding-left: 35px; /* space for icon */
-  margin-bottom: 12px;
-  font-size: 16px;
-  color: #333;
+	position: relative;
+	padding-left: 35px;
+	/* space for icon */
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #333;
 }
 
 .list-with-icons li::before {
-  content: "\2713"; /* checkmark symbol ✅ */
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 18px;
-  color: #00d1ff;  /* icon color */
-  font-weight: bold;
+	content: "\2713";
+	/* checkmark symbol ✅ */
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 18px;
+	color: #00d1ff;
+	/* icon color */
+	font-weight: bold;
 }
 
 
 .current-openings {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 0 20px;
-  font-family: 'Arial', sans-serif;
-  color: #222;
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 0 20px;
+	font-family: 'Arial', sans-serif;
+	color: #222;
 }
 
 .current-openings h2 {
-  font-size: 32px;
-  color: #00d1ff;
-  margin-bottom: 30px;
+	font-size: 32px;
+	color: #00d1ff;
+	margin-bottom: 30px;
 
-  padding-left: 12px;
+	padding-left: 12px;
 }
 
 /* Flex container for cards */
 .jobs-container {
-  display: flex;
-  flex-wrap: wrap;         /* wrap cards on smaller screens */
-  gap: 20px;               /* space between cards */
+	display: flex;
+	flex-wrap: wrap;
+	/* wrap cards on smaller screens */
+	gap: 20px;
+	/* space between cards */
 }
 
 /* Individual cards */
 .job-card {
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  flex: 1 1 calc(50% - 20px); /* 2 cards per row on desktop */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	padding: 20px;
+	flex: 1 1 calc(50% - 20px);
+	/* 2 cards per row on desktop */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
 .job-card h3 {
-  margin-top: 0;
-  color: #00aaff;
-  font-size: 20px;
-  margin-bottom: 10px;
+	margin-top: 0;
+	color: #00aaff;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .job-card p {
-  margin: 5px 0;
-  font-size: 15px;
-  line-height: 1.5;
+	margin: 5px 0;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 .job-card p strong {
-  color: #333;
+	color: #333;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 992px) {
-  .job-card {
-    flex: 1 1 100%; /* full width on tablets and smaller screens */
-  }
+	.job-card {
+		flex: 1 1 100%;
+		/* full width on tablets and smaller screens */
+	}
 }
 
 .apply-box {
-  max-width: 700px;                 
-  margin-left: 120px;              
-  padding: 25px 20px;              
-  background-color: #ffffff;        
-  border-radius: 6px;              
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
-  font-family: 'Arial', sans-serif;
-  color: #333;
-  text-align: left;                 
+	max-width: 700px;
+	margin-left: 120px;
+	padding: 25px 20px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	font-family: 'Arial', sans-serif;
+	color: #333;
+	text-align: left;
 }
 
 .apply-box h1 {
-  font-size: 26px;
-   color: #00bcd4;
-  margin-bottom: 12px;
+	font-size: 26px;
+	color: #00bcd4;
+	margin-bottom: 12px;
 }
 
 .apply-box p {
-  font-size: 16px;
-  line-height: 1.6;
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 .apply-box a {
-  color: #0077cc;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.3s ease;
+	color: #0077cc;
+	font-weight: 600;
+
+
 }
 
+/* 
 .apply-box a:hover {
   color: #005fa3;
   text-decoration: underline;
+} */
+
+/* talk to exper btn popup */
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+	background: #fff;
+	padding: 20px;
+	margin: 10% auto;
+	/* width: 100%; */
+	max-width: 35%;
+	border-radius: 10px;
+	position: relative;
+}
+
+.modal-content h2 {
+	margin-top: 0;
+}
+
+.modal-content input,
+.modal-content textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.modal-content button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.close {
+	font-size: 37px;
+	cursor: pointer;
+	color: black;
+	font-weight: 800;
+}
+
+.form-select {
+	font-size: 12px !important;
+}
+
+.form-control {
+	font-size: 14px !important;
+
+}
+/* Add red star after required input, select labels */
+form label.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
 }

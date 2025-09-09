@@ -38,14 +38,14 @@
                 </button>
                 <nav id="main-nav" class="main-nav" aria-label="Main navigation">
                     <ul class="menu">
-                        <li><a href="index.html"><span >Home</span></a></li>
+                        <li><a href="index.html"><span>Home</span></a></li>
                         <li><a href="whywe.html"><span class="menu-active-color">About Us</span></a></li>
 
                         <!-- Products -->
                         <li class="has-submenu">
-                        
-                            <a href="#" class="submenu-link " >Products & Services</a>
-                            
+
+                            <a href="#" class="submenu-link ">Products & Services</a>
+
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Products & Services submenu">▾</button>
 
@@ -55,7 +55,7 @@
                                         <!-- Products (Left) -->
                                         <div class="megamenu-column">
                                             <label class="label-name">PRODUCTS</label>
-                                            
+
                                             <ul>
                                                 <li><a href="bos_home.html">BOS ERP</a></li>
                                                 <li><a href="bos_ERP_Distrbution.html">BOS ERP Distribution</a></li>
@@ -63,7 +63,8 @@
                                                 <li><a href="bos_Fleet_Management.html">Fleet Management</a></li>
                                             </ul>
                                         </div>
-                                         <hr style="border: 1px solid rgb(116, 107, 107); height: 100px;position: relative; top: 20px;">
+                                        <hr
+                                            style="border: 1px solid rgb(116, 107, 107); height: 100px;position: relative; top: 20px;">
                                         <!-- Services (Right) -->
                                         <div>
                                             <label class="label-name">SERVICES</label>
@@ -79,8 +80,8 @@
 
 
                         <!-- Services -->
-                             <li><a href="career.html">CAREERS</a></li>
-                        <li class="has-submenu">
+                        <li><a href="career.html">CAREERS</a></li>
+                        <!-- <li class="has-submenu">
                             <a href="#" class="submenu-link">INSIGHT</a>
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Services submenu">▾</button>
@@ -88,8 +89,8 @@
                                 <li><a href="services_home.html">Success Stories</a></li>
                                 <li><a href="services_mobile.html">News</a></li>
                             </ul>
-                        </li>
-                       
+                        </li> -->
+
                         <!-- Industries -->
                         <!-- <li class="has-submenu">
                             <a href="gallery.html" class="submenu-link">Industries</a>
@@ -105,7 +106,7 @@
                         </li> -->
 
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><button class="header-btn">Book Demo</button></li>
+                         <li><button class="header-btn talk-expert-btn">Book Demo</button></li>
                     </ul>
                 </nav>
             </div>
@@ -149,7 +150,7 @@
                             technologies. This enables the delivery of <strong>innovative, tailored
                                 solutions</strong> for each client. EQUAX Software Labs collaborates
                             closely with clients to help them become <strong>high-performance businesses
-                                and governments</strong>. With deep industry knowledge, extensive global
+                            </strong>. With deep industry knowledge, extensive global
                             resources, and a proven track record, the company mobilizes the right
                             people, skills, and technologies to <strong>enhance client
                                 performance</strong>.
@@ -442,206 +443,275 @@
                 </div>
             </section>
 
+               <div id="popupForm" class="modal">
+    <div class="modal-content">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Book Demo</h2>
+            <span class="close">&times;</span>
+        </div>
+        <form id="contactForm">
+            <div class="row g-4">
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Company Name</label>
+                        <input type="text" name="company" placeholder="Company Name" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
+                        <select class="form-select form-control" name="product" required>
+                            <option value="">Select Products</option>
+                            <option value="BOS Distribution">BOS Distribution</option>
+                            <option value="BOS Production">BOS Production</option>
+                            <option value="BOS Fleet-Management">BOS Fleet-Management</option>
+                            <option value="BOS Facility Management">BOS Facility Management</option>
+                            <option value="BOS B2B">BOS B2B</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Name</label>
+                        <input type="text" name="contact_name" placeholder="Contact Name" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Email</label>
+                        <input type="email" name="contact_email" placeholder="Enter your Contact Email" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label required" style="color:#030303c9">Contact Number</label>
+                        <input type="text" name="contact_number" placeholder="Contact Number" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Optional field (no required class, no star) -->
+                <div class="col-12">
+                    <div class="d-flex flex-column align-items-start">
+                        <label class="form-label" style="color:#030303c9">Have any queries?</label>
+                        <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 text-end">
+                    <button type="submit" class="header-btn w-100">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
             <!--Main Footer-->
-            <footer class="main-footer">
+        <footer class="main-footer">
 
-                <div class="auto-container">
-                    <div class="row clearfix">
+            <div class="auto-container">
+                <div class="row clearfix">
 
-                        <!--Big Column-->
-                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="row clearfix">
+                    <!--Big Column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
 
-                                <!--Footer Column-->
-                                <div class="footer-column col-md-8 col-sm-6 col-xs-12">
-                                    <div class="footer-widget logo-widget">
-                                        <div class="footer-logo"><a href="index5.html"><img src="images/logo-three.png"
-                                                    alt=""></a></div>
-                                        <div class="widget-content">
-                                            <ul class="contact-info">
-                                                <li><span class="icon flaticon-telephone"></span> <span
-                                                        class="number">080 -
-                                                        4098 0862</span></li>
-                                                <li><span class="icon flaticon-close-envelope"></span><span
-                                                        class="number">contact@equaxsoftwarelabs.com</span></li>
-                                                <li><span class="icon flaticon-placeholder"></span><span
-                                                        class="number">Registered Office: Plot No 2, Sheshasai,
-                                                        Riverside
-                                                        Estate, Doddabele, Kengeri,<br>Bangalore - 560 060.</span></li>
-                                                <li><span class="icon flaticon-placeholder"></span><span
-                                                        class="number">Admnistrative Office:#145/5A, 1st floor, 7th
-                                                        cross,
-                                                        Coconut Avenue Road, Opp. Silver Valley College, Malleswaram,
-                                                        <br>Bangalore - 560 003.</span></li>
-                                            </ul>
-                                        </div>
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-8 col-sm-6 col-xs-12">
+                                <div class="footer-widget logo-widget">
+                                    <div class="footer-logo"><a href="index5.html"><img src="images/logo-three.png"
+                                                alt=""></a></div>
+                                    <div class="widget-content">
+                                        <ul class="contact-info">
+                                            <li><span class="icon flaticon-telephone"></span> <span class="number">080 -
+                                                    4098 0862,<br>
+                                                    +91 9902509680</span></li>
+                                            <li><span class="icon flaticon-close-envelope"></span><span
+                                                    class="number">contact@equaxsoftwarelabs.com</span></li>
+                                            <li><span class="icon flaticon-placeholder"></span><span
+                                                    class="number">Registered Office:Plot No 2, Sheshasai, Riverside
+                                                    Estate
+                                                    Estate,Doddabele,Kengeri,<br>Bangalore - 560 060.</span></li>
+                                            <li><span class="icon flaticon-placeholder"></span><span
+                                                    class="number">#145/5, 1st floor,Opp.
+											Silver Valley Collage,7th cross, Coconut Avenue
+                                                    Road,
+                                                    Opp. Silver Valley College, Malleswaram<br>Bangalore - 560
+                                                    003.</span></li>
+                                        </ul>
                                     </div>
                                 </div>
+                            </div>
 
-                                <!--Footer Column-->
-                                <div class="footer-column col-md-4 col-sm-6 col-xs-12">
-                                    <div class="footer-widget links-widget">
-                                        <h2>QUICK LINKS</h2>
-                                        <div class="widget-content">
-                                            <ul class="list">
-                                                <li><a href="index.html">Corporate</a></li>
-                                                <li><a href="services_home.html">Services</a></li>
-                                                <li><a href="bos_home.html">Products</a></li>
-                                                <li><a href="industries_home.html">Industries</a></li>
-                                                <!--  <li><a href="error-page.html">Delivery Excellence</a></li>
-                                        
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                                <div class="footer-widget links-widget">
+                                    <h2>QUICK LINKS</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="index.html">Corporate</a></li>
+                                            <li><a href="services_home.html">Services</a></li>
+                                            <li><a href="bos_home.html">Products</a></li>
+                                            <!-- <li><a href="industries_home.html">Industries</a></li> -->
+                                            <!--        <li><a href="error-page.html">Delivery Excellence</a></li>
+                                       
 										<li><a href="#">Clients</a></li>
                                         <li><a href="error-page.html">Labs</a></li> -->
-                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Big Column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <h2>CONNECT WITH US</h2>
+                                <!--Latest News-->
+                                <ul class="contact-info">
+                                    <li style="color: white;"><a href="https://www.instagram.com/equax_software_lab/"
+                                            style='color: white'><span
+                                                class="fa fa-instagram"></span></span>Instagram</a>
+                                    </li>
+                                    <!-- <li style="color: white;"><a href="" style='color: white'><a href="#"><span
+                                                    class="fa fa-twitter"></span></a>Twitter</a></li> -->
+
+                                    <li style="color: white;"><a href="https://g.co/kgs/DesD9d1"
+                                            style='color: white'><span
+                                                class="fa fa-google-plus"></span></span>Google</a></li>
+
+                                    <li style="color: white;"><a
+                                            href="https://www.linkedin.com/company/equaxsoftwarelabs"
+                                            style='color: white'><span class="fa fa-linkedin"></span></span>linkedin</a>
+                                    </li>
+                                    <li style="color: white;"><a
+                                            href="https://www.facebook.com/people/Equax-Software-Labs/61569336508289/"
+                                            style='color: white'><span
+                                                class="fa fa-facebook-f"></span></span>Facebook</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <h2>Newsletter</h2>
+
+                                <div class="subscribe-widget">
+                                    <form method="post" action="contact.html">
+                                        <div class="form-group">
+                                            <input type="text" name="name" value="" placeholder="Name *" required="">
                                         </div>
-                                    </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" value="" placeholder="Email *" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="theme-btn btn-style-one">GO</button>
+                                        </div>
+                                    </form>
                                 </div>
 
                             </div>
+
                         </div>
-
-                        <!--Big Column-->
-                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                            <div class="row clearfix">
-                                <!--Footer Column-->
-                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                                    <h2>CONNECT WITH US</h2>
-                                    <!--Latest News-->
-                                    <ul class="contact-info">
-                                        <li style="color: white;"><a
-                                                href="https://www.instagram.com/equax_software_lab/"
-                                                style='color: white'><span
-                                                    class="fa fa-instagram"></span></span>Instagram</a>
-                                        </li>
-                                        <li style="color: white;"><a href="" style='color: white'><a href="#"><span
-                                                        class="fa fa-twitter"></span></a>Twitter</a></li>
-                                        <li style="color: white;"><a href="https://g.co/kgs/DesD9d1"
-                                                style='color: white'><a href="#"><span
-                                                        class="fa fa-google-plus"></span></a>Google</a></li>
-                                        <li style="color: white;"><a
-                                                href="https://www.linkedin.com/company/equaxsoftwarelabs"
-                                                style='color: white'><a href="#"><span
-                                                        class="fa fa-linkedin"></span></a>linkedin</a></li>
-                                        <li style="color: white;"><a
-                                                href="https://www.facebook.com/people/Equax-Software-Labs/61569336508289/"
-                                                style='color: white'><a href="#"><span
-                                                        class="fa fa-facebook-f"></span></a>Facebook</a></li>
-                                    </ul>
-                                </div>
-
-                                <!--Footer Column-->
-                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                                    <h2>Newsletter</h2>
-
-                                    <div class="subscribe-widget">
-                                        <form method="post" action="contact.html">
-                                            <div class="form-group">
-                                                <input type="text" name="name" value="" placeholder="Name *"
-                                                    required="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" name="email" value="" placeholder="Email *"
-                                                    required="">
-                                            </div>
-                                            <div class="form-group">
-                                                <button type="submit" class="theme-btn btn-style-one">GO</button>
-                                            </div>
-                                        </form>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
 
-                <!--Footer Bottom-->
-                <div class="footer-bottom">
-                    <div class="copyright">&copy; 2017 Equax Software Labs All Rights Reserved.</div>
-                </div>
+            </div>
 
-            </footer>
-            <!--End Main Footer-->
-        </div>
+            <!--Footer Bottom-->
+            <div class="footer-bottom">
+                <div class="copyright">&copy;
+                    <!-- ©  -->
+                    <span id="year"></span> Equax Software Labs All Rights Reserved.
+                </div>
+            </div>
+
+        </footer>
+        <!--End Main Footer-->
         <!--End pagewrapper-->
 
         <!--Scroll to top-->
-         <div id="scrollToTopBtn">
-        <span>&uarr;</span>
+        <div id="scrollToTopBtn">
+            <span>&uarr;</span>
+        </div>
     </div>
-        </div>
-        <div>
-            <!-- WhatsApp Floating Icon -->
-            <a id="waIcon" class="wa-chat-btn" aria-label="Chat on WhatsApp" href="javascript:void(0)">
-                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#fff"
-                        d="M16.02 3.2c-7.1 0-12.86 5.63-12.86 12.58 0 2.22.6 4.38 1.75 6.28L3 29l6.12-1.6a12.98 12.98 0 006.9 1.92c7.1 0 12.86-5.63 12.86-12.58 0-3.36-1.34-6.52-3.77-8.9-2.43-2.38-5.68-3.64-9.1-3.64zm0 22.7c-2.17 0-4.25-.63-6.06-1.83l-.44-.28-3.6.94.96-3.5-.29-.55a10.45 10.45 0 01-1.46-5.39c0-5.76 4.8-10.45 10.69-10.45 2.85 0 5.53 1.1 7.54 3.08a10.33 10.33 0 013.15 7.38c0 5.76-4.8 10.45-10.69 10.45z" />
-                    <path fill="#fff"
-                        d="M19.11 17.36c-.3-.15-1.76-.86-2.03-.96-.27-.1-.47-.15-.68.15-.2.3-.78.96-.96 1.16-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.8-1.68-2.1-.17-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.63-.93-2.23-.24-.58-.49-.5-.68-.5h-.58c-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.5 0 1.47 1.08 2.9 1.24 3.1.15.2 2.1 3.2 5.08 4.48.71.3 1.27.48 1.7.62.71.22 1.35.19 1.86.11.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.18-1.42-.07-.12-.27-.2-.57-.35z" />
-                </svg>
-            </a>
+    <div>
+        <!-- WhatsApp Floating Icon -->
+        <a id="waIcon" class="wa-chat-btn" aria-label="Chat on WhatsApp" href="javascript:void(0)">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#fff"
+                    d="M16.02 3.2c-7.1 0-12.86 5.63-12.86 12.58 0 2.22.6 4.38 1.75 6.28L3 29l6.12-1.6a12.98 12.98 0 006.9 1.92c7.1 0 12.86-5.63 12.86-12.58 0-3.36-1.34-6.52-3.77-8.9-2.43-2.38-5.68-3.64-9.1-3.64zm0 22.7c-2.17 0-4.25-.63-6.06-1.83l-.44-.28-3.6.94.96-3.5-.29-.55a10.45 10.45 0 01-1.46-5.39c0-5.76 4.8-10.45 10.69-10.45 2.85 0 5.53 1.1 7.54 3.08a10.33 10.33 0 013.15 7.38c0 5.76-4.8 10.45-10.69 10.45z" />
+                <path fill="#fff"
+                    d="M19.11 17.36c-.3-.15-1.76-.86-2.03-.96-.27-.1-.47-.15-.68.15-.2.3-.78.96-.96 1.16-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.8-1.68-2.1-.17-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.63-.93-2.23-.24-.58-.49-.5-.68-.5h-.58c-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.5 0 1.47 1.08 2.9 1.24 3.1.15.2 2.1 3.2 5.08 4.48.71.3 1.27.48 1.7.62.71.22 1.35.19 1.86.11.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.18-1.42-.07-.12-.27-.2-.57-.35z" />
+            </svg>
+        </a>
 
-            <!-- Mini Chat Box -->
-            <div id="waChatBox">
-                <div id="waChatHeader">
-                    <span>Chat with us</span>
-                    <button id="waClose">×</button>
-                </div>
-                <div id="waChatBody">
-                    <div class="bot-msg">Hi 👋 How can we help you today?</div>
-                </div>
-                <div id="waChatFooter">
-                    <input type="text" id="waInput" placeholder="Type a message…" />
-                    <button id="waSend">Send</button>
-                </div>
+        <!-- Mini Chat Box -->
+        <div id="waChatBox">
+            <div id="waChatHeader">
+                <span>Chat with us</span>
+                <button id="waClose">×</button>
             </div>
-
-
-        </div>
-
-        <!--Search Popup-->
-        <div id="search-popup" class="search-popup">
-            <div class="close-search theme-btn"><span class="fa fa-close"></span></div>
-            <div class="popup-inner">
-
-                <div class="search-form">
-                    <form method="post" action="index.html">
-                        <div class="form-group">
-                            <fieldset>
-                                <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Search Here" required>
-                                <input type="submit" value="Search" class="theme-btn">
-                            </fieldset>
-                        </div>
-                    </form>
-
-                    <br>
-                    <h3>Recent Search Keywords</h3>
-                    <ul class="recent-searches">
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">SEO</a></li>
-                        <li><a href="#">Logistics</a></li>
-                        <li><a href="#">Freedom</a></li>
-                    </ul>
-
-                </div>
-
+            <div id="waChatBody">
+                <div class="bot-msg">Hi 👋 How can we help you today?</div>
+            </div>
+            <div id="waChatFooter">
+                <input type="text" id="waInput" placeholder="Type a message…" />
+                <button id="waSend">Send</button>
             </div>
         </div>
-        <!--End Search Popup-->
 
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/revolution.min.js"></script>
-        <script src="js/jquery.fancybox.pack.js"></script>
-        <script src="js/jquery.fancybox-media.js"></script>
-        <script src="js/owl.js"></script>
-        <script src="js/wow.js"></script>
-        <script src="js/script.js"></script>
+
+    </div>
+
+    <!--Search Popup-->
+    <div id="search-popup" class="search-popup">
+        <div class="close-search theme-btn"><span class="fa fa-close"></span></div>
+        <div class="popup-inner">
+
+            <div class="search-form">
+                <form method="post" action="index.html">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value=""
+                                placeholder="Search Here" required>
+                            <input type="submit" value="Search" class="theme-btn">
+                        </fieldset>
+                    </div>
+                </form>
+
+                <br>
+                <h3>Recent Search Keywords</h3>
+                <ul class="recent-searches">
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Freedom</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <!--End Search Popup-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/revolution.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

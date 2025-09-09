@@ -627,3 +627,79 @@ document.addEventListener('DOMContentLoaded', function() {
       behavior: "smooth"
     });
   });
+window.onload = function () {
+  const currentYear = new Date().getFullYear();
+  document.getElementById('year').textContent = currentYear;
+};
+
+// Open modal
+    document.querySelector('.talk-expert-btn').addEventListener('click', () => {
+      document.getElementById('popupForm').style.display = 'block';
+    });
+
+    // Close modal
+    document.querySelector('.close').addEventListener('click', () => {
+      document.getElementById('popupForm').style.display = 'none';
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === document.getElementById('popupForm')) {
+        document.getElementById('popupForm').style.display = 'none';
+      }
+    });
+
+    // Handle form submit via Formspree
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(this);
+
+      fetch('https://formspree.io/f/mnqkylzv', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(response => {
+        if (response.ok) {
+          alert('✅ Message sent successfully!');
+          this.reset();
+          document.getElementById('popupForm').style.display = 'none';
+        } else {
+          alert('❌ Failed to send message.');
+        }
+      })
+      .catch(error => {
+        alert('⚠️ Error: ' + error.message);
+      });
+    });
+
+    // Handle form submit via Formspree form of Let’s talk to make
+	  document.getElementById('letTalkForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+
+    fetch('https://formspree.io/f/mnqkylzv', {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        alert('✅ Message sent successfully!');
+        this.reset();
+        // Optional: Scroll to top or show a message div
+      } else {
+        alert('❌ Failed to send message. Please try again.');
+      }
+    })
+    .catch(error => {
+      alert('⚠️ Error: ' + error.message);
+    });
+  });
+
+	  
