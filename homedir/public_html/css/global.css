@@ -1549,7 +1549,7 @@ img {
 	left: 0;
 	top: 0;
 	font-size: 18px;
-	color: #00d1ff;
+	color: #00bcd4;
 	/* icon color */
 	font-weight: bold;
 }
@@ -1565,7 +1565,7 @@ img {
 
 .current-openings h2 {
 	font-size: 32px;
-	color: #00d1ff;
+	color: #00bcd4;
 	margin-bottom: 30px;
 
 	padding-left: 12px;
@@ -1594,7 +1594,7 @@ img {
 
 .job-card h3 {
 	margin-top: 0;
-	color: #00aaff;
+	color:#00bcd4;
 	font-size: 20px;
 	margin-bottom: 10px;
 }
@@ -1641,17 +1641,17 @@ img {
 }
 
 .apply-box a {
-	color: #0077cc;
+	color: #00bcd4;
 	font-weight: 600;
 
 
 }
 
-/* 
+
 .apply-box a:hover {
-  color: #005fa3;
+  color: #00bcd4;
   text-decoration: underline;
-} */
+} 
 
 /* talk to exper btn popup */
 
@@ -1720,3 +1720,7 @@ form label.required::after {
     color: red;
     font-weight: bold;
 }
+
+
+
+
