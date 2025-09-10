@@ -560,9 +560,32 @@
                     and more securely.
                 </h2>
                 <br>
-                <button class="talk-expert-btn">Talk to an Expert</button>
+                <button class="expert-btn">Talk to an Expert</button>
             </div>
         </section>
+            <!-- Hidden Form Modal -->
+
+            <div id="expertModal" class="expert-modal">
+                <div class="expert-modal-box">
+                    <span id="closeExpertBtn" class="expert-close">&times;</span>
+                    <h2 class="expert-title">Talk to an Expert</h2>
+                    <form id="expertForm" class="expert-form">
+                        <label class="expert-label">Email:</label>
+                        <input type="email" name="contact_email" class="expert-input" placeholder="Enter your email"
+                            required>
+
+                        <label class="expert-label">Phone Number:</label>
+                        <input type="tel" name="contact_number" class="expert-input" placeholder="Enter your phone number"
+                            required>
+
+                        <label class="expert-label">Preferred Date & Time:</label>
+                        <input type="datetime-local" name="demo_datetime" class="expert-input" required>
+
+                        <button type="submit" class="expert-submit">Submit</button>
+                    </form>
+                    <div id="expertLoader" class="expert-loader">Sending...</div>
+                </div>
+            </div>
         <!--Main Slider-->
         <!--Sponsors Style Two-->
         <section class="sponsors-style-one" style="padding-bottom: 18px;">
