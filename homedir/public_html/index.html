@@ -17,6 +17,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link href="css/responsive.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("y6jpH-M1TAJWqAvlE"); // Replace with your EmailJS Public Key
+        })();
+    </script>
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -47,7 +53,7 @@
                         <!-- Products -->
                         <li class="has-submenu">
 
-                            <a href="#" class="submenu-link " style="">Products & Services</a>
+                            <a href="#" class="submenu-link " >Products & Services</a>
 
                             <button class="submenu-toggle" aria-expanded="false"
                                 aria-label="Toggle Products & Services submenu">▾</button>
@@ -114,72 +120,74 @@
                 </nav>
             </div>
         </header>
-    <div id="popupForm" class="modal">
-    <div class="modal-content">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2>Book Demo</h2>
-            <span class="close">&times;</span>
-        </div>
-        <form id="contactForm">
-            <div class="row g-4">
+        <div id="popupForm" class="modal">
+            <div class="modal-content">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2>Book Demo</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <form id="contactForm">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label required">Company Name</label>
+                                <input type="text" name="company" placeholder="Company Name" class="form-control"
+                                    required>
+                            </div>
+                        </div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Company Name</label>
-                        <input type="text" name="company" placeholder="Company Name" class="form-control" required>
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label required">I'm interested in:</label>
+                                <select class="form-select form-control" name="product" required>
+                                    <option value="">Select Products</option>
+                                    <option value="BOS Distribution">BOS Distribution</option>
+                                    <option value="BOS Production">BOS Production</option>
+                                    <option value="BOS Fleet-Management">BOS Fleet-Management</option>
+                                    <option value="BOS Facility Management">BOS Facility Management</option>
+                                    <option value="BOS B2B">BOS B2B</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label required">Contact Name</label>
+                                <input type="text" name="contact_name" placeholder="Contact Name" class="form-control"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label required">Contact Email</label>
+                                <input type="email" name="contact_email" placeholder="Enter your Contact Email"
+                                    class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label required">Contact Number</label>
+                                <input type="text" name="contact_number" placeholder="Contact Number"
+                                    class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label">Have any queries?</label>
+                                <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 text-end">
+                            <button type="submit" class="header-btn w-100">Submit</button>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
-                        <select class="form-select form-control" name="product" required>
-                            <option value="">Select Products</option>
-                            <option value="BOS Distribution">BOS Distribution</option>
-                            <option value="BOS Production">BOS Production</option>
-                            <option value="BOS Fleet-Management">BOS Fleet-Management</option>
-                            <option value="BOS Facility Management">BOS Facility Management</option>
-                            <option value="BOS B2B">BOS B2B</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Name</label>
-                        <input type="text" name="contact_name" placeholder="Contact Name" class="form-control" required>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Email</label>
-                        <input type="email" name="contact_email" placeholder="Enter your Contact Email" class="form-control" required>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Number</label>
-                        <input type="text" name="contact_number" placeholder="Contact Number" class="form-control" required>
-                    </div>
-                </div>
-
-                <!-- Optional field (no required class, no star) -->
-                <div class="col-12">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label" style="color:#030303c9">Have any queries?</label>
-                        <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 text-end">
-                    <button type="submit" class="header-btn w-100">Submit</button>
-                </div>
+                </form>
             </div>
-        </form>
-    </div>
-</div>
+        </div>
 
         <section class="main-slider" data-start-height="650" data-slide-overlay="yes"
             style="position: relative;top:0px">
@@ -708,7 +716,7 @@
                                                     ,Doddabele,Kengeri,<br>Bangalore - 560 060.</span></li>
                                             <li><span class="icon flaticon-placeholder"></span><span
                                                     class="number">#145/5, 1st floor ,Opp.
-											Silver Valley Collage, 7th cross, Coconut Avenue
+                                                    Silver Valley Collage, 7th cross, Coconut Avenue
                                                     Road,
                                                     Opp. Silver Valley College, Malleswaram<br>Bangalore - 560
                                                     003.</span></li>

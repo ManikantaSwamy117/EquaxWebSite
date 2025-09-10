@@ -558,149 +558,142 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  const menuToggle = document.getElementById('menu-toggle');
-  const mainNav = document.getElementById('main-nav');
+document.addEventListener('DOMContentLoaded', function () {
+	const menuToggle = document.getElementById('menu-toggle');
+	const mainNav = document.getElementById('main-nav');
 
-  // hamburger toggles the whole mobile menu
-  menuToggle.addEventListener('click', function() {
-    const opened = mainNav.classList.toggle('open');
-    menuToggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
-  });
+	// hamburger toggles the whole mobile menu
+	menuToggle.addEventListener('click', function () {
+		const opened = mainNav.classList.toggle('open');
+		menuToggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
+	});
 
-  // submenu toggles (mobile)
-  document.querySelectorAll('.has-submenu').forEach(function(li) {
-    const link = li.querySelector('.submenu-link');
-    const toggleBtn = li.querySelector('.submenu-toggle');
+	// submenu toggles (mobile)
+	document.querySelectorAll('.has-submenu').forEach(function (li) {
+		const link = li.querySelector('.submenu-link');
+		const toggleBtn = li.querySelector('.submenu-toggle');
 
-    // if user clicks the visible toggle button (mobile), toggle submenu open
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        const isOpen = li.classList.toggle('open');
-        toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      });
-    }
+		// if user clicks the visible toggle button (mobile), toggle submenu open
+		if (toggleBtn) {
+			toggleBtn.addEventListener('click', function (e) {
+				e.preventDefault();
+				const isOpen = li.classList.toggle('open');
+				toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+			});
+		}
 
-    // also make parent link toggle submenu on mobile (useful for users who tap the text)
-    if (link) {
-      link.addEventListener('click', function(e) {
-        if (window.innerWidth <= 768) {
-          e.preventDefault(); // prevent '#'
-          const isOpen = li.classList.toggle('open');
-          if (toggleBtn) toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        }
-        // on desktop (>=769) the link behaves normally (hover reveals submenu)
-      });
-    }
-  });
+		// also make parent link toggle submenu on mobile (useful for users who tap the text)
+		if (link) {
+			link.addEventListener('click', function (e) {
+				if (window.innerWidth <= 768) {
+					e.preventDefault(); // prevent '#'
+					const isOpen = li.classList.toggle('open');
+					if (toggleBtn) toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+				}
+				// on desktop (>=769) the link behaves normally (hover reveals submenu)
+			});
+		}
+	});
 
-  // on resize: close mobile menu/submenus when switching back to desktop
-  window.addEventListener('resize', function() {
-    if (window.innerWidth > 768) {
-      mainNav.classList.remove('open');
-      menuToggle.setAttribute('aria-expanded', 'false');
-      document.querySelectorAll('.has-submenu.open').forEach(function(el) {
-        el.classList.remove('open');
-        const t = el.querySelector('.submenu-toggle');
-        if (t) t.setAttribute('aria-expanded', 'false');
-      });
-    }
-  });
+	// on resize: close mobile menu/submenus when switching back to desktop
+	window.addEventListener('resize', function () {
+		if (window.innerWidth > 768) {
+			mainNav.classList.remove('open');
+			menuToggle.setAttribute('aria-expanded', 'false');
+			document.querySelectorAll('.has-submenu.open').forEach(function (el) {
+				el.classList.remove('open');
+				const t = el.querySelector('.submenu-toggle');
+				if (t) t.setAttribute('aria-expanded', 'false');
+			});
+		}
+	});
 });
 
- const scrollBtn = document.getElementById("scrollToTopBtn");
+const scrollBtn = document.getElementById("scrollToTopBtn");
 
-  // Show button after scrolling 200px
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
-      scrollBtn.style.display = "block";
-    } else {
-      scrollBtn.style.display = "none";
-    }
-  });
+// Show button after scrolling 200px
+window.addEventListener("scroll", () => {
+	if (window.scrollY > 200) {
+		scrollBtn.style.display = "block";
+	} else {
+		scrollBtn.style.display = "none";
+	}
+});
 
-  // Smooth scroll to top when clicked
-  scrollBtn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
+// Smooth scroll to top when clicked
+scrollBtn.addEventListener("click", () => {
+	window.scrollTo({
+		top: 0,
+		behavior: "smooth"
+	});
+});
 window.onload = function () {
-  const currentYear = new Date().getFullYear();
-  document.getElementById('year').textContent = currentYear;
+	const currentYear = new Date().getFullYear();
+	document.getElementById('year').textContent = currentYear;
 };
 
 // Open modal
-    document.querySelector('.talk-expert-btn').addEventListener('click', () => {
-      document.getElementById('popupForm').style.display = 'block';
-    });
+document.querySelector('.talk-expert-btn').addEventListener('click', () => {
+	document.getElementById('popupForm').style.display = 'block';
+});
 
-    // Close modal
-    document.querySelector('.close').addEventListener('click', () => {
-      document.getElementById('popupForm').style.display = 'none';
-    });
+// Close modal
+document.querySelector('.close').addEventListener('click', () => {
+	document.getElementById('popupForm').style.display = 'none';
+});
 
-    window.addEventListener('click', (e) => {
-      if (e.target === document.getElementById('popupForm')) {
-        document.getElementById('popupForm').style.display = 'none';
-      }
-    });
+window.addEventListener('click', (e) => {
+	if (e.target === document.getElementById('popupForm')) {
+		document.getElementById('popupForm').style.display = 'none';
+	}
+});
 
-    // Handle form submit via Formspree
-    document.getElementById('contactForm').addEventListener('submit', function (e) {
-      e.preventDefault();
 
-      const formData = new FormData(this);
 
-      fetch('https://formspree.io/f/mnqkylzv', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      })
-      .then(response => {
-        if (response.ok) {
-          alert('✅ Message sent successfully!');
-          this.reset();
-          document.getElementById('popupForm').style.display = 'none';
-        } else {
-          alert('❌ Failed to send message.');
-        }
-      })
-      .catch(error => {
-        alert('⚠️ Error: ' + error.message);
-      });
-    });
+// Handle form submit via Formspree form of Let’s talk to make
+// document.getElementById('letTalkForm').addEventListener('submit', function (e) {
+// 	e.preventDefault();
 
-    // Handle form submit via Formspree form of Let’s talk to make
-	  document.getElementById('letTalkForm').addEventListener('submit', function (e) {
-    e.preventDefault();
+// 	const formData = new FormData(this);
 
-    const formData = new FormData(this);
+// 	fetch('https://formspree.io/f/mnqkylzv', {
+// 		method: 'POST',
+// 		body: formData,
+// 		headers: {
+// 			'Accept': 'application/json'
+// 		}
+// 	})
+// 		.then(response => {
+// 			if (response.ok) {
+// 				alert('✅ Message sent successfully!');
+// 				this.reset();
+// 				// Optional: Scroll to top or show a message div
+// 			} else {
+// 				alert('❌ Failed to send message. Please try again.');
+// 			}
+// 		})
+// 		.catch(error => {
+// 			alert('⚠️ Error: ' + error.message);
+// 		});
+// });
 
-    fetch('https://formspree.io/f/mnqkylzv', {
-      method: 'POST',
-      body: formData,
-      headers: {
-        'Accept': 'application/json'
-      }
-    })
-    .then(response => {
-      if (response.ok) {
-        alert('✅ Message sent successfully!');
-        this.reset();
-        // Optional: Scroll to top or show a message div
-      } else {
-        alert('❌ Failed to send message. Please try again.');
-      }
-    })
-    .catch(error => {
-      alert('⚠️ Error: ' + error.message);
-    });
-  });
 
-	  
+
+
+// Handle form submit via Formspree
+
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+	event.preventDefault();
+	emailjs.sendForm('Service_EnquiryO', 'template_8lxz4ro', this)
+		.then(function () {
+			const popup = document.getElementById('popupForm'); // replace with your popup id
+			if (popup) {
+				popup.style.display = "none";
+			}
+			alert('Message sent successfully!');
+
+		}, function (error) {
+			alert('Failed to send message: ' + JSON.stringify(error));
+		});
+});
 
