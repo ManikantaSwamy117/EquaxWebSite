@@ -3301,7 +3301,7 @@ font-family: 'Montserrat', sans-serif;*/
 .contact-form.default-form .form-group .group-inner input,
 .contact-form.default-form .form-group .group-inner textarea {
 	background-color: #ffffff;
-	border: 1px solid #eeeeee;
+	border: 1px solid #615c5c;
 }
 
 input:focus {
