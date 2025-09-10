@@ -651,31 +651,50 @@ window.addEventListener('click', (e) => {
 
 
 // Handle form submit via Formspree form of Let’s talk to make
-// document.getElementById('letTalkForm').addEventListener('submit', function (e) {
-// 	e.preventDefault();
+// Open/Close Modal
+// Open modal (example button)
+// Select button and modal
+const openBtn = document.querySelector('.expert-btn');
+const modal = document.getElementById('expertModal');
+const closeBtn = document.getElementById('closeExpertBtn');
 
-// 	const formData = new FormData(this);
+// Show modal immediately on button click
+openBtn.addEventListener('click', () => {
+    modal.style.display = 'flex'; // Form visible immediately
+});
 
-// 	fetch('https://formspree.io/f/mnqkylzv', {
-// 		method: 'POST',
-// 		body: formData,
-// 		headers: {
-// 			'Accept': 'application/json'
-// 		}
-// 	})
-// 		.then(response => {
-// 			if (response.ok) {
-// 				alert('✅ Message sent successfully!');
-// 				this.reset();
-// 				// Optional: Scroll to top or show a message div
-// 			} else {
-// 				alert('❌ Failed to send message. Please try again.');
-// 			}
-// 		})
-// 		.catch(error => {
-// 			alert('⚠️ Error: ' + error.message);
-// 		});
-// });
+// Close modal
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Close modal if clicked outside box
+window.addEventListener('click', (e) => {
+    if (e.target === modal) modal.style.display = 'none';
+});
+
+// EmailJS form submission
+document.getElementById('expertForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const loader = document.getElementById('expertLoader');
+    loader.style.display = 'block';
+
+    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+        .then(() => {
+            loader.style.display = 'none';
+            alert('Message sent successfully!');
+            this.reset();
+            modal.style.display = 'none';
+        })
+        .catch((err) => {
+            loader.style.display = 'none';
+            console.error(err);
+            alert('Failed to send message. Please try again.');
+        });
+});
+
+
+
 
 
 

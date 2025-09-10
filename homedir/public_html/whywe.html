@@ -390,7 +390,7 @@
                             <p class="p-text"><strong>Building Occupation Management</strong></p>
                         </li>
                         <li class="partner_list_border">
-                            <img src="images/background/interface-1.svg" alt="Interface">
+                            <img src="images/background/Interface-Connectronics-Logo.gif" alt="Interface">
                             <p class="p-text"><strong>BOS Application Distribution</strong></p>
                         </li>
 
@@ -404,7 +404,7 @@
                             <p class="p-text"><strong>Building Occupation Management</strong></p>
                         </li>
                         <li class="partner_list_border">
-                            <img src="images/background/interface-1.svg" alt="Interface">
+                            <img src="images/background/Interface-Connectronics-Logo.gif" alt="Interface">
                             <p class="p-text"><strong>BOS Application Distribution</strong></p>
                         </li>
                         <!-- Set 3 (Duplicate) -->
@@ -417,7 +417,7 @@
                             <p class="p-text"><strong>Building Occupation Management</strong></p>
                         </li>
                         <li class="partner_list_border">
-                            <img src="images/background/interface-1.svg" alt="Interface">
+                            <img src="images/background/Interface-Connectronics-Logo.gif" alt="Interface">
                             <p class="p-text"><strong>BOS Application Distribution</strong></p>
                         </li>
                     </div>
@@ -440,14 +440,36 @@
                         Solutions</p>
                     <br>
                     <h2 style="font-size: medium;">Book a personalized demo and see <br> how Equax helps you scale
-                        smarter,
-                        faster,
-                        and more securely.
-                    </h2>
+                        smarter, faster, and more securely.</h2>
                     <br>
-                    <button class="talk-expert-btn">Talk to an Expert</button> 
+                <button class="expert-btn">Talk to an Expert</button>
                 </div>
             </section>
+            <!-- Hidden Form Modal -->
+
+            <div id="expertModal" class="expert-modal">
+                <div class="expert-modal-box">
+                    <span id="closeExpertBtn" class="expert-close">&times;</span>
+                    <h2 class="expert-title">Talk to an Expert</h2>
+                    <form id="expertForm" class="expert-form">
+                        <label class="expert-label">Email:</label>
+                        <input type="email" name="contact_email" class="expert-input" placeholder="Enter your email"
+                            required>
+
+                        <label class="expert-label">Phone Number:</label>
+                        <input type="tel" name="contact_number" class="expert-input" placeholder="Enter your phone number"
+                            required>
+
+                        <label class="expert-label">Preferred Date & Time:</label>
+                        <input type="datetime-local" name="demo_datetime" class="expert-input" required>
+
+                        <button type="submit" class="expert-submit">Submit</button>
+                    </form>
+                    <div id="expertLoader" class="expert-loader">Sending...</div>
+                </div>
+            </div>
+
+
 
             <div id="popupForm" class="modal">
                 <div class="modal-content">
@@ -726,9 +748,9 @@
         <script src="js/owl.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/script.js"></script>
-          <div id="loader" style="display:none;">
-        <img src="images/gallery/Loading_icon.gif" alt="Loading..." />
-    </div>
+        <div id="loader" style="display:none;">
+            <img src="images/gallery/Loading_icon.gif" alt="Loading..." />
+        </div>
 </body>
 
 </html>
