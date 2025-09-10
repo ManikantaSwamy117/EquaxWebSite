@@ -684,16 +684,47 @@ window.addEventListener('click', (e) => {
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
 	event.preventDefault();
-	emailjs.sendForm('Service_EnquiryO', 'template_8lxz4ro', this)
-		.then(function () {
-			const popup = document.getElementById('popupForm'); // replace with your popup id
+
+	const loader = document.getElementById('loader');
+	if (loader) {
+		loader.style.display = 'block'; // Show loader
+	}
+
+	emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+		.then(() => {
+			const popup = document.getElementById('popupForm'); // your popup ID
 			if (popup) {
 				popup.style.display = "none";
 			}
-			alert('Message sent successfully!');
 
-		}, function (error) {
+			if (loader) {
+				loader.style.display = 'none'; // Hide loader after success
+			}
+
+			alert('Message sent successfully!');
+			event.target.reset(); // Clear form fields
+		}, (error) => {
+			if (loader) {
+				loader.style.display = 'none'; // Hide loader on error too
+			}
+
 			alert('Failed to send message: ' + JSON.stringify(error));
 		});
 });
+
+
+// document.getElementById('contactForm').addEventListener('submit', function (event) {
+// 	event.preventDefault();
+// 	emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+// 		.then(function () {
+// 			const popup = document.getElementById('popupForm'); // replace with your popup id
+// 			if (popup) {
+// 				popup.style.display = "none";
+// 			}
+// 			alert('Message sent successfully!');
+
+// 		}, function (error) {
+// 			alert('Failed to send message: ' + JSON.stringify(error));
+// 		});
+// });
 
