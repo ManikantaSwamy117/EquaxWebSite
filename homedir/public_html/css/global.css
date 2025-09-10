@@ -1724,3 +1724,50 @@ form label.required::after {
 
 
 
+/* Container & Inner Box */
+.info-column {
+    margin-top: 20px;
+}
+
+.inner-box {
+    background: #fff;
+    padding: 20px;      /* reduced from 25-30px */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* .inner-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+} */
+
+/* Title */
+.default-title h3 {
+    font-size: 40px;   /* smaller title to reduce box height */
+    font-weight: 700;
+    color: #00d1ff;
+    text-align: center;
+    margin-bottom: 15px;  /* reduced spacing */
+}
+
+
+
+/* Contact Info */
+.contact-info ul li {
+    font-size: 15px;       /* slightly smaller text */
+    line-height: 2.5;      /* less line spacing */
+    margin-bottom: 12px;   /* reduced spacing */
+    color: #444;
+}
+
+.contact-info ul li b {
+    color: #000;
+}
+
+/* Responsive */
+@media (max-width: 778px) {
+    .default-title h3 { font-size: 28px; }
+    .inner-box { padding: 15px; }
+    .contact-info ul li { font-size: 14px; line-height: 1.7; margin-bottom: 10px; }
+}
