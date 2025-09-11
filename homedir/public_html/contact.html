@@ -169,21 +169,23 @@
                             <div class="row clearfix">
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                     <div class="group-inner">
-                                        <input name="username" placeholder="Name *" type="text" required />
+                                        <input name="contact_name" placeholder="Name *" type="text" required />
                                     </div>
                                 </div>
 
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                     <div class="group-inner">
-                                        <input name="email" placeholder="Email *" type="email" required />
+                                        <input name="contact_email" placeholder="Email *" type="email" required />
                                     </div>
                                 </div>
 
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="group-inner">
-                                        <textarea name="message" placeholder="Message *" required></textarea>
+                                        <textarea name="remarks" placeholder="Message *" required></textarea>
                                     </div>
                                 </div>
+
+                                 <input name="requestType"  value="Contact Us" style="display: none;" />
 
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <button class="theme-btn btn-style-one" type="submit">SUBMIT</button>
@@ -266,10 +268,9 @@
                 </div>
                 <form id="contactForm">
                     <div class="row g-4">
-
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label required" style="color:#030303c9">Company Name</label>
+                                <label class="form-label required">Company Name</label>
                                 <input type="text" name="company" placeholder="Company Name" class="form-control"
                                     required>
                             </div>
@@ -277,7 +278,7 @@
 
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
+                                <label class="form-label required">I'm interested in:</label>
                                 <select class="form-select form-control" name="product" required>
                                     <option value="">Select Products</option>
                                     <option value="BOS Distribution">BOS Distribution</option>
@@ -291,7 +292,7 @@
 
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label required" style="color:#030303c9">Contact Name</label>
+                                <label class="form-label required">Contact Name</label>
                                 <input type="text" name="contact_name" placeholder="Contact Name" class="form-control"
                                     required>
                             </div>
@@ -299,7 +300,7 @@
 
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label required" style="color:#030303c9">Contact Email</label>
+                                <label class="form-label required">Contact Email</label>
                                 <input type="email" name="contact_email" placeholder="Enter your Contact Email"
                                     class="form-control" required>
                             </div>
@@ -307,17 +308,24 @@
 
                         <div class="col-lg-6">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label required" style="color:#030303c9">Contact Number</label>
+                                <label class="form-label required">Contact Number</label>
                                 <input type="text" name="contact_number" placeholder="Contact Number"
                                     class="form-control" required>
                             </div>
                         </div>
 
-                        <!-- Optional field (no required class, no star) -->
                         <div class="col-12">
                             <div class="d-flex flex-column align-items-start">
-                                <label class="form-label" style="color:#030303c9">Have any queries?</label>
+                                <label class="form-label">Have any queries?</label>
                                 <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                         <div class="col-12" style="display: none;">
+                            <div class="d-flex flex-column align-items-start">
+                                <label class="form-label">Request Type </label>
+                                <input type="text" name="requestType"  value="Book Demo"
+                                    class="form-control">
                             </div>
                         </div>
 
@@ -328,6 +336,7 @@
                 </form>
             </div>
         </div>
+
         <!--End Subscribe Style One--><!--Main Footer-->
 
         <!--Main Footer-->
@@ -432,9 +441,9 @@
                                         <div class="form-group">
                                             <input type="email" name="email" value="" placeholder="Email *" required="">
                                         </div>
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <button type="submit" class="theme-btn btn-style-one">GO</button>
-                                        </div>
+                                        </div> -->
                                     </form>
                                 </div>
 

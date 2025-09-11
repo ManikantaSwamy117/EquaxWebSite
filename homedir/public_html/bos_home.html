@@ -405,10 +405,9 @@
 				</div>
 				<form id="contactForm">
 					<div class="row g-4">
-
 						<div class="col-lg-6">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label required" style="color:#030303c9">Company Name</label>
+								<label class="form-label required">Company Name</label>
 								<input type="text" name="company" placeholder="Company Name" class="form-control"
 									required>
 							</div>
@@ -416,7 +415,7 @@
 
 						<div class="col-lg-6">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label required" style="color:#030303c9">I'm interested in:</label>
+								<label class="form-label required">I'm interested in:</label>
 								<select class="form-select form-control" name="product" required>
 									<option value="">Select Products</option>
 									<option value="BOS Distribution">BOS Distribution</option>
@@ -430,7 +429,7 @@
 
 						<div class="col-lg-6">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label required" style="color:#030303c9">Contact Name</label>
+								<label class="form-label required">Contact Name</label>
 								<input type="text" name="contact_name" placeholder="Contact Name" class="form-control"
 									required>
 							</div>
@@ -438,7 +437,7 @@
 
 						<div class="col-lg-6">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label required" style="color:#030303c9">Contact Email</label>
+								<label class="form-label required">Contact Email</label>
 								<input type="email" name="contact_email" placeholder="Enter your Contact Email"
 									class="form-control" required>
 							</div>
@@ -446,17 +445,23 @@
 
 						<div class="col-lg-6">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label required" style="color:#030303c9">Contact Number</label>
+								<label class="form-label required">Contact Number</label>
 								<input type="text" name="contact_number" placeholder="Contact Number"
 									class="form-control" required>
 							</div>
 						</div>
 
-						<!-- Optional field (no required class, no star) -->
 						<div class="col-12">
 							<div class="d-flex flex-column align-items-start">
-								<label class="form-label" style="color:#030303c9">Have any queries?</label>
+								<label class="form-label">Have any queries?</label>
 								<textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+							</div>
+						</div>
+
+						<div class="col-12" style="display: none;">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label">Request Type </label>
+								<input type="text" name="requestType" value="Book Demo" class="form-control">
 							</div>
 						</div>
 
@@ -467,6 +472,7 @@
 				</form>
 			</div>
 		</div>
+
 		<!--Main Footer-->
 		<section class="page-title mt-5" style="background-image: url(images/gallery/demo-banner-background.avif);">
 			<div class="stats-section">
@@ -489,16 +495,23 @@
 				<span id="closeExpertBtn" class="expert-close">&times;</span>
 				<h2 class="expert-title">Talk to an Expert</h2>
 				<form id="expertForm" class="expert-form">
-					<label class="expert-label">Email:</label>
+
+					<label class="expert-label required">Name:</label>
+					<input type="text" name="contact_name" class="expert-input" placeholder="Enter your Name" required>
+
+					<label class="expert-label required">Email:</label>
 					<input type="email" name="contact_email" class="expert-input" placeholder="Enter your email"
 						required>
 
-					<label class="expert-label">Phone Number:</label>
+					<label class="expert-label required">Phone Number:</label>
 					<input type="tel" name="contact_number" class="expert-input" placeholder="Enter your phone number"
 						required>
 
-					<label class="expert-label">Preferred Date & Time:</label>
+					<label class="expert-label required">Preferred Date & Time:</label>
 					<input type="datetime-local" name="demo_datetime" class="expert-input" required>
+
+					<input type="text" name="requestType" value="Talk to An Expert" class="form-control"
+						style="display: none;">
 
 					<button type="submit" class="expert-submit">Submit</button>
 				</form>
@@ -607,9 +620,9 @@
 										<div class="form-group">
 											<input type="email" name="email" value="" placeholder="Email *" required="">
 										</div>
-										<div class="form-group">
+										<!-- <div class="form-group">
 											<button type="submit" class="theme-btn btn-style-one">GO</button>
-										</div>
+										</div> -->
 									</form>
 								</div>
 
@@ -638,8 +651,8 @@
 			<span>&uarr;</span>
 		</div>
 	</div>
-	<div>
-		<!-- WhatsApp Floating Icon -->
+	<!-- <div>
+		 WhatsApp Floating Icon 
 		<a id="waIcon" class="wa-chat-btn" aria-label="Chat on WhatsApp" href="javascript:void(0)">
 			<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 				<path fill="#fff"
@@ -649,7 +662,7 @@
 			</svg>
 		</a>
 
-		<!-- Mini Chat Box -->
+		 Mini Chat Box 
 		<div id="waChatBox">
 			<div id="waChatHeader">
 				<span>Chat with us</span>
@@ -665,7 +678,7 @@
 		</div>
 
 
-	</div>
+	</div> -->
 	<!--Search Popup-->
 
 	<div class="search-popup" id="search-popup">
@@ -703,6 +716,7 @@
 	<script src="js/isotope.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/owl.js"></script>
 	<div id="loader" style="display:none;">
 		<img src="images/gallery/Loading_icon.gif" alt="Loading..." />
 	</div>

@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link href="css/responsive.css" rel="stylesheet" />
-        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
     <script>
         (function () {
             emailjs.init("y6jpH-M1TAJWqAvlE"); // Replace with your EmailJS Public Key
@@ -109,7 +109,7 @@
                         </li> -->
 
                         <li><a href="contact.html">Contact Us</a></li>
-                      <li><button class="header-btn talk-expert-btn">Book Demo</button></li>
+                        <li><button class="header-btn talk-expert-btn">Book Demo</button></li>
                     </ul>
                 </nav>
             </div>
@@ -546,72 +546,81 @@
 				</div>
 			</div>
 		</div> -->
-           <div id="popupForm" class="modal">
-    <div class="modal-content">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2>Book Demo</h2>
-            <span class="close">&times;</span>
-        </div>
-        <form id="contactForm">
-            <div class="row g-4">
+     <div id="popupForm" class="modal">
+			<div class="modal-content">
+				<div class="d-flex justify-content-between align-items-center mb-4">
+					<h2>Book Demo</h2>
+					<span class="close">&times;</span>
+				</div>
+				<form id="contactForm">
+					<div class="row g-4">
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Company Name</label>
+								<input type="text" name="company" placeholder="Company Name" class="form-control"
+									required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Company Name</label>
-                        <input type="text" name="company" placeholder="Company Name" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">I'm interested in:</label>
+								<select class="form-select form-control" name="product" required>
+									<option value="">Select Products</option>
+									<option value="BOS Distribution">BOS Distribution</option>
+									<option value="BOS Production">BOS Production</option>
+									<option value="BOS Fleet-Management">BOS Fleet-Management</option>
+									<option value="BOS Facility Management">BOS Facility Management</option>
+									<option value="BOS B2B">BOS B2B</option>
+								</select>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
-                        <select class="form-select form-control" name="product" required>
-                            <option value="">Select Products</option>
-                            <option value="BOS Distribution">BOS Distribution</option>
-                            <option value="BOS Production">BOS Production</option>
-                            <option value="BOS Fleet-Management">BOS Fleet-Management</option>
-                            <option value="BOS Facility Management">BOS Facility Management</option>
-                            <option value="BOS B2B">BOS B2B</option>
-                        </select>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Name</label>
+								<input type="text" name="contact_name" placeholder="Contact Name" class="form-control"
+									required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Name</label>
-                        <input type="text" name="contact_name" placeholder="Contact Name" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Email</label>
+								<input type="email" name="contact_email" placeholder="Enter your Contact Email"
+									class="form-control" required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Email</label>
-                        <input type="email" name="contact_email" placeholder="Enter your Contact Email" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Number</label>
+								<input type="text" name="contact_number" placeholder="Contact Number"
+									class="form-control" required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Number</label>
-                        <input type="text" name="contact_number" placeholder="Contact Number" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-12">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label">Have any queries?</label>
+								<textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+							</div>
+						</div>
 
-                <!-- Optional field (no required class, no star) -->
-                <div class="col-12">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label" style="color:#030303c9">Have any queries?</label>
-                        <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
-                    </div>
-                </div>
+						<div class="col-12" style="display: none;">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label">Request Type </label>
+								<input type="text" name="requestType" value="Book Demo" class="form-control">
+							</div>
+						</div>
 
-                <div class="col-lg-12 text-end">
-                    <button type="submit" class="header-btn w-100">Submit</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
+						<div class="col-lg-12 text-end">
+							<button type="submit" class="header-btn w-100">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
         <!--Main Footer-->
         <div class="page-title" style="background: rgb(38 249 239);">
             <div class="auto-container">
@@ -622,11 +631,11 @@
                                 <div style="margin-top: 20px;padding: 2%;">
                                     <span class="Let-talk">Let’s talk
                                         to make
-                                        <br> 
+                                        <br>
                                         something
                                         great together
                                     </span>
-                                    <br> <br> 
+                                    <br> <br>
                                     <p>contact@equaxsoftwarelabs.com
                                     </p>
                                     <p>+91 9902509680</p>
@@ -644,7 +653,7 @@
                                         <div class="row g-4">
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start">
-                                                    <label class="form-label" style="color:#030303c9">Company
+                                                    <label class="form-label required" style="color:#030303c9">Company
                                                         Name</label>
                                                     <input type="text" name="company" placeholder="Company Name"
                                                         class="form-control" required>
@@ -653,7 +662,8 @@
 
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start"> <label
-                                                        class="form-label" style="color:#030303c9">I'm interested
+                                                        class="form-label required" style="color:#030303c9">I'm
+                                                        interested
                                                         in:</label>
                                                     <select class="form-select form-control" name="product" required>
                                                         <option value="">Select Products</option>
@@ -672,7 +682,7 @@
 
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start"><label
-                                                        class="form-label" style="color:#030303c9">Contact
+                                                        class="form-label required" style="color:#030303c9">Contact
                                                         Name</label>
                                                     <input type="text" name="contact_name" placeholder="Contact Name"
                                                         class="form-control" required>
@@ -682,7 +692,7 @@
 
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start"> <label
-                                                        class="form-label" style="color:#030303c9">Contact
+                                                        class="form-label required" style="color:#030303c9">Contact
                                                         Email</label>
                                                     <input type="email" name="contact_email"
                                                         placeholder="Enter your Contact Email" class="form-control"
@@ -693,7 +703,7 @@
 
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start"><label
-                                                        class="form-label" style="color:#030303c9">Contact
+                                                        class="form-label required" style="color:#030303c9">Contact
                                                         Number</label>
                                                     <input type="text" name="contact_number"
                                                         placeholder="Contact Number" class="form-control" required>
@@ -702,7 +712,7 @@
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="d-flex flex-column align-items-start"> <label
-                                                        class="form-label" style="color:#030303c9">Contact
+                                                        class="form-label required" style="color:#030303c9">Contact
                                                         When</label>
                                                     <select class="form-select form-control" name="contact_when"
                                                         required>
@@ -716,7 +726,8 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-flex flex-column align-items-start"> <label
-                                                        class="form-label" style="color:#030303c9">Address</label>
+                                                        class="form-label required"
+                                                        style="color:#030303c9">Address</label>
                                                     <textarea name="address" placeholder="Address" rows="3"
                                                         class="form-control" required></textarea>
                                                 </div>
@@ -729,9 +740,15 @@
                                                 <div class="d-flex flex-column align-items-start"> <label
                                                         class="form-label" style="color:#030303c9">Remarks</label>
                                                     <textarea name="remarks" class="form-control" rows="4"
-                                                        placeholder="Enter Remarks" required></textarea>
+                                                        placeholder="Enter Remarks"></textarea>
                                                 </div>
-
+                                            </div>
+                                            <div class="col-12" style="display: none;">
+                                                <div class="d-flex flex-column align-items-start"> <label
+                                                        class="form-label" style="color:#030303c9">Request Type</label>
+                                                     <input type="text" name="requestType" value="Interested Products"
+                                                        class="form-control" >
+                                                </div>
                                             </div>
 
                                             <div class="col-lg-12 text-end">
@@ -749,7 +766,7 @@
         </div>
 
 
-          <!--Main Footer-->
+        <!--Main Footer-->
         <footer class="main-footer">
 
             <div class="auto-container">
@@ -777,7 +794,7 @@
                                                     ,Doddabele,Kengeri,<br>Bangalore - 560 060.</span></li>
                                             <li><span class="icon flaticon-placeholder"></span><span
                                                     class="number">#145/5, 1st floor ,Opp.
-											Silver Valley Collage, 7th cross, Coconut Avenue
+                                                    Silver Valley Collage, 7th cross, Coconut Avenue
                                                     Road,
                                                     Opp. Silver Valley College, Malleswaram<br>Bangalore - 560
                                                     003.</span></li>
@@ -826,7 +843,7 @@
                                     <li style="color: white;"><a href="https://g.co/kgs/DesD9d1"
                                             style='color: white'><span
                                                 class="fa fa-google-plus"></span></span>Google</a></li>
-<!-- 
+                                    <!-- 
                                     <li style="color: white;"><a
                                             href="https://www.linkedin.com/company/equaxsoftwarelabs"
                                             style='color: white'><span class="fa fa-linkedin"></span></span>linkedin</a>
@@ -851,9 +868,9 @@
                                         <div class="form-group">
                                             <input type="email" name="email" value="" placeholder="Email *" required="">
                                         </div>
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <button type="submit" class="theme-btn btn-style-one">GO</button>
-                                        </div>
+                                        </div> -->
                                     </form>
                                 </div>
 
@@ -876,14 +893,14 @@
 
         </footer>
         <!--End Main Footer-->
-    <!--End pagewrapper--><!--Scroll to top-->
+        <!--End pagewrapper--><!--Scroll to top-->
 
-    <div id="scrollToTopBtn">
-        <span>&uarr;</span>
+        <div id="scrollToTopBtn">
+            <span>&uarr;</span>
+        </div>
     </div>
-    </div>
-    <div>
-        <!-- WhatsApp Floating Icon -->
+    <!-- <div>
+         WhatsApp Floating Icon 
         <a id="waIcon" class="wa-chat-btn" aria-label="Chat on WhatsApp" href="javascript:void(0)">
             <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#fff"
@@ -893,7 +910,7 @@
             </svg>
         </a>
 
-        <!-- Mini Chat Box -->
+        Mini Chat Box 
         <div id="waChatBox">
             <div id="waChatHeader">
                 <span>Chat with us</span>
@@ -909,7 +926,7 @@
         </div>
 
 
-    </div>
+    </div> -->
     <!--Search Popup-->
 
     <div class="search-popup" id="search-popup">
@@ -946,8 +963,11 @@
     <script src="js/jquery.fancybox-media.js"></script>
     <script src="js/isotope.js"></script>
     <script src="js/wow.js"></script>
+
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+
     <script src="js/script.js"></script>
-      <div id="loader" style="display:none;">
+    <div id="loader" style="display:none;">
         <img src="images/gallery/Loading_icon.gif" alt="Loading..." />
     </div>
 </body>

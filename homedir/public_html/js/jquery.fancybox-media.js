@@ -197,3 +197,21 @@
 	};
 
 }(jQuery));
+
+//contactUs Form
+
+const contactUsform = document.getElementById('contactUsForm');
+
+contactUsform.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+        .then(() => {
+            alert('Message sent successfully!');
+            this.reset();
+        })
+        .catch((err) => {
+            console.error('EmailJS Error:', err);
+            alert('Failed to send message. Please try again.');
+        });
+});

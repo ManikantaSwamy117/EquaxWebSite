@@ -687,3 +687,21 @@
   };
 
 })(jQuery);
+
+
+//let's Us talk form Produt's page
+const form = document.getElementById('letTalkForm');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+        .then(() => {
+            alert('Message sent successfully!');
+            this.reset();
+        })
+        .catch((err) => {
+            console.error(err);
+            alert('Failed to send message. Please try again.');
+        });
+});

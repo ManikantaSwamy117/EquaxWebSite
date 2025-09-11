@@ -650,63 +650,9 @@ window.addEventListener('click', (e) => {
 
 
 
-// Handle form submit via Formspree form of Let’s talk to make
-// Open/Close Modal
-// Open modal (example button)
-// Select button and modal
-document.addEventListener('DOMContentLoaded', function() {
-    const openBtn = document.querySelector('.expert-btn');
-    const modal = document.getElementById('expertModal');
-    const closeBtn = document.getElementById('closeExpertBtn');
 
-    openBtn.addEventListener('click', () => {
-        modal.style.display = 'flex'; // show modal on button click
-    });
 
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none';
-    });
 
-    window.addEventListener('click', (e) => {
-        if (e.target === modal) modal.style.display = 'none';
-    });
-
-    document.getElementById('expertForm').addEventListener('submit', function(e){
-        e.preventDefault();
-        const loader = document.getElementById('expertLoader');
-        loader.style.display = 'block';
-
-        emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
-            .then(() => {
-                loader.style.display = 'none';
-                alert('Message sent successfully!');
-                this.reset();
-                modal.style.display = 'none';
-            })
-            .catch((err) => {
-                loader.style.display = 'none';
-                console.error(err);
-                alert('Failed to send message. Please try again.');
-            });
-    });
-});
-
-//let's Us talk form Produt's page
-const form = document.getElementById('letTalkForm');
-
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
-        .then(() => {
-            alert('Message sent successfully!');
-            this.reset();
-        })
-        .catch((err) => {
-            console.error(err);
-            alert('Failed to send message. Please try again.');
-        });
-});
 
 
 // Handle form submit via Formspree
@@ -741,23 +687,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 		});
 });
 
-//contactUs Form
 
-const contactUsform = document.getElementById('contactUsForm');
-
-contactUsform.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
-        .then(() => {
-            alert('Message sent successfully!');
-            this.reset();
-        })
-        .catch((err) => {
-            console.error('EmailJS Error:', err);
-            alert('Failed to send message. Please try again.');
-        });
-});
 
 
 
