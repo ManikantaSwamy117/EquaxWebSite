@@ -14,12 +14,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link href="css/responsive.css" rel="stylesheet" />
-	    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
-    <script>
-        (function () {
-            emailjs.init("y6jpH-M1TAJWqAvlE"); // Replace with your EmailJS Public Key
-        })();
-    </script>
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+	<script>
+		(function () {
+			emailjs.init("y6jpH-M1TAJWqAvlE"); // Replace with your EmailJS Public Key
+		})();
+	</script>
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]--><!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
@@ -38,7 +38,7 @@
 				</button>
 				<nav id="main-nav" class="main-nav" aria-label="Main navigation">
 					<ul class="menu">
-						<li><a href="index.html"><span >Home</span></a></li>
+						<li><a href="index.html"><span>Home</span></a></li>
 						<li><a href="whywe.html"><span class="menu-active-color">About Us</span></a></li>
 
 						<!-- Products -->
@@ -106,78 +106,87 @@
                         </li> -->
 
 						<li><a href="contact.html">Contact Us</a></li>
-                        <li><button class="header-btn talk-expert-btn">Book Demo</button></li>
-                    </ul>
-					
-                </nav>
-            </div>
-        </header>
-    <div id="popupForm" class="modal">
-    <div class="modal-content">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2>Book Demo</h2>
-            <span class="close">&times;</span>
-        </div>
-        <form id="contactForm">
-            <div class="row g-4">
+						<li><button class="header-btn talk-expert-btn">Book Demo</button></li>
+					</ul>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Company Name</label>
-                        <input type="text" name="company" placeholder="Company Name" class="form-control" required>
-                    </div>
-                </div>
+				</nav>
+			</div>
+		</header>
+		<div id="popupForm" class="modal">
+			<div class="modal-content">
+				<div class="d-flex justify-content-between align-items-center mb-4">
+					<h2>Book Demo</h2>
+					<span class="close">&times;</span>
+				</div>
+				<form id="contactForm">
+					<div class="row g-4">
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Company Name</label>
+								<input type="text" name="company" placeholder="Company Name" class="form-control"
+									required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">I'm interested in:</label>
-                        <select class="form-select form-control" name="product" required>
-                            <option value="">Select Products</option>
-                            <option value="BOS Distribution">BOS Distribution</option>
-                            <option value="BOS Production">BOS Production</option>
-                            <option value="BOS Fleet-Management">BOS Fleet-Management</option>
-                            <option value="BOS Facility Management">BOS Facility Management</option>
-                            <option value="BOS B2B">BOS B2B</option>
-                        </select>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">I'm interested in:</label>
+								<select class="form-select form-control" name="product" required>
+									<option value="">Select Products</option>
+									<option value="BOS Distribution">BOS Distribution</option>
+									<option value="BOS Production">BOS Production</option>
+									<option value="BOS Fleet-Management">BOS Fleet-Management</option>
+									<option value="BOS Facility Management">BOS Facility Management</option>
+									<option value="BOS B2B">BOS B2B</option>
+								</select>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Name</label>
-                        <input type="text" name="contact_name" placeholder="Contact Name" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Name</label>
+								<input type="text" name="contact_name" placeholder="Contact Name" class="form-control"
+									required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Email</label>
-                        <input type="email" name="contact_email" placeholder="Enter your Contact Email" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Email</label>
+								<input type="email" name="contact_email" placeholder="Enter your Contact Email"
+									class="form-control" required>
+							</div>
+						</div>
 
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label required" style="color:#030303c9">Contact Number</label>
-                        <input type="text" name="contact_number" placeholder="Contact Number" class="form-control" required>
-                    </div>
-                </div>
+						<div class="col-lg-6">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label required">Contact Number</label>
+								<input type="text" name="contact_number" placeholder="Contact Number"
+									class="form-control" required>
+							</div>
+						</div>
 
-                <!-- Optional field (no required class, no star) -->
-                <div class="col-12">
-                    <div class="d-flex flex-column align-items-start">
-                        <label class="form-label" style="color:#030303c9">Have any queries?</label>
-                        <textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
-                    </div>
-                </div>
+						<div class="col-12">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label">Have any queries?</label>
+								<textarea name="remarks" class="form-control" rows="4" placeholder=""></textarea>
+							</div>
+						</div>
 
-                <div class="col-lg-12 text-end">
-                    <button type="submit" class="header-btn w-100">Submit</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
+						<div class="col-12" style="display: none;">
+							<div class="d-flex flex-column align-items-start">
+								<label class="form-label">Request Type </label>
+								<input type="text" name="requestType" value="Book Demo" class="form-control">
+							</div>
+						</div>
+
+						<div class="col-lg-12 text-end">
+							<button type="submit" class="header-btn w-100">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 
 
 		<!--End Main Header -->
@@ -373,9 +382,38 @@
 					and more securely.
 				</h2>
 				<br>
-<button class="expert-btn">Talk to an Expert</button> 
+				<button class="expert-btn">Talk to an Expert</button>
 			</div>
 		</section>
+
+		<div id="expertModal" class="expert-modal">
+			<div class="expert-modal-box">
+				<span id="closeExpertBtn" class="expert-close">&times;</span>
+				<h2 class="expert-title">Talk to an Expert</h2>
+				<form id="expertForm" class="expert-form">
+
+					<label class="expert-label required">Name:</label>
+					<input type="text" name="contact_name" class="expert-input" placeholder="Enter your Name" required>
+
+					<label class="expert-label required">Email:</label>
+					<input type="email" name="contact_email" class="expert-input" placeholder="Enter your email"
+						required>
+
+					<label class="expert-label required">Phone Number:</label>
+					<input type="tel" name="contact_number" class="expert-input" placeholder="Enter your phone number"
+						required>
+
+					<label class="expert-label required">Preferred Date & Time:</label>
+					<input type="datetime-local" name="demo_datetime" class="expert-input" required>
+
+					<input type="text" name="requestType" value="Talk to An Expert" class="form-control"
+						style="display: none;">
+
+					<button type="submit" class="expert-submit">Submit</button>
+				</form>
+				<div id="expertLoader" class="expert-loader">Sending...</div>
+			</div>
+		</div>
 		<section>
 			<!--Sponsors Slider-->
 			<div class="marquee-container">
@@ -599,7 +637,10 @@
 		<!--End Main Footer-->
 		<!--End pagewrapper--><!--Scroll to top-->
 
-		<div class="scroll-to-top scroll-to-target" data-target=".main-header"></div>
+		<!--Scroll to top-->
+		<div id="scrollToTopBtn">
+			<span>&uarr;</span>
+		</div>
 		<!--Search Popup-->
 
 		<div class="search-popup" id="search-popup">
@@ -639,9 +680,9 @@
 		<script src="js/wow.js"></script>
 		<script src="js/script.js"></script>
 
-  <div id="loader" style="display:none;">
-        <img src="images/gallery/Loading_icon.gif" alt="Loading..." />
-    </div>
+		<div id="loader" style="display:none;">
+			<img src="images/gallery/Loading_icon.gif" alt="Loading..." />
+		</div>
 
 </body>
 
