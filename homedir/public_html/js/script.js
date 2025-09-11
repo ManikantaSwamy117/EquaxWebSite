@@ -691,10 +691,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//let's Us talk form Produt's page
+const form = document.getElementById('letTalkForm');
 
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-
-
+    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+        .then(() => {
+            alert('Message sent successfully!');
+            this.reset();
+        })
+        .catch((err) => {
+            console.error(err);
+            alert('Failed to send message. Please try again.');
+        });
+});
 
 
 // Handle form submit via Formspree
@@ -728,6 +740,26 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 			alert('Failed to send message: ' + JSON.stringify(error));
 		});
 });
+
+//contactUs Form
+
+const contactUsform = document.getElementById('contactUsForm');
+
+contactUsform.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cc2g0de', 'template_8lxz4ro', this)
+        .then(() => {
+            alert('Message sent successfully!');
+            this.reset();
+        })
+        .catch((err) => {
+            console.error('EmailJS Error:', err);
+            alert('Failed to send message. Please try again.');
+        });
+});
+
+
 
 
 // document.getElementById('contactForm').addEventListener('submit', function (event) {
