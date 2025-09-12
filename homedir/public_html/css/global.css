@@ -1619,7 +1619,7 @@ img {
 
 .apply-box {
 	max-width: 700px;
-   margin-top: 2px;
+	margin-top: 2px;
 
 
 	font-family: 'Arial', sans-serif;
@@ -1680,7 +1680,7 @@ img {
 		max-width: 60%;
 		margin: 15% auto;
 		position: relative;
-        top: 58px;
+		top: 58px;
 	}
 }
 
@@ -1691,7 +1691,7 @@ img {
 		margin: 20% auto;
 		padding: 15px;
 		position: relative;
-        top: 58px;
+		top: 58px;
 	}
 }
 
@@ -1777,10 +1777,7 @@ form label.required::after {
 
 /* Close button */
 .expert-close {
-	position: absolute;
-	top: 12px;
-	right: 15px;
-	font-size: 28px;
+	font-size: 36px;
 	cursor: pointer;
 	color: #333;
 	transition: color 0.2s;
@@ -1794,7 +1791,7 @@ form label.required::after {
 .expert-title {
 	font-size: 26px;
 	font-weight: 600;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	color: #111;
 }
 
@@ -1873,6 +1870,12 @@ form label.required::after {
 	/* Container & Inner Box */
 	.info-column {
 		margin-top: 20px;
+		position: relative;
+		right: 33px;
+	}
+
+	.theme-btn{
+		width: 100%;
 	}
 
 	.inner-box {
