@@ -212,10 +212,10 @@
 		right: 10px;
 		display: inherit !important;
 	}
-
+/* 
 	.header-btn {
 		display: none;
-	}
+	} */
 }
 
 @media only screen and (max-width: 767px) {
