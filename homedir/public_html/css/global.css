@@ -1619,14 +1619,12 @@ img {
 
 .apply-box {
 	max-width: 700px;
-	margin-left: 120px;
-	padding: 25px 20px;
-	background-color: #ffffff;
-	border-radius: 6px;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+   margin-top: 2px;
+
+
 	font-family: 'Arial', sans-serif;
 	color: #333;
-	text-align: left;
+
 }
 
 .apply-box h1 {
