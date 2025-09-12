@@ -1670,11 +1670,34 @@ img {
 	background: #fff;
 	padding: 20px;
 	margin: 10% auto;
-	/* width: 100%; */
+
 	max-width: 35%;
 	border-radius: 10px;
 	position: relative;
 }
+
+/* Tablet (≤ 991px) */
+@media (max-width: 991px) {
+	.modal-content {
+		max-width: 60%;
+		margin: 15% auto;
+		position: relative;
+        top: 58px;
+	}
+}
+
+/* Mobile (≤ 576px) */
+@media (max-width: 576px) {
+	.modal-content {
+		max-width: 90%;
+		margin: 20% auto;
+		padding: 15px;
+		position: relative;
+        top: 58px;
+	}
+}
+
+
 
 .modal-content h2 {
 	margin-top: 0;
