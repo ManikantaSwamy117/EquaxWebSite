@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const waSend = document.getElementById('waSend');
 	const waInput = document.getElementById('waInput');
 	const waChatBody = document.getElementById('waChatBody');
-	const phoneNumber = "+919902509680";
+	const phoneNumber = "919902509680";
 
 	// Show or hide icon based on scroll
 	window.addEventListener('scroll', () => {
@@ -542,10 +542,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		waInput.value = '';
 
 		const encodedMsg = encodeURIComponent(msg);
-		const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
-		const waUrl = isMobile
-			? `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMsg}`
-			: `https://web.whatsapp.com/send?phone=${phoneNumber.replace(/\D/g, '')}&text=${encodedMsg}`;
+		// const isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+		const waUrl = `https://wa.me/${phoneNumber}?text=${encodedMsg}`;
+		// const waUrl = isMobile
+		// 	? `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMsg}`
+		// 	: `https://web.whatsapp.com/send?phone=${phoneNumber.replace(/\D/g, '')}&text=${encodedMsg}`;
 
 		window.open(waUrl, '_blank');
 	});
