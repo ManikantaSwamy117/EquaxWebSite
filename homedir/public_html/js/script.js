@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const waSend = document.getElementById('waSend');
 	const waInput = document.getElementById('waInput');
 	const waChatBody = document.getElementById('waChatBody');
-	const phoneNumber = "919902509680";
+	const phoneNumber = "919986509680";
 
 	// Show or hide icon based on scroll
 	window.addEventListener('scroll', () => {
